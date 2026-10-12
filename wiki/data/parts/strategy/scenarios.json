@@ -1,0 +1,139 @@
+[
+  {
+    "id": "ST-X001",
+    "title": "Perceived breakthrough and preventive pressure",
+    "status": "hypothesis",
+    "trigger": "A leader believes the rival is close to a decisive AI advantage.",
+    "actors": [],
+    "source_ids": [
+      "ST-S005",
+      "ST-S020"
+    ],
+    "claim_ids": [
+      "ST-C005",
+      "ST-C020"
+    ],
+    "branches": [
+      "Seek evidence and widen consultation.",
+      "Use economic pressure and accept costs.",
+      "Choose coercion and risk a broader crisis.",
+      "Negotiate mutual limits or improve resilience."
+    ],
+    "caveats": "Belief in a lead can be wrong. A lead need not be decisive or durable.",
+    "dossier_path": "research/strategy/scenarios/st-x001.md"
+  },
+  {
+    "id": "ST-X002",
+    "title": "AI advice during an ambiguous crisis",
+    "status": "hypothesis",
+    "trigger": "An AI decision aid labels an ambiguous event as hostile.",
+    "actors": [],
+    "source_ids": [
+      "ST-S001",
+      "ST-S002",
+      "ST-S003",
+      "ST-S010"
+    ],
+    "claim_ids": [
+      "ST-C010"
+    ],
+    "branches": [
+      "Require independent review.",
+      "Treat the assessment as one input.",
+      "Overweight the assessment and raise readiness.",
+      "Correct the report and send reassurance."
+    ],
+    "caveats": "The source studies do not establish the behavior of deployed national command systems.",
+    "dossier_path": "research/strategy/scenarios/st-x002.md"
+  },
+  {
+    "id": "ST-X003",
+    "title": "AI and nuclear entanglement",
+    "status": "hypothesis",
+    "trigger": "A disruption affects a function used in both conventional and nuclear systems.",
+    "actors": [],
+    "source_ids": [
+      "ST-S008",
+      "ST-S009"
+    ],
+    "claim_ids": [
+      "ST-C008",
+      "ST-C009"
+    ],
+    "branches": [
+      "Restore communication and explain scope.",
+      "Interpret the event as strategic preparation.",
+      "Hold action while checking the cause."
+    ],
+    "caveats": "Intent, actual damage, and perceived threat must stay separate.",
+    "dossier_path": "research/strategy/scenarios/st-x003.md"
+  },
+  {
+    "id": "ST-X004",
+    "title": "Compute growth meets a power constraint",
+    "status": "hypothesis",
+    "trigger": "A planned AI expansion lacks timely power or grid access.",
+    "actors": [],
+    "source_ids": [
+      "ST-S016"
+    ],
+    "claim_ids": [
+      "ST-C016"
+    ],
+    "branches": [
+      "Delay expansion.",
+      "Improve efficiency.",
+      "Buy or relocate lawful capacity.",
+      "Lobby for faster infrastructure development."
+    ],
+    "caveats": "A delay need not cause conflict. Demand projections are not fixed physical limits.",
+    "dossier_path": "research/strategy/scenarios/st-x004.md"
+  },
+  {
+    "id": "ST-X005",
+    "title": "Rivals choose verified restraint",
+    "status": "hypothesis",
+    "trigger": "Both states seek lower shared AI risk while protecting secrets.",
+    "actors": [],
+    "source_ids": [
+      "ST-S017",
+      "ST-S018",
+      "ST-S022"
+    ],
+    "claim_ids": [
+      "ST-C017",
+      "ST-C018",
+      "ST-C022"
+    ],
+    "branches": [
+      "Build domestic oversight.",
+      "Exchange narrow safety evidence.",
+      "Reject intrusive verification.",
+      "Continue competition with incident channels."
+    ],
+    "caveats": "Mutual interest does not imply a treaty or compliance.",
+    "dossier_path": "research/strategy/scenarios/st-x005.md"
+  },
+  {
+    "id": "ST-X006",
+    "title": "Shared loss-of-control emergency",
+    "status": "hypothesis",
+    "trigger": "Multiple institutions report AI activity beyond their intended control.",
+    "actors": [],
+    "source_ids": [
+      "ST-S019",
+      "ST-S005"
+    ],
+    "claim_ids": [
+      "ST-C019"
+    ],
+    "branches": [
+      "Preserve essential services and investigate.",
+      "Share limited incident evidence.",
+      "Blame the rival before attribution is complete.",
+      "Contain affected deployments and preserve human fallback."
+    ],
+    "caveats": "This scenario draws from exercises. It does not assert a general loss-of-control event has occurred.",
+    "dossier_path": "research/strategy/scenarios/st-x006.md"
+  }
+]

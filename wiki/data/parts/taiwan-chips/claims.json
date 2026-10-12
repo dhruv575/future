@@ -1,0 +1,621 @@
+[
+  {
+    "id": "TW-C001",
+    "text": "Taiwan's president and legislature have separate electoral mandates. Presidential terms are four years.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S001"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Constitutional text. Regular presidential cycles imply 2028 and 2032 decision points; future election outcomes are unknown."
+  },
+  {
+    "id": "TW-C002",
+    "text": "Constitutional amendments and territory changes require legislative supermajorities and a referendum with affirmative votes from more than half of eligible electors.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S001"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "This is not a rule that every trade restriction requires a referendum."
+  },
+  {
+    "id": "TW-C003",
+    "text": "Article 5-3 sets two legislative supermajority reviews and a national referendum for covered cross-Strait political agreements.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S002"
+    ],
+    "as_of": "2022-06-08",
+    "confidence": "high",
+    "notes": "Official English version. Coverage depends on constitutional or major political impact. A policy dispute may concern whether an agreement falls within this category."
+  },
+  {
+    "id": "TW-C004",
+    "text": "Lai Ching-te and Hsiao Bi-khim won the 2024 presidential election with 40.05% of votes.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S003"
+    ],
+    "as_of": "2024-01-13",
+    "confidence": "medium",
+    "notes": "Official indexed result; body table was not available on open."
+  },
+  {
+    "id": "TW-C005",
+    "text": "The October 10, 2026 official address identifies Lai as president, Hsiao as vice president, Cho Jung-tai as premier, and Han Kuo-yu as legislature president.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Dated officeholder evidence; do not carry these names unchanged into 2035."
+  },
+  {
+    "id": "TW-C006",
+    "text": "A KMT statement describes its cross-Strait position as support for the ROC constitutional framework, opposition to Taiwan independence, and engagement based on the 1992 Consensus.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S005"
+    ],
+    "as_of": "2026-03-03",
+    "confidence": "medium",
+    "notes": "Party self-description available in search excerpt. Competing actors dispute the meaning of the 1992 Consensus."
+  },
+  {
+    "id": "TW-C007",
+    "text": "In June 2026, Cheng Li-wun said her party supported Taiwan's defense and dialogue with Beijing.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S006"
+    ],
+    "as_of": "2026-06-12",
+    "confidence": "high",
+    "notes": "Reported public position. This does not establish a policy to deny chips to the United States."
+  },
+  {
+    "id": "TW-C008",
+    "text": "The TPP's leadership page lists Huang Kuo-chang as chair.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S007"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Undated live page. Recheck leadership before release."
+  },
+  {
+    "id": "TW-C009",
+    "text": "An election win is insufficient evidence that the winning party will cut US access to TSMC.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S006",
+      "TW-S009"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Separate electoral victory, policy preference, legal authority, implementation and foreign response."
+  },
+  {
+    "id": "TW-C010",
+    "text": "TSMC reports that its first Arizona fab began 4 nm volume production in the fourth quarter of 2024.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S008"
+    ],
+    "as_of": "2025-12-31",
+    "confidence": "high",
+    "notes": "Company report; output does not imply complete domestic US supply-chain independence."
+  },
+  {
+    "id": "TW-C011",
+    "text": "TSMC reports that JASM began first-fab volume production at the end of 2024. Its 2025 report includes 3 nm in the planned Kumamoto technology range.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S008"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "The 3 nm entry is a plan, not evidence of current output. The 2025 annual report was released in 2026. The as-of date is the review cutoff, not the plan announcement date."
+  },
+  {
+    "id": "TW-C012",
+    "text": "TSMC's board appoints and can dismiss company officers. Shareholders elect directors.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S009"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Corporate governance is separate from control of Taiwan's cabinet."
+  },
+  {
+    "id": "TW-C013",
+    "text": "TSMC's executive page lists C.C. Wei as chairman and CEO and Sylvia Fang as general counsel and corporate governance officer.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S010"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Live page; role continuity must be checked for later dates."
+  },
+  {
+    "id": "TW-C014",
+    "text": "TSMC announced a US investment plan totaling $165 billion in March 2025.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S011"
+    ],
+    "as_of": "2025-03-04",
+    "confidence": "high",
+    "notes": "Historical plan, not completed spending or the latest total."
+  },
+  {
+    "id": "TW-C015",
+    "text": "On July 16, 2026, C.C. Wei announced an additional $100 billion US investment plan and declined to give a firm schedule.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S012"
+    ],
+    "as_of": "2026-07-16",
+    "confidence": "high",
+    "notes": "The schedule depends on demand and market conditions. A pledge is not operational capacity."
+  },
+  {
+    "id": "TW-C016",
+    "text": "The original JASM expansion agreement assigned TSMC about 86.5% ownership, with Sony, Denso and Toyota as minority investors.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S013"
+    ],
+    "as_of": "2024-02-06",
+    "confidence": "high",
+    "notes": "Announced ownership arrangement; use as a dated corporate relationship."
+  },
+  {
+    "id": "TW-C017",
+    "text": "The ESMC plan specified TSMC ownership of 70%, with Bosch, Infineon and NXP at 10% each. Planned nodes were 28/22 nm and 16/12 nm.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S014"
+    ],
+    "as_of": "2023-08-08",
+    "confidence": "high",
+    "notes": "This plan does not describe a leading-edge AI accelerator replacement fab."
+  },
+  {
+    "id": "TW-C018",
+    "text": "NVIDIA's fiscal 2026 filing lists TSMC and Samsung as foundries, SK hynix, Micron and Samsung as memory suppliers, and CoWoS packaging use.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "as_of": "2026-01-25",
+    "confidence": "high",
+    "notes": "A listed supplier does not imply equal shares or easy substitution for each product."
+  },
+  {
+    "id": "TW-C019",
+    "text": "AMD's fiscal 2024 filing says it relied on TSMC for all microprocessor and GPU wafers at nodes of 7 nm or smaller.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S016"
+    ],
+    "as_of": "2024-12-28",
+    "confidence": "high",
+    "notes": "Historical dependence; do not assume identical 2026 shares."
+  },
+  {
+    "id": "TW-C020",
+    "text": "Corporate leadership pages identify Lisa Su as AMD chair and CEO, Jensen Huang as NVIDIA founder and CEO, and Christophe Fouquet as ASML president and CEO.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S017",
+      "TW-S018",
+      "TW-S020"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Live-page verification, not a promise that roles last through 2035."
+  },
+  {
+    "id": "TW-C021",
+    "text": "ASML supplies EUV and DUV lithography systems and metrology and inspection systems.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S019"
+    ],
+    "as_of": "2025-12-31",
+    "confidence": "high",
+    "notes": "The report highlights establish product scope, not universal dependence on one specific tool."
+  },
+  {
+    "id": "TW-C022",
+    "text": "Tokyo Electron supplies deposition, coater/developer, etch, cleaning, testing and bonding equipment.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S021"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Company product description."
+  },
+  {
+    "id": "TW-C023",
+    "text": "Applied Materials supplies fabrication and packaging equipment, plus field service, spare parts and factory software.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S022"
+    ],
+    "as_of": "2025-10-26",
+    "confidence": "high",
+    "notes": "Installed equipment still has service dependencies."
+  },
+  {
+    "id": "TW-C024",
+    "text": "SK hynix and TSMC announced cooperation on HBM4 base dies and integration with CoWoS.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S023"
+    ],
+    "as_of": "2024-04-19",
+    "confidence": "high",
+    "notes": "An MOU and development plan; no claim of a 2026 market share."
+  },
+  {
+    "id": "TW-C025",
+    "text": "Samsung reported first-generation 2 nm mass production and 4 nm HBM base-die shipments in the fourth quarter of 2025.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S024"
+    ],
+    "as_of": "2025-12-31",
+    "confidence": "high",
+    "notes": "Company report. This does not establish spare capacity for a specific displaced TSMC design."
+  },
+  {
+    "id": "TW-C026",
+    "text": "The December 2024 BIS package added controls on semiconductor tools, software and high-bandwidth memory.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S025"
+    ],
+    "as_of": "2024-12-02",
+    "confidence": "high",
+    "notes": "Historical rule episode. Later amendments matter."
+  },
+  {
+    "id": "TW-C027",
+    "text": "In January 2026, BIS announced case-by-case license review for H200, MI325X and similar exports to China under security conditions.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S026"
+    ],
+    "as_of": "2026-01-13",
+    "confidence": "high",
+    "notes": "Policy allows review; it does not guarantee a specific license or shipment."
+  },
+  {
+    "id": "TW-C028",
+    "text": "The Netherlands announced a wider authorization requirement for some semiconductor equipment from April 1, 2025.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S027"
+    ],
+    "as_of": "2025-01-15",
+    "confidence": "high",
+    "notes": "Licensing is distinct from a blanket export ban."
+  },
+  {
+    "id": "TW-C029",
+    "text": "In March 2023, METI announced a plan to add 23 semiconductor equipment items to export controls covering all regions.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S028"
+    ],
+    "as_of": "2023-03-31",
+    "confidence": "medium",
+    "notes": "Search excerpt only. Historical announcement, not current law."
+  },
+  {
+    "id": "TW-C030",
+    "text": "CSET divides semiconductor production into design, fabrication, and assembly, testing and packaging, with separate equipment, material, software and IP inputs.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S029"
+    ],
+    "as_of": "2021-01",
+    "confidence": "high",
+    "notes": "Structural taxonomy remains useful; historical market shares require updates."
+  },
+  {
+    "id": "TW-C031",
+    "text": "The 2024 SIA/BCG study projected US fab capacity growth of 203% from 2022 to 2032, and a global share of 14% by 2032.",
+    "claim_type": "forecast",
+    "source_ids": [
+      "TW-S030"
+    ],
+    "as_of": "2024-05-08",
+    "confidence": "medium",
+    "notes": "All-fab capacity forecast. It is not the US share of leading-edge AI accelerators. Industry-sponsored; summary reviewed."
+  },
+  {
+    "id": "TW-C032",
+    "text": "CSIS distinguishes a law-enforcement-led quarantine from a military-led blockade.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S031"
+    ],
+    "as_of": "2024-06-05",
+    "confidence": "high",
+    "notes": "Study terminology; the label does not settle international law or how others perceive the action."
+  },
+  {
+    "id": "TW-C033",
+    "text": "CSIS argues that commercial compliance can give a quarantine coercive effect without stopping all trade.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S031"
+    ],
+    "as_of": "2024-06-05",
+    "confidence": "medium",
+    "notes": "Scenario mechanism. The degree of private compliance is unknown."
+  },
+  {
+    "id": "TW-C034",
+    "text": "CSIS describes a blockade as a difficult undertaking that could produce war with Taiwan, the United States and other states.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S032"
+    ],
+    "as_of": "2024-08-22",
+    "confidence": "medium",
+    "notes": "High-level warning, not evidence of an imminent plan."
+  },
+  {
+    "id": "TW-C035",
+    "text": "In the CSIS expert survey, more than 80% expected Beijing to seek better ties if it viewed Taiwan's election result favorably.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S033"
+    ],
+    "as_of": "2024-01-22",
+    "confidence": "medium",
+    "notes": "Share of selected expert responses to a condition. It is not an 80% event probability."
+  },
+  {
+    "id": "TW-C036",
+    "text": "The same survey found substantial US-Taiwan expert disagreement about escalation and outside intervention.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S033"
+    ],
+    "as_of": "2024-01-22",
+    "confidence": "high",
+    "notes": "Do not collapse the two respondent groups into a single calibrated estimate."
+  },
+  {
+    "id": "TW-C037",
+    "text": "The publisher summary of Lights Out says its blockade games found hardship and pressure toward escalation, not a low-risk option for Beijing.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S034"
+    ],
+    "as_of": "2025-07-31",
+    "confidence": "medium",
+    "notes": "Only publisher abstract in search result was reviewed. Full assumptions are an open task."
+  },
+  {
+    "id": "TW-C038",
+    "text": "Rhodium's 2022 blockade scenario put well over $2 trillion in annualized economic activity at risk before sanctions and second-order effects.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S035"
+    ],
+    "as_of": "2022-12-14",
+    "confidence": "medium",
+    "notes": "Assumes a complete stop to Taiwan's trade. This is not estimated GDP loss."
+  },
+  {
+    "id": "TW-C039",
+    "text": "Rhodium and the Atlantic Council argue that large China sanctions would impose high global costs and require difficult coordination.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S036"
+    ],
+    "as_of": "2023-06-22",
+    "confidence": "medium",
+    "notes": "Summary of conditional scenarios, not a commitment by G7 states."
+  },
+  {
+    "id": "TW-C040",
+    "text": "Rhodium and the Atlantic Council argue that China has incentives for selective retaliation and for dividing a sanctions coalition.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S037"
+    ],
+    "as_of": "2024",
+    "confidence": "medium",
+    "notes": "Report-level assessment. China also incurs costs; effects depend on crisis timing."
+  },
+  {
+    "id": "TW-C041",
+    "text": "The CFR task force judged that chip dependence raises conflict costs but does not guarantee Taiwan's protection.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S038"
+    ],
+    "as_of": "2023-06",
+    "confidence": "medium",
+    "notes": "A competing assessment to a strong silicon-shield claim. No causal effect size is supplied."
+  },
+  {
+    "id": "TW-C042",
+    "text": "In a 2022 interview excerpt, then-chairman Mark Liu warned that force would make TSMC factories inoperable because they rely on outside connections.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S039"
+    ],
+    "as_of": "2022-08-16",
+    "confidence": "medium",
+    "notes": "Executive warning. Not evidence of a kill switch or a validated universal shutdown mechanism."
+  },
+  {
+    "id": "TW-C043",
+    "text": "CSIS argues that export controls can also accelerate Chinese efforts to replace or bypass US technology.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S040"
+    ],
+    "as_of": "2024-10-04",
+    "confidence": "medium",
+    "notes": "Competing mechanism; summary reviewed, no quantitative offset to security benefits established."
+  },
+  {
+    "id": "TW-C044",
+    "text": "Article 8 of the PRC Anti-Secession Law provides for non-peaceful means under stated conditions, including exhaustion of peaceful possibilities.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S041"
+    ],
+    "as_of": "2005-03-14",
+    "confidence": "high",
+    "notes": "Description of PRC domestic law, not endorsement of its sovereignty claims or legal authorization internationally."
+  },
+  {
+    "id": "TW-C045",
+    "text": "The PRC's 2022 white-paper summary favors peaceful unification but retains the option of force.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S042"
+    ],
+    "as_of": "2022-08-10",
+    "confidence": "high",
+    "notes": "Official stated policy. It does not specify a reliable invasion date."
+  },
+  {
+    "id": "TW-C046",
+    "text": "NCCU's trend series combines survey results over time and separates several preferences about Taiwan's future.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S043"
+    ],
+    "as_of": "2026-06",
+    "confidence": "medium",
+    "notes": "Methodology inspected. Chart numbers not extracted. Party vote, identity and constitutional preference are different variables."
+  },
+  {
+    "id": "TW-C047",
+    "text": "SIA's October 2026 policy blog says US fabs still need imported specialist equipment, materials, chemicals and components.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S044"
+    ],
+    "as_of": "2026-10-09",
+    "confidence": "high",
+    "notes": "Trade-association argument; useful counterevidence to claims of complete US semiconductor independence."
+  },
+  {
+    "id": "TW-C048",
+    "text": "ASML's indexed fiscal 2025 filing identifies Carl Zeiss SMT as its sole supplier of certain critical optical components.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S045"
+    ],
+    "as_of": "2025-12-31",
+    "confidence": "medium",
+    "notes": "Search excerpt. Direct filing fetch failed; exact categories need full-text validation before detailed modeling."
+  },
+  {
+    "id": "TW-C049",
+    "text": "Capturing buildings does not ensure control of a working, internationally supported semiconductor business.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S022",
+      "TW-S029",
+      "TW-S039"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Physical possession, engineers, designs, service, materials, utilities and lawful sales are distinct state variables."
+  },
+  {
+    "id": "TW-C050",
+    "text": "Losing new chip deliveries is different from losing the installed US AI compute fleet.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S015",
+      "TW-S029"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Stock-flow distinction. Replacement parts, power, software and maintenance can affect the installed fleet separately."
+  },
+  {
+    "id": "TW-C051",
+    "text": "More overseas production can reduce disruption costs but its effect on Taiwan deterrence can run in either direction.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S008",
+      "TW-S030",
+      "TW-S038",
+      "TW-S044"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Possible resilience benefit and possible loss of economic stakes. No net effect estimated."
+  },
+  {
+    "id": "TW-C052",
+    "text": "A rogue-model incident could cause a Taiwan chip crisis only through further attribution and policy decisions.",
+    "claim_type": "hypothesis",
+    "source_ids": [],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Original scenario hook. No reviewed source establishes that such an incident occurred or assigns its probability."
+  },
+  {
+    "id": "TW-C053",
+    "text": "A government order to restrict selected exports could face fewer legal steps than a formal change of sovereignty.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "The corpus does not resolve the exact statutory authority for a future selective chip restriction. That is a required legal update."
+  },
+  {
+    "id": "TW-C054",
+    "text": "A Taiwan disruption could reduce China's chip access as well as US access.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S035",
+      "TW-S042"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "A denial shock is not automatically a relative Chinese AI advantage."
+  },
+  {
+    "id": "TW-C055",
+    "text": "A semiconductor shortage can raise pressure for negotiation, rationing and substitution as well as military escalation.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S030",
+      "TW-S035",
+      "TW-S036",
+      "TW-S037"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Do not make war the automatic response to a supply shock."
+  }
+]

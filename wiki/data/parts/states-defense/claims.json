@@ -1,0 +1,358 @@
+[
+  {
+    "id": "SD-C001",
+    "text": "The US operational chain runs from the President through the Secretary of Defense to combatant commanders.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S006"
+    ],
+    "as_of": "2024-01-12",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C002",
+    "text": "The US President has sole authority to authorize nuclear use; advisers do not have an independent launch decision.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S007"
+    ],
+    "as_of": "2025-12-11",
+    "confidence": "high",
+    "notes": "Lawful orders and positive human action still matter. No operational procedure is included."
+  },
+  {
+    "id": "SD-C003",
+    "text": "The FY2025 NDAA states that AI should not compromise nuclear safeguards or required positive human action.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S008"
+    ],
+    "as_of": "2026-01-08",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C004",
+    "text": "PRC policy states that command of nuclear forces is highly centralized under the CMC.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S009"
+    ],
+    "as_of": "2025-11-27",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C005",
+    "text": "PRC policy declares no first use and rejects an AI arms race.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S009"
+    ],
+    "as_of": "2025-11-27",
+    "confidence": "high",
+    "notes": "A declaration is evidence of policy rhetoric; it does not prove all conduct."
+  },
+  {
+    "id": "SD-C006",
+    "text": "Biden and Xi affirmed human control over the decision to use nuclear weapons in November 2024.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S049"
+    ],
+    "as_of": "2024-11-16",
+    "confidence": "high",
+    "notes": "A political commitment, not a verified technical safeguard."
+  },
+  {
+    "id": "SD-C007",
+    "text": "SIPRI estimates 620 stockpiled PRC warheads in January 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "as_of": "2026-01-01",
+    "confidence": "high",
+    "notes": "Approximate open-source estimate. Deployed estimate is 34, not 620."
+  },
+  {
+    "id": "SD-C008",
+    "text": "SIPRI estimates 3,700 US stockpiled warheads and a total inventory of 5,042 in January 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "as_of": "2026-01-01",
+    "confidence": "high",
+    "notes": "Inventory includes retired warheads. Deployed estimate is 1,770."
+  },
+  {
+    "id": "SD-C009",
+    "text": "The Taiwan Relations Act does not require the United States to defend Taiwan.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S016"
+    ],
+    "as_of": "2025-08-15",
+    "confidence": "high",
+    "notes": "US intervention must remain a decision branch in the game."
+  },
+  {
+    "id": "SD-C010",
+    "text": "PRC claims Taiwan but has never controlled it; Taiwan is a self-governing democracy.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S017"
+    ],
+    "as_of": "2026-02-09",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C011",
+    "text": "Japan-US treaty responses depend on the treaty scope and constitutional processes.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S020"
+    ],
+    "as_of": "1960-01-19",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C012",
+    "text": "The 2023 US-Philippines guidelines include coast guards in the public-vessel armed-attack commitment.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S022"
+    ],
+    "as_of": "2023-05-03",
+    "confidence": "medium",
+    "notes": "Direct fetch blocked; official search extract read. No automatic war response inferred."
+  },
+  {
+    "id": "SD-C013",
+    "text": "Australia's 2026 strategy stresses self-reliance, deterrence and stronger partnerships.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S025"
+    ],
+    "as_of": "2026-04-17",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C014",
+    "text": "The 2024 Dutch semiconductor-equipment measure required authorization; it was not described as a blanket export ban.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S030"
+    ],
+    "as_of": "2024-09-06",
+    "confidence": "high",
+    "notes": "Historical measure. Later rules must be checked for an actual license decision."
+  },
+  {
+    "id": "SD-C015",
+    "text": "AUKUS partners reported use of common AI algorithms on maritime patrol aircraft in 2024.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S027"
+    ],
+    "as_of": "2024-09-26",
+    "confidence": "high",
+    "notes": "Official capability claim; no independent combat-performance claim."
+  },
+  {
+    "id": "SD-C016",
+    "text": "US and partner agencies attribute disruptive pre-positioning against critical infrastructure to PRC-sponsored Volt Typhoon.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S037"
+    ],
+    "as_of": "2024-03-19",
+    "confidence": "high",
+    "notes": "This is the agencies' attribution; AI autonomy is not established by this source."
+  },
+  {
+    "id": "SD-C017",
+    "text": "PRC officials reject the Volt Typhoon attribution and accuse the United States of false reporting.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S048"
+    ],
+    "as_of": "2025-04-14",
+    "confidence": "high",
+    "notes": "Denial is not equal to an independently verified alternative explanation."
+  },
+  {
+    "id": "SD-C018",
+    "text": "Shared nuclear and conventional systems can make conventional conflict appear to threaten nuclear forces.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S040"
+    ],
+    "as_of": "2019-01-23",
+    "confidence": "medium",
+    "notes": "Acton's causal mechanism. Not a frequency estimate."
+  },
+  {
+    "id": "SD-C019",
+    "text": "AI can affect nuclear risk before any machine has authority to decide nuclear use.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S015",
+      "SD-S039"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Synthesis: advice, warning interpretation and perceived capability can change human choices."
+  },
+  {
+    "id": "SD-C020",
+    "text": "The 2023 CSIS invasion study ran 24 conventional 2026 invasion scenarios; most defeated the invasion at high cost.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S041"
+    ],
+    "as_of": "2023-01-09",
+    "confidence": "high",
+    "notes": "Conditional model results. Outcome count is not real-world probability."
+  },
+  {
+    "id": "SD-C021",
+    "text": "The CSIS blockade project ran 26 games and examined escalation and negotiated exits.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S042"
+    ],
+    "as_of": "2025-07-31",
+    "confidence": "high",
+    "notes": "Read researcher transcript. No numerical war probability inferred."
+  },
+  {
+    "id": "SD-C022",
+    "text": "The 2026 US strategy pairs denial-based deterrence with greater PLA engagement for stability and de-escalation.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S045"
+    ],
+    "as_of": "2026-01-23",
+    "confidence": "high",
+    "notes": "Stated policy, not guaranteed future conduct."
+  },
+  {
+    "id": "SD-C023",
+    "text": "The PLA created the Information Support Force under the CMC and canceled the Strategic Support Force designation in April 2024.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S044"
+    ],
+    "as_of": "2024-04-19",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C024",
+    "text": "The PRC Ministry of Defense reported expulsion of Zhang Youxia and Liu Zhenli in September 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S012"
+    ],
+    "as_of": "2026-09-21",
+    "confidence": "medium",
+    "notes": "Official search extract; direct open failed. Do not carry their older roles forward."
+  },
+  {
+    "id": "SD-C025",
+    "text": "Public sources do not establish that either US or PRC leaders have delegated nuclear-use authority to an LLM.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S007",
+      "SD-S008",
+      "SD-S009",
+      "SD-S015",
+      "SD-S049"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Evidence limit, not proof of absence of all secret systems."
+  },
+  {
+    "id": "SD-C026",
+    "text": "A rogue-model incident needs separate state variables for technical cause, operator control, evidence confidence and state authorization.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S015",
+      "SD-S037",
+      "SD-S048"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Corpus design proposal. Sources motivate distinctions; they do not predict this exact incident."
+  },
+  {
+    "id": "SD-C027",
+    "text": "A pro-dialogue election win in Taiwan does not by itself imply a US chip cutoff, PRC control, or war.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S016",
+      "SD-S017",
+      "SD-S030"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Institutional branch separation. Any cutoff scenario needs separate policy, corporate and trade assumptions."
+  },
+  {
+    "id": "SD-C028",
+    "text": "An alliance commitment is not a universal automatic transition to war.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S020",
+      "SD-S022",
+      "SD-S024"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Model alliance consultation, trigger interpretation and national choice separately."
+  },
+  {
+    "id": "SD-C029",
+    "text": "RTX reported AI-assisted engine inspection software in July 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S064"
+    ],
+    "as_of": "2026-07-15",
+    "confidence": "high",
+    "notes": "Support and maintenance application. Not evidence of autonomous weapon authority."
+  },
+  {
+    "id": "SD-C030",
+    "text": "A defense company, its executives, its product and the military customer should be separate game actors.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S006",
+      "SD-S057",
+      "SD-S058",
+      "SD-S062",
+      "SD-S064"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Institutional model rule. Supply does not imply operational command."
+  },
+  {
+    "id": "SD-C031",
+    "text": "The January 2024 AVIC study identifies central state ownership and an unmanned-aircraft industry role.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S065"
+    ],
+    "as_of": "2024-01-01",
+    "confidence": "high",
+    "notes": "Month-level source date. January 1 is a snapshot placeholder, not a publication day. Current leadership not verified."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "id": "example-incident",
+  "status": "schema_example",
+  "developer_entity_id": null,
+  "model_version": null,
+  "operator_entity_id": null,
+  "execution_jurisdiction": null,
+  "affected_jurisdictions": [],
+  "deployment_permissions": [],
+  "safeguards": [],
+  "observed_behavior": null,
+  "intended_task": null,
+  "state_authorization": "unresolved",
+  "attribution_source_ids": [],
+  "independent_review": null,
+  "event_date": null,
+  "public_claim_date": null
+}

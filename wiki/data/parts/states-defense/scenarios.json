@@ -1,0 +1,250 @@
+[
+  {
+    "id": "SD-X001",
+    "title": "Autonomous maritime incident becomes an alliance crisis",
+    "status": "hypothesis",
+    "trigger": "An autonomous system causes harm in a disputed maritime encounter.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E005",
+      "SD-E025",
+      "SD-E031",
+      "SD-E037",
+      "SD-E055"
+    ],
+    "source_ids": [
+      "SD-S022",
+      "SD-S035",
+      "SD-S027"
+    ],
+    "claim_ids": [
+      "SD-C012",
+      "SD-C015",
+      "SD-C028"
+    ],
+    "branches": [
+      {
+        "choice": "Preserve evidence and hold political consultation",
+        "next_state": "Incident investigation",
+        "effect": "Allows accident, misuse and state-order explanations to remain distinct."
+      },
+      {
+        "choice": "Attribute the event before evidence is strong",
+        "next_state": "Alliance confrontation",
+        "effect": "Public commitments can narrow diplomatic room."
+      },
+      {
+        "choice": "Agree a pause and incident review",
+        "next_state": "Managed competition",
+        "effect": "Risk falls if the pause is implemented."
+      }
+    ],
+    "caveats": [
+      "The trigger is invented.",
+      "No source says this specific event will occur.",
+      "Treaty trigger and response are separate decisions."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  },
+  {
+    "id": "SD-X002",
+    "title": "AI advice converts uncertainty into nuclear alarm",
+    "status": "hypothesis",
+    "trigger": "During a conventional crisis, an AI tool interprets ambiguous warning as hostile nuclear intent.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E025",
+      "SD-E031",
+      "SD-E049",
+      "SD-E050",
+      "SD-E056",
+      "SD-E058"
+    ],
+    "source_ids": [
+      "SD-S007",
+      "SD-S008",
+      "SD-S015",
+      "SD-S039",
+      "SD-S040",
+      "SD-S049"
+    ],
+    "claim_ids": [
+      "SD-C002",
+      "SD-C003",
+      "SD-C006",
+      "SD-C018",
+      "SD-C019",
+      "SD-C025"
+    ],
+    "branches": [
+      {
+        "choice": "Require independent assessment and confirm channels",
+        "next_state": "Uncertainty under review",
+        "effect": "Creates a chance to correct a false alarm."
+      },
+      {
+        "choice": "Trust a confident output despite weak evidence",
+        "next_state": "Nuclear crisis",
+        "effect": "Human decision makers increase alert or issue threats."
+      },
+      {
+        "choice": "Reaffirm limits and maintain dialogue",
+        "next_state": "Contained conventional crisis",
+        "effect": "Reduces concern about nuclear intent."
+      }
+    ],
+    "caveats": [
+      "Human control can coexist with poor human advice.",
+      "No automatic model-to-launch transition.",
+      "No operational launch procedure is modeled."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  },
+  {
+    "id": "SD-X003",
+    "title": "Taiwan political change becomes a supply and security dispute",
+    "status": "hypothesis",
+    "trigger": "A future Taiwan government seeks closer PRC ties and proposes a restrictive technology policy.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E003",
+      "SD-E008",
+      "SD-E016"
+    ],
+    "source_ids": [
+      "SD-S016",
+      "SD-S017",
+      "SD-S030"
+    ],
+    "claim_ids": [
+      "SD-C009",
+      "SD-C010",
+      "SD-C014",
+      "SD-C027"
+    ],
+    "branches": [
+      {
+        "choice": "Use domestic review and commercial negotiation",
+        "next_state": "Political and trade dispute",
+        "effect": "Supply restrictions may be amended or rejected."
+      },
+      {
+        "choice": "US treats the proposal as an immediate security loss",
+        "next_state": "Coercive diplomacy",
+        "effect": "Economic and military signals may interact."
+      },
+      {
+        "choice": "Agree narrow safeguards and trade continuity",
+        "next_state": "Managed adjustment",
+        "effect": "Political change can occur without war."
+      }
+    ],
+    "caveats": [
+      "A party label is not a policy prediction.",
+      "TSMC control, export permission and technical supply continuity require separate company research.",
+      "An election alone does not transfer sovereignty or mandate a chip cutoff."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  },
+  {
+    "id": "SD-X004",
+    "title": "Rogue-model cyber event is mistaken for state action",
+    "status": "hypothesis",
+    "trigger": "A model-assisted or model-directed incident crosses borders while political tension is high.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E019",
+      "SD-E020",
+      "SD-E056",
+      "SD-E057"
+    ],
+    "source_ids": [
+      "SD-S015",
+      "SD-S037",
+      "SD-S048"
+    ],
+    "claim_ids": [
+      "SD-C016",
+      "SD-C017",
+      "SD-C026"
+    ],
+    "branches": [
+      {
+        "choice": "Separate technical attribution from authorization",
+        "next_state": "Joint or parallel investigation",
+        "effect": "Keeps accident and unauthorized use plausible."
+      },
+      {
+        "choice": "Assume the model owner proves state intent",
+        "next_state": "Retaliation pressure",
+        "effect": "False attribution can intensify the crisis."
+      },
+      {
+        "choice": "Contain the affected system and exchange evidence",
+        "next_state": "Incident control",
+        "effect": "May enable a reciprocal pause."
+      }
+    ],
+    "caveats": [
+      "The rogue-model trigger is speculative.",
+      "Volt Typhoon sources do not establish rogue AI.",
+      "No technical attack methods are included."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  },
+  {
+    "id": "SD-X005",
+    "title": "Conventional crisis threatens confidence in shared warning systems",
+    "status": "hypothesis",
+    "trigger": "A crisis disrupts a service used for both conventional operations and nuclear warning.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E011",
+      "SD-E049",
+      "SD-E050",
+      "SD-E051",
+      "SD-E058",
+      "SD-E059",
+      "SD-E060"
+    ],
+    "source_ids": [
+      "SD-S008",
+      "SD-S040",
+      "SD-S043",
+      "SD-S046"
+    ],
+    "claim_ids": [
+      "SD-C018",
+      "SD-C019",
+      "SD-C022"
+    ],
+    "branches": [
+      {
+        "choice": "Explain limited intent through an established channel",
+        "next_state": "Verification and restraint",
+        "effect": "Can reduce fear if the explanation is credible."
+      },
+      {
+        "choice": "Infer preparation for a disarming attack",
+        "next_state": "Nuclear signaling crisis",
+        "effect": "Pressure rises despite uncertainty about intent."
+      },
+      {
+        "choice": "Restore service and negotiate mutual limits",
+        "next_state": "Reduced entanglement risk",
+        "effect": "Creates an exit if both sides accept the limits."
+      }
+    ],
+    "caveats": [
+      "This is a general causal scenario.",
+      "No specific system vulnerability or target is identified.",
+      "A nuclear outcome is possible in the hypothesis, not inevitable."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  }
+]

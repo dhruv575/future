@@ -1,0 +1,258 @@
+[
+  {
+    "entity_id": "SD-E025",
+    "name": "Donald Trump",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e025.md",
+    "source_ids": [
+      "CH-SD-001",
+      "CH-SD-002",
+      "CH-SD-003",
+      "CH-SD-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Private negotiating style is not observed.",
+      "Post-2028 office and policies require a scenario assumption."
+    ]
+  },
+  {
+    "entity_id": "SD-E026",
+    "name": "JD Vance",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e026.md",
+    "source_ids": [
+      "CH-SD-005",
+      "CH-SD-006",
+      "CH-SD-007",
+      "CH-SD-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Military-AI remarks are a pool summary, not a full transcript.",
+      "A vice president's delegated crisis portfolio must be stated."
+    ]
+  },
+  {
+    "entity_id": "SD-E027",
+    "name": "Pete Hegseth",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e027.md",
+    "source_ids": [
+      "CH-SD-008",
+      "CH-SD-009",
+      "CH-SD-003"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Only one full speech anchors voice.",
+      "The current department's secondary title must not obscure legal powers.",
+      "No personal model-evaluation position verified."
+    ]
+  },
+  {
+    "entity_id": "SD-E028",
+    "name": "Marco Rubio",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e028.md",
+    "source_ids": [
+      "CH-SD-010",
+      "CH-SD-009",
+      "CH-SD-003"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "One hearing supplies most voice material.",
+      "No personal frontier-model safety position verified.",
+      "Additional concurrent offices were not verified."
+    ]
+  },
+  {
+    "entity_id": "SD-E029",
+    "name": "Dan Caine",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e029.md",
+    "source_ids": [
+      "CH-SD-011",
+      "CH-SD-012",
+      "CH-SD-003",
+      "CH-SD-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Current biography body was blocked.",
+      "One confirmation hearing anchors voice.",
+      "Detailed private advice and operational plans are unavailable."
+    ]
+  },
+  {
+    "entity_id": "SD-E030",
+    "name": "Samuel Paparo",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e030.md",
+    "source_ids": [
+      "CH-SD-013",
+      "CH-SD-014",
+      "CH-SD-008",
+      "CH-SD-003"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-05-31",
+    "gaps": [
+      "Most recent full role evidence used here is May 2025.",
+      "The November 2024 report body was inaccessible.",
+      "No full personal AI speech was verified in this pass."
+    ]
+  },
+  {
+    "entity_id": "SD-E031",
+    "name": "Xi Jinping",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e031.md",
+    "source_ids": [
+      "CH-SD-015",
+      "CH-SD-016",
+      "CH-SD-017",
+      "CH-SD-032",
+      "CH-SD-033",
+      "CH-SD-034"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-30",
+    "gaps": [
+      "Private speech and internal deliberations are not observed.",
+      "AI study-session material is a readout, not verbatim remarks.",
+      "Future command structure and tenure require explicit assumptions."
+    ]
+  },
+  {
+    "entity_id": "SD-E032",
+    "name": "Wang Yi",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e032.md",
+    "source_ids": [
+      "CH-SD-018",
+      "CH-SD-019",
+      "CH-SD-020",
+      "CH-SD-033"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-08-28",
+    "gaps": [
+      "Formal public events dominate voice evidence.",
+      "Private negotiating instructions are not known.",
+      "The brief does not assign independent military authority."
+    ]
+  },
+  {
+    "entity_id": "SD-E033",
+    "name": "Dong Jun",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e033.md",
+    "source_ids": [
+      "CH-SD-018",
+      "CH-SD-021",
+      "CH-SD-022",
+      "CH-SD-033"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-08-28",
+    "gaps": [
+      "No full original speech or unscripted interview was retrieved.",
+      "Personal AI preferences are not established.",
+      "Defense-minister title does not establish operational control."
+    ]
+  },
+  {
+    "entity_id": "SD-E045",
+    "name": "Vladimir Putin",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e045.md",
+    "source_ids": [
+      "CH-SD-027",
+      "CH-SD-028",
+      "CH-SD-029"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-04-10",
+    "gaps": [
+      "Direct Kremlin transcripts could not be opened.",
+      "2025 speech mirror provenance remains incomplete.",
+      "No private crisis deliberation or AI-war threshold is established."
+    ]
+  },
+  {
+    "entity_id": "SD-E046",
+    "name": "Kim Jong Un",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e046.md",
+    "source_ids": [
+      "CH-SD-017",
+      "CH-SD-030",
+      "CH-SD-031"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-06-08",
+    "gaps": [
+      "Korean original and spontaneous speech were not checked.",
+      "KCNA translation is curated state messaging.",
+      "No personal frontier-AI policy was verified."
+    ]
+  },
+  {
+    "entity_id": "SD-E047",
+    "name": "Zhang Youxia",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e047.md",
+    "source_ids": [
+      "CH-SD-023",
+      "CH-SD-024",
+      "CH-SD-025",
+      "CH-SD-033"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-09-21",
+    "gaps": [
+      "September 2026 notice was only accessible through its index.",
+      "No independent adjudication of allegations is established.",
+      "Few direct speech samples; future command authority is excluded."
+    ]
+  },
+  {
+    "entity_id": "SD-E048",
+    "name": "Liu Zhenli",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e048.md",
+    "source_ids": [
+      "CH-SD-026",
+      "CH-SD-024",
+      "CH-SD-025",
+      "CH-SD-033"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-09-21",
+    "gaps": [
+      "Official disciplinary notice body remains inaccessible.",
+      "The 2023 call is a readout, not a transcript.",
+      "Future military authority is excluded."
+    ]
+  }
+]

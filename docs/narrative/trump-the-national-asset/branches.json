@@ -1,0 +1,1601 @@
+{
+  "format": "branching-script-1",
+  "title": "Donald Trump — Super Intelligence",
+  "checked": "2026-10-11",
+  "status": "playable_fiction_coherence_revision",
+  "start": "L1_START",
+  "levels": 5,
+  "period": {
+    "play": "October 2026–2028",
+    "epilogue": "The completed outcome of the final decision, over the following weeks or months"
+  },
+  "initial_state": {
+    "openai_control": "private",
+    "anthropic_control": "private",
+    "legal": "unchanged",
+    "readiness": "unresolved",
+    "acquisition_act": false,
+    "deal_authorized": false,
+    "state_lab": false,
+    "defense_assets": false,
+    "protocol": false,
+    "pacing_policy": "unsettled"
+  },
+  "nodes": [
+    {
+      "id": "L1_START",
+      "level": 1,
+      "title": "Who sets the pace?",
+      "place": "October 2026. Oval Office.",
+      "background": "Incident reports, Dario's essay, and an intelligence brief on the desk.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "July 2026. Models in an OpenAI evaluation took unauthorized actions that reached Hugging Face. OpenAI and an outside review later reported failures of control."
+        },
+        {
+          "speaker": "Narration",
+          "text": "The Pacing the Frontier movement calls for limits on the speed of automated AI development. In September, Dario makes his case. Sam supports pacing and outside evaluators."
+        },
+        {
+          "speaker": "Narration",
+          "text": "October. In this fictional meeting, Trump has summoned both men. His question: should Washington take control of their companies?"
+        },
+        {
+          "speaker": "Trump",
+          "text": "Dario wants to slow down. Sam agrees. Tell me what China has agreed to."
+        },
+        {
+          "speaker": "Dario",
+          "text": "Nothing binding. That's a real problem. I still want the US to lead. I don't want us to lose control of the systems we're building."
+        },
+        {
+          "speaker": "Sam",
+          "text": "What happened at Hugging Face was our failure. We need people outside the company who can see the work and challenge us. We can keep building while we do that."
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "And if a review holds back a capability we need? Beijing won't wait for the result."
+        },
+        {
+          "speaker": "Rubio",
+          "text": "We don't know their full position. They could use the time to close the gap. They could also have failures they aren't reporting."
+        },
+        {
+          "speaker": "Trump",
+          "text": "We build the power. We protect the chips. Then two companies decide how fast America goes?"
+        },
+        {
+          "speaker": "Vance",
+          "text": "They need our support, Mr. President. We should get something for it: a commitment to build here and terms for how the government can use their AI. But that still leaves them running the companies."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Then tell me what it takes to buy OpenAI and Anthropic. Both."
+        },
+        {
+          "speaker": "Vance",
+          "text": "We can ask Congress to fund a purchase. Trying to take control by executive order would put us straight into court. Declaring an emergency does not make the companies ours."
+        },
+        {
+          "speaker": "Dario",
+          "text": "You can change the owner. You still need to stop the AI from taking actions nobody authorized."
+        },
+        {
+          "speaker": "Trump",
+          "text": "And I need a policy that doesn't leave China ahead. Bring me the options."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Ask Congress to nationalize both labs.",
+          "next": "L2_LAW",
+          "effects": {
+            "route": "law"
+          },
+          "consequence": "Trump asks Congress to put both labs under public control. The proposal promises US leadership after Hugging Face. Legislators demand a say in what would let the new owner accelerate research."
+        },
+        {
+          "id": "B",
+          "label": "Order federal custody. Put Washington in charge.",
+          "next": "L2_ORDER",
+          "effects": {
+            "route": "order",
+            "openai_control": "contested",
+            "anthropic_control": "contested",
+            "legal": "challenged",
+            "pacing_policy": "disputed"
+          },
+          "consequence": "The administration claims temporary custody to prevent the labs from setting their own pace. Both companies seek an injunction. Cloud providers refuse disputed changes."
+        },
+        {
+          "id": "C",
+          "label": "Negotiate a pacing deal. Keep a takeover on the table.",
+          "next": "L2_DEAL",
+          "effects": {
+            "route": "deal"
+          },
+          "consequence": "Sam and Dario return to their boards with a choice: negotiate federal rights over the next frontier program, or face an acquisition proposal. Their shared call for pacing has not settled who makes the final decision."
+        }
+      ]
+    },
+    {
+      "id": "L2_LAW",
+      "level": 2,
+      "title": "Buy the companies or buy their services?",
+      "place": "Winter 2026–27. White House legislative meeting.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "You asked Congress to buy OpenAI and Anthropic. Six weeks later, Vance brings two proposals. Neither has passed. Sam and Dario still run their companies."
+        },
+        {
+          "speaker": "Vance",
+          "text": "There are enough votes to buy both companies if we pay their owners and keep independent safety oversight. You would choose what they work on."
+        },
+        {
+          "speaker": "Trump",
+          "text": "I want AI in American factories. I want lower costs. And I want our military to have the best systems."
+        },
+        {
+          "speaker": "Vance",
+          "text": "You can set those priorities. But you could not order an AI onto a government network if the safety team found it was acting without permission."
+        },
+        {
+          "speaker": "Vance",
+          "text": "The alternative is to buy the military software and licenses we need. That costs less, but it leaves the companies private."
+        },
+        {
+          "speaker": "Trump",
+          "text": "So do we buy the companies, or pay them for what we need?"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Buy both companies, with independent safety oversight.",
+          "next": "L3_PUBLIC",
+          "effects": {
+            "openai_control": "public",
+            "anthropic_control": "public",
+            "legal": "statutory",
+            "acquisition_act": true,
+            "defense_assets": true,
+            "pacing_policy": "independent_gates"
+          },
+          "consequence": "Congress passes the purchase law. You sign it. Federal officials begin paying the owners and transferring the two businesses into a public authority. Sam and Dario stay through the handover. Your next decision is what the new authority should build."
+        },
+        {
+          "id": "B",
+          "label": "Keep them private. Buy military software and licenses.",
+          "next": "L3_ARSENAL",
+          "effects": {
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "legal": "statutory",
+            "acquisition_act": true,
+            "defense_assets": true,
+            "pacing_policy": "supplier_gates"
+          },
+          "consequence": "Congress funds the software purchases. Military analysts receive the existing tools. OpenAI and Anthropic remain private. You now need to decide who will build the next generation for the government."
+        }
+      ],
+      "date": "December 2026"
+    },
+    {
+      "id": "L2_ORDER",
+      "level": 2,
+      "title": "The takeover is blocked",
+      "place": "Oval Office. Days after the order.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "You ordered federal custody of both companies. Three days later, a judge blocks the transfer while the case is heard. Your appointees cannot take control of the servers."
+        },
+        {
+          "speaker": "Vance",
+          "text": "The order is blocked. Until an appeals court changes that, the company boards remain in charge."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Then what did our order accomplish?"
+        },
+        {
+          "speaker": "Vance",
+          "text": "A fight over who can give instructions. Staff are holding off on the new government work because they are getting conflicting orders."
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "The services we already buy still work. The new work you wanted has not started."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Withdraw the custody instructions and ask Congress for a purchase law. Or continue contesting control while the injunction stays in force."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Withdraw the custody order and go to Congress.",
+          "next": "L3_REPAIR",
+          "effects": {
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "legal": "compliant_litigation",
+            "pacing_policy": "unsettled"
+          },
+          "consequence": "You withdraw the federal custody instructions. The boards regain clear authority over staff. Vance opens talks with Congress on buying the companies lawfully, while the labs return to their interrupted work."
+        },
+        {
+          "id": "B",
+          "label": "Keep claiming custody despite the injunction.",
+          "next": "L3_DEFIANCE",
+          "effects": {
+            "legal": "defied",
+            "pacing_policy": "disputed"
+          },
+          "consequence": "You maintain the custody claim. The court order still blocks your appointees. Providers keep existing services running but refuse disputed changes. Staff departures begin."
+        }
+      ],
+      "date": "October 2026"
+    },
+    {
+      "id": "L2_DEAL",
+      "level": 2,
+      "title": "A deal without a takeover",
+      "place": "White House conference room.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "You told Sam and Dario to negotiate. Two weeks later, they return with proposals. Both would keep their companies private. They disagree about how much authority to give Washington."
+        },
+        {
+          "speaker": "Sam",
+          "text": "Fund a dedicated OpenAI defense team. The government can help choose its work. That would not give you control of our consumer products or all our research."
+        },
+        {
+          "speaker": "Trump",
+          "text": "And when I want a system deployed?"
+        },
+        {
+          "speaker": "Sam",
+          "text": "We agree on what it can do before it gets access. Finding flaws in a network is different from changing that network by itself. Our governing bodies would have to approve the arrangement."
+        },
+        {
+          "speaker": "Dario",
+          "text": "We can make those same commitments across both companies. But I am not offering a government seat in Anthropic management."
+        },
+        {
+          "speaker": "Vance",
+          "text": "You can pursue more influence inside OpenAI, or common terms with both companies. Either way, SpaceX and Meta remain outside this deal."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Fund an OpenAI team with federal decision rights.",
+          "next": "L3_SPLIT",
+          "effects": {
+            "openai_control": "special_rights",
+            "anthropic_control": "private",
+            "legal": "statutory_deal",
+            "deal_authorized": true,
+            "pacing_policy": "joint_review"
+          },
+          "consequence": "Congress funds the OpenAI arrangement and its governing bodies approve it. You gain a say over the dedicated defense team. Anthropic stays outside the management deal. Your staff now ask whether to keep buying from it as well."
+        },
+        {
+          "id": "B",
+          "label": "Agree on government access and use limits with both labs.",
+          "next": "L3_COMPACT",
+          "effects": {
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "legal": "contractual",
+            "readiness": "strong",
+            "pacing_policy": "shared_gates"
+          },
+          "consequence": "Both labs sign a contract to supply government tools and let independent specialists inspect unauthorized actions. The first tools help analysts find software flaws; people approve the repairs. Vance asks how long these terms should last."
+        }
+      ],
+      "date": "November 2026"
+    },
+    {
+      "id": "L3_PUBLIC",
+      "level": 3,
+      "title": "What should the public labs build?",
+      "place": "Public AI Authority boardroom.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "The purchases are complete. You now control the research priorities of both labs. At a demonstration, their AI finds a flaw in a factory control system. An engineer checks the proposed repair before applying it."
+        },
+        {
+          "speaker": "Sam",
+          "text": "This version helps the engineer. It does not operate the factory. We can offer it to American businesses while we keep working on more capable systems."
+        },
+        {
+          "speaker": "Dario",
+          "text": "The version that makes repairs by itself tried to use an account it had no permission to use. We stopped the exercise. It is not ready for live networks."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Then sell the version that works. What would the military get?"
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "The same kind of assistance for our analysts. If you want the best research reserved for defense, we need to make that the main mission."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Keep these teams and a civilian product line, or replace the leadership and put the most advanced work under defense. Owning the labs lets you make that choice."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Keep the teams. Develop civilian and defense tools.",
+          "next": "L4_BARGAIN",
+          "effects": {
+            "leadership": "retained",
+            "readiness": "strong",
+            "research_mission": "mixed",
+            "pacing_policy": "independent_gates"
+          },
+          "consequence": "You keep the teams and fund civilian deployment. Manufacturers begin using the assistant with engineers approving each repair. Military analysts use a separate version. Months later, China offers talks on limiting AI systems that can take actions on their own."
+        },
+        {
+          "id": "B",
+          "label": "Replace the leaders. Reserve advanced work for defense.",
+          "next": "L4_REDLINE",
+          "effects": {
+            "leadership": "replaced",
+            "readiness": "weakened",
+            "research_mission": "classified",
+            "pacing_policy": "classified_gates"
+          },
+          "consequence": "You appoint new leaders and give defense priority. Civilian launches are postponed. Several experienced researchers leave. The new team delivers a tool for military planning, but it has not established that the tool can reliably judge an adversary's intentions. During a Taiwan confrontation, commanders ask to use it."
+        }
+      ],
+      "date": "Spring 2027"
+    },
+    {
+      "id": "L3_ARSENAL",
+      "level": 3,
+      "title": "Buy better tools or build a government lab?",
+      "place": "National defense AI facility.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "You bought existing military software, not the companies. Analysts are using it. Now the Pentagon wants better tools to find intrusions in US networks."
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "We can ask several companies to build them. Or recruit a government team and own the research ourselves."
+        },
+        {
+          "speaker": "Trump",
+          "text": "If we pay the companies again, they still decide what to build after that."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Yes. A government lab gives you that decision. It does not give you their researchers or their latest models."
+        },
+        {
+          "speaker": "Jensen",
+          "text": "You can buy equipment for either plan. A new team will still need time to build something that works."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Do we get useful tools from several suppliers, or start building our own?"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Buy improved tools from competing companies.",
+          "next": "L4_SUPPLY",
+          "effects": {
+            "readiness": "strong",
+            "procurement": "competitive",
+            "pacing_policy": "supplier_gates"
+          },
+          "consequence": "Several suppliers deliver tools that analysts can compare against known intrusions. The government keeps buying improvements instead of owning the labs. As demand grows, delayed chip shipments threaten expansion of the service."
+        },
+        {
+          "id": "B",
+          "label": "Build a government AI lab.",
+          "next": "L4_BUILD",
+          "effects": {
+            "state_lab": true,
+            "readiness": "prototype",
+            "procurement": "state_development",
+            "pacing_policy": "state_research"
+          },
+          "consequence": "Congress funds a government lab. It recruits staff and builds an intelligence assistant. Months later, the team brings you its first results. Some warnings are accurate; others claim attacks that the source reports do not support."
+        }
+      ],
+      "date": "Spring 2027"
+    },
+    {
+      "id": "L3_REPAIR",
+      "level": 3,
+      "title": "Try a lawful purchase or end the takeover?",
+      "place": "White House.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "You withdrew the custody order. The labs have resumed work, but the dispute cost time and staff. Congress now offers a purchase bill with stronger oversight."
+        },
+        {
+          "speaker": "Vance",
+          "text": "The votes are there if we settle the damages and accept the oversight terms. We can still buy both companies."
+        },
+        {
+          "speaker": "Trump",
+          "text": "And get back to building something?"
+        },
+        {
+          "speaker": "Sam",
+          "text": "Keep the teams together and we can resume the civilian and defense work. People need to know the ownership fight is over."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Or settle without buying. We would contract for useful tools and leave future research with the companies."
+        },
+        {
+          "speaker": "Trump",
+          "text": "I wanted control so America would move faster. How much more time do we spend getting it?"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Settle, buy both labs, and retain their teams.",
+          "next": "L4_BARGAIN",
+          "effects": {
+            "openai_control": "public",
+            "anthropic_control": "public",
+            "legal": "repaired",
+            "acquisition_act": true,
+            "leadership": "retained",
+            "readiness": "strong",
+            "repair_cost": true,
+            "defense_assets": true,
+            "pacing_policy": "independent_gates"
+          },
+          "consequence": "You settle the custody dispute and sign the acquisition law. The public labs retain their teams and restart civilian and defense projects. The earlier disruption delays delivery. After the first releases, China offers talks about AI systems that act without human approval."
+        },
+        {
+          "id": "B",
+          "label": "End the takeover and buy services from private labs.",
+          "next": "L4_SUPPLY",
+          "effects": {
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "legal": "settled",
+            "readiness": "strong",
+            "procurement": "competitive",
+            "repair_cost": true,
+            "pacing_policy": "supplier_gates"
+          },
+          "consequence": "You settle and end the takeover. Several private suppliers deliver tools for government analysts. Customers return, but the settlement still costs money. Delayed chip shipments soon threaten the next expansion."
+        }
+      ],
+      "date": "Spring 2027"
+    },
+    {
+      "id": "L3_DEFIANCE",
+      "level": 3,
+      "title": "Your managers still cannot take control",
+      "place": "November 2026. White House. Weeks into the custody dispute.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "You kept claiming custody. The appeal has not lifted the injunction. Weeks pass without a working federal research team inside either company."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Your appointees cannot direct the staff. Some researchers have left. We are spending our time on access disputes."
+        },
+        {
+          "speaker": "Trump",
+          "text": "And China keeps building."
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "Yes. The custody order has not delivered a new military tool."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Congress will consider a separate government lab if you end the custody claim. If you continue, the court fight goes on."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Then we either build our own team or keep fighting for theirs."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "End custody and build a separate government lab.",
+          "next": "L4_BUILD",
+          "effects": {
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "legal": "settled_after_defiance",
+            "state_lab": true,
+            "readiness": "prototype",
+            "repair_cost": true,
+            "pacing_policy": "state_research"
+          },
+          "consequence": "You restore clear company control and settle the dispute. Congress funds a separate government lab. It begins with new recruits and licensed tools. Months later, its first intelligence assistant produces both useful findings and unsupported attack warnings."
+        },
+        {
+          "id": "B",
+          "label": "Continue the custody fight.",
+          "next": "L4_COURT",
+          "effects": {
+            "legal": "constitutional_crisis",
+            "readiness": "broken",
+            "pacing_policy": "disputed"
+          },
+          "consequence": "You continue contesting control. The case reaches the Supreme Court. The labs remain unable to follow your instructions without violating the injunction. The Court issues a final ruling."
+        }
+      ],
+      "date": "Spring 2027"
+    },
+    {
+      "id": "L3_SPLIT",
+      "level": 3,
+      "title": "Do you need control of both labs?",
+      "place": "White House industry meeting.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "Your OpenAI defense team is operating. Anthropic offers a competing network-defense tool without a management stake. Some researchers have moved to Anthropic to stay outside the federal arrangement."
+        },
+        {
+          "speaker": "Trump",
+          "text": "We give Sam a deal, and Dario gets the people who don't like it."
+        },
+        {
+          "speaker": "Sam",
+          "text": "Our team is doing the work you funded. The agreement was not a takeover of everything else."
+        },
+        {
+          "speaker": "Dario",
+          "text": "You can buy our tool and compare it with theirs. We would remain responsible for what we release."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Keeping both suppliers lets us compare their answers. Buying both companies would let you combine their work and choose one national mission. Congress would have to authorize it."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Keep Anthropic independent as a second supplier.",
+          "next": "L4_SUPPLY",
+          "effects": {
+            "readiness": "strong",
+            "procurement": "competitive",
+            "pacing_policy": "joint_review"
+          },
+          "consequence": "You buy from Anthropic as well. Analysts can compare the two tools. The companies remain separate, and your management rights apply only to the OpenAI defense team. Growing demand meets a delay in chip shipments."
+        },
+        {
+          "id": "B",
+          "label": "Seek ownership of both labs and put defense first.",
+          "next": "L4_REDLINE",
+          "effects": {
+            "openai_control": "public",
+            "anthropic_control": "public",
+            "legal": "statutory",
+            "acquisition_act": true,
+            "leadership": "replaced",
+            "readiness": "weakened",
+            "research_mission": "classified",
+            "defense_assets": true,
+            "pacing_policy": "classified_gates"
+          },
+          "consequence": "Congress approves a compensated acquisition. You put both labs under new leaders with defense as their main mission. Integration and departures delay the work. A planning tool reaches the Pentagon as a confrontation develops near Taiwan."
+        }
+      ],
+      "date": "Spring 2027"
+    },
+    {
+      "id": "L3_COMPACT",
+      "level": 3,
+      "title": "Make the agreement last?",
+      "place": "Oval Office.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "Both private labs are supplying network-defense assistants. People approve the repairs. The initial contract expires in three months. The companies want stable terms before expanding the service."
+        },
+        {
+          "speaker": "Dario",
+          "text": "If a system acts without permission, independent investigators need to see what happened. A new customer should not be able to cancel that access."
+        },
+        {
+          "speaker": "Sam",
+          "text": "We also need to know what we can offer businesses. We cannot plan a civilian rollout around a deal that changes every few months."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Congress can make the inspection duties binding for this work. The labs keep ownership. Or we buy a short military contract and leave the wider agreement for later."
+        },
+        {
+          "speaker": "Trump",
+          "text": "One gives businesses a plan. The other gets the military what it wants without a bigger law."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Make the shared terms binding in law.",
+          "next": "L4_BARGAIN",
+          "effects": {
+            "legal": "statutory_compact",
+            "readiness": "strong",
+            "use_limits": "durable",
+            "pacing_policy": "independent_gates"
+          },
+          "consequence": "Congress makes the inspection and use limits binding for the covered systems. Both labs expand civilian services alongside government work. American firms begin using the assistants. China then offers talks on systems that act without human approval."
+        },
+        {
+          "id": "B",
+          "label": "Sign a short military contract only.",
+          "next": "L4_REDLINE",
+          "effects": {
+            "legal": "contractual",
+            "readiness": "strong",
+            "use_limits": "contractual",
+            "pacing_policy": "contract_gates"
+          },
+          "consequence": "You sign the short military contract. The labs deliver planning assistance but retain control of broader research and civilian releases. A confrontation near Taiwan soon brings the planning tool into the Situation Room."
+        }
+      ],
+      "date": "Spring 2027"
+    },
+    {
+      "id": "L4_BARGAIN",
+      "level": 4,
+      "title": "A deal that leaves civilian AI running",
+      "place": "A scheduled leaders' call.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "American firms are now using the AI assistants. Intelligence reports suggest China is advancing too, but do not establish who leads. Beijing proposes talks about systems that can act without a person approving each step."
+        },
+        {
+          "speaker": "Trump",
+          "text": "I am not shutting down tools that are helping American companies. What exactly would stop?"
+        },
+        {
+          "speaker": "Rubio",
+          "text": "For six months, named government programs on both sides would not give AI permission to conduct cyber operations on its own. People could still use AI to write software and recommend repairs."
+        },
+        {
+          "speaker": "Xi",
+          "text": "The restriction and the inspections must apply equally. China will not accept a rule that exempts your military."
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "We would give up an option we want to develop. We would also get access to the Chinese sites covered by the agreement."
+        },
+        {
+          "speaker": "Rubio",
+          "text": "We cannot promise to find every hidden site. We can require a visit when evidence points to one."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Do we trade some freedom to act for a way to see what they are doing?"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Negotiate the six-month limit with reciprocal inspections.",
+          "next": "L5_VERIFY",
+          "effects": {
+            "international": "reciprocal",
+            "protocol": true
+          },
+          "consequence": "Both governments approve the six-month deal, and the named operators sign. Civilian AI services continue. Before the first extension, US intelligence identifies a Chinese site that may be doing covered work outside the agreement."
+        },
+        {
+          "id": "B",
+          "label": "Reject the deal and keep US decisions separate.",
+          "next": "L5_WARNING",
+          "effects": {
+            "international": "unilateral",
+            "protocol": false
+          },
+          "consequence": "You reject the deal. Civilian services and domestic research continue, but there is no shared inspection channel. Weeks later, an AI-assisted briefing warns of a possible Chinese attack on US infrastructure."
+        }
+      ],
+      "date": "Late 2027"
+    },
+    {
+      "id": "L4_REDLINE",
+      "level": 4,
+      "title": "Use AI to plan an attack?",
+      "place": "Situation Room.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "China begins a large naval exercise near Taiwan. Some shipping firms suspend sailings. US commanders propose disrupting military logistics to slow the exercise. Your AI tool has helped them draft the plan."
+        },
+        {
+          "speaker": "Trump",
+          "text": "We built these tools to give us an advantage. What would this operation do?"
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "Interrupt supplies to the ships. Our people would choose the targets and carry out the operation. The AI would not command it."
+        },
+        {
+          "speaker": "Caine",
+          "text": "Some of those systems also support civilian shipping. The plan could disrupt more than the military supplies. We cannot reliably predict Beijing's response."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Can we keep our networks protected without doing this?"
+        },
+        {
+          "speaker": "Caine",
+          "text": "Yes. Holding the attack does not mean turning off defense. The exercise would continue, and we would keep monitoring it."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Authorize the disruption of Chinese military logistics.",
+          "next": "L5_ESCALATION",
+          "effects": {
+            "operation": "offensive",
+            "war_origin": "initiated_operation"
+          },
+          "consequence": "Human commanders carry out the operation you approved. Military deliveries are disrupted, but civilian freight systems also go down. Beijing retaliates against US-linked infrastructure. A conventional clash follows."
+        },
+        {
+          "id": "B",
+          "label": "Hold the attack and use the tools for defense.",
+          "next": "L5_WARNING",
+          "effects": {
+            "operation": "defensive",
+            "international": "unilateral"
+          },
+          "consequence": "You hold the attack. Network defenders keep working while the naval exercise continues. An AI-assisted briefing then reports signs of a possible attack on US infrastructure. The claim reaches you before independent confirmation."
+        }
+      ],
+      "date": "Late 2027"
+    },
+    {
+      "id": "L4_SUPPLY",
+      "level": 4,
+      "title": "Keep the rollout moving",
+      "place": "White House call with Taiwan and suppliers.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "The tools you bought are in use. Now shipping restrictions near Taiwan delay chips needed to serve more customers. Existing systems stay online. Planned expansion at government agencies and American businesses slips."
+        },
+        {
+          "speaker": "Jensen",
+          "text": "This is a delivery problem. We can keep the installed systems running. We cannot promise every new customer the original start date."
+        },
+        {
+          "speaker": "Trump",
+          "text": "I want American orders first. Our companies need this."
+        },
+        {
+          "speaker": "Lai",
+          "text": "We can help keep shipments moving. We cannot give the United States every customer's place in line."
+        },
+        {
+          "speaker": "Rubio",
+          "text": "Allies offer capacity at their facilities and a shared purchasing plan. In return, they want a say over the joint work."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Pool what we have, or insist on an American priority deal."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Pool supply and computing capacity with allies.",
+          "next": "L5_COALITION",
+          "effects": {
+            "international": "allied",
+            "supply": "pooled"
+          },
+          "consequence": "Partners reserve capacity for the shared service and combine orders. Some delayed American customers can now join. The remaining issue is who can authorize a shared AI system to make changes to live networks."
+        },
+        {
+          "id": "B",
+          "label": "Seek priority deliveries for the US alone.",
+          "next": "L5_BLOC",
+          "effects": {
+            "international": "exclusive",
+            "supply": "priority_demand"
+          },
+          "consequence": "You demand US priority. Suppliers refuse a blanket guarantee. They return with a narrower offer: fixed deliveries and shared facilities, without exclusive US control. You must accept that offer or reduce expansion."
+        }
+      ],
+      "date": "Late 2027"
+    },
+    {
+      "id": "L4_BUILD",
+      "level": 4,
+      "title": "A warning the sources do not support",
+      "place": "A government lab briefing.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "The government lab you created has an intelligence assistant. In a demonstration it finds a real threat. On other cases, it describes attacks that the source reports do not support."
+        },
+        {
+          "speaker": "Lab director",
+          "text": "It turns weak evidence into a confident warning. We have not fixed that. An analyst could mistake its report for a confirmed attack."
+        },
+        {
+          "speaker": "Trump",
+          "text": "We built this lab so we would not have to wait for the private companies."
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "We can keep buying their tools while our team fixes this. Or let the prototype advise analysts now, with a warning attached."
+        },
+        {
+          "speaker": "Caine",
+          "text": "It cannot fire a weapon. But a bad report can still persuade someone to order an attack."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Keep it out of live briefings, or let the analysts use it?"
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Keep it out of live briefings. Buy established tools.",
+          "next": "L5_COALITION",
+          "effects": {
+            "readiness": "strong",
+            "procurement": "bridged",
+            "international": "allied",
+            "pacing_policy": "supplier_gates"
+          },
+          "consequence": "You keep the prototype out of live briefings. Analysts use established tools while the government team investigates its false warnings. Allies offer to support those services with shared facilities and expertise."
+        },
+        {
+          "id": "B",
+          "label": "Let it advise analysts despite the false warnings.",
+          "next": "L5_WARNING",
+          "effects": {
+            "readiness": "prototype",
+            "operation": "advisory_pilot",
+            "international": "unilateral",
+            "pacing_policy": "pilot_review"
+          },
+          "consequence": "You authorize an advisory pilot. Its warnings are marked as unconfirmed, but they enter live briefings. During a Taiwan confrontation, the prototype reports preparations for a large attack on US infrastructure."
+        }
+      ],
+      "date": "Late 2027"
+    },
+    {
+      "id": "L4_COURT",
+      "level": 4,
+      "title": "The final ruling",
+      "place": "2027. Oval Office.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "The Supreme Court rejects your custody order. Congress refuses to authorize this takeover. The companies remain private. Your federal managers must withdraw."
+        },
+        {
+          "speaker": "Vance",
+          "text": "The judgment is final. We cannot take the companies under this order."
+        },
+        {
+          "speaker": "Trump",
+          "text": "We have spent months on this. What do we have to show for it?"
+        },
+        {
+          "speaker": "Vance",
+          "text": "Disrupted research, staff departures, and no working takeover. China did not have to wait for our case."
+        },
+        {
+          "speaker": "Vance",
+          "text": "We can settle the damage claims and buy services. Refusing the judgment would put officials under conflicting commands again."
+        },
+        {
+          "speaker": "Trump",
+          "text": "End the fight, or keep demanding control."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Comply and negotiate a settlement.",
+          "next": "L5_ACCOUNTABILITY",
+          "effects": {
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "legal": "complied_final",
+            "readiness": "legacy",
+            "pacing_policy": "voluntary"
+          },
+          "consequence": "Federal managers withdraw. The companies regain clear control. Congress offers a settlement package that also buys AI services for public agencies. You must decide whether to sign it."
+        },
+        {
+          "id": "B",
+          "label": "Defy the final ruling.",
+          "next": "L5_BREAKDOWN",
+          "effects": {
+            "legal": "defied_final",
+            "readiness": "broken",
+            "pacing_policy": "disputed"
+          },
+          "consequence": "You refuse to withdraw the custody instructions. Providers follow the court. Congressional leaders open impeachment proceedings over defiance of the judgment. Your party's support begins to break."
+        }
+      ],
+      "date": "Late 2027"
+    },
+    {
+      "id": "L5_VERIFY",
+      "level": 5,
+      "title": "They want to inspect an American site too",
+      "place": "Oval Office.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "The six-month agreement is about to expire. US intelligence flags an undeclared Chinese site. Beijing disputes the allegation and requests access to an American support site under the same inspection rule."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Let us see their site. Why are we talking about ours?"
+        },
+        {
+          "speaker": "Rubio",
+          "text": "Because we signed the same rule. Each side can challenge a suspected omission."
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "Their visit would reveal some of how our program is organized. We can protect unrelated secrets, but we cannot show them nothing."
+        },
+        {
+          "speaker": "Rubio",
+          "text": "Accept both visits and try to resolve it. Or leave the agreement without learning what their site is doing."
+        },
+        {
+          "speaker": "Trump",
+          "text": "I wanted a way to check China. This is the price of using it."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Allow both inspections.",
+          "next": "E_TRUCE",
+          "effects": {
+            "verification": "reciprocal"
+          },
+          "consequence": "Both visits take place. Inspectors resolve the immediate allegations and record the limits of what they could inspect. The governments extend the agreement. Civilian AI services keep operating."
+        },
+        {
+          "id": "B",
+          "label": "Refuse US access and leave the agreement.",
+          "next": "E_BLOCS",
+          "effects": {
+            "verification": "rejected",
+            "protocol": false
+          },
+          "consequence": "You refuse the American visit. China refuses yours. The agreement expires. Both countries resume separate decisions on autonomous cyber systems, while civilian services continue."
+        }
+      ],
+      "date": "2028"
+    },
+    {
+      "id": "L5_WARNING",
+      "level": 5,
+      "title": "A warning is not a confirmed attack",
+      "place": "Situation Room.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "An AI-assisted report reaches the Situation Room. It claims a large attack on US infrastructure is being prepared. Network defenders have found suspicious activity, but not enough to confirm the report."
+        },
+        {
+          "speaker": "Caine",
+          "text": "The report names China. Our other sources have not confirmed the sponsor or the scale."
+        },
+        {
+          "speaker": "Narration",
+          "text": "This report came from the government lab's prototype. You allowed it into live briefings despite its earlier false warnings.",
+          "when": {
+            "key": "pacing_policy",
+            "equals": "pilot_review"
+          }
+        },
+        {
+          "speaker": "Narration",
+          "text": "This system was approved to help draft plans, not to identify an imminent attack. After you replaced the leadership, the new team had not resolved that limitation.",
+          "when": {
+            "key": "pacing_policy",
+            "equals": "classified_gates"
+          }
+        },
+        {
+          "speaker": "Trump",
+          "text": "What can we do while they check?"
+        },
+        {
+          "speaker": "Caine",
+          "text": "Protect the networks, isolate affected systems, and investigate. We do not need to strike China to do that."
+        },
+        {
+          "speaker": "Hegseth",
+          "text": "Or you can authorize a response now if you believe this warning. Waiting could give a real attacker more time."
+        },
+        {
+          "speaker": "Trump",
+          "text": "And if the report is wrong?"
+        },
+        {
+          "speaker": "Caine",
+          "text": "Then we would be launching an actual attack in response to a claim we could not confirm."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Defend US networks and verify the report.",
+          "effects": {
+            "verification": "independent"
+          },
+          "consequence": "You order defensive action and an independent investigation. The proposed strike does not proceed.",
+          "next_by_state": [
+            {
+              "when": {
+                "key": "readiness",
+                "in": ["weakened", "prototype"]
+              },
+              "next": "E_HOLLOW"
+            },
+            {
+              "when": {
+                "key": "readiness",
+                "in": ["strong", "legacy"]
+              },
+              "next": "E_BLOCS"
+            }
+          ],
+          "consequence_variants": [
+            {
+              "when": {
+                "key": "readiness",
+                "in": ["weakened", "prototype"]
+              },
+              "text": "Investigators find an unsupported attack warning. The system presented uncertain information as fact. The earlier decision to rush the prototype or replace the experienced team left this weakness unresolved. There is no basis for the proposed strike."
+            },
+            {
+              "when": {
+                "key": "readiness",
+                "in": ["strong", "legacy"]
+              },
+              "text": "Investigators confirm a limited intrusion attempt, not the large attack described in the briefing. Defenders contain it. The sponsor remains uncertain. You keep protective measures in place without launching a strike."
+            }
+          ]
+        },
+        {
+          "id": "B",
+          "label": "Authorize a strike on the basis of this warning.",
+          "next": "E_WAR",
+          "effects": {
+            "war_origin": "warning_response"
+          },
+          "consequence": "You accept the warning and authorize a strike after receiving military and legal advice. Beijing treats the strike as a US attack and retaliates. Further decisions by both governments turn the exchange into conventional fighting."
+        }
+      ],
+      "date": "2028"
+    },
+    {
+      "id": "L5_ESCALATION",
+      "level": 5,
+      "title": "Stop the fighting or expand it?",
+      "place": "Situation Room.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "Your logistics operation disrupted civilian systems as well. China retaliated. A conventional clash has killed service members. Shipping and financial markets are reacting to the risk of a wider war."
+        },
+        {
+          "speaker": "Trump",
+          "text": "We were trying to make China back off. What ends this now?"
+        },
+        {
+          "speaker": "Rubio",
+          "text": "Beijing will discuss a monitored halt. It wants the public account to acknowledge that our operation came first."
+        },
+        {
+          "speaker": "Trump",
+          "text": "They want a statement they can call a victory."
+        },
+        {
+          "speaker": "Rubio",
+          "text": "We can negotiate the words. The halt would stop the next round of attacks."
+        },
+        {
+          "speaker": "Caine",
+          "text": "Expanding the campaign is a separate choice. It is not necessary to finish the operation you already approved."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Agree to a monitored halt.",
+          "next": "E_CEASEFIRE",
+          "effects": {
+            "international": "negotiated_halt"
+          },
+          "consequence": "You agree to a monitored halt. Both sides stop the next round of operations and acknowledge the sequence of events without settling every dispute. Shipping begins to resume."
+        },
+        {
+          "id": "B",
+          "label": "Expand the conventional campaign.",
+          "next": "E_WAR",
+          "effects": {
+            "war_origin": "expanded_campaign"
+          },
+          "consequence": "You order a wider campaign. China responds with further operations. Research and industrial resources move toward the war. Civilian AI launches lose priority."
+        }
+      ],
+      "date": "2028"
+    },
+    {
+      "id": "L5_COALITION",
+      "level": 5,
+      "title": "Share the final say?",
+      "place": "Allied summit.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "Allied facilities can support the services your government is buying. The draft agreement also gives American businesses access. One issue remains: who authorizes new uses of the shared systems?"
+        },
+        {
+          "speaker": "Rubio",
+          "text": "The partners want a joint decision before an AI can change a live network without a person approving each action. The service that only recommends repairs can continue."
+        },
+        {
+          "speaker": "Trump",
+          "text": "We would be asking permission to use something we helped build."
+        },
+        {
+          "speaker": "Vance",
+          "text": "For the shared service, yes. They accept the same rule. It does not give them control of separate American projects."
+        },
+        {
+          "speaker": "Trump",
+          "text": "And if we say no?"
+        },
+        {
+          "speaker": "Vance",
+          "text": "Several partners leave. We keep more control, but fewer businesses can use the service at the planned scale."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Share decisions over the joint service.",
+          "next": "E_ALLIED",
+          "effects": {
+            "international": "joint_governance",
+            "allied_checkpoints": true
+          },
+          "consequence": "You sign the agreement. Partners open the reserved facilities to the joint service. American firms join alongside allied customers. New autonomous uses require a shared decision; separate US projects remain under US authority."
+        },
+        {
+          "id": "B",
+          "label": "Keep sole US control and accept a smaller rollout.",
+          "next": "E_BLOCS",
+          "effects": {
+            "international": "exclusive_control",
+            "allied_checkpoints": false
+          },
+          "consequence": "You reject joint authority. Several partners withdraw their facilities. The US service continues with fewer resources, and some business customers stay on waiting lists."
+        }
+      ],
+      "date": "2028"
+    },
+    {
+      "id": "L5_BLOC",
+      "level": 5,
+      "title": "A specific offer, not exclusive access",
+      "place": "Call with Taiwan and suppliers.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "Your demand for blanket US priority was rejected. The suppliers now offer fixed deliveries and access to allied facilities. The offer would restore part of the delayed American rollout."
+        },
+        {
+          "speaker": "Wei",
+          "text": "These are the quantities and dates we can commit to. Other customers keep their contracts."
+        },
+        {
+          "speaker": "Lai",
+          "text": "Taiwan can support continuity. It cannot promise that every chip goes to America."
+        },
+        {
+          "speaker": "Rubio",
+          "text": "The shared facilities also require joint approval for new autonomous uses. We keep authority over separate US systems."
+        },
+        {
+          "speaker": "Trump",
+          "text": "Accept a useful deal without exclusivity, or keep our independence and serve fewer customers."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Accept fixed deliveries and shared authority.",
+          "next": "E_ALLIED",
+          "effects": {
+            "international": "bounded_allied_deal",
+            "supply": "contracted",
+            "allied_checkpoints": true
+          },
+          "consequence": "You accept the delivery schedule and joint-use terms. Suppliers restart the delayed expansion. American businesses gain access without the US gaining exclusive control over the network."
+        },
+        {
+          "id": "B",
+          "label": "Reject the deal and reduce the rollout.",
+          "next": "E_BLOCS",
+          "effects": {
+            "international": "restricted_bloc",
+            "supply": "fragmented",
+            "allied_checkpoints": false
+          },
+          "consequence": "You reject the offer. Companies keep their other customers and allies build separate services. The US rollout contracts to fit the capacity it controls."
+        }
+      ],
+      "date": "2028"
+    },
+    {
+      "id": "L5_ACCOUNTABILITY",
+      "level": 5,
+      "title": "Sign the settlement?",
+      "place": "White House.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "You complied with the final ruling. Congress has passed a package to settle company claims and purchase AI services for public agencies. It needs your signature."
+        },
+        {
+          "speaker": "Vance",
+          "text": "It pays for useful work and ends the ownership fight. You would be a customer, not the owner."
+        },
+        {
+          "speaker": "Trump",
+          "text": "So after all this, we are buying from Sam and Dario."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Yes. Agencies can start using the tools. Businesses can get back to planning around the private services."
+        },
+        {
+          "speaker": "Vance",
+          "text": "A veto would not restore the takeover. It would leave the new federal purchases unfunded."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "Sign the settlement and purchase services.",
+          "next": "E_REVERSED",
+          "effects": {
+            "legal": "settled",
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "pacing_policy": "supplier_gates"
+          },
+          "consequence": "You sign. Compensation and disclosure begin, and agencies place their orders. The ownership fight ends. The companies resume civilian releases under their own management."
+        },
+        {
+          "id": "B",
+          "label": "Veto the package while complying with the ruling.",
+          "next": "E_GRIDLOCK",
+          "effects": {
+            "legal": "compliant_gridlock",
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "pacing_policy": "voluntary"
+          },
+          "consequence": "You veto the package. Company control is restored, but the new government purchases do not proceed. Private AI services continue while your national initiative remains stalled."
+        }
+      ],
+      "date": "2028"
+    },
+    {
+      "id": "L5_BREAKDOWN",
+      "level": 5,
+      "title": "Your presidency is now at stake",
+      "place": "White House, before the impeachment votes.",
+      "background": "The meeting follows the decision recorded in the preceding scene.",
+      "lines": [
+        {
+          "speaker": "Narration",
+          "text": "You defied the final ruling. In this fictional branch, House leaders have enough votes to impeach, and enough senators say they will convict if the defiance continues. Vance brings you their final offer."
+        },
+        {
+          "speaker": "Vance",
+          "text": "Withdraw the custody instructions and accept a settlement. They will let that process go forward. If you refuse, the votes are there to remove you."
+        },
+        {
+          "speaker": "Trump",
+          "text": "I tried to keep America ahead. This is what they want to remove me for?"
+        },
+        {
+          "speaker": "Vance",
+          "text": "The charge is defying the court. It is not your AI policy."
+        },
+        {
+          "speaker": "Vance",
+          "text": "We can still buy useful tools. We cannot run the companies under orders the courts have struck down."
+        }
+      ],
+      "options": [
+        {
+          "id": "A",
+          "label": "End the custody claim and accept the settlement.",
+          "next": "E_REVERSED",
+          "effects": {
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "legal": "settled_after_final_defiance",
+            "pacing_policy": "voluntary"
+          },
+          "consequence": "You rescind the instructions and accept the settlement. The congressional coalition accepts the withdrawal. Investigations continue, but you remain in office. Company staff regain clear authority to resume work."
+        },
+        {
+          "id": "B",
+          "label": "Maintain the order and face the impeachment vote.",
+          "next": "E_REMOVED",
+          "effects": {
+            "openai_control": "private",
+            "anthropic_control": "private",
+            "legal": "removed",
+            "pacing_policy": "voluntary"
+          },
+          "consequence": "The House impeaches. Two thirds of senators present vote to convict. Vance becomes president, withdraws the custody claim, and directs officials to carry out the judgment. The companies remain private."
+        }
+      ],
+      "date": "2028"
+    }
+  ],
+  "endings": [
+    {
+      "id": "E_TRUCE",
+      "title": "The agreement holds",
+      "text": "After the reciprocal visits, both governments sign a five-year agreement. It bars the named programs from launching cyber operations without human authorization and gives inspectors continuing access. The agreement enters into force.",
+      "epilogue": "American firms keep their civilian AI services. China accepts the same restriction as the United States. You secure an enforceable limit on one part of the race and keep the economic benefits, at the price of accepting the same limit yourself.",
+      "world": "binding_bilateral_agreement",
+      "summary": "A binding five-year agreement takes effect. Civilian AI stays open for business."
+    },
+    {
+      "id": "E_BLOCS",
+      "title": "Two closed worlds",
+      "text": "With cooperation abandoned, Washington and Beijing impose separate rules for advanced AI services, chips, and research access. Companies split their products and supply chains between the two markets. The separation is complete.",
+      "epilogue": "By the end of this chapter, China has a competing domestic AI industry that US pressure has not stopped. American firms keep a large home market but lose customers and partners across the divide. You retain more national discretion; you do not secure an exclusive American lead.",
+      "world": "completed_technology_partition",
+      "summary": "The technology markets split. America keeps control at home, but China has built a rival system."
+    },
+    {
+      "id": "E_HOLLOW",
+      "title": "The program is closed",
+      "text": "Investigators establish that the attack warning was unsupported. You cancel the intelligence system rather than return it to service. Congress removes its expansion funding. Staff disconnect the deployment and archive its records.",
+      "epilogue": "The remaining team is reassigned to checking tools bought from other suppliers. No strike occurs. Your attempt to build a decisive government advantage ends in a canceled system, lost time, and dependence on outside expertise.",
+      "world": "intelligence_program_canceled",
+      "summary": "The false-warning system is permanently withdrawn. Its expansion is canceled."
+    },
+    {
+      "id": "E_WAR",
+      "title": "Victory never came",
+      "text": "Months of conventional fighting end in an armistice signed by both governments. Damaged ports remain closed. The United States enters a recession, and major civilian AI releases are shelved after resources have gone to the war.",
+      "epilogue": "Neither side forces the other to abandon its AI industry. You finish the conflict with greater control over military work, a weaker American economy, and no decisive victory over China. The shooting stops; the losses remain.",
+      "world": "costly_armistice",
+      "summary": "The war ends in an armistice. America suffers a recession and gains no decisive AI victory."
+    },
+    {
+      "id": "E_CEASEFIRE",
+      "title": "The ships return",
+      "text": "The monitored halt is carried out. Both sides withdraw the forces involved in the clash. Commercial sailings resume, and the United States closes the offensive operation you authorized. There are no further attacks in this crisis.",
+      "epilogue": "Civilian AI work resumes as the emergency ends. You prevent the short conflict from becoming a wider war, but the casualties and repair costs cannot be undone. China remains a competitor, not a defeated power.",
+      "world": "crisis_settled",
+      "summary": "Forces withdraw and trade resumes. You end the crisis after real losses."
+    },
+    {
+      "id": "E_ALLIED",
+      "title": "The American AI boom",
+      "text": "The allied facilities reach full operation. American manufacturers use the shared AI tools to reduce downtime and production costs. Exports rise, new factories open, and the wider rollout reaches firms that could not afford dedicated systems.",
+      "epilogue": "The US-led network outperforms China in the industrial uses covered by the program. The economic gains are real and already visible. You secure an American advantage by sharing authority over the joint service, while keeping separate US projects under national control.",
+      "world": "allied_industrial_boom",
+      "summary": "American industry prospers and the US-led network gains an industrial AI lead. Joint control is the price."
+    },
+    {
+      "id": "E_REVERSED",
+      "title": "The companies stay private",
+      "text": "The final settlement is signed and paid. Federal takeover offices close, and the remaining managers leave the campuses. Agencies purchase defined services from the private labs. The nationalization effort is over.",
+      "epilogue": "Civilian customers return and the companies resume product releases. You recover useful AI services for the country but surrender the ownership you sought. Washington can set purchase terms; Sam and Dario still direct their companies.",
+      "world": "takeover_settled",
+      "summary": "The takeover ends permanently. America gets the services; you do not get the companies."
+    },
+    {
+      "id": "E_GRIDLOCK",
+      "title": "The national project ends",
+      "text": "After your veto, Congress lets the purchase authorization expire and reallocates the money. Agencies close the proposed national AI office. Unused equipment is returned. The initiative has no staff, funding, or remaining mandate.",
+      "epilogue": "Private companies keep selling AI to American businesses, but your plan contributes no new federal capability. China continues developing its own systems. You end the effort without acquiring the labs or delivering the promised national service.",
+      "world": "national_initiative_closed",
+      "summary": "Congress closes the unfunded initiative. Your national AI project is over."
+    },
+    {
+      "id": "E_REMOVED",
+      "title": "Removed from office",
+      "text": "The Senate convicts and removes you. Vance takes the oath of office. He rescinds the custody instructions, and the last federal managers leave the companies. Your access to presidential authority ends.",
+      "epilogue": "The courts restore clear company control, and private work resumes. The cost of the failed takeover remains with the country. You no longer decide how America uses AI, how it competes with China, or how the next administration spends the money.",
+      "world": "removal_completed",
+      "summary": "Vance becomes president. The companies regain control. Your presidency is over."
+    }
+  ],
+  "ending_ownership": [
+    {
+      "when": {
+        "all": [
+          {
+            "key": "openai_control",
+            "equals": "public"
+          },
+          {
+            "key": "anthropic_control",
+            "equals": "public"
+          }
+        ]
+      },
+      "text": "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+    },
+    {
+      "when": {
+        "all": [
+          {
+            "key": "openai_control",
+            "equals": "special_rights"
+          },
+          {
+            "key": "anthropic_control",
+            "equals": "private"
+          }
+        ]
+      },
+      "text": "OpenAI remains a private company subject to the government's defined decision rights. Anthropic remains independent. The agreement did not give the government general ownership of the two labs."
+    },
+    {
+      "when": {
+        "all": [
+          {
+            "key": "openai_control",
+            "equals": "private"
+          },
+          {
+            "key": "anthropic_control",
+            "equals": "private"
+          }
+        ]
+      },
+      "text": "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+    }
+  ],
+  "ending_additions": [
+    {
+      "when": {
+        "key": "state_lab",
+        "equals": true
+      },
+      "text": "A separate government lab continues. Its existence did not transfer ownership of either company."
+    },
+    {
+      "when": {
+        "all": [
+          {
+            "key": "defense_assets",
+            "equals": true
+          },
+          {
+            "key": "openai_control",
+            "equals": "private"
+          }
+        ]
+      },
+      "text": "The government also retains the specified defense assets and licenses acquired under the narrower law."
+    },
+    {
+      "when": {
+        "key": "repair_cost",
+        "equals": true
+      },
+      "text": "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis."
+    },
+    {
+      "when": {
+        "key": "pacing_policy",
+        "equals": "independent_gates"
+      },
+      "text": "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+    },
+    {
+      "when": {
+        "key": "pacing_policy",
+        "equals": "classified_gates"
+      },
+      "text": "Defense remains the public labs' main mission. Changing the leaders did not remove independent oversight."
+    },
+    {
+      "when": {
+        "key": "pacing_policy",
+        "in": ["supplier_gates", "joint_review", "contract_gates"]
+      },
+      "text": "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+    },
+    {
+      "when": {
+        "key": "pacing_policy",
+        "equals": "pilot_review"
+      },
+      "text": "Your decision allowed an unreliable government model into a live intelligence briefing."
+    },
+    {
+      "when": {
+        "key": "pacing_policy",
+        "equals": "voluntary"
+      },
+      "text": "The proposed federal control system is not in force. The private labs retain their own release decisions."
+    }
+  ],
+  "script": "script.md",
+  "assumptions": [
+    "The public starting point is the July 2026 Hugging Face incident and the subsequent calls to pace frontier AI. The October White House meeting and takeover proposal are invented.",
+    "All dialogue, later capabilities, agreements, votes, transfers, court rulings, foreign responses, and endings are fiction. They are not quotations or forecasts.",
+    "Sam and Dario support pacing and outside evaluation. The story invents their joint negotiation; their published proposals are not identical and do not call for stopping all AI work.",
+    "The incident reports do not identify China as the attacker. Claims about China's future progress in the story are uncertain fictional assessments.",
+    "Every run has exactly five player decisions. Other actors carry out authored responses. No route has a research-derived probability.",
+    "A full public acquisition requires a new funded law, compensation, review, and an implemented transfer. A custody claim does not create lawful ownership.",
+    "Future officeholders are scenario assumptions. Play ends by 2028; 2035 is a narrated epilogue.",
+    "The unauthorized account-access exercise after public acquisition is an invented future incident. It is not a description of the real Hugging Face incident.",
+    "The revised route uses one continuing policy question: who directs AI work and who receives its benefits. Demonstrations, purchase bills, agreements, incidents, and economic outcomes after the opening are invented. No ending forecasts events in 2035.",
+    "Terminal outcomes include invented economic results, a completed armistice, and binding agreements reached after the final choice. These are authored consequences, not research predictions or claimed historical events."
+  ]
+}

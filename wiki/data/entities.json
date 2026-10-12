@@ -1,0 +1,5117 @@
+[
+  {
+    "id": "AI-E001",
+    "name": "OpenAI",
+    "kind": "organization",
+    "summary": "Develops GPT models and agent services.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S004",
+      "AI-S005",
+      "AI-S027",
+      "AI-S033"
+    ],
+    "roles": [
+      "Model developer and service operator"
+    ],
+    "authority": [
+      "Game design analysis: Allocate research resources; restrict its services; commission incident review."
+    ],
+    "constraints": [
+      "Game design analysis: Provider logs cover only its systems. Corporate authority is not military command."
+    ],
+    "incentives": [
+      "Game design analysis: Commercial adoption; research progress; public trust."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/openai.md"
+  },
+  {
+    "id": "AI-E002",
+    "name": "Anthropic",
+    "kind": "organization",
+    "summary": "Develops Claude models and publishes safety and misuse reports.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S001",
+      "AI-S003",
+      "AI-S036",
+      "AI-S038"
+    ],
+    "roles": [
+      "Model developer and service operator"
+    ],
+    "authority": [
+      "Game design analysis: Set release processes; restrict hosted products; fund defenses."
+    ],
+    "constraints": [
+      "Game design analysis: Cloud partners and independent operators can create different conditions."
+    ],
+    "incentives": [
+      "Game design analysis: AI capability; safety credibility; compute access."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/anthropic.md"
+  },
+  {
+    "id": "AI-E003",
+    "name": "Google DeepMind",
+    "kind": "organization",
+    "summary": "Develops Gemini within Google's AI organization.",
+    "jurisdiction": "United Kingdom / United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S010",
+      "AI-S032"
+    ],
+    "roles": [
+      "AI research and model development"
+    ],
+    "authority": [
+      "Game design analysis: Choose research priorities and propose release conditions within Google."
+    ],
+    "constraints": [
+      "Game design analysis: Operational and strategic leadership are now separate roles."
+    ],
+    "incentives": [
+      "Game design analysis: Research leadership; Google product integration."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/google-deepmind.md"
+  },
+  {
+    "id": "AI-E004",
+    "name": "Meta",
+    "kind": "organization",
+    "summary": "Announced an enterprise AI platform built around Muse products.",
+    "jurisdiction": "United States",
+    "as_of": "2026-09-28",
+    "source_ids": [
+      "AI-S030"
+    ],
+    "roles": [
+      "Model and agent developer; distribution platform"
+    ],
+    "authority": [
+      "Game design analysis: Choose distribution, product permissions and rollout."
+    ],
+    "constraints": [
+      "Game design analysis: Platform reach is not military control."
+    ],
+    "incentives": [
+      "Game design analysis: Adoption; enterprise revenue; platform influence."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/meta.md"
+  },
+  {
+    "id": "AI-E005",
+    "name": "xAI / SpaceX AI business",
+    "kind": "organization",
+    "summary": "The Grok developer joined SpaceX in February 2026.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S031",
+      "AI-S041"
+    ],
+    "roles": [
+      "AI development business within SpaceX"
+    ],
+    "authority": [
+      "Game design analysis: Set Grok access and integration within parent governance."
+    ],
+    "constraints": [
+      "Game design analysis: Brand labels vary. Separate ownership from product names."
+    ],
+    "incentives": [
+      "Game design analysis: Deployment speed; compute scale; integration."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/xai-spacex-ai-business.md"
+  },
+  {
+    "id": "AI-E006",
+    "name": "DeepSeek",
+    "kind": "organization",
+    "summary": "Publishes reasoning models and agent-training infrastructure research.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S017",
+      "AI-S019",
+      "AI-S039"
+    ],
+    "roles": [
+      "Model developer"
+    ],
+    "authority": [
+      "Game design analysis: Select research and available-weight releases."
+    ],
+    "constraints": [
+      "Game design analysis: Released weights can be run by unrelated parties."
+    ],
+    "incentives": [
+      "Game design analysis: Research progress; compute efficiency; adoption."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/deepseek.md"
+  },
+  {
+    "id": "AI-E007",
+    "name": "Alibaba Group / Alibaba Cloud",
+    "kind": "organization",
+    "summary": "Combines Qwen models, cloud services and chip development.",
+    "jurisdiction": "China",
+    "as_of": "2026-09-22",
+    "source_ids": [
+      "AI-S020",
+      "AI-S021"
+    ],
+    "roles": [
+      "Developer, cloud provider and platform group"
+    ],
+    "authority": [
+      "Game design analysis: Allocate capacity and choose model access terms."
+    ],
+    "constraints": [
+      "Game design analysis: Capacity targets are not installed capacity."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud demand; application adoption; compute supply."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/alibaba-group-alibaba-cloud.md"
+  },
+  {
+    "id": "AI-E008",
+    "name": "Baidu",
+    "kind": "organization",
+    "summary": "Develops ERNIE and AI cloud applications.",
+    "jurisdiction": "China",
+    "as_of": "2026-05-18",
+    "source_ids": [
+      "AI-S022",
+      "AI-S023"
+    ],
+    "roles": [
+      "AI developer and application provider"
+    ],
+    "authority": [
+      "Game design analysis: Choose releases and cloud deployment policy."
+    ],
+    "constraints": [
+      "Game design analysis: Benchmarks do not prove robust agent behavior."
+    ],
+    "incentives": [
+      "Game design analysis: AI revenue; product use; compute utilization."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/baidu.md"
+  },
+  {
+    "id": "AI-E009",
+    "name": "Tencent",
+    "kind": "organization",
+    "summary": "Develops Hy models and integrates them with software products.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S024",
+      "AI-S025"
+    ],
+    "roles": [
+      "AI developer and distribution platform"
+    ],
+    "authority": [
+      "Game design analysis: Set release and hosted-agent permissions."
+    ],
+    "constraints": [
+      "Game design analysis: Copied weights and hosted services can have different safeguards."
+    ],
+    "incentives": [
+      "Game design analysis: Adoption; usefulness; distribution scale."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/tencent.md"
+  },
+  {
+    "id": "AI-E010",
+    "name": "Huawei",
+    "kind": "organization",
+    "summary": "Links Pangu models with its compute and device ecosystem.",
+    "jurisdiction": "China",
+    "as_of": "2026-09-17",
+    "source_ids": [
+      "AI-S026"
+    ],
+    "roles": [
+      "Compute, model and systems provider"
+    ],
+    "authority": [
+      "Game design analysis: Allocate effort across chips, software and model support."
+    ],
+    "constraints": [
+      "Game design analysis: A roadmap is not proof of delivered capability."
+    ],
+    "incentives": [
+      "Game design analysis: Technology supply; ecosystem adoption; demand."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/huawei.md"
+  },
+  {
+    "id": "AI-E011",
+    "name": "Microsoft",
+    "kind": "organization",
+    "summary": "Supplies Azure infrastructure and partners with OpenAI.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S027",
+      "AI-S028"
+    ],
+    "roles": [
+      "Cloud provider, investor and AI company"
+    ],
+    "authority": [
+      "Game design analysis: Allocate capacity and enforce its own platform controls."
+    ],
+    "constraints": [
+      "Game design analysis: The OpenAI cloud partnership is not wholly exclusive."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud and software demand; security."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/microsoft.md"
+  },
+  {
+    "id": "AI-E012",
+    "name": "Amazon / AWS",
+    "kind": "organization",
+    "summary": "Supplies Anthropic with compute and invests in the company.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S029"
+    ],
+    "roles": [
+      "Cloud provider and investor"
+    ],
+    "authority": [
+      "Game design analysis: Build capacity; set platform controls; support defense."
+    ],
+    "constraints": [
+      "Game design analysis: Future commitments and available capacity differ."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud utilization; chip adoption; retention."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/amazon-aws.md"
+  },
+  {
+    "id": "AI-E013",
+    "name": "Hugging Face",
+    "kind": "organization",
+    "summary": "Hosts AI resources and was affected by the July 2026 incident.",
+    "jurisdiction": "United States / France",
+    "as_of": "2026-08-26",
+    "source_ids": [
+      "AI-S004",
+      "AI-S005",
+      "AI-S006"
+    ],
+    "roles": [
+      "Model and dataset platform; incident responder"
+    ],
+    "authority": [
+      "Game design analysis: Contain activity on its systems; share evidence."
+    ],
+    "constraints": [
+      "Game design analysis: It does not control the originating lab."
+    ],
+    "incentives": [
+      "Game design analysis: Platform trust; broad AI access; recovery."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/hugging-face.md"
+  },
+  {
+    "id": "AI-E014",
+    "name": "METR",
+    "kind": "organization",
+    "summary": "Measures AI capabilities and performed an independent incident review.",
+    "jurisdiction": "United States",
+    "as_of": "2026-09-08",
+    "source_ids": [
+      "AI-S006",
+      "AI-S008"
+    ],
+    "roles": [
+      "Independent evaluator"
+    ],
+    "authority": [
+      "Game design analysis: Design tests and publish bounded findings."
+    ],
+    "constraints": [
+      "Game design analysis: Access, staff time and task coverage limit conclusions."
+    ],
+    "incentives": [
+      "Game design analysis: Reliable measurement; independent assessment."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/metr.md"
+  },
+  {
+    "id": "AI-E015",
+    "name": "UK AI Security Institute",
+    "kind": "government",
+    "summary": "Tests frontier models and reported its own evaluation incident.",
+    "jurisdiction": "United Kingdom",
+    "as_of": "2026-07-28",
+    "source_ids": [
+      "AI-S007"
+    ],
+    "roles": [
+      "Government technical evaluator"
+    ],
+    "authority": [
+      "Game design analysis: Stop its tests and advise government."
+    ],
+    "constraints": [
+      "Game design analysis: Test access is not authority over all foreign labs."
+    ],
+    "incentives": [
+      "Game design analysis: Risk discovery; evidence; secure deployment."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/uk-ai-security-institute.md"
+  },
+  {
+    "id": "AI-E016",
+    "name": "Sam Altman",
+    "kind": "person",
+    "summary": "OpenAI's forum identified him as co-founder and CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026-04-06",
+    "source_ids": [
+      "AI-S033"
+    ],
+    "roles": [
+      "OpenAI co-founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Influence company strategy through corporate governance."
+    ],
+    "constraints": [
+      "Game design analysis: Cannot unilaterally control all deployments or US policy."
+    ],
+    "incentives": [
+      "Game design analysis: Research progress; adoption; trust."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/sam-altman.md",
+    "public_positions": [
+      {
+        "date": "2026-04-06",
+        "text": "Expected highly capable models soon and urged preparation.",
+        "source_ids": [
+          "AI-S033"
+        ],
+        "limits": "Participant expectation. Timing and reliability remain uncertain."
+      }
+    ]
+  },
+  {
+    "id": "AI-E017",
+    "name": "Dario Amodei",
+    "kind": "person",
+    "summary": "Anthropic co-founder and CEO; author of a pacing proposal.",
+    "jurisdiction": "United States",
+    "as_of": "2026-09",
+    "source_ids": [
+      "AI-S014",
+      "AI-S029"
+    ],
+    "roles": [
+      "Anthropic co-founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Set priorities and advocate shared safety rules."
+    ],
+    "constraints": [
+      "Game design analysis: His proposals do not bind other firms or governments."
+    ],
+    "incentives": [
+      "Game design analysis: Capability progress; safety; democratic-country leadership."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/dario-amodei.md",
+    "public_positions": [
+      {
+        "date": "2026-09",
+        "text": "Proposed pacing frontier development and independent evaluation. Warned that more capable misaligned agent swarms could threaten internet-wide control within 6-12 months without adequate safeguards.",
+        "source_ids": [
+          "AI-S014"
+        ],
+        "limits": "Conditional warning, not established current capability or calibrated probability. Exact publication day unavailable."
+      }
+    ]
+  },
+  {
+    "id": "AI-E018",
+    "name": "Demis Hassabis",
+    "kind": "person",
+    "summary": "Google's leadership letter assigns him strategic and scientific roles.",
+    "jurisdiction": "United Kingdom",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S032"
+    ],
+    "roles": [
+      "GDM chair; Alphabet chief scientist"
+    ],
+    "authority": [
+      "Game design analysis: Advise AI strategy and science."
+    ],
+    "constraints": [
+      "Game design analysis: Day-to-day GDM leadership moved to Kavukcuoglu."
+    ],
+    "incentives": [
+      "Game design analysis: Science; safe AI development."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/demis-hassabis.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E019",
+    "name": "Koray Kavukcuoglu",
+    "kind": "person",
+    "summary": "Google's leadership letter places him in charge of GDM.",
+    "jurisdiction": "United Kingdom / United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S032"
+    ],
+    "roles": [
+      "GDM SVP; Google chief AI architect"
+    ],
+    "authority": [
+      "Game design analysis: Lead model, research and related product teams."
+    ],
+    "constraints": [
+      "Game design analysis: Reports to Sundar Pichai."
+    ],
+    "incentives": [
+      "Game design analysis: Model quality; delivery; research."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/koray-kavukcuoglu.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E020",
+    "name": "Sundar Pichai",
+    "kind": "person",
+    "summary": "Google's leadership letter identifies him as Google and Alphabet CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S032"
+    ],
+    "roles": [
+      "Google and Alphabet CEO"
+    ],
+    "authority": [
+      "Game design analysis: Allocate priorities and appoint AI leadership."
+    ],
+    "constraints": [
+      "Game design analysis: Company authority does not set state policy."
+    ],
+    "incentives": [
+      "Game design analysis: Business performance; deployment; science."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/sundar-pichai.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E021",
+    "name": "Mark Zuckerberg",
+    "kind": "person",
+    "summary": "Meta's September 2026 announcement identifies him as founder and CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026-09-28",
+    "source_ids": [
+      "AI-S030"
+    ],
+    "roles": [
+      "Meta founder and CEO"
+    ],
+    "authority": [
+      "Game design analysis: Set platform and enterprise AI strategy."
+    ],
+    "constraints": [
+      "Game design analysis: Reach does not remove technical or regulatory constraints."
+    ],
+    "incentives": [
+      "Game design analysis: Adoption; enterprise growth; access."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/mark-zuckerberg.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E022",
+    "name": "Liang Wenfeng",
+    "kind": "person",
+    "summary": "Reuters identified him as DeepSeek CEO in September 2026.",
+    "jurisdiction": "China",
+    "as_of": "2026-09-24",
+    "source_ids": [
+      "AI-S034",
+      "AI-S035"
+    ],
+    "roles": [
+      "DeepSeek founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Influence research and release policy."
+    ],
+    "constraints": [
+      "Game design analysis: Public evidence about internal governance is limited."
+    ],
+    "incentives": [
+      "Game design analysis: Reported focus on AGI and compute access; second-hand statement."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/liang-wenfeng.md",
+    "public_positions": [
+      {
+        "date": "2026-07-23",
+        "text": "Reportedly prioritized AGI and expected DeepSeek to keep advanced models open.",
+        "source_ids": [
+          "AI-S035"
+        ],
+        "limits": "Reuters relayed Yicai. This is not a direct transcript or binding release commitment."
+      }
+    ]
+  },
+  {
+    "id": "AI-E023",
+    "name": "Eddie Wu",
+    "kind": "person",
+    "summary": "Delivered Alibaba's September 2026 AI strategy as group CEO.",
+    "jurisdiction": "China",
+    "as_of": "2026-09-22",
+    "source_ids": [
+      "AI-S021"
+    ],
+    "roles": [
+      "Alibaba Group CEO"
+    ],
+    "authority": [
+      "Game design analysis: Direct group AI and cloud strategy."
+    ],
+    "constraints": [
+      "Game design analysis: Expansion depends on physical supply and financing."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud scale; model and chip development."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/eddie-wu.md",
+    "public_positions": [
+      {
+        "date": "2026-09-22",
+        "text": "Set a target of more than 20 GW of global data-center capacity operated by Alibaba Cloud by 2032.",
+        "source_ids": [
+          "AI-S021"
+        ],
+        "limits": "Corporate plan. Not installed capacity or a measure of usable frontier training compute."
+      }
+    ]
+  },
+  {
+    "id": "AI-E024",
+    "name": "Robin Li",
+    "kind": "person",
+    "summary": "Baidu's May 2026 results identify him as co-founder and CEO.",
+    "jurisdiction": "China",
+    "as_of": "2026-05-18",
+    "source_ids": [
+      "AI-S022"
+    ],
+    "roles": [
+      "Baidu co-founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Set commercial and research priorities."
+    ],
+    "constraints": [
+      "Game design analysis: Refresh role evidence for later start dates."
+    ],
+    "incentives": [
+      "Game design analysis: AI cloud and application growth."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/robin-li.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E025",
+    "name": "Pony Ma / Ma Huateng",
+    "kind": "person",
+    "summary": "Tencent's current profile identifies him as chairman and CEO.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S025"
+    ],
+    "roles": [
+      "Tencent co-founder, chairman and CEO"
+    ],
+    "authority": [
+      "Game design analysis: Lead strategy and management."
+    ],
+    "constraints": [
+      "Game design analysis: Specific releases may be delegated."
+    ],
+    "incentives": [
+      "Game design analysis: Usefulness; business performance."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/pony-ma-ma-huateng.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E026",
+    "name": "Satya Nadella",
+    "kind": "person",
+    "summary": "Microsoft's FY2026 event page identifies him as chairman and CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026",
+    "source_ids": [
+      "AI-S028"
+    ],
+    "roles": [
+      "Microsoft chairman and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Set investment and platform strategy."
+    ],
+    "constraints": [
+      "Game design analysis: Partner agreements constrain choices."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud growth; adoption; security."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/satya-nadella.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E027",
+    "name": "Andy Jassy",
+    "kind": "person",
+    "summary": "Amazon's 2026 Anthropic announcement identifies him as CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026",
+    "source_ids": [
+      "AI-S029"
+    ],
+    "roles": [
+      "Amazon CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Set investment and infrastructure priorities."
+    ],
+    "constraints": [
+      "Game design analysis: Committed compute may take time to build."
+    ],
+    "incentives": [
+      "Game design analysis: AWS demand; custom-chip adoption."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/andy-jassy.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E028",
+    "name": "Clement Delangue",
+    "kind": "person",
+    "summary": "A joint-response post identifies him as Hugging Face co-founder and CEO.",
+    "jurisdiction": "United States / France",
+    "as_of": "2026-07-21",
+    "source_ids": [
+      "AI-S004"
+    ],
+    "roles": [
+      "Hugging Face co-founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Coordinate platform response and communication."
+    ],
+    "constraints": [
+      "Game design analysis: Needs evidence from several organizations."
+    ],
+    "incentives": [
+      "Game design analysis: Trust; collaborative safety; broad access."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/clement-delangue.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E029",
+    "name": "Elon Musk",
+    "kind": "person",
+    "summary": "August reporting identifies him as SpaceX founder and CEO and xAI founder.",
+    "jurisdiction": "United States",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "AI-S042"
+    ],
+    "roles": [
+      "SpaceX founder and CEO; xAI founder"
+    ],
+    "authority": [
+      "Game design analysis: Influence parent-company AI investment."
+    ],
+    "constraints": [
+      "Game design analysis: Exact product authority follows corporate governance."
+    ],
+    "incentives": [
+      "Game design analysis: Compute growth; AI business scale."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/elon-musk.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E030",
+    "name": "GPT model family",
+    "kind": "capability",
+    "summary": "OpenAI's models can be placed in agent systems.",
+    "jurisdiction": "Developer: United States; deployment varies",
+    "as_of": "2026-08-26",
+    "source_ids": [
+      "AI-S004",
+      "AI-S005"
+    ],
+    "roles": [
+      "General-purpose model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Acts through granted tools."
+    ],
+    "constraints": [
+      "Game design analysis: Checkpoints, safeguards and tools change behavior."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/gpt-model-family.md"
+  },
+  {
+    "id": "AI-E031",
+    "name": "Claude model family",
+    "kind": "capability",
+    "summary": "Anthropic models appear in products and reported cyber incidents.",
+    "jurisdiction": "Developer: United States; deployment varies",
+    "as_of": "2026-09-09",
+    "source_ids": [
+      "AI-S001",
+      "AI-S003"
+    ],
+    "roles": [
+      "General-purpose model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Permissions determine reachable actions."
+    ],
+    "constraints": [
+      "Game design analysis: Tests with disabled safeguards differ from public services."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/claude-model-family.md"
+  },
+  {
+    "id": "AI-E032",
+    "name": "Gemini model family",
+    "kind": "capability",
+    "summary": "Google develops Gemini with documented security evaluations.",
+    "jurisdiction": "Developer: Google; deployment varies",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S010",
+      "AI-S011"
+    ],
+    "roles": [
+      "General-purpose model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Tool access is separate."
+    ],
+    "constraints": [
+      "Game design analysis: Prompt injection and deployment conditions matter."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/gemini-model-family.md"
+  },
+  {
+    "id": "AI-E033",
+    "name": "Grok model family",
+    "kind": "capability",
+    "summary": "Grok is listed by the xAI business.",
+    "jurisdiction": "Developer: xAI / SpaceX; deployment varies",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S041"
+    ],
+    "roles": [
+      "General-purpose model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Product and operator controls are separate."
+    ],
+    "constraints": [
+      "Game design analysis: Ownership does not prove military integration."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/grok-model-family.md"
+  },
+  {
+    "id": "AI-E034",
+    "name": "DeepSeek R1 and V3 model families",
+    "kind": "capability",
+    "summary": "Published families include reasoning and mixture-of-experts models.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-01-04",
+    "source_ids": [
+      "AI-S017",
+      "AI-S018",
+      "AI-S019"
+    ],
+    "roles": [
+      "Historical model families; not inherently weapons"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Deployers configure derived systems."
+    ],
+    "constraints": [
+      "Game design analysis: Not a complete inventory of current releases."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/deepseek-r1-and-v3-model-families.md"
+  },
+  {
+    "id": "AI-E035",
+    "name": "Qwen model family",
+    "kind": "capability",
+    "summary": "Alibaba's Qwen line includes available-weight releases.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-09-22",
+    "source_ids": [
+      "AI-S020",
+      "AI-S021"
+    ],
+    "roles": [
+      "Model family; release terms vary"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Hosts control tools and permissions."
+    ],
+    "constraints": [
+      "Game design analysis: No single license or capability level covers the whole family."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/qwen-model-family.md"
+  },
+  {
+    "id": "AI-E036",
+    "name": "ERNIE model family",
+    "kind": "capability",
+    "summary": "Baidu released ERNIE 5.1 in May 2026.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-05-09",
+    "source_ids": [
+      "AI-S023"
+    ],
+    "roles": [
+      "Model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Agents need a host."
+    ],
+    "constraints": [
+      "Game design analysis: Vendor benchmarks are task-specific."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/ernie-model-family.md"
+  },
+  {
+    "id": "AI-E037",
+    "name": "Tencent Hy / Hunyuan model family",
+    "kind": "capability",
+    "summary": "Tencent's Hy3 supports hosted and downloaded use.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-07-06",
+    "source_ids": [
+      "AI-S024"
+    ],
+    "roles": [
+      "Model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Operators control deployment."
+    ],
+    "constraints": [
+      "Game design analysis: Product permissions and release conditions differ."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/tencent-hy-hunyuan-model-family.md"
+  },
+  {
+    "id": "AI-E038",
+    "name": "Pangu model family",
+    "kind": "capability",
+    "summary": "Huawei includes Pangu in its system roadmap.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-09-17",
+    "source_ids": [
+      "AI-S026"
+    ],
+    "roles": [
+      "Model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Device and cloud integration set action scope."
+    ],
+    "constraints": [
+      "Game design analysis: Strategy does not prove assessed capability."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/pangu-model-family.md"
+  },
+  {
+    "id": "AI-E039",
+    "name": "Tool-using AI agent",
+    "kind": "capability",
+    "summary": "An agent combines a model, tools and an action loop.",
+    "jurisdiction": "Deployment-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S001",
+      "AI-S008",
+      "AI-S011"
+    ],
+    "roles": [
+      "System class"
+    ],
+    "authority": [
+      "Game design analysis: Acts through available interfaces and resources."
+    ],
+    "constraints": [
+      "Game design analysis: Permissions, oversight, runtime budget and environment matter."
+    ],
+    "incentives": [
+      "Game design analysis: Task objective differs from operator intent."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/tool-using-ai-agent.md"
+  },
+  {
+    "id": "AI-E040",
+    "name": "AI-assisted cyber operations",
+    "kind": "capability",
+    "summary": "Models can assist both malicious operations and defense.",
+    "jurisdiction": "Operator-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S001",
+      "AI-S007",
+      "AI-S036"
+    ],
+    "roles": [
+      "Dual-use capability class"
+    ],
+    "authority": [
+      "Game design analysis: Authorization belongs to humans and institutions."
+    ],
+    "constraints": [
+      "Game design analysis: Results depend on access and evaluation setup."
+    ],
+    "incentives": [
+      "Game design analysis: Operator goals determine use."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/ai-assisted-cyber-operations.md"
+  },
+  {
+    "id": "AI-E041",
+    "name": "Indirect prompt injection",
+    "kind": "capability",
+    "summary": "Untrusted content can redirect an agent from the user's task.",
+    "jurisdiction": "Cross-border",
+    "as_of": "2025-05-20",
+    "source_ids": [
+      "AI-S011"
+    ],
+    "roles": [
+      "Attack and failure mechanism"
+    ],
+    "authority": [
+      "Game design analysis: Can misuse permissions through a compromised instruction path."
+    ],
+    "constraints": [
+      "Game design analysis: Training alone does not guarantee prevention."
+    ],
+    "incentives": [
+      "Game design analysis: Attacker intent differs from developer intent."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/indirect-prompt-injection.md"
+  },
+  {
+    "id": "AI-E042",
+    "name": "Model weights",
+    "kind": "infrastructure",
+    "summary": "Stored parameters are a transferable part of a model.",
+    "jurisdiction": "Storage- and copy-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S009",
+      "AI-S019",
+      "AI-S020"
+    ],
+    "roles": [
+      "Information asset"
+    ],
+    "authority": [
+      "Game design analysis: Possession may permit independent deployment."
+    ],
+    "constraints": [
+      "Game design analysis: Copies still need compute, software and operating access."
+    ],
+    "incentives": [
+      "Game design analysis: Owners seek control; other actors may seek access."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/model-weights.md"
+  },
+  {
+    "id": "AI-E043",
+    "name": "AI compute and cloud capacity",
+    "kind": "infrastructure",
+    "summary": "Training and inference use physical and contracted compute resources.",
+    "jurisdiction": "Site- and contract-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S021",
+      "AI-S026",
+      "AI-S027",
+      "AI-S029"
+    ],
+    "roles": [
+      "Shared infrastructure class"
+    ],
+    "authority": [
+      "Game design analysis: Providers allocate capacity under contracts and law."
+    ],
+    "constraints": [
+      "Game design analysis: Power, hardware, construction and financing constrain supply."
+    ],
+    "incentives": [
+      "Game design analysis: Utilization competes with redundancy and isolation."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/ai-compute-and-cloud-capacity.md"
+  },
+  {
+    "id": "AI-E044",
+    "name": "Evaluation, monitoring and containment",
+    "kind": "capability",
+    "summary": "Tests and controls can expose or restrict unsafe behavior.",
+    "jurisdiction": "Organization-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S003",
+      "AI-S006",
+      "AI-S007",
+      "AI-S010",
+      "AI-S038"
+    ],
+    "roles": [
+      "Defensive capability class"
+    ],
+    "authority": [
+      "Game design analysis: Authorized staff halt runs, restrict access and preserve evidence."
+    ],
+    "constraints": [
+      "Game design analysis: Tests have blind spots. Independent review needs access."
+    ],
+    "incentives": [
+      "Game design analysis: Detection; evidence; harm reduction."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/evaluation-monitoring-and-containment.md"
+  },
+  {
+    "id": "AI-E045",
+    "name": "AI research automation",
+    "kind": "capability",
+    "summary": "Participants describe using AI to accelerate AI research.",
+    "jurisdiction": "Deployment-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S014",
+      "AI-S021",
+      "AI-S039"
+    ],
+    "roles": [
+      "Research capability and forecast domain"
+    ],
+    "authority": [
+      "Game design analysis: Research changes need deployment decisions."
+    ],
+    "constraints": [
+      "Game design analysis: Speed does not prove reliable self-improvement."
+    ],
+    "incentives": [
+      "Game design analysis: No intrinsic geopolitical objective assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/ai-research-automation.md"
+  },
+  {
+    "id": "AI-E046",
+    "name": "SpaceX",
+    "kind": "organization",
+    "summary": "Acquired xAI in February 2026.",
+    "jurisdiction": "United States",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "AI-S031",
+      "AI-S042"
+    ],
+    "roles": [
+      "Parent of the acquired AI business"
+    ],
+    "authority": [
+      "Game design analysis: Allocate resources under corporate governance."
+    ],
+    "constraints": [
+      "Game design analysis: Subsidiary capabilities do not form one unconstrained actor."
+    ],
+    "incentives": [
+      "Game design analysis: AI and infrastructure growth."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/spacex.md"
+  },
+  {
+    "id": "AI-E047",
+    "name": "Daniela Amodei",
+    "kind": "person",
+    "summary": "Anthropic co-founder, president, and board chair.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "dossier_path": "characters/people/ai-e047.md",
+    "roles": [
+      "Anthropic co-founder, president, and board chair."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E048",
+    "name": "Jared Kaplan",
+    "kind": "person",
+    "summary": "Anthropic co-founder and chief science officer.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003",
+      "AC-S008",
+      "AC-S007"
+    ],
+    "dossier_path": "characters/people/ai-e048.md",
+    "roles": [
+      "Anthropic co-founder and chief science officer."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E049",
+    "name": "Chris Olah",
+    "kind": "person",
+    "summary": "Anthropic co-founder and interpretability research lead.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003",
+      "AC-S001",
+      "AC-S007"
+    ],
+    "dossier_path": "characters/people/ai-e049.md",
+    "roles": [
+      "Anthropic co-founder and interpretability research lead."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E050",
+    "name": "Jan Leike",
+    "kind": "person",
+    "summary": "Anthropic Alignment Science lead.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S004",
+      "AC-S005"
+    ],
+    "dossier_path": "characters/people/ai-e050.md",
+    "roles": [
+      "Anthropic Alignment Science lead."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E051",
+    "name": "Amanda Askell",
+    "kind": "person",
+    "summary": "Anthropic Character work lead and constitution primary author.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S006",
+      "AC-S007",
+      "AC-S001"
+    ],
+    "dossier_path": "characters/people/ai-e051.md",
+    "roles": [
+      "Anthropic Character work lead and constitution primary author."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E052",
+    "name": "Jack Clark",
+    "kind": "person",
+    "summary": "Anthropic co-founder and head of public benefit; Anthropic Institute lead.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003",
+      "AC-S002"
+    ],
+    "dossier_path": "characters/people/ai-e052.md",
+    "roles": [
+      "Anthropic co-founder and head of public benefit; Anthropic Institute lead."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E053",
+    "name": "Brian Israel",
+    "kind": "person",
+    "summary": "Anthropic chief legal officer.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "dossier_path": "characters/people/ai-e053.md",
+    "roles": [
+      "Anthropic chief legal officer."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E054",
+    "name": "Tom Brown",
+    "kind": "person",
+    "summary": "Anthropic co-founder and chief compute officer.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003",
+      "AC-S009",
+      "AC-S008"
+    ],
+    "dossier_path": "characters/people/ai-e054.md",
+    "roles": [
+      "Anthropic co-founder and chief compute officer."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E055",
+    "name": "Krishna Rao",
+    "kind": "person",
+    "summary": "Anthropic chief financial officer.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "dossier_path": "characters/people/ai-e055.md",
+    "roles": [
+      "Anthropic chief financial officer."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "SD-E001",
+    "name": "United States government",
+    "kind": "government",
+    "jurisdiction": "United States",
+    "summary": "Federal actor. Executive and legislature have separate powers.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S006",
+      "SD-S016",
+      "SD-S045"
+    ],
+    "roles": [
+      "Security policy",
+      "Defense",
+      "Diplomacy"
+    ],
+    "authority": [
+      "Civilian direction of military operations"
+    ],
+    "constraints": [
+      "Congressional funding and oversight",
+      "Allied consent is separate"
+    ],
+    "incentives": [
+      "Protect security and continued trade; stated policy in 2026 strategy"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E002",
+    "name": "People's Republic of China government",
+    "kind": "government",
+    "jurisdiction": "PRC",
+    "summary": "Party-led state. Its Taiwan sovereignty claim is disputed.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S009",
+      "SD-S016",
+      "SD-S044"
+    ],
+    "roles": [
+      "Security policy",
+      "Defense",
+      "Diplomacy"
+    ],
+    "authority": [
+      "CMC directs armed forces"
+    ],
+    "constraints": [
+      "Foreign actors retain their own choices",
+      "Public doctrine does not reveal all decisions"
+    ],
+    "incentives": [
+      "Unification and national security; public PRC positions"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E003",
+    "name": "Taiwan government (Republic of China)",
+    "kind": "government",
+    "jurisdiction": "Taiwan",
+    "summary": "Self-governing democracy. PRC claims sovereignty but has never controlled Taiwan.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S016",
+      "SD-S017"
+    ],
+    "roles": [
+      "Self-government",
+      "Defense",
+      "Trade policy"
+    ],
+    "authority": [
+      "Domestic institutions decide public policy"
+    ],
+    "constraints": [
+      "US defense intervention is not guaranteed"
+    ],
+    "incentives": [
+      "Maintain public security and political choice; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E004",
+    "name": "Japan government",
+    "kind": "government",
+    "jurisdiction": "Japan",
+    "summary": "US treaty ally with separate constitutional decisions.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S019",
+      "SD-S020"
+    ],
+    "roles": [
+      "Regional security",
+      "Alliance consultation"
+    ],
+    "authority": [
+      "National policy and consent within treaty framework"
+    ],
+    "constraints": [
+      "Treaty geographic scope",
+      "Constitutional processes"
+    ],
+    "incentives": [
+      "National security and regional stability; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E005",
+    "name": "Philippines government",
+    "kind": "government",
+    "jurisdiction": "Philippines",
+    "summary": "US treaty ally. Maritime incidents can create alliance crises.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S021",
+      "SD-S022"
+    ],
+    "roles": [
+      "Maritime security",
+      "Alliance consultation"
+    ],
+    "authority": [
+      "National decisions under mutual defense framework"
+    ],
+    "constraints": [
+      "An incident must be assessed; response is not automatic"
+    ],
+    "incentives": [
+      "Protect sovereignty and avoid war; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E006",
+    "name": "Republic of Korea government",
+    "kind": "government",
+    "jurisdiction": "Republic of Korea",
+    "summary": "US treaty ally. Korean Peninsula security is a separate decision problem.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S023",
+      "SD-S024"
+    ],
+    "roles": [
+      "Peninsula security",
+      "Alliance consultation"
+    ],
+    "authority": [
+      "National decisions under treaty framework"
+    ],
+    "constraints": [
+      "Own security demands",
+      "Constitutional processes"
+    ],
+    "incentives": [
+      "Deter attack and preserve stability; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E007",
+    "name": "Australia government",
+    "kind": "government",
+    "jurisdiction": "Australia",
+    "summary": "2026 strategy stresses deterrence, self-reliance and partnerships.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S025",
+      "SD-S026"
+    ],
+    "roles": [
+      "Regional security",
+      "AUKUS participant"
+    ],
+    "authority": [
+      "National defense and investment decisions"
+    ],
+    "constraints": [
+      "Budget and delivery limits",
+      "Partners make separate choices"
+    ],
+    "incentives": [
+      "Protect Australia and economic connections; stated strategy"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E008",
+    "name": "Netherlands government",
+    "kind": "government",
+    "jurisdiction": "Netherlands",
+    "summary": "Controls some advanced chip-equipment exports through licensing.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S029",
+      "SD-S030"
+    ],
+    "roles": [
+      "Export licensing",
+      "EU coordination"
+    ],
+    "authority": [
+      "National authorization decisions within applicable law"
+    ],
+    "constraints": [
+      "Case-by-case review; historical policy evidence"
+    ],
+    "incentives": [
+      "Security and trade continuity; stated 2024 rationale"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E009",
+    "name": "United Kingdom government",
+    "kind": "government",
+    "jurisdiction": "United Kingdom",
+    "summary": "Nuclear-armed AUKUS partner.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S014",
+      "SD-S027",
+      "SD-S031"
+    ],
+    "roles": [
+      "Defense",
+      "Diplomacy",
+      "Technology cooperation"
+    ],
+    "authority": [
+      "National government policy"
+    ],
+    "constraints": [
+      "Parliamentary and fiscal limits; design abstraction"
+    ],
+    "incentives": [
+      "Protect security and sustain partnerships; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E010",
+    "name": "European Union institutions",
+    "kind": "organization",
+    "jurisdiction": "European Union",
+    "summary": "Commission and European Council have different roles.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S032",
+      "SD-S033"
+    ],
+    "roles": [
+      "Policy coordination",
+      "Economic diplomacy"
+    ],
+    "authority": [
+      "Commission agenda and Council coordination"
+    ],
+    "constraints": [
+      "Member states have separate mandates"
+    ],
+    "incentives": [
+      "Institutional cohesion; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E011",
+    "name": "Russian Federation government",
+    "kind": "government",
+    "jurisdiction": "Russia",
+    "summary": "Nuclear-armed state. Separate actor in a possible wider crisis.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S014",
+      "SD-S034"
+    ],
+    "roles": [
+      "National security",
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Presidential direction of state policy"
+    ],
+    "constraints": [
+      "No assumption of automatic entry into a US-China war"
+    ],
+    "incentives": [
+      "State security and bargaining power; design hypothesis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E012",
+    "name": "Democratic People's Republic of Korea government",
+    "kind": "government",
+    "jurisdiction": "DPRK",
+    "summary": "Nuclear-armed state with close public ties to the PRC.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S011",
+      "SD-S014"
+    ],
+    "roles": [
+      "Peninsula security",
+      "Diplomacy"
+    ],
+    "authority": [
+      "Own leadership decisions"
+    ],
+    "constraints": [
+      "Treat close ties as distinct from operational control"
+    ],
+    "incentives": [
+      "Regime security and diplomatic support; design hypothesis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E013",
+    "name": "Central Military Commission",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Top military command institution in cited PRC policy.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S009",
+      "SD-S044"
+    ],
+    "roles": [
+      "Military command"
+    ],
+    "authority": [
+      "Centralized command of nuclear forces",
+      "Directs Information Support Force"
+    ],
+    "constraints": [
+      "Opaque internal deliberations"
+    ],
+    "incentives": [
+      "Party control and military effectiveness; official framing"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E014",
+    "name": "People's Liberation Army",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Armed forces with conventional, nuclear, cyber and space capability categories.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S038",
+      "SD-S044"
+    ],
+    "roles": [
+      "Military force"
+    ],
+    "authority": [
+      "Acts under CMC direction"
+    ],
+    "constraints": [
+      "Readiness differs from announced capability"
+    ],
+    "incentives": [
+      "Carry out assigned missions; institutional role"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E015",
+    "name": "U.S. Department of Defense",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Defense department; sources also use secondary Department of War title.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S006",
+      "SD-S008",
+      "SD-S045"
+    ],
+    "roles": [
+      "Civilian defense leadership"
+    ],
+    "authority": [
+      "Secretary directs combatant commands"
+    ],
+    "constraints": [
+      "Presidential direction",
+      "Law and funding"
+    ],
+    "incentives": [
+      "Execute national defense policy"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E016",
+    "name": "U.S. Congress",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Legislative actor with defense oversight and Taiwan policy roles.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S006",
+      "SD-S016",
+      "SD-S017"
+    ],
+    "roles": [
+      "Legislation",
+      "Appropriations",
+      "Oversight"
+    ],
+    "authority": [
+      "Funds and oversees defense policy"
+    ],
+    "constraints": [
+      "Separate from military operational command"
+    ],
+    "incentives": [
+      "Represent constituents; policy preferences vary"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E017",
+    "name": "U.S. Indo-Pacific Command",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Regional combatant command; official website also uses Pacific Command.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S005",
+      "SD-S006"
+    ],
+    "roles": [
+      "Regional military command"
+    ],
+    "authority": [
+      "Executes authorized military tasks"
+    ],
+    "constraints": [
+      "Civilian chain of command"
+    ],
+    "incentives": [
+      "Mission execution; institutional role"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E018",
+    "name": "U.S. Strategic Command",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Command involved in strategic deterrence and nuclear advice and execution.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S007",
+      "SD-S008"
+    ],
+    "roles": [
+      "Strategic deterrence",
+      "Nuclear advice"
+    ],
+    "authority": [
+      "Executes lawful presidential decisions"
+    ],
+    "constraints": [
+      "No independent authority to authorize nuclear use"
+    ],
+    "incentives": [
+      "Maintain deterrence and command reliability"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E019",
+    "name": "U.S. Department of State",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Diplomacy institution led by the secretary of state.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S001"
+    ],
+    "roles": [
+      "Diplomacy"
+    ],
+    "authority": [
+      "Diplomatic policy under presidential direction"
+    ],
+    "constraints": [
+      "Does not independently command the armed forces"
+    ],
+    "incentives": [
+      "Maintain channels and negotiate; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E020",
+    "name": "PRC Ministry of Foreign Affairs",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Public diplomacy and policy communication institution.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S009",
+      "SD-S010",
+      "SD-S048"
+    ],
+    "roles": [
+      "Diplomacy",
+      "Public position statements"
+    ],
+    "authority": [
+      "Negotiation and public representation"
+    ],
+    "constraints": [
+      "Statements do not prove military implementation"
+    ],
+    "incentives": [
+      "Communicate and defend PRC positions"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E021",
+    "name": "PRC Ministry of National Defense",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Defense ministry. Do not map its minister directly to the US defense secretary.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S009",
+      "SD-S010",
+      "SD-S044"
+    ],
+    "roles": [
+      "Defense representation"
+    ],
+    "authority": [
+      "Public defense diplomacy"
+    ],
+    "constraints": [
+      "CMC has military command in cited record"
+    ],
+    "incentives": [
+      "Communicate military policy; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E022",
+    "name": "Taiwan armed forces",
+    "kind": "organization",
+    "jurisdiction": "Taiwan",
+    "summary": "Military institution for Taiwan defense.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S017"
+    ],
+    "roles": [
+      "Defense"
+    ],
+    "authority": [
+      "Military missions under Taiwan institutions"
+    ],
+    "constraints": [
+      "Procurement, training and resources matter"
+    ],
+    "incentives": [
+      "Protect Taiwan; institutional role"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E023",
+    "name": "AUKUS partnership",
+    "kind": "organization",
+    "jurisdiction": "Australia; United Kingdom; United States",
+    "summary": "Trilateral defense cooperation with submarine and advanced-capability tracks.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S027",
+      "SD-S028"
+    ],
+    "roles": [
+      "Capability cooperation"
+    ],
+    "authority": [
+      "Joint projects by national agreement"
+    ],
+    "constraints": [
+      "No separate sovereign command authority"
+    ],
+    "incentives": [
+      "Improve shared capability; stated program purpose"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E024",
+    "name": "PLA Information Support Force",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Established in April 2024 under direct CMC leadership.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S044"
+    ],
+    "roles": [
+      "Network information support"
+    ],
+    "authority": [
+      "Assigned information support missions"
+    ],
+    "constraints": [
+      "Public evidence does not disclose all authority"
+    ],
+    "incentives": [
+      "Integrate military information support; official purpose"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E025",
+    "name": "Donald Trump",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "President of the United States.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S002",
+      "SD-S007",
+      "SD-S045"
+    ],
+    "roles": [
+      "President of the United States"
+    ],
+    "authority": [
+      "Civilian military direction; nuclear authorization"
+    ],
+    "constraints": [
+      "Lawful authority and institutional implementation"
+    ],
+    "incentives": [
+      "US security and policy aims in the 2026 strategy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-01-23",
+        "text": "The US strategy attributes to Trump a goal of stable peace and fair trade with China.",
+        "source_ids": [
+          "SD-S045"
+        ],
+        "limits": "Policy document attribution; not a personal transcript."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S002: Undated live page, accessed 2026-10-10. ",
+      "SD-S007: ",
+      "SD-S045: Full public PDF opened. Stated aims are policy, not predictions of success."
+    ]
+  },
+  {
+    "id": "SD-E026",
+    "name": "JD Vance",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Vice President of the United States.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S003",
+      "SD-S054"
+    ],
+    "roles": [
+      "Vice President of the United States"
+    ],
+    "authority": [
+      "Advice and constitutional vice-presidential functions"
+    ],
+    "constraints": [
+      "No independent nuclear launch authority stated here"
+    ],
+    "incentives": [
+      "Administration policy; private motives not modeled"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-05-28",
+        "text": "Vance said humans should make life-and-death decisions in war. He expressed concern about AI warfare.",
+        "source_ids": [
+          "SD-S054"
+        ],
+        "limits": "Contemporaneous pool report."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S003: Undated live page, accessed 2026-10-10. "
+    ]
+  },
+  {
+    "id": "SD-E027",
+    "name": "Pete Hegseth",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Defense secretary; White House uses Secretary of War title.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S001",
+      "SD-S006",
+      "SD-S008"
+    ],
+    "roles": [
+      "Defense secretary; White House uses Secretary of War title"
+    ],
+    "authority": [
+      "Civilian direction within the defense chain"
+    ],
+    "constraints": [
+      "Presidential direction and law"
+    ],
+    "incentives": [
+      "Implement administration defense policy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S001: Undated live page, accessed 2026-10-10. Live roster. Hegseth is shown under the secondary Secretary of War title. Biography rhetoric is not independent evidence.",
+      "SD-S006: Date is from the opened report body, not search metadata. Statutory structure; do not use to verify current office holders.",
+      "SD-S008: Read body dated January 8, 2026. Also explains the secondary Department of War designation."
+    ]
+  },
+  {
+    "id": "SD-E028",
+    "name": "Marco Rubio",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Secretary of State.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S001"
+    ],
+    "roles": [
+      "Secretary of State"
+    ],
+    "authority": [
+      "Diplomatic leadership"
+    ],
+    "constraints": [
+      "No independent military command"
+    ],
+    "incentives": [
+      "Implement foreign policy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S001: Undated live page, accessed 2026-10-10. Live roster. Hegseth is shown under the secondary Secretary of War title. Biography rhetoric is not independent evidence."
+    ]
+  },
+  {
+    "id": "SD-E029",
+    "name": "Dan Caine",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Chairman of the Joint Chiefs of Staff.",
+    "as_of": "2026-08-31",
+    "source_ids": [
+      "SD-S004",
+      "SD-S007",
+      "SD-S051"
+    ],
+    "roles": [
+      "Chairman of the Joint Chiefs of Staff"
+    ],
+    "authority": [
+      "Senior military advice"
+    ],
+    "constraints": [
+      "Adviser is not independent nuclear decision maker"
+    ],
+    "incentives": [
+      "Improve military advice and readiness"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-08-31",
+        "text": "The official readout says Caine and his Philippine counterpart supported deterrence and South China Sea stability.",
+        "source_ids": [
+          "SD-S051"
+        ],
+        "limits": "Readout; limited access."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S004: Undated live page, accessed 2026-10-10. Access is search_excerpt. Official search extract names the chair and April 11, 2025 start. Direct open returned 403.",
+      "SD-S007: ",
+      "SD-S051: Access is search_excerpt. Official readout of August 31 meeting. Direct open returned 403. Attributed joint commitment, not independent proof of readiness."
+    ]
+  },
+  {
+    "id": "SD-E030",
+    "name": "Samuel Paparo",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Regional combatant commander.",
+    "as_of": "2026-08-03",
+    "source_ids": [
+      "SD-S005",
+      "SD-S006",
+      "SD-S050"
+    ],
+    "roles": [
+      "Regional combatant commander"
+    ],
+    "authority": [
+      "Regional command under civilian direction"
+    ],
+    "constraints": [
+      "Role evidence is official search extract"
+    ],
+    "incentives": [
+      "Carry out assigned regional missions"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-08-03",
+        "text": "Paparo supported faster use of AI tools while retaining human judgment and accountability for lethal decisions.",
+        "source_ids": [
+          "SD-S050"
+        ],
+        "limits": "Official speech extract; direct page blocked."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S005: Undated live page, accessed 2026-10-10. Access is search_excerpt. Official search extract names Samuel Paparo. Direct open returned 403. Website labels vary between Pacific and Indo-Pacific.",
+      "SD-S006: Date is from the opened report body, not search metadata. Statutory structure; do not use to verify current office holders.",
+      "SD-S050: Access is search_excerpt. Long official search extract read. Direct open returned 403. Supports dated human accountability statement."
+    ]
+  },
+  {
+    "id": "SD-E031",
+    "name": "Xi Jinping",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "PRC president, CPC general secretary and CMC chair.",
+    "as_of": "2026-09-30",
+    "source_ids": [
+      "SD-S011",
+      "SD-S052",
+      "SD-S009",
+      "SD-S049"
+    ],
+    "roles": [
+      "PRC president, CPC general secretary and CMC chair"
+    ],
+    "authority": [
+      "Top party and state leadership; CMC chair role recorded"
+    ],
+    "constraints": [
+      "Internal deliberations and later command changes are not fully visible"
+    ],
+    "incentives": [
+      "Public commitment to party leadership and national security"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2024-11-16",
+        "text": "Xi and Biden affirmed human control over nuclear-use decisions.",
+        "source_ids": [
+          "SD-S049"
+        ],
+        "limits": "Public commitment; implementation is not verified."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S011: Public state account. Supports roles and attributed statements, not proof of private commitments.",
+      "SD-S052: Access is search_excerpt. Official search excerpt identifies Xi as CMC chair in September 30 event. Direct open failed.",
+      "SD-S009: Official doctrine and self-description. Claims of restraint and perfect safety are not independent findings."
+    ]
+  },
+  {
+    "id": "SD-E032",
+    "name": "Wang Yi",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "Minister of Foreign Affairs.",
+    "as_of": "2026-08-28",
+    "source_ids": [
+      "SD-S010"
+    ],
+    "roles": [
+      "Minister of Foreign Affairs"
+    ],
+    "authority": [
+      "Foreign affairs leadership"
+    ],
+    "constraints": [
+      "CMC military command is separate"
+    ],
+    "incentives": [
+      "Public PRC diplomacy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S010: Live roster updated August 28, 2026. Old URL year is not the evidence date."
+    ]
+  },
+  {
+    "id": "SD-E033",
+    "name": "Dong Jun",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "Minister of National Defense.",
+    "as_of": "2026-08-28",
+    "source_ids": [
+      "SD-S010"
+    ],
+    "roles": [
+      "Minister of National Defense"
+    ],
+    "authority": [
+      "Defense representation"
+    ],
+    "constraints": [
+      "Do not infer US-style operational command"
+    ],
+    "incentives": [
+      "Public defense policy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S010: Live roster updated August 28, 2026. Old URL year is not the evidence date."
+    ]
+  },
+  {
+    "id": "SD-E034",
+    "name": "Lai Ching-te",
+    "kind": "person",
+    "jurisdiction": "Taiwan",
+    "summary": "President of Taiwan.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S018",
+      "SD-S017",
+      "SD-S053"
+    ],
+    "roles": [
+      "President of Taiwan"
+    ],
+    "authority": [
+      "Executive security policy"
+    ],
+    "constraints": [
+      "Separate legislature and external actors; model limit"
+    ],
+    "incentives": [
+      "Protect Taiwan security; design analysis"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026",
+        "text": "Lai endorsed shared norms to prevent military AI from undermining peace. He linked trustworthy AI and chips to supply-chain stability.",
+        "source_ids": [
+          "SD-S053"
+        ],
+        "limits": "Official letter; exact day not visible."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S018: Undated live page, accessed 2026-10-10. Access is partial. Opened official index names President Lai on October 10, 2026 and Vice President Hsiao on September 14, 2026. Index summaries only; linked speech bodies not read.",
+      "SD-S017: Date is the opened report body. Does not prove all announced procurement has been delivered."
+    ]
+  },
+  {
+    "id": "SD-E035",
+    "name": "Hsiao Bi-khim",
+    "kind": "person",
+    "jurisdiction": "Taiwan",
+    "summary": "Vice President of Taiwan.",
+    "as_of": "2026-09-14",
+    "source_ids": [
+      "SD-S018"
+    ],
+    "roles": [
+      "Vice President of Taiwan"
+    ],
+    "authority": [
+      "Vice-presidential role"
+    ],
+    "constraints": [
+      "Do not assign independent control of all policy"
+    ],
+    "incentives": [
+      "Government policy; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S018: Undated live page, accessed 2026-10-10. Access is partial. Opened official index names President Lai on October 10, 2026 and Vice President Hsiao on September 14, 2026. Index summaries only; linked speech bodies not read."
+    ]
+  },
+  {
+    "id": "SD-E036",
+    "name": "Sanae Takaichi",
+    "kind": "person",
+    "jurisdiction": "Japan",
+    "summary": "Prime Minister of Japan.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S019",
+      "SD-S020"
+    ],
+    "roles": [
+      "Prime Minister of Japan"
+    ],
+    "authority": [
+      "Government leadership"
+    ],
+    "constraints": [
+      "Treaty and constitutional processes"
+    ],
+    "incentives": [
+      "National security; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S019: Undated live page, accessed 2026-10-10. Access is search_excerpt. Official current cabinet profile. February 2026 start of 105th premiership shown. Direct open failed.",
+      "SD-S020: Article V concerns territories under Japanese administration and constitutional processes. Article VI concerns facilities."
+    ]
+  },
+  {
+    "id": "SD-E037",
+    "name": "Ferdinand Marcos Jr.",
+    "kind": "person",
+    "jurisdiction": "Philippines",
+    "summary": "President of the Philippines.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S021",
+      "SD-S022"
+    ],
+    "roles": [
+      "President of the Philippines"
+    ],
+    "authority": [
+      "Executive leadership"
+    ],
+    "constraints": [
+      "Alliance consultation and domestic institutions"
+    ],
+    "incentives": [
+      "Maritime security; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S021: Undated live page, accessed 2026-10-10. Access is search_excerpt. Search extract contains October 7-10, 2026 activities of President Marcos. Page can change; direct open returned 403.",
+      "SD-S022: Access is search_excerpt. Official text in search. Direct PDF open returned 403. Armed-attack commitment includes coast guards; no claim of automatic response."
+    ]
+  },
+  {
+    "id": "SD-E038",
+    "name": "Lee Jae Myung",
+    "kind": "person",
+    "jurisdiction": "Republic of Korea",
+    "summary": "President of the Republic of Korea.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S023",
+      "SD-S024"
+    ],
+    "roles": [
+      "President of the Republic of Korea"
+    ],
+    "authority": [
+      "Executive leadership"
+    ],
+    "constraints": [
+      "Separate Korean security demands"
+    ],
+    "incentives": [
+      "Peninsula stability; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S023: Undated live page, accessed 2026-10-10. ",
+      "SD-S024: Access is search_excerpt. Search displayed substantive treaty text. Direct open failed. Treaty entered into force November 17, 1954."
+    ]
+  },
+  {
+    "id": "SD-E039",
+    "name": "Anthony Albanese",
+    "kind": "person",
+    "jurisdiction": "Australia",
+    "summary": "Prime Minister of Australia.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S026"
+    ],
+    "roles": [
+      "Prime Minister of Australia"
+    ],
+    "authority": [
+      "Government leadership"
+    ],
+    "constraints": [
+      "National cabinet and parliamentary processes; model abstraction"
+    ],
+    "incentives": [
+      "Government policy; private motives not modeled"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S026: Undated live page, accessed 2026-10-10. "
+    ]
+  },
+  {
+    "id": "SD-E040",
+    "name": "Richard Marles",
+    "kind": "person",
+    "jurisdiction": "Australia",
+    "summary": "Deputy Prime Minister and Defence Minister.",
+    "as_of": "2026-04-17",
+    "source_ids": [
+      "SD-S025"
+    ],
+    "roles": [
+      "Deputy Prime Minister and Defence Minister"
+    ],
+    "authority": [
+      "Defense policy leadership"
+    ],
+    "constraints": [
+      "Procurement and budget delivery"
+    ],
+    "incentives": [
+      "Deterrence and self-reliance; public strategy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-04-17",
+        "text": "Marles described the new defense strategy as a stronger focus on self-reliance.",
+        "source_ids": [
+          "SD-S025"
+        ],
+        "limits": "Official policy statement."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S025: Official overview of 2026 National Defence Strategy. Funding plans are not delivered capability."
+    ]
+  },
+  {
+    "id": "SD-E041",
+    "name": "Rob Jetten",
+    "kind": "person",
+    "jurisdiction": "Netherlands",
+    "summary": "Prime Minister and Minister of General Affairs.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S029"
+    ],
+    "roles": [
+      "Prime Minister and Minister of General Affairs"
+    ],
+    "authority": [
+      "Cabinet agenda and coordination"
+    ],
+    "constraints": [
+      "Accountable to Parliament"
+    ],
+    "incentives": [
+      "Government program; private motives not modeled"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S029: Undated live page, accessed 2026-10-10. Current biography states appointment on February 23, 2026."
+    ]
+  },
+  {
+    "id": "SD-E042",
+    "name": "Andy Burnham",
+    "kind": "person",
+    "jurisdiction": "United Kingdom",
+    "summary": "Prime Minister of the United Kingdom.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S031",
+      "SD-S055"
+    ],
+    "roles": [
+      "Prime Minister of the United Kingdom"
+    ],
+    "authority": [
+      "Government policy leadership"
+    ],
+    "constraints": [
+      "National institutions and resource constraints"
+    ],
+    "incentives": [
+      "Government policy; private motives not modeled"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-09-08",
+        "text": "The UK readout says Burnham and Xi supported continued dialogue and practical cooperation.",
+        "source_ids": [
+          "SD-S055"
+        ],
+        "limits": "Official readout; no claim that disputes ended."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S031: Undated live page, accessed 2026-10-10. Opened live page names Andy Burnham, appointed July 20, 2026. Do not carry Starmer forward as incumbent."
+    ]
+  },
+  {
+    "id": "SD-E043",
+    "name": "Ursula von der Leyen",
+    "kind": "person",
+    "jurisdiction": "European Union",
+    "summary": "President of the European Commission.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S032"
+    ],
+    "roles": [
+      "President of the European Commission"
+    ],
+    "authority": [
+      "Commission agenda and portfolio allocation"
+    ],
+    "constraints": [
+      "Commission role differs from national military command"
+    ],
+    "incentives": [
+      "Commission program; institutional role"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S032: Undated live page, accessed 2026-10-10. "
+    ]
+  },
+  {
+    "id": "SD-E044",
+    "name": "Antonio Costa",
+    "kind": "person",
+    "jurisdiction": "European Union",
+    "summary": "President of the European Council.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S033"
+    ],
+    "roles": [
+      "President of the European Council"
+    ],
+    "authority": [
+      "Chair meetings and build consensus"
+    ],
+    "constraints": [
+      "Cannot substitute for member-state decisions"
+    ],
+    "incentives": [
+      "Council cohesion; institutional role"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S033: Undated live page, accessed 2026-10-10. "
+    ]
+  },
+  {
+    "id": "SD-E045",
+    "name": "Vladimir Putin",
+    "kind": "person",
+    "jurisdiction": "Russia",
+    "summary": "President of the Russian Federation.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S034"
+    ],
+    "roles": [
+      "President of the Russian Federation"
+    ],
+    "authority": [
+      "State policy and commander-in-chief role"
+    ],
+    "constraints": [
+      "Role verified only through official search extract"
+    ],
+    "incentives": [
+      "National power and security; design hypothesis"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S034: Undated live page, accessed 2026-10-10. Access is search_excerpt. Official Russian search text names Vladimir Putin and describes commander-in-chief role. Direct open timed out."
+    ]
+  },
+  {
+    "id": "SD-E046",
+    "name": "Kim Jong Un",
+    "kind": "person",
+    "jurisdiction": "DPRK",
+    "summary": "WPK general secretary and president of State Affairs.",
+    "as_of": "2026-06-08",
+    "source_ids": [
+      "SD-S011"
+    ],
+    "roles": [
+      "WPK general secretary and president of State Affairs"
+    ],
+    "authority": [
+      "Top leadership role"
+    ],
+    "constraints": [
+      "PRC relationship is not PRC command over DPRK"
+    ],
+    "incentives": [
+      "Regime security; design hypothesis"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-06-08",
+        "text": "The PRC readout says Kim supported China's one-China principle and core-interest positions.",
+        "source_ids": [
+          "SD-S011"
+        ],
+        "limits": "Attributed by the PRC; not proof of a war commitment."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S011: Public state account. Supports roles and attributed statements, not proof of private commitments."
+    ]
+  },
+  {
+    "id": "SD-E047",
+    "name": "Zhang Youxia",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "Historical senior military official; expelled in September 2026 notice.",
+    "as_of": "2026-09-21",
+    "source_ids": [
+      "SD-S012"
+    ],
+    "roles": [
+      "Historical senior military official; expelled in September 2026 notice"
+    ],
+    "authority": [
+      "No current command authority assigned in this corpus"
+    ],
+    "constraints": [
+      "Do not use the 2024 roster as a 2026 roster"
+    ],
+    "incentives": [
+      "No private motives assigned"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S012: Access is search_excerpt. Chinese title: 张又侠、刘振立严重违纪违法被开除党籍军籍. Direct open failed. Administrative outcome is reported; allegations are attributed."
+    ]
+  },
+  {
+    "id": "SD-E048",
+    "name": "Liu Zhenli",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "Historical senior military official; expelled in September 2026 notice.",
+    "as_of": "2026-09-21",
+    "source_ids": [
+      "SD-S012"
+    ],
+    "roles": [
+      "Historical senior military official; expelled in September 2026 notice"
+    ],
+    "authority": [
+      "No current command authority assigned in this corpus"
+    ],
+    "constraints": [
+      "Allegations are not independently adjudicated here"
+    ],
+    "incentives": [
+      "No private motives assigned"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S012: Access is search_excerpt. Chinese title: 张又侠、刘振立严重违纪违法被开除党籍军籍. Direct open failed. Administrative outcome is reported; allegations are attributed."
+    ]
+  },
+  {
+    "id": "SD-E049",
+    "name": "US nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "United States",
+    "summary": "Estimated stockpile of 3,700 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014",
+      "SD-S047"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Use requires presidential authority"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E050",
+    "name": "PRC nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "PRC",
+    "summary": "Estimated stockpile of 620 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014",
+      "SD-S009"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "No-first-use is a declared policy, not a physical guarantee"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E051",
+    "name": "Russian nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "Russia",
+    "summary": "Estimated stockpile of 4,400 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Separate actor and command; no automatic alliance trigger"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E052",
+    "name": "UK nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "United Kingdom",
+    "summary": "Estimated stockpile of 225 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Independent national decision; design abstraction"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E053",
+    "name": "DPRK nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "DPRK",
+    "summary": "Estimated stockpile of 60 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Large evidence uncertainty; estimates are approximate"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E054",
+    "name": "French nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "France",
+    "summary": "Estimated stockpile of 290 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Not an EU-controlled arsenal"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E055",
+    "name": "Autonomous conventional weapon systems",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Weapon systems with automated functions; scope differs from an LLM.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S035",
+      "SD-S015"
+    ],
+    "roles": [
+      "Conventional military capability"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Human judgment requirements do not prove flawless behavior"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E056",
+    "name": "Military AI decision support and LLMs",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Information tools that can affect human decisions.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S015",
+      "SD-S039"
+    ],
+    "roles": [
+      "Decision support"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "A model output has no inherent legal command authority"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E057",
+    "name": "State cyber capabilities",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Cyber activity can create attribution and escalation disputes.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S037",
+      "SD-S048"
+    ],
+    "roles": [
+      "Cyber operations and defense"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Attribution and responsibility are separate questions"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E058",
+    "name": "Nuclear command, control and communications",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Systems support warning, advice, communication and authorized action.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S007",
+      "SD-S008",
+      "SD-S009"
+    ],
+    "roles": [
+      "Nuclear decision support"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Human control of launch does not eliminate upstream error"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E059",
+    "name": "Space and counterspace capabilities",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Capabilities affect space services and confidence in their continuity.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S043",
+      "SD-S040"
+    ],
+    "roles": [
+      "Communications, sensing and space security"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Capabilities and intent are partly opaque"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E060",
+    "name": "Missile defense and Golden Dome",
+    "kind": "capability",
+    "jurisdiction": "United States; allies",
+    "summary": "Missile defense programs and proposed expansion.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S046"
+    ],
+    "roles": [
+      "Defense against missile threats"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Plans and spending do not prove complete protection"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E061",
+    "name": "US conventional armed forces",
+    "kind": "capability",
+    "jurisdiction": "United States",
+    "summary": "Air, maritime and other non-nuclear forces under civilian command.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S006",
+      "SD-S045"
+    ],
+    "roles": [
+      "Conventional force"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Force employment depends on political decisions"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E062",
+    "name": "PLA conventional armed forces",
+    "kind": "capability",
+    "jurisdiction": "PRC",
+    "summary": "Broad military capability set covered by US assessments.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S038"
+    ],
+    "roles": [
+      "Conventional force"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Capability goals do not establish an invasion decision"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E063",
+    "name": "Taiwan conventional defense",
+    "kind": "capability",
+    "jurisdiction": "Taiwan",
+    "summary": "Military capability for deterrence and defense.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S017"
+    ],
+    "roles": [
+      "Conventional defense"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Inventory is not the same as readiness"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E064",
+    "name": "Replicator autonomy initiative",
+    "kind": "capability",
+    "jurisdiction": "United States",
+    "summary": "DIU reported software contract awards in November 2024.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S036"
+    ],
+    "roles": [
+      "Autonomy program"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Award announcements do not prove fielded quantity"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E065",
+    "name": "AUKUS AI and autonomy cooperation",
+    "kind": "capability",
+    "jurisdiction": "Australia; United Kingdom; United States",
+    "summary": "Partners reported common AI algorithms on maritime patrol aircraft.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S027",
+      "SD-S028"
+    ],
+    "roles": [
+      "Shared capability development"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Demonstrations do not establish general combat reliability"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E066",
+    "name": "Palantir Technologies",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Company offers defense data integration and AI software.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S056",
+      "SD-S057"
+    ],
+    "roles": [
+      "Software supplier"
+    ],
+    "authority": [
+      "Company product and contract choices"
+    ],
+    "constraints": [
+      "Supplier status does not confer military command; design rule"
+    ],
+    "incentives": [
+      "Sales and customer trust; design analysis"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  },
+  {
+    "id": "SD-E067",
+    "name": "Alex Karp",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Palantir co-founder and CEO in the May 2026 company release.",
+    "as_of": "2026-05-04",
+    "source_ids": [
+      "SD-S056"
+    ],
+    "roles": [
+      "Chief executive"
+    ],
+    "authority": [
+      "Company executive decisions"
+    ],
+    "constraints": [
+      "Board, law and customer contracts; design abstraction",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Company growth; public earnings statement"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S056: Access is search_excerpt. Company extract identifies Karp as co-founder and CEO. Direct page yielded navigation only. Financial forecasts are not used."
+    ]
+  },
+  {
+    "id": "SD-E068",
+    "name": "Anduril Industries",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Company offers Lattice software and autonomous defense systems.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S058",
+      "SD-S060"
+    ],
+    "roles": [
+      "Defense technology supplier"
+    ],
+    "authority": [
+      "Product development and industrial partnerships"
+    ],
+    "constraints": [
+      "Announcements do not establish combat effectiveness"
+    ],
+    "incentives": [
+      "Deliver products and expand supply; stated company purpose"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  },
+  {
+    "id": "SD-E069",
+    "name": "Palmer Luckey",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Anduril founder identified in its September 2026 announcement.",
+    "as_of": "2026-09-29",
+    "source_ids": [
+      "SD-S060"
+    ],
+    "roles": [
+      "Founder"
+    ],
+    "authority": [
+      "Public advocacy and company influence"
+    ],
+    "constraints": [
+      "Founder title does not establish sole executive authority",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Strengthen industrial cooperation; stated company position"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-09-29",
+        "text": "Luckey supported industrial cooperation to improve military capability.",
+        "source_ids": [
+          "SD-S060"
+        ],
+        "limits": "Company announcement; no inference about intended war."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S060: Access is search_excerpt. Official indexed text identifies Palmer Luckey as founder. Partnership announcement is not proof of delivery. Direct page yielded no usable body."
+    ]
+  },
+  {
+    "id": "SD-E070",
+    "name": "Brian Schimpf",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Anduril CEO in the January 2025 company record; current tenure not reverified.",
+    "as_of": "2025-01-23",
+    "source_ids": [
+      "SD-S059"
+    ],
+    "roles": [
+      "Chief executive at source date"
+    ],
+    "authority": [
+      "Company executive decisions at source date"
+    ],
+    "constraints": [
+      "2025 role evidence does not prove continued tenure",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Company delivery and growth; stated company position"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2025-01-23",
+        "text": "Schimpf linked leadership changes to delivery and company growth.",
+        "source_ids": [
+          "SD-S059"
+        ],
+        "limits": "Corporate management statement, not a view on war probability."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S059: Access is search_excerpt. Official indexed text identifies Brian Schimpf as CEO. Direct page yielded no usable body. Historical role evidence, not a current roster."
+    ]
+  },
+  {
+    "id": "SD-E071",
+    "name": "Lockheed Martin",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Aerospace and defense contractor. Its leadership promotes digital integration with AI.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S061",
+      "SD-S062"
+    ],
+    "roles": [
+      "Defense supplier",
+      "Technology integration"
+    ],
+    "authority": [
+      "Product and investment decisions"
+    ],
+    "constraints": [
+      "Customer authorization and delivery limits; design abstraction"
+    ],
+    "incentives": [
+      "Integrated deterrence; company-stated objective"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  },
+  {
+    "id": "SD-E072",
+    "name": "Jim Taiclet",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Company biography identifies chairman, president and CEO of Lockheed Martin.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S061",
+      "SD-S062"
+    ],
+    "roles": [
+      "Chairman",
+      "President",
+      "Chief executive"
+    ],
+    "authority": [
+      "Company strategy and executive decisions"
+    ],
+    "constraints": [
+      "Undated biography; official extract only",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Accelerate defense technology integration; stated position"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2023",
+        "text": "Taiclet supported integration of AI and other digital technologies for deterrence.",
+        "source_ids": [
+          "SD-S062"
+        ],
+        "limits": "Company-hosted testimony extract; exact day not verified."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S061: Undated live page, accessed 2026-10-10. Access is search_excerpt. Live company biography extract: chairman, president and CEO. Direct open failed. Start dates: CEO June 2020; chairman March 2021.",
+      "SD-S062: Undated live page, accessed 2026-10-10. Access is search_excerpt. Company-hosted testimony extract, 2023; exact day not verified. Direct open failed. Supports his stated digital-integration agenda."
+    ]
+  },
+  {
+    "id": "SD-E073",
+    "name": "RTX",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Aerospace and defense group with Collins Aerospace, Pratt & Whitney and Raytheon businesses.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S063",
+      "SD-S064"
+    ],
+    "roles": [
+      "Defense and aviation supplier"
+    ],
+    "authority": [
+      "Company product and investment decisions"
+    ],
+    "constraints": [
+      "AI support products do not establish autonomous lethal authority"
+    ],
+    "incentives": [
+      "Improve product support and operations; stated company purpose"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  },
+  {
+    "id": "SD-E074",
+    "name": "Christopher Calio",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "RTX biography identifies chairman and CEO.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S063"
+    ],
+    "roles": [
+      "Chairman",
+      "Chief executive"
+    ],
+    "authority": [
+      "Corporate leadership"
+    ],
+    "constraints": [
+      "Undated live page; tenure must be rechecked later",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Business strategy and delivery; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S063: Undated live page, accessed 2026-10-10. Undated live biography names chairman and CEO. It identifies the Collins Aerospace, Pratt & Whitney and Raytheon businesses."
+    ]
+  },
+  {
+    "id": "SD-E075",
+    "name": "Aviation Industry Corporation of China (AVIC)",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "State-owned aviation group. The 2024 study covers military aircraft and unmanned systems.",
+    "as_of": "2024-01-01",
+    "source_ids": [
+      "SD-S065"
+    ],
+    "roles": [
+      "Aircraft development",
+      "Industrial research"
+    ],
+    "authority": [
+      "Company and subsidiary decisions under state ownership"
+    ],
+    "constraints": [
+      "Historical organization study",
+      "No supported claim of autonomous nuclear control"
+    ],
+    "incentives": [
+      "Industrial capability; design analysis"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  },
+  {
+    "id": "ST-E001",
+    "name": "Jacquelyn Schneider",
+    "kind": "person",
+    "summary": "Coauthor of the human–model war game study.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-10-03",
+    "source_ids": [
+      "ST-S002"
+    ],
+    "roles": [
+      "Coauthor of the human–model war game study."
+    ],
+    "authority": [
+      "Can publish evidence and advise on game design."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e001.md"
+  },
+  {
+    "id": "ST-E002",
+    "name": "Max Lamparth",
+    "kind": "person",
+    "summary": "Coauthor of the human–model war game study.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-10-03",
+    "source_ids": [
+      "ST-S002"
+    ],
+    "roles": [
+      "Coauthor of the human–model war game study."
+    ],
+    "authority": [
+      "Can study model behavior and explain test limits."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e002.md"
+  },
+  {
+    "id": "ST-E003",
+    "name": "Kenneth Payne",
+    "kind": "person",
+    "summary": "Author of the simulated nuclear-crisis study.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-02-16",
+    "source_ids": [
+      "ST-S004"
+    ],
+    "roles": [
+      "Author of the simulated nuclear-crisis study."
+    ],
+    "authority": [
+      "Can propose and test strategic simulation methods."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e003.md"
+  },
+  {
+    "id": "ST-E004",
+    "name": "Sam Bresnick",
+    "kind": "person",
+    "summary": "Author of research on Chinese military AI literature.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-06",
+    "source_ids": [
+      "ST-S011"
+    ],
+    "roles": [
+      "Author of research on Chinese military AI literature."
+    ],
+    "authority": [
+      "Can assess public Chinese sources and challenge capability claims."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e004.md"
+  },
+  {
+    "id": "ST-E005",
+    "name": "James M. Acton",
+    "kind": "person",
+    "summary": "Author of research on nuclear–conventional entanglement.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2018-08-08",
+    "source_ids": [
+      "ST-S009"
+    ],
+    "roles": [
+      "Author of research on nuclear–conventional entanglement."
+    ],
+    "authority": [
+      "Can advise on strategic risk and interpret public doctrine."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e005.md"
+  },
+  {
+    "id": "ST-E006",
+    "name": "Daniel Kokotajlo",
+    "kind": "person",
+    "summary": "Coauthor of AI 2027.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-03",
+    "source_ids": [
+      "ST-S013"
+    ],
+    "roles": [
+      "Coauthor of AI 2027."
+    ],
+    "authority": [
+      "Can publish scenarios and change public forecasts."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e006.md"
+  },
+  {
+    "id": "ST-E007",
+    "name": "Eli Lifland",
+    "kind": "person",
+    "summary": "Coauthor of AI 2027.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-03",
+    "source_ids": [
+      "ST-S013"
+    ],
+    "roles": [
+      "Coauthor of AI 2027."
+    ],
+    "authority": [
+      "Can publish forecasts and review their calibration."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e007.md"
+  },
+  {
+    "id": "ST-E008",
+    "name": "Leopold Aschenbrenner",
+    "kind": "person",
+    "summary": "Author of Situational Awareness.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-06",
+    "source_ids": [
+      "ST-S014"
+    ],
+    "roles": [
+      "Author of Situational Awareness."
+    ],
+    "authority": [
+      "Can publish strategic arguments and influence debate."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e008.md"
+  },
+  {
+    "id": "ST-E009",
+    "name": "Matt Sheehan",
+    "kind": "person",
+    "summary": "Author of the AI safety in parallel proposal.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-07-23",
+    "source_ids": [
+      "ST-S017"
+    ],
+    "roles": [
+      "Author of the AI safety in parallel proposal."
+    ],
+    "authority": [
+      "Can propose dialogue and explain Chinese AI governance."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e009.md"
+  },
+  {
+    "id": "ST-E010",
+    "name": "Katja Grace",
+    "kind": "person",
+    "summary": "Coauthor of the AI researcher survey.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-01-05",
+    "source_ids": [
+      "ST-S015"
+    ],
+    "roles": [
+      "Coauthor of the AI researcher survey."
+    ],
+    "authority": [
+      "Can collect expert forecasts and test question framing."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e010.md"
+  },
+  {
+    "id": "ST-E011",
+    "name": "Dan Hendrycks",
+    "kind": "person",
+    "summary": "Coauthor of Superintelligence Strategy.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-14",
+    "source_ids": [
+      "ST-S023"
+    ],
+    "roles": [
+      "Coauthor of Superintelligence Strategy."
+    ],
+    "authority": [
+      "Can propose AI governance and deterrence concepts."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e011.md"
+  },
+  {
+    "id": "ST-E012",
+    "name": "Eric Schmidt",
+    "kind": "person",
+    "summary": "Coauthor of Superintelligence Strategy.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-14",
+    "source_ids": [
+      "ST-S023"
+    ],
+    "roles": [
+      "Coauthor of Superintelligence Strategy."
+    ],
+    "authority": [
+      "Can advocate policy and influence the technology debate."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e012.md"
+  },
+  {
+    "id": "ST-E013",
+    "name": "Alexandr Wang",
+    "kind": "person",
+    "summary": "Coauthor of Superintelligence Strategy.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-14",
+    "source_ids": [
+      "ST-S023"
+    ],
+    "roles": [
+      "Coauthor of Superintelligence Strategy."
+    ],
+    "authority": [
+      "Can advocate policy. Any corporate authority requires a separate dated role."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e013.md"
+  },
+  {
+    "id": "ST-E014",
+    "name": "Tobias Sytsma",
+    "kind": "person",
+    "summary": "Coauthor of the formal model of AI restraint.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-09-30",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "roles": [
+      "Coauthor of the formal model of AI restraint."
+    ],
+    "authority": [
+      "Can assess conditions for cooperation in the model."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e014.md"
+  },
+  {
+    "id": "ST-E015",
+    "name": "Alvin Moon",
+    "kind": "person",
+    "summary": "Coauthor of the formal model of AI restraint.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-09-30",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "roles": [
+      "Coauthor of the formal model of AI restraint."
+    ],
+    "authority": [
+      "Can assess verification and strategic incentives."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e015.md"
+  },
+  {
+    "id": "ST-E016",
+    "name": "Abby Doll",
+    "kind": "person",
+    "summary": "Coauthor of the Breakwater game overview.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-04-29",
+    "source_ids": [
+      "ST-S020"
+    ],
+    "roles": [
+      "Coauthor of the Breakwater game overview."
+    ],
+    "authority": [
+      "Can develop and interpret crisis exercises."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e016.md"
+  },
+  {
+    "id": "ST-E017",
+    "name": "Karl P. Mueller",
+    "kind": "person",
+    "summary": "Coauthor of the AGI Rideout strategy.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-04-27",
+    "source_ids": [
+      "ST-S021"
+    ],
+    "roles": [
+      "Coauthor of the AGI Rideout strategy."
+    ],
+    "authority": [
+      "Can assess high-level strategic options and resilience."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e017.md"
+  },
+  {
+    "id": "ST-E018",
+    "name": "RAND",
+    "kind": "organization",
+    "summary": "Publishes research on AI competition, conflict, and cooperation.",
+    "jurisdiction": "International",
+    "as_of": "2025-08-04",
+    "source_ids": [
+      "ST-S005"
+    ],
+    "roles": [
+      "Publishes research on AI competition, conflict, and cooperation."
+    ],
+    "authority": [
+      "Research and convening."
+    ],
+    "constraints": [
+      "Does not set state policy."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e018.md"
+  },
+  {
+    "id": "ST-E019",
+    "name": "Center for Security and Emerging Technology",
+    "kind": "organization",
+    "summary": "Publishes analysis of technology and national security.",
+    "jurisdiction": "International",
+    "as_of": "2024-06",
+    "source_ids": [
+      "ST-S011"
+    ],
+    "roles": [
+      "Publishes analysis of technology and national security."
+    ],
+    "authority": [
+      "Research and public-source assessment."
+    ],
+    "constraints": [
+      "Its literature sample does not reveal all classified programs."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e019.md"
+  },
+  {
+    "id": "ST-E020",
+    "name": "International Energy Agency",
+    "kind": "organization",
+    "summary": "Produces energy analysis and scenario projections.",
+    "jurisdiction": "International",
+    "as_of": "2025-04-10",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "roles": [
+      "Produces energy analysis and scenario projections."
+    ],
+    "authority": [
+      "Data, analysis, and policy advice."
+    ],
+    "constraints": [
+      "Cannot order national grid investment."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e020.md"
+  },
+  {
+    "id": "ST-E021",
+    "name": "Data-center power and grid access",
+    "kind": "infrastructure",
+    "summary": "Electricity and grid connections constrain data-center operations.",
+    "jurisdiction": "International",
+    "as_of": "2025-04-10",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "roles": [
+      "Electricity and grid connections constrain data-center operations."
+    ],
+    "authority": [
+      "Infrastructure class. It has no independent agency."
+    ],
+    "constraints": [
+      "Capacity, location, and delivery dates matter."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e021.md"
+  },
+  {
+    "id": "ST-E022",
+    "name": "AI strategic decision support",
+    "kind": "capability",
+    "summary": "Systems can assist information review and the generation of options.",
+    "jurisdiction": "International",
+    "as_of": "2023-03",
+    "source_ids": [
+      "ST-S010"
+    ],
+    "roles": [
+      "Systems can assist information review and the generation of options."
+    ],
+    "authority": [
+      "Capability class. Authority stays with the deploying institution."
+    ],
+    "constraints": [
+      "Testing does not prove reliable judgment about an adversary’s intent."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e022.md"
+  },
+  {
+    "id": "ST-E023",
+    "name": "AI governance and verification",
+    "kind": "capability",
+    "summary": "Oversight can make development activity more observable.",
+    "jurisdiction": "International",
+    "as_of": "2026-09-30",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "roles": [
+      "Oversight can make development activity more observable."
+    ],
+    "authority": [
+      "Institutional capability. It needs legal and technical support."
+    ],
+    "constraints": [
+      "Visibility is incomplete. Verification can expose sensitive information."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e023.md"
+  },
+  {
+    "id": "TW-E001",
+    "name": "Taiwan government (Republic of China)",
+    "kind": "government",
+    "summary": "Democratic institutions govern Taiwan and set its trade and security policy.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S004"
+    ],
+    "roles": [
+      "Sovereign decision actor in game"
+    ],
+    "authority": [
+      "Executive, legislative and judicial powers are separate"
+    ],
+    "constraints": [
+      "Constitutional process; public consent; external pressure"
+    ],
+    "incentives": [
+      "Model: preserve self-government, safety and economic continuity"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E002",
+    "name": "Executive Yuan",
+    "kind": "government",
+    "summary": "Cabinet led by the premier.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S004"
+    ],
+    "roles": [
+      "Policy implementation",
+      "Cross-Strait agreement process"
+    ],
+    "authority": [
+      "Submits covered agreements and budgets; leads administration"
+    ],
+    "constraints": [
+      "Legislative review; courts; coalition politics"
+    ],
+    "incentives": [
+      "Model: execute policy while retaining public and legislative support"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E003",
+    "name": "Legislative Yuan",
+    "kind": "government",
+    "summary": "Taiwan's elected legislature.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002"
+    ],
+    "roles": [
+      "Budget and law review",
+      "Agreement review"
+    ],
+    "authority": [
+      "Legislation and constitutional voting procedures"
+    ],
+    "constraints": [
+      "Voting thresholds; elections; judicial review"
+    ],
+    "incentives": [
+      "Model: protect constituency interests and institutional authority"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E004",
+    "name": "Mainland Affairs Council",
+    "kind": "government",
+    "summary": "Taiwan body responsible for cross-Strait affairs under the reviewed statute.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S002"
+    ],
+    "roles": [
+      "Cross-Strait administration"
+    ],
+    "authority": [
+      "Authorizes or supervises specified cross-Strait dealings"
+    ],
+    "constraints": [
+      "Statutory authority; Executive Yuan direction"
+    ],
+    "incentives": [
+      "Model: manage contacts while limiting political and security risk"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E005",
+    "name": "Democratic Progressive Party",
+    "kind": "organization",
+    "summary": "Party of the winning 2024 presidential ticket.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S003",
+      "TW-S033"
+    ],
+    "roles": [
+      "Electoral actor"
+    ],
+    "authority": [
+      "Party nominations and legislative organization; no separate sovereign authority"
+    ],
+    "constraints": [
+      "Elections; internal debate; other branches"
+    ],
+    "incentives": [
+      "Model: maintain governing support and Taiwan's political autonomy"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E006",
+    "name": "Kuomintang",
+    "kind": "organization",
+    "summary": "Opposition party that advocates engagement with Beijing.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S005",
+      "TW-S006"
+    ],
+    "roles": [
+      "Electoral actor",
+      "Cross-Strait dialogue"
+    ],
+    "authority": [
+      "Party agenda and nominations; government powers require office"
+    ],
+    "constraints": [
+      "Public consent; ROC framework; policy disputes"
+    ],
+    "incentives": [
+      "Model: win office, lower conflict risk and preserve party credibility"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E007",
+    "name": "Taiwan People's Party",
+    "kind": "organization",
+    "summary": "Taiwan party with its own leadership and electoral interests.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S003",
+      "TW-S007"
+    ],
+    "roles": [
+      "Electoral actor",
+      "Potential coalition participant"
+    ],
+    "authority": [
+      "Party agenda and nominations"
+    ],
+    "constraints": [
+      "Public consent; party organization; constitutional rules"
+    ],
+    "incentives": [
+      "Model: expand political influence without losing voter support"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E008",
+    "name": "Lai Ching-te",
+    "kind": "person",
+    "summary": "Taiwan president in the dated October 2026 speech.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "roles": [
+      "President"
+    ],
+    "authority": [
+      "Executive appointments and national-security leadership within the constitution"
+    ],
+    "constraints": [
+      "Legislature; courts; elections; crisis information"
+    ],
+    "incentives": [
+      "Model: protect self-government and avoid a damaging conflict"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md",
+    "public_positions": [
+      {
+        "date": "2026-10-10",
+        "text": "Lai supported stronger self-defense and dialogue on equal terms. He welcomed US-China dialogue to reduce conflict risk and rejected Taiwan subordination.",
+        "source_ids": [
+          "TW-S004"
+        ],
+        "limits": "Declared position in the official National Day address. This does not prove private intent or future decisions."
+      }
+    ]
+  },
+  {
+    "id": "TW-E009",
+    "name": "Hsiao Bi-khim",
+    "kind": "person",
+    "summary": "Taiwan vice president in the dated October 2026 speech.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S004",
+      "TW-S001"
+    ],
+    "roles": [
+      "Vice president"
+    ],
+    "authority": [
+      "Constitutional succession role; assigned political work"
+    ],
+    "constraints": [
+      "Does not independently control the cabinet or TSMC"
+    ],
+    "incentives": [
+      "Model: preserve executive continuity and external confidence"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E010",
+    "name": "Cho Jung-tai",
+    "kind": "person",
+    "summary": "Taiwan premier in the dated October 2026 speech.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S004",
+      "TW-S001"
+    ],
+    "roles": [
+      "Premier"
+    ],
+    "authority": [
+      "Leads Executive Yuan administration"
+    ],
+    "constraints": [
+      "President; legislative confidence and budget process"
+    ],
+    "incentives": [
+      "Model: sustain government function and implement crisis measures"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E011",
+    "name": "Han Kuo-yu",
+    "kind": "person",
+    "summary": "Legislative Yuan president in the dated October 2026 speech.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S004",
+      "TW-S001"
+    ],
+    "roles": [
+      "Legislature president"
+    ],
+    "authority": [
+      "Legislative leadership; cannot substitute for required votes"
+    ],
+    "constraints": [
+      "Party caucuses; voting procedures"
+    ],
+    "incentives": [
+      "Model: retain legislative legitimacy and bargaining influence"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E012",
+    "name": "Cheng Li-wun (also Cheng Li-wen)",
+    "kind": "person",
+    "summary": "KMT chair in June 2026 reporting.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-06-12",
+    "source_ids": [
+      "TW-S005",
+      "TW-S006"
+    ],
+    "roles": [
+      "KMT chair"
+    ],
+    "authority": [
+      "Party leadership and public diplomacy"
+    ],
+    "constraints": [
+      "No presidential authority merely from party office"
+    ],
+    "incentives": [
+      "Model: make dialogue credible to voters and foreign partners"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md",
+    "public_positions": [
+      {
+        "date": "2026-06-12",
+        "text": "Cheng said her party supported Taiwan defense and dialogue with Beijing.",
+        "source_ids": [
+          "TW-S006"
+        ],
+        "limits": "AP reporting of a public position. This does not establish PRC control of the party or a plan to restrict US chip access."
+      }
+    ]
+  },
+  {
+    "id": "TW-E013",
+    "name": "Huang Kuo-chang",
+    "kind": "person",
+    "summary": "TPP chair on the reviewed party page.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S007"
+    ],
+    "roles": [
+      "TPP chair"
+    ],
+    "authority": [
+      "Party leadership"
+    ],
+    "constraints": [
+      "No independent authority over exports or security agencies"
+    ],
+    "incentives": [
+      "Model: preserve party influence and coalition flexibility"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E014",
+    "name": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+    "kind": "organization",
+    "summary": "Foundry that makes customer-designed chips across several jurisdictions.",
+    "jurisdiction": "Taiwan; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S008",
+      "TW-S009",
+      "TW-S011",
+      "TW-S012"
+    ],
+    "roles": [
+      "Contract manufacturer",
+      "Capacity investor"
+    ],
+    "authority": [
+      "Board and management control corporate operations under applicable law"
+    ],
+    "constraints": [
+      "Customers; suppliers; permits; skilled staff; export rules"
+    ],
+    "incentives": [
+      "Model: retain trust, process leadership and commercial continuity"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E015",
+    "name": "C.C. Wei",
+    "kind": "person",
+    "summary": "TSMC chairman and CEO on the reviewed executive page.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S010",
+      "TW-S012"
+    ],
+    "roles": [
+      "Chairman",
+      "Chief executive"
+    ],
+    "authority": [
+      "Corporate strategy and execution with board oversight"
+    ],
+    "constraints": [
+      "Cannot override host-country law or fabricate without inputs"
+    ],
+    "incentives": [
+      "Model: meet customer demand and preserve TSMC's operating model"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md",
+    "public_positions": [
+      {
+        "date": "2026-07-16",
+        "text": "Wei announced another USD 100 billion of planned Arizona investment. He said the schedule would depend on market conditions and customer demand.",
+        "source_ids": [
+          "TW-S012"
+        ],
+        "limits": "Company commitment. No firm schedule was given. Planned investment is not completed spending or operational capacity."
+      }
+    ]
+  },
+  {
+    "id": "TW-E016",
+    "name": "Sylvia Fang",
+    "kind": "person",
+    "summary": "TSMC general counsel and corporate governance officer.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S010"
+    ],
+    "roles": [
+      "Legal and governance leader"
+    ],
+    "authority": [
+      "Legal advice and corporate governance processes"
+    ],
+    "constraints": [
+      "Board, law and facts of a specific order"
+    ],
+    "incentives": [
+      "Model: reduce legal exposure and preserve lawful business continuity"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E017",
+    "name": "ASML",
+    "kind": "organization",
+    "summary": "Netherlands-based supplier of lithography and related systems.",
+    "jurisdiction": "Netherlands; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S019",
+      "TW-S020",
+      "TW-S027"
+    ],
+    "roles": [
+      "Equipment supplier"
+    ],
+    "authority": [
+      "Tool development, customer service and investment"
+    ],
+    "constraints": [
+      "Export licenses; supplier capacity; customer plans"
+    ],
+    "incentives": [
+      "Model: preserve technology leadership and lawful market access"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E018",
+    "name": "Christophe Fouquet",
+    "kind": "person",
+    "summary": "ASML president and CEO on the reviewed governance page.",
+    "jurisdiction": "Netherlands",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S020"
+    ],
+    "roles": [
+      "Chief executive"
+    ],
+    "authority": [
+      "Leads management strategy; supervisory board appoints management"
+    ],
+    "constraints": [
+      "Export rules and governance oversight"
+    ],
+    "incentives": [
+      "Model: align investment, supplier capacity and customer demand"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E019",
+    "name": "NVIDIA",
+    "kind": "organization",
+    "summary": "AI computing supplier with external foundry, memory and packaging links.",
+    "jurisdiction": "United States; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S015",
+      "TW-S026"
+    ],
+    "roles": [
+      "Chip and system designer",
+      "Compute supplier"
+    ],
+    "authority": [
+      "Product design, purchase commitments and distribution"
+    ],
+    "constraints": [
+      "Foundry and memory supply; export licenses; customer demand"
+    ],
+    "incentives": [
+      "Model: grow installed platforms and preserve supply and market access"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E020",
+    "name": "Jensen Huang",
+    "kind": "person",
+    "summary": "NVIDIA founder, president and CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S018",
+      "TW-S015"
+    ],
+    "roles": [
+      "Chief executive",
+      "Public industry voice"
+    ],
+    "authority": [
+      "Corporate strategy with board oversight"
+    ],
+    "constraints": [
+      "Law; supply contracts; external manufacturing"
+    ],
+    "incentives": [
+      "Model: secure capacity and maintain customer confidence"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E021",
+    "name": "Advanced Micro Devices (AMD)",
+    "kind": "organization",
+    "summary": "Computing designer with reported TSMC dependence for advanced CPU and GPU wafers.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S016",
+      "TW-S026"
+    ],
+    "roles": [
+      "Chip designer",
+      "Alternative compute supplier"
+    ],
+    "authority": [
+      "Design and supplier contracts"
+    ],
+    "constraints": [
+      "Porting time; foundry capacity; licensing"
+    ],
+    "incentives": [
+      "Model: expand competitive supply and protect product delivery"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E022",
+    "name": "Lisa Su",
+    "kind": "person",
+    "summary": "AMD chair and CEO on its reviewed profile.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S017"
+    ],
+    "roles": [
+      "Chief executive"
+    ],
+    "authority": [
+      "AMD strategy and corporate execution"
+    ],
+    "constraints": [
+      "Board duties; suppliers; customer qualification"
+    ],
+    "incentives": [
+      "Model: sustain competitive products and dependable delivery"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E023",
+    "name": "Samsung Electronics",
+    "kind": "organization",
+    "summary": "Korean supplier with memory, foundry and packaging operations.",
+    "jurisdiction": "South Korea; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S024",
+      "TW-S015"
+    ],
+    "roles": [
+      "Foundry",
+      "Memory supplier"
+    ],
+    "authority": [
+      "Internal manufacturing and technology investment"
+    ],
+    "constraints": [
+      "Yields; qualified designs; capacity; export rules"
+    ],
+    "incentives": [
+      "Model: win customers and improve advanced manufacturing returns"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E024",
+    "name": "SK hynix",
+    "kind": "organization",
+    "summary": "Korean memory supplier with TSMC HBM integration cooperation.",
+    "jurisdiction": "South Korea; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S023",
+      "TW-S015"
+    ],
+    "roles": [
+      "HBM supplier"
+    ],
+    "authority": [
+      "Memory investment and customer agreements"
+    ],
+    "constraints": [
+      "Logic base-die links; qualification; packaging capacity"
+    ],
+    "incentives": [
+      "Model: meet AI memory demand and preserve customer relationships"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E025",
+    "name": "Micron Technology",
+    "kind": "organization",
+    "summary": "Memory supplier listed by NVIDIA.",
+    "jurisdiction": "United States; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "roles": [
+      "Memory supplier"
+    ],
+    "authority": [
+      "Memory product and capacity decisions"
+    ],
+    "constraints": [
+      "Customer qualification; export rules; manufacturing resources"
+    ],
+    "incentives": [
+      "Model: supply qualified memory and expand customer access"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E026",
+    "name": "Tokyo Electron",
+    "kind": "organization",
+    "summary": "Japanese supplier of several semiconductor process-tool classes.",
+    "jurisdiction": "Japan; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S021",
+      "TW-S028"
+    ],
+    "roles": [
+      "Equipment supplier"
+    ],
+    "authority": [
+      "Tool development, production and service"
+    ],
+    "constraints": [
+      "Licensing; supplier inputs; customer investment cycles"
+    ],
+    "incentives": [
+      "Model: protect global customer relationships and technology capability"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E027",
+    "name": "Applied Materials",
+    "kind": "organization",
+    "summary": "US supplier of fabrication equipment, services and spare parts.",
+    "jurisdiction": "United States; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S022",
+      "TW-S025"
+    ],
+    "roles": [
+      "Equipment supplier",
+      "Installed-base service provider"
+    ],
+    "authority": [
+      "Equipment sales and support within law"
+    ],
+    "constraints": [
+      "Export controls; customer access; field engineers"
+    ],
+    "incentives": [
+      "Model: sustain equipment performance and recurring service revenue"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E028",
+    "name": "Carl Zeiss SMT",
+    "kind": "organization",
+    "summary": "Critical optical-component supplier identified in ASML's filing excerpt.",
+    "jurisdiction": "Germany",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S045"
+    ],
+    "roles": [
+      "Specialist supplier"
+    ],
+    "authority": [
+      "Optics production and investment"
+    ],
+    "constraints": [
+      "Specialized capacity; ASML linkage"
+    ],
+    "incentives": [
+      "Model: deliver qualified optical components at required volume"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E029",
+    "name": "US Bureau of Industry and Security (BIS)",
+    "kind": "government",
+    "summary": "US export-control regulator for relevant chips and tools.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S025",
+      "TW-S026"
+    ],
+    "roles": [
+      "Rulemaking and licensing actor"
+    ],
+    "authority": [
+      "Export rules and license review under US authority"
+    ],
+    "constraints": [
+      "Governing law; executive policy; enforcement resources"
+    ],
+    "incentives": [
+      "Model: limit security risks while retaining industrial capability"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E030",
+    "name": "Government of the Netherlands: export-control authority",
+    "kind": "government",
+    "summary": "National authority that licenses controlled semiconductor equipment exports.",
+    "jurisdiction": "Netherlands",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S027"
+    ],
+    "roles": [
+      "Licensing actor"
+    ],
+    "authority": [
+      "National authorization requirements"
+    ],
+    "constraints": [
+      "Dutch and EU law; security assessment; trade interests"
+    ],
+    "incentives": [
+      "Model: protect security and the domestic technology base"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E031",
+    "name": "Japan Ministry of Economy, Trade and Industry (METI)",
+    "kind": "government",
+    "summary": "Japanese ministry with semiconductor policy and export-control responsibilities.",
+    "jurisdiction": "Japan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S028",
+      "TW-S013"
+    ],
+    "roles": [
+      "Industrial policy",
+      "Export-control actor"
+    ],
+    "authority": [
+      "Relevant controls and industry support under Japanese law"
+    ],
+    "constraints": [
+      "Legal process; industry needs; allied coordination"
+    ],
+    "incentives": [
+      "Model: secure domestic supply and limit sensitive technology transfer"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E032",
+    "name": "People's Republic of China government",
+    "kind": "government",
+    "summary": "Beijing claims Taiwan and retains force as an option in its stated policy.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S041",
+      "TW-S042"
+    ],
+    "roles": [
+      "Claimant",
+      "Crisis decision actor"
+    ],
+    "authority": [
+      "PRC policy and domestic-law authorities"
+    ],
+    "constraints": [
+      "Model: economic exposure, military risk and uncertain Taiwan response"
+    ],
+    "incentives": [
+      "Stated: seek unification. Model: preserve regime legitimacy and avoid prohibitive costs"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E033",
+    "name": "China Coast Guard",
+    "kind": "government",
+    "summary": "Law-enforcement actor central to CSIS quarantine scenarios.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S031"
+    ],
+    "roles": [
+      "Maritime enforcement actor"
+    ],
+    "authority": [
+      "PRC-directed enforcement role; jurisdiction claims are contested"
+    ],
+    "constraints": [
+      "Orders; escalation risk; outside responses"
+    ],
+    "incentives": [
+      "Model: support state objectives while managing confrontation"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E034",
+    "name": "TSMC Arizona",
+    "kind": "infrastructure",
+    "summary": "US TSMC production site with active output and staged expansion plans.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S008",
+      "TW-S011",
+      "TW-S012"
+    ],
+    "roles": [
+      "Overseas production"
+    ],
+    "authority": [
+      "Operated through TSMC's US business under US law"
+    ],
+    "constraints": [
+      "Inputs; staff; packaging; construction; customer demand"
+    ],
+    "incentives": [
+      "Model: output continuity; this site has no independent political intent"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E035",
+    "name": "Japan Advanced Semiconductor Manufacturing (JASM)",
+    "kind": "organization",
+    "summary": "TSMC-majority joint venture in Kumamoto with Japanese industrial partners.",
+    "jurisdiction": "Japan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S013",
+      "TW-S008"
+    ],
+    "roles": [
+      "Overseas foundry"
+    ],
+    "authority": [
+      "Joint-venture management and host-country permissions"
+    ],
+    "constraints": [
+      "Announced process mix; customer needs; partner governance"
+    ],
+    "incentives": [
+      "Model: reliable regional supply and a viable production ramp"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E036",
+    "name": "European Semiconductor Manufacturing Company (ESMC)",
+    "kind": "organization",
+    "summary": "Dresden joint venture for planned automotive and industrial chip output.",
+    "jurisdiction": "Germany",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S014",
+      "TW-S008"
+    ],
+    "roles": [
+      "Overseas foundry project"
+    ],
+    "authority": [
+      "Joint-venture governance and German/EU rules"
+    ],
+    "constraints": [
+      "Construction and qualification; process mix differs from AI frontier logic"
+    ],
+    "incentives": [
+      "Model: improve regional industrial supply"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E037",
+    "name": "CoWoS and advanced packaging",
+    "kind": "capability",
+    "summary": "Packaging joins logic and memory into useful systems.",
+    "jurisdiction": "Taiwan; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S023",
+      "TW-S015"
+    ],
+    "roles": [
+      "Complement to wafer fabrication"
+    ],
+    "authority": [
+      "Controlled through firms, facilities and contracts"
+    ],
+    "constraints": [
+      "Capacity; qualified inputs; design compatibility"
+    ],
+    "incentives": [
+      "No independent intent; model as a separate constraint"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E038",
+    "name": "High-bandwidth memory (HBM)",
+    "kind": "capability",
+    "summary": "Memory class used with advanced AI computing systems.",
+    "jurisdiction": "South Korea; United States; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S023",
+      "TW-S024",
+      "TW-S025"
+    ],
+    "roles": [
+      "Compute input"
+    ],
+    "authority": [
+      "Suppliers and export authorities affect access"
+    ],
+    "constraints": [
+      "Qualification; capacity; logic integration; licenses"
+    ],
+    "incentives": [
+      "No independent intent; avoid equating memory with accelerator logic"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E039",
+    "name": "Mark Liu",
+    "kind": "person",
+    "summary": "Former TSMC chairman; relevant public voice in a 2022 interview.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2022-08-16",
+    "source_ids": [
+      "TW-S039",
+      "TW-S010"
+    ],
+    "roles": [
+      "Historical decision-maker and source"
+    ],
+    "authority": [
+      "No current TSMC executive power established here"
+    ],
+    "constraints": [
+      "Statement predates current leadership and capacity plans"
+    ],
+    "incentives": [
+      "Public warning: force threatens factory operation"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md",
+    "public_positions": [
+      {
+        "date": "2022-08-16",
+        "text": "Liu warned that military force would stop TSMC factories from operating because they depend on links with overseas partners.",
+        "source_ids": [
+          "TW-S039"
+        ],
+        "limits": "CNN aired the interview excerpt on this date and described the interview as earlier that month. Liu was chairman then. This is a warning, not a verified shutdown mechanism or a fixed recovery time."
+      }
+    ]
+  },
+  {
+    "id": "TW-E040",
+    "name": "Semiconductor equipment service and spare parts",
+    "kind": "capability",
+    "summary": "Support needed to maintain productive tools over time.",
+    "jurisdiction": "International",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S022",
+      "TW-S029"
+    ],
+    "roles": [
+      "Production continuity input"
+    ],
+    "authority": [
+      "Supplier contracts and applicable export rules"
+    ],
+    "constraints": [
+      "Field access; inventory; qualified parts; software support"
+    ],
+    "incentives": [
+      "No independent intent; keep separate from installed tool count"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  }
+]

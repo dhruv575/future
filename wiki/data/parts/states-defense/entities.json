@@ -1,0 +1,2140 @@
+[
+  {
+    "id": "SD-E001",
+    "name": "United States government",
+    "kind": "government",
+    "jurisdiction": "United States",
+    "summary": "Federal actor. Executive and legislature have separate powers.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S006",
+      "SD-S016",
+      "SD-S045"
+    ],
+    "roles": [
+      "Security policy",
+      "Defense",
+      "Diplomacy"
+    ],
+    "authority": [
+      "Civilian direction of military operations"
+    ],
+    "constraints": [
+      "Congressional funding and oversight",
+      "Allied consent is separate"
+    ],
+    "incentives": [
+      "Protect security and continued trade; stated policy in 2026 strategy"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E002",
+    "name": "People's Republic of China government",
+    "kind": "government",
+    "jurisdiction": "PRC",
+    "summary": "Party-led state. Its Taiwan sovereignty claim is disputed.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S009",
+      "SD-S016",
+      "SD-S044"
+    ],
+    "roles": [
+      "Security policy",
+      "Defense",
+      "Diplomacy"
+    ],
+    "authority": [
+      "CMC directs armed forces"
+    ],
+    "constraints": [
+      "Foreign actors retain their own choices",
+      "Public doctrine does not reveal all decisions"
+    ],
+    "incentives": [
+      "Unification and national security; public PRC positions"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E003",
+    "name": "Taiwan government (Republic of China)",
+    "kind": "government",
+    "jurisdiction": "Taiwan",
+    "summary": "Self-governing democracy. PRC claims sovereignty but has never controlled Taiwan.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S016",
+      "SD-S017"
+    ],
+    "roles": [
+      "Self-government",
+      "Defense",
+      "Trade policy"
+    ],
+    "authority": [
+      "Domestic institutions decide public policy"
+    ],
+    "constraints": [
+      "US defense intervention is not guaranteed"
+    ],
+    "incentives": [
+      "Maintain public security and political choice; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E004",
+    "name": "Japan government",
+    "kind": "government",
+    "jurisdiction": "Japan",
+    "summary": "US treaty ally with separate constitutional decisions.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S019",
+      "SD-S020"
+    ],
+    "roles": [
+      "Regional security",
+      "Alliance consultation"
+    ],
+    "authority": [
+      "National policy and consent within treaty framework"
+    ],
+    "constraints": [
+      "Treaty geographic scope",
+      "Constitutional processes"
+    ],
+    "incentives": [
+      "National security and regional stability; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E005",
+    "name": "Philippines government",
+    "kind": "government",
+    "jurisdiction": "Philippines",
+    "summary": "US treaty ally. Maritime incidents can create alliance crises.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S021",
+      "SD-S022"
+    ],
+    "roles": [
+      "Maritime security",
+      "Alliance consultation"
+    ],
+    "authority": [
+      "National decisions under mutual defense framework"
+    ],
+    "constraints": [
+      "An incident must be assessed; response is not automatic"
+    ],
+    "incentives": [
+      "Protect sovereignty and avoid war; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E006",
+    "name": "Republic of Korea government",
+    "kind": "government",
+    "jurisdiction": "Republic of Korea",
+    "summary": "US treaty ally. Korean Peninsula security is a separate decision problem.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S023",
+      "SD-S024"
+    ],
+    "roles": [
+      "Peninsula security",
+      "Alliance consultation"
+    ],
+    "authority": [
+      "National decisions under treaty framework"
+    ],
+    "constraints": [
+      "Own security demands",
+      "Constitutional processes"
+    ],
+    "incentives": [
+      "Deter attack and preserve stability; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E007",
+    "name": "Australia government",
+    "kind": "government",
+    "jurisdiction": "Australia",
+    "summary": "2026 strategy stresses deterrence, self-reliance and partnerships.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S025",
+      "SD-S026"
+    ],
+    "roles": [
+      "Regional security",
+      "AUKUS participant"
+    ],
+    "authority": [
+      "National defense and investment decisions"
+    ],
+    "constraints": [
+      "Budget and delivery limits",
+      "Partners make separate choices"
+    ],
+    "incentives": [
+      "Protect Australia and economic connections; stated strategy"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E008",
+    "name": "Netherlands government",
+    "kind": "government",
+    "jurisdiction": "Netherlands",
+    "summary": "Controls some advanced chip-equipment exports through licensing.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S029",
+      "SD-S030"
+    ],
+    "roles": [
+      "Export licensing",
+      "EU coordination"
+    ],
+    "authority": [
+      "National authorization decisions within applicable law"
+    ],
+    "constraints": [
+      "Case-by-case review; historical policy evidence"
+    ],
+    "incentives": [
+      "Security and trade continuity; stated 2024 rationale"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E009",
+    "name": "United Kingdom government",
+    "kind": "government",
+    "jurisdiction": "United Kingdom",
+    "summary": "Nuclear-armed AUKUS partner.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S014",
+      "SD-S027",
+      "SD-S031"
+    ],
+    "roles": [
+      "Defense",
+      "Diplomacy",
+      "Technology cooperation"
+    ],
+    "authority": [
+      "National government policy"
+    ],
+    "constraints": [
+      "Parliamentary and fiscal limits; design abstraction"
+    ],
+    "incentives": [
+      "Protect security and sustain partnerships; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E010",
+    "name": "European Union institutions",
+    "kind": "organization",
+    "jurisdiction": "European Union",
+    "summary": "Commission and European Council have different roles.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S032",
+      "SD-S033"
+    ],
+    "roles": [
+      "Policy coordination",
+      "Economic diplomacy"
+    ],
+    "authority": [
+      "Commission agenda and Council coordination"
+    ],
+    "constraints": [
+      "Member states have separate mandates"
+    ],
+    "incentives": [
+      "Institutional cohesion; design analysis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E011",
+    "name": "Russian Federation government",
+    "kind": "government",
+    "jurisdiction": "Russia",
+    "summary": "Nuclear-armed state. Separate actor in a possible wider crisis.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S014",
+      "SD-S034"
+    ],
+    "roles": [
+      "National security",
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Presidential direction of state policy"
+    ],
+    "constraints": [
+      "No assumption of automatic entry into a US-China war"
+    ],
+    "incentives": [
+      "State security and bargaining power; design hypothesis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E012",
+    "name": "Democratic People's Republic of Korea government",
+    "kind": "government",
+    "jurisdiction": "DPRK",
+    "summary": "Nuclear-armed state with close public ties to the PRC.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S011",
+      "SD-S014"
+    ],
+    "roles": [
+      "Peninsula security",
+      "Diplomacy"
+    ],
+    "authority": [
+      "Own leadership decisions"
+    ],
+    "constraints": [
+      "Treat close ties as distinct from operational control"
+    ],
+    "incentives": [
+      "Regime security and diplomatic support; design hypothesis"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E013",
+    "name": "Central Military Commission",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Top military command institution in cited PRC policy.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S009",
+      "SD-S044"
+    ],
+    "roles": [
+      "Military command"
+    ],
+    "authority": [
+      "Centralized command of nuclear forces",
+      "Directs Information Support Force"
+    ],
+    "constraints": [
+      "Opaque internal deliberations"
+    ],
+    "incentives": [
+      "Party control and military effectiveness; official framing"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E014",
+    "name": "People's Liberation Army",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Armed forces with conventional, nuclear, cyber and space capability categories.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S038",
+      "SD-S044"
+    ],
+    "roles": [
+      "Military force"
+    ],
+    "authority": [
+      "Acts under CMC direction"
+    ],
+    "constraints": [
+      "Readiness differs from announced capability"
+    ],
+    "incentives": [
+      "Carry out assigned missions; institutional role"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E015",
+    "name": "U.S. Department of Defense",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Defense department; sources also use secondary Department of War title.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S006",
+      "SD-S008",
+      "SD-S045"
+    ],
+    "roles": [
+      "Civilian defense leadership"
+    ],
+    "authority": [
+      "Secretary directs combatant commands"
+    ],
+    "constraints": [
+      "Presidential direction",
+      "Law and funding"
+    ],
+    "incentives": [
+      "Execute national defense policy"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E016",
+    "name": "U.S. Congress",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Legislative actor with defense oversight and Taiwan policy roles.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S006",
+      "SD-S016",
+      "SD-S017"
+    ],
+    "roles": [
+      "Legislation",
+      "Appropriations",
+      "Oversight"
+    ],
+    "authority": [
+      "Funds and oversees defense policy"
+    ],
+    "constraints": [
+      "Separate from military operational command"
+    ],
+    "incentives": [
+      "Represent constituents; policy preferences vary"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E017",
+    "name": "U.S. Indo-Pacific Command",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Regional combatant command; official website also uses Pacific Command.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S005",
+      "SD-S006"
+    ],
+    "roles": [
+      "Regional military command"
+    ],
+    "authority": [
+      "Executes authorized military tasks"
+    ],
+    "constraints": [
+      "Civilian chain of command"
+    ],
+    "incentives": [
+      "Mission execution; institutional role"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E018",
+    "name": "U.S. Strategic Command",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Command involved in strategic deterrence and nuclear advice and execution.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S007",
+      "SD-S008"
+    ],
+    "roles": [
+      "Strategic deterrence",
+      "Nuclear advice"
+    ],
+    "authority": [
+      "Executes lawful presidential decisions"
+    ],
+    "constraints": [
+      "No independent authority to authorize nuclear use"
+    ],
+    "incentives": [
+      "Maintain deterrence and command reliability"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E019",
+    "name": "U.S. Department of State",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Diplomacy institution led by the secretary of state.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S001"
+    ],
+    "roles": [
+      "Diplomacy"
+    ],
+    "authority": [
+      "Diplomatic policy under presidential direction"
+    ],
+    "constraints": [
+      "Does not independently command the armed forces"
+    ],
+    "incentives": [
+      "Maintain channels and negotiate; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E020",
+    "name": "PRC Ministry of Foreign Affairs",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Public diplomacy and policy communication institution.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S009",
+      "SD-S010",
+      "SD-S048"
+    ],
+    "roles": [
+      "Diplomacy",
+      "Public position statements"
+    ],
+    "authority": [
+      "Negotiation and public representation"
+    ],
+    "constraints": [
+      "Statements do not prove military implementation"
+    ],
+    "incentives": [
+      "Communicate and defend PRC positions"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E021",
+    "name": "PRC Ministry of National Defense",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Defense ministry. Do not map its minister directly to the US defense secretary.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S009",
+      "SD-S010",
+      "SD-S044"
+    ],
+    "roles": [
+      "Defense representation"
+    ],
+    "authority": [
+      "Public defense diplomacy"
+    ],
+    "constraints": [
+      "CMC has military command in cited record"
+    ],
+    "incentives": [
+      "Communicate military policy; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E022",
+    "name": "Taiwan armed forces",
+    "kind": "organization",
+    "jurisdiction": "Taiwan",
+    "summary": "Military institution for Taiwan defense.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S017"
+    ],
+    "roles": [
+      "Defense"
+    ],
+    "authority": [
+      "Military missions under Taiwan institutions"
+    ],
+    "constraints": [
+      "Procurement, training and resources matter"
+    ],
+    "incentives": [
+      "Protect Taiwan; institutional role"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E023",
+    "name": "AUKUS partnership",
+    "kind": "organization",
+    "jurisdiction": "Australia; United Kingdom; United States",
+    "summary": "Trilateral defense cooperation with submarine and advanced-capability tracks.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S027",
+      "SD-S028"
+    ],
+    "roles": [
+      "Capability cooperation"
+    ],
+    "authority": [
+      "Joint projects by national agreement"
+    ],
+    "constraints": [
+      "No separate sovereign command authority"
+    ],
+    "incentives": [
+      "Improve shared capability; stated program purpose"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E024",
+    "name": "PLA Information Support Force",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "Established in April 2024 under direct CMC leadership.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S044"
+    ],
+    "roles": [
+      "Network information support"
+    ],
+    "authority": [
+      "Assigned information support missions"
+    ],
+    "constraints": [
+      "Public evidence does not disclose all authority"
+    ],
+    "incentives": [
+      "Integrate military information support; official purpose"
+    ],
+    "dossier_path": "research/states-defense/actors.md"
+  },
+  {
+    "id": "SD-E025",
+    "name": "Donald Trump",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "President of the United States.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S002",
+      "SD-S007",
+      "SD-S045"
+    ],
+    "roles": [
+      "President of the United States"
+    ],
+    "authority": [
+      "Civilian military direction; nuclear authorization"
+    ],
+    "constraints": [
+      "Lawful authority and institutional implementation"
+    ],
+    "incentives": [
+      "US security and policy aims in the 2026 strategy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-01-23",
+        "text": "The US strategy attributes to Trump a goal of stable peace and fair trade with China.",
+        "source_ids": [
+          "SD-S045"
+        ],
+        "limits": "Policy document attribution; not a personal transcript."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S002: Undated live page, accessed 2026-10-10. ",
+      "SD-S007: ",
+      "SD-S045: Full public PDF opened. Stated aims are policy, not predictions of success."
+    ]
+  },
+  {
+    "id": "SD-E026",
+    "name": "JD Vance",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Vice President of the United States.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S003",
+      "SD-S054"
+    ],
+    "roles": [
+      "Vice President of the United States"
+    ],
+    "authority": [
+      "Advice and constitutional vice-presidential functions"
+    ],
+    "constraints": [
+      "No independent nuclear launch authority stated here"
+    ],
+    "incentives": [
+      "Administration policy; private motives not modeled"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-05-28",
+        "text": "Vance said humans should make life-and-death decisions in war. He expressed concern about AI warfare.",
+        "source_ids": [
+          "SD-S054"
+        ],
+        "limits": "Contemporaneous pool report."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S003: Undated live page, accessed 2026-10-10. "
+    ]
+  },
+  {
+    "id": "SD-E027",
+    "name": "Pete Hegseth",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Defense secretary; White House uses Secretary of War title.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S001",
+      "SD-S006",
+      "SD-S008"
+    ],
+    "roles": [
+      "Defense secretary; White House uses Secretary of War title"
+    ],
+    "authority": [
+      "Civilian direction within the defense chain"
+    ],
+    "constraints": [
+      "Presidential direction and law"
+    ],
+    "incentives": [
+      "Implement administration defense policy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S001: Undated live page, accessed 2026-10-10. Live roster. Hegseth is shown under the secondary Secretary of War title. Biography rhetoric is not independent evidence.",
+      "SD-S006: Date is from the opened report body, not search metadata. Statutory structure; do not use to verify current office holders.",
+      "SD-S008: Read body dated January 8, 2026. Also explains the secondary Department of War designation."
+    ]
+  },
+  {
+    "id": "SD-E028",
+    "name": "Marco Rubio",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Secretary of State.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S001"
+    ],
+    "roles": [
+      "Secretary of State"
+    ],
+    "authority": [
+      "Diplomatic leadership"
+    ],
+    "constraints": [
+      "No independent military command"
+    ],
+    "incentives": [
+      "Implement foreign policy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S001: Undated live page, accessed 2026-10-10. Live roster. Hegseth is shown under the secondary Secretary of War title. Biography rhetoric is not independent evidence."
+    ]
+  },
+  {
+    "id": "SD-E029",
+    "name": "Dan Caine",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Chairman of the Joint Chiefs of Staff.",
+    "as_of": "2026-08-31",
+    "source_ids": [
+      "SD-S004",
+      "SD-S007",
+      "SD-S051"
+    ],
+    "roles": [
+      "Chairman of the Joint Chiefs of Staff"
+    ],
+    "authority": [
+      "Senior military advice"
+    ],
+    "constraints": [
+      "Adviser is not independent nuclear decision maker"
+    ],
+    "incentives": [
+      "Improve military advice and readiness"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-08-31",
+        "text": "The official readout says Caine and his Philippine counterpart supported deterrence and South China Sea stability.",
+        "source_ids": [
+          "SD-S051"
+        ],
+        "limits": "Readout; limited access."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S004: Undated live page, accessed 2026-10-10. Access is search_excerpt. Official search extract names the chair and April 11, 2025 start. Direct open returned 403.",
+      "SD-S007: ",
+      "SD-S051: Access is search_excerpt. Official readout of August 31 meeting. Direct open returned 403. Attributed joint commitment, not independent proof of readiness."
+    ]
+  },
+  {
+    "id": "SD-E030",
+    "name": "Samuel Paparo",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Regional combatant commander.",
+    "as_of": "2026-08-03",
+    "source_ids": [
+      "SD-S005",
+      "SD-S006",
+      "SD-S050"
+    ],
+    "roles": [
+      "Regional combatant commander"
+    ],
+    "authority": [
+      "Regional command under civilian direction"
+    ],
+    "constraints": [
+      "Role evidence is official search extract"
+    ],
+    "incentives": [
+      "Carry out assigned regional missions"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-08-03",
+        "text": "Paparo supported faster use of AI tools while retaining human judgment and accountability for lethal decisions.",
+        "source_ids": [
+          "SD-S050"
+        ],
+        "limits": "Official speech extract; direct page blocked."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S005: Undated live page, accessed 2026-10-10. Access is search_excerpt. Official search extract names Samuel Paparo. Direct open returned 403. Website labels vary between Pacific and Indo-Pacific.",
+      "SD-S006: Date is from the opened report body, not search metadata. Statutory structure; do not use to verify current office holders.",
+      "SD-S050: Access is search_excerpt. Long official search extract read. Direct open returned 403. Supports dated human accountability statement."
+    ]
+  },
+  {
+    "id": "SD-E031",
+    "name": "Xi Jinping",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "PRC president, CPC general secretary and CMC chair.",
+    "as_of": "2026-09-30",
+    "source_ids": [
+      "SD-S011",
+      "SD-S052",
+      "SD-S009",
+      "SD-S049"
+    ],
+    "roles": [
+      "PRC president, CPC general secretary and CMC chair"
+    ],
+    "authority": [
+      "Top party and state leadership; CMC chair role recorded"
+    ],
+    "constraints": [
+      "Internal deliberations and later command changes are not fully visible"
+    ],
+    "incentives": [
+      "Public commitment to party leadership and national security"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2024-11-16",
+        "text": "Xi and Biden affirmed human control over nuclear-use decisions.",
+        "source_ids": [
+          "SD-S049"
+        ],
+        "limits": "Public commitment; implementation is not verified."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S011: Public state account. Supports roles and attributed statements, not proof of private commitments.",
+      "SD-S052: Access is search_excerpt. Official search excerpt identifies Xi as CMC chair in September 30 event. Direct open failed.",
+      "SD-S009: Official doctrine and self-description. Claims of restraint and perfect safety are not independent findings."
+    ]
+  },
+  {
+    "id": "SD-E032",
+    "name": "Wang Yi",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "Minister of Foreign Affairs.",
+    "as_of": "2026-08-28",
+    "source_ids": [
+      "SD-S010"
+    ],
+    "roles": [
+      "Minister of Foreign Affairs"
+    ],
+    "authority": [
+      "Foreign affairs leadership"
+    ],
+    "constraints": [
+      "CMC military command is separate"
+    ],
+    "incentives": [
+      "Public PRC diplomacy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S010: Live roster updated August 28, 2026. Old URL year is not the evidence date."
+    ]
+  },
+  {
+    "id": "SD-E033",
+    "name": "Dong Jun",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "Minister of National Defense.",
+    "as_of": "2026-08-28",
+    "source_ids": [
+      "SD-S010"
+    ],
+    "roles": [
+      "Minister of National Defense"
+    ],
+    "authority": [
+      "Defense representation"
+    ],
+    "constraints": [
+      "Do not infer US-style operational command"
+    ],
+    "incentives": [
+      "Public defense policy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S010: Live roster updated August 28, 2026. Old URL year is not the evidence date."
+    ]
+  },
+  {
+    "id": "SD-E034",
+    "name": "Lai Ching-te",
+    "kind": "person",
+    "jurisdiction": "Taiwan",
+    "summary": "President of Taiwan.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S018",
+      "SD-S017",
+      "SD-S053"
+    ],
+    "roles": [
+      "President of Taiwan"
+    ],
+    "authority": [
+      "Executive security policy"
+    ],
+    "constraints": [
+      "Separate legislature and external actors; model limit"
+    ],
+    "incentives": [
+      "Protect Taiwan security; design analysis"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026",
+        "text": "Lai endorsed shared norms to prevent military AI from undermining peace. He linked trustworthy AI and chips to supply-chain stability.",
+        "source_ids": [
+          "SD-S053"
+        ],
+        "limits": "Official letter; exact day not visible."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S018: Undated live page, accessed 2026-10-10. Access is partial. Opened official index names President Lai on October 10, 2026 and Vice President Hsiao on September 14, 2026. Index summaries only; linked speech bodies not read.",
+      "SD-S017: Date is the opened report body. Does not prove all announced procurement has been delivered."
+    ]
+  },
+  {
+    "id": "SD-E035",
+    "name": "Hsiao Bi-khim",
+    "kind": "person",
+    "jurisdiction": "Taiwan",
+    "summary": "Vice President of Taiwan.",
+    "as_of": "2026-09-14",
+    "source_ids": [
+      "SD-S018"
+    ],
+    "roles": [
+      "Vice President of Taiwan"
+    ],
+    "authority": [
+      "Vice-presidential role"
+    ],
+    "constraints": [
+      "Do not assign independent control of all policy"
+    ],
+    "incentives": [
+      "Government policy; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S018: Undated live page, accessed 2026-10-10. Access is partial. Opened official index names President Lai on October 10, 2026 and Vice President Hsiao on September 14, 2026. Index summaries only; linked speech bodies not read."
+    ]
+  },
+  {
+    "id": "SD-E036",
+    "name": "Sanae Takaichi",
+    "kind": "person",
+    "jurisdiction": "Japan",
+    "summary": "Prime Minister of Japan.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S019",
+      "SD-S020"
+    ],
+    "roles": [
+      "Prime Minister of Japan"
+    ],
+    "authority": [
+      "Government leadership"
+    ],
+    "constraints": [
+      "Treaty and constitutional processes"
+    ],
+    "incentives": [
+      "National security; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S019: Undated live page, accessed 2026-10-10. Access is search_excerpt. Official current cabinet profile. February 2026 start of 105th premiership shown. Direct open failed.",
+      "SD-S020: Article V concerns territories under Japanese administration and constitutional processes. Article VI concerns facilities."
+    ]
+  },
+  {
+    "id": "SD-E037",
+    "name": "Ferdinand Marcos Jr.",
+    "kind": "person",
+    "jurisdiction": "Philippines",
+    "summary": "President of the Philippines.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S021",
+      "SD-S022"
+    ],
+    "roles": [
+      "President of the Philippines"
+    ],
+    "authority": [
+      "Executive leadership"
+    ],
+    "constraints": [
+      "Alliance consultation and domestic institutions"
+    ],
+    "incentives": [
+      "Maritime security; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S021: Undated live page, accessed 2026-10-10. Access is search_excerpt. Search extract contains October 7-10, 2026 activities of President Marcos. Page can change; direct open returned 403.",
+      "SD-S022: Access is search_excerpt. Official text in search. Direct PDF open returned 403. Armed-attack commitment includes coast guards; no claim of automatic response."
+    ]
+  },
+  {
+    "id": "SD-E038",
+    "name": "Lee Jae Myung",
+    "kind": "person",
+    "jurisdiction": "Republic of Korea",
+    "summary": "President of the Republic of Korea.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S023",
+      "SD-S024"
+    ],
+    "roles": [
+      "President of the Republic of Korea"
+    ],
+    "authority": [
+      "Executive leadership"
+    ],
+    "constraints": [
+      "Separate Korean security demands"
+    ],
+    "incentives": [
+      "Peninsula stability; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S023: Undated live page, accessed 2026-10-10. ",
+      "SD-S024: Access is search_excerpt. Search displayed substantive treaty text. Direct open failed. Treaty entered into force November 17, 1954."
+    ]
+  },
+  {
+    "id": "SD-E039",
+    "name": "Anthony Albanese",
+    "kind": "person",
+    "jurisdiction": "Australia",
+    "summary": "Prime Minister of Australia.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S026"
+    ],
+    "roles": [
+      "Prime Minister of Australia"
+    ],
+    "authority": [
+      "Government leadership"
+    ],
+    "constraints": [
+      "National cabinet and parliamentary processes; model abstraction"
+    ],
+    "incentives": [
+      "Government policy; private motives not modeled"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S026: Undated live page, accessed 2026-10-10. "
+    ]
+  },
+  {
+    "id": "SD-E040",
+    "name": "Richard Marles",
+    "kind": "person",
+    "jurisdiction": "Australia",
+    "summary": "Deputy Prime Minister and Defence Minister.",
+    "as_of": "2026-04-17",
+    "source_ids": [
+      "SD-S025"
+    ],
+    "roles": [
+      "Deputy Prime Minister and Defence Minister"
+    ],
+    "authority": [
+      "Defense policy leadership"
+    ],
+    "constraints": [
+      "Procurement and budget delivery"
+    ],
+    "incentives": [
+      "Deterrence and self-reliance; public strategy"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-04-17",
+        "text": "Marles described the new defense strategy as a stronger focus on self-reliance.",
+        "source_ids": [
+          "SD-S025"
+        ],
+        "limits": "Official policy statement."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S025: Official overview of 2026 National Defence Strategy. Funding plans are not delivered capability."
+    ]
+  },
+  {
+    "id": "SD-E041",
+    "name": "Rob Jetten",
+    "kind": "person",
+    "jurisdiction": "Netherlands",
+    "summary": "Prime Minister and Minister of General Affairs.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S029"
+    ],
+    "roles": [
+      "Prime Minister and Minister of General Affairs"
+    ],
+    "authority": [
+      "Cabinet agenda and coordination"
+    ],
+    "constraints": [
+      "Accountable to Parliament"
+    ],
+    "incentives": [
+      "Government program; private motives not modeled"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S029: Undated live page, accessed 2026-10-10. Current biography states appointment on February 23, 2026."
+    ]
+  },
+  {
+    "id": "SD-E042",
+    "name": "Andy Burnham",
+    "kind": "person",
+    "jurisdiction": "United Kingdom",
+    "summary": "Prime Minister of the United Kingdom.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S031",
+      "SD-S055"
+    ],
+    "roles": [
+      "Prime Minister of the United Kingdom"
+    ],
+    "authority": [
+      "Government policy leadership"
+    ],
+    "constraints": [
+      "National institutions and resource constraints"
+    ],
+    "incentives": [
+      "Government policy; private motives not modeled"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-09-08",
+        "text": "The UK readout says Burnham and Xi supported continued dialogue and practical cooperation.",
+        "source_ids": [
+          "SD-S055"
+        ],
+        "limits": "Official readout; no claim that disputes ended."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S031: Undated live page, accessed 2026-10-10. Opened live page names Andy Burnham, appointed July 20, 2026. Do not carry Starmer forward as incumbent."
+    ]
+  },
+  {
+    "id": "SD-E043",
+    "name": "Ursula von der Leyen",
+    "kind": "person",
+    "jurisdiction": "European Union",
+    "summary": "President of the European Commission.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S032"
+    ],
+    "roles": [
+      "President of the European Commission"
+    ],
+    "authority": [
+      "Commission agenda and portfolio allocation"
+    ],
+    "constraints": [
+      "Commission role differs from national military command"
+    ],
+    "incentives": [
+      "Commission program; institutional role"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S032: Undated live page, accessed 2026-10-10. "
+    ]
+  },
+  {
+    "id": "SD-E044",
+    "name": "Antonio Costa",
+    "kind": "person",
+    "jurisdiction": "European Union",
+    "summary": "President of the European Council.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S033"
+    ],
+    "roles": [
+      "President of the European Council"
+    ],
+    "authority": [
+      "Chair meetings and build consensus"
+    ],
+    "constraints": [
+      "Cannot substitute for member-state decisions"
+    ],
+    "incentives": [
+      "Council cohesion; institutional role"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S033: Undated live page, accessed 2026-10-10. "
+    ]
+  },
+  {
+    "id": "SD-E045",
+    "name": "Vladimir Putin",
+    "kind": "person",
+    "jurisdiction": "Russia",
+    "summary": "President of the Russian Federation.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S034"
+    ],
+    "roles": [
+      "President of the Russian Federation"
+    ],
+    "authority": [
+      "State policy and commander-in-chief role"
+    ],
+    "constraints": [
+      "Role verified only through official search extract"
+    ],
+    "incentives": [
+      "National power and security; design hypothesis"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S034: Undated live page, accessed 2026-10-10. Access is search_excerpt. Official Russian search text names Vladimir Putin and describes commander-in-chief role. Direct open timed out."
+    ]
+  },
+  {
+    "id": "SD-E046",
+    "name": "Kim Jong Un",
+    "kind": "person",
+    "jurisdiction": "DPRK",
+    "summary": "WPK general secretary and president of State Affairs.",
+    "as_of": "2026-06-08",
+    "source_ids": [
+      "SD-S011"
+    ],
+    "roles": [
+      "WPK general secretary and president of State Affairs"
+    ],
+    "authority": [
+      "Top leadership role"
+    ],
+    "constraints": [
+      "PRC relationship is not PRC command over DPRK"
+    ],
+    "incentives": [
+      "Regime security; design hypothesis"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-06-08",
+        "text": "The PRC readout says Kim supported China's one-China principle and core-interest positions.",
+        "source_ids": [
+          "SD-S011"
+        ],
+        "limits": "Attributed by the PRC; not proof of a war commitment."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S011: Public state account. Supports roles and attributed statements, not proof of private commitments."
+    ]
+  },
+  {
+    "id": "SD-E047",
+    "name": "Zhang Youxia",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "Historical senior military official; expelled in September 2026 notice.",
+    "as_of": "2026-09-21",
+    "source_ids": [
+      "SD-S012"
+    ],
+    "roles": [
+      "Historical senior military official; expelled in September 2026 notice"
+    ],
+    "authority": [
+      "No current command authority assigned in this corpus"
+    ],
+    "constraints": [
+      "Do not use the 2024 roster as a 2026 roster"
+    ],
+    "incentives": [
+      "No private motives assigned"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S012: Access is search_excerpt. Chinese title: 张又侠、刘振立严重违纪违法被开除党籍军籍. Direct open failed. Administrative outcome is reported; allegations are attributed."
+    ]
+  },
+  {
+    "id": "SD-E048",
+    "name": "Liu Zhenli",
+    "kind": "person",
+    "jurisdiction": "PRC",
+    "summary": "Historical senior military official; expelled in September 2026 notice.",
+    "as_of": "2026-09-21",
+    "source_ids": [
+      "SD-S012"
+    ],
+    "roles": [
+      "Historical senior military official; expelled in September 2026 notice"
+    ],
+    "authority": [
+      "No current command authority assigned in this corpus"
+    ],
+    "constraints": [
+      "Allegations are not independently adjudicated here"
+    ],
+    "incentives": [
+      "No private motives assigned"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S012: Access is search_excerpt. Chinese title: 张又侠、刘振立严重违纪违法被开除党籍军籍. Direct open failed. Administrative outcome is reported; allegations are attributed."
+    ]
+  },
+  {
+    "id": "SD-E049",
+    "name": "US nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "United States",
+    "summary": "Estimated stockpile of 3,700 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014",
+      "SD-S047"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Use requires presidential authority"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E050",
+    "name": "PRC nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "PRC",
+    "summary": "Estimated stockpile of 620 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014",
+      "SD-S009"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "No-first-use is a declared policy, not a physical guarantee"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E051",
+    "name": "Russian nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "Russia",
+    "summary": "Estimated stockpile of 4,400 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Separate actor and command; no automatic alliance trigger"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E052",
+    "name": "UK nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "United Kingdom",
+    "summary": "Estimated stockpile of 225 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Independent national decision; design abstraction"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E053",
+    "name": "DPRK nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "DPRK",
+    "summary": "Estimated stockpile of 60 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Large evidence uncertainty; estimates are approximate"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E054",
+    "name": "French nuclear arsenal",
+    "kind": "capability",
+    "jurisdiction": "France",
+    "summary": "Estimated stockpile of 290 warheads in January 2026.",
+    "as_of": "2026-01-01",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "roles": [
+      "Nuclear deterrence"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Not an EU-controlled arsenal"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E055",
+    "name": "Autonomous conventional weapon systems",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Weapon systems with automated functions; scope differs from an LLM.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S035",
+      "SD-S015"
+    ],
+    "roles": [
+      "Conventional military capability"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Human judgment requirements do not prove flawless behavior"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E056",
+    "name": "Military AI decision support and LLMs",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Information tools that can affect human decisions.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S015",
+      "SD-S039"
+    ],
+    "roles": [
+      "Decision support"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "A model output has no inherent legal command authority"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E057",
+    "name": "State cyber capabilities",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Cyber activity can create attribution and escalation disputes.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S037",
+      "SD-S048"
+    ],
+    "roles": [
+      "Cyber operations and defense"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Attribution and responsibility are separate questions"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E058",
+    "name": "Nuclear command, control and communications",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Systems support warning, advice, communication and authorized action.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S007",
+      "SD-S008",
+      "SD-S009"
+    ],
+    "roles": [
+      "Nuclear decision support"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Human control of launch does not eliminate upstream error"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/nuclear.md"
+  },
+  {
+    "id": "SD-E059",
+    "name": "Space and counterspace capabilities",
+    "kind": "capability",
+    "jurisdiction": "Multiple",
+    "summary": "Capabilities affect space services and confidence in their continuity.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S043",
+      "SD-S040"
+    ],
+    "roles": [
+      "Communications, sensing and space security"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Capabilities and intent are partly opaque"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E060",
+    "name": "Missile defense and Golden Dome",
+    "kind": "capability",
+    "jurisdiction": "United States; allies",
+    "summary": "Missile defense programs and proposed expansion.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S046"
+    ],
+    "roles": [
+      "Defense against missile threats"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Plans and spending do not prove complete protection"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E061",
+    "name": "US conventional armed forces",
+    "kind": "capability",
+    "jurisdiction": "United States",
+    "summary": "Air, maritime and other non-nuclear forces under civilian command.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S006",
+      "SD-S045"
+    ],
+    "roles": [
+      "Conventional force"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Force employment depends on political decisions"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E062",
+    "name": "PLA conventional armed forces",
+    "kind": "capability",
+    "jurisdiction": "PRC",
+    "summary": "Broad military capability set covered by US assessments.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S038"
+    ],
+    "roles": [
+      "Conventional force"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Capability goals do not establish an invasion decision"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E063",
+    "name": "Taiwan conventional defense",
+    "kind": "capability",
+    "jurisdiction": "Taiwan",
+    "summary": "Military capability for deterrence and defense.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S017"
+    ],
+    "roles": [
+      "Conventional defense"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Inventory is not the same as readiness"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E064",
+    "name": "Replicator autonomy initiative",
+    "kind": "capability",
+    "jurisdiction": "United States",
+    "summary": "DIU reported software contract awards in November 2024.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S036"
+    ],
+    "roles": [
+      "Autonomy program"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Award announcements do not prove fielded quantity"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E065",
+    "name": "AUKUS AI and autonomy cooperation",
+    "kind": "capability",
+    "jurisdiction": "Australia; United Kingdom; United States",
+    "summary": "Partners reported common AI algorithms on maritime patrol aircraft.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S027",
+      "SD-S028"
+    ],
+    "roles": [
+      "Shared capability development"
+    ],
+    "authority": [
+      "Use depends on the controlling institution"
+    ],
+    "constraints": [
+      "Demonstrations do not establish general combat reliability"
+    ],
+    "incentives": [
+      "No independent preferences; model human authorization"
+    ],
+    "dossier_path": "research/states-defense/capabilities.md"
+  },
+  {
+    "id": "SD-E066",
+    "name": "Palantir Technologies",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Company offers defense data integration and AI software.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S056",
+      "SD-S057"
+    ],
+    "roles": [
+      "Software supplier"
+    ],
+    "authority": [
+      "Company product and contract choices"
+    ],
+    "constraints": [
+      "Supplier status does not confer military command; design rule"
+    ],
+    "incentives": [
+      "Sales and customer trust; design analysis"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  },
+  {
+    "id": "SD-E067",
+    "name": "Alex Karp",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Palantir co-founder and CEO in the May 2026 company release.",
+    "as_of": "2026-05-04",
+    "source_ids": [
+      "SD-S056"
+    ],
+    "roles": [
+      "Chief executive"
+    ],
+    "authority": [
+      "Company executive decisions"
+    ],
+    "constraints": [
+      "Board, law and customer contracts; design abstraction",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Company growth; public earnings statement"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S056: Access is search_excerpt. Company extract identifies Karp as co-founder and CEO. Direct page yielded navigation only. Financial forecasts are not used."
+    ]
+  },
+  {
+    "id": "SD-E068",
+    "name": "Anduril Industries",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Company offers Lattice software and autonomous defense systems.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S058",
+      "SD-S060"
+    ],
+    "roles": [
+      "Defense technology supplier"
+    ],
+    "authority": [
+      "Product development and industrial partnerships"
+    ],
+    "constraints": [
+      "Announcements do not establish combat effectiveness"
+    ],
+    "incentives": [
+      "Deliver products and expand supply; stated company purpose"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  },
+  {
+    "id": "SD-E069",
+    "name": "Palmer Luckey",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Anduril founder identified in its September 2026 announcement.",
+    "as_of": "2026-09-29",
+    "source_ids": [
+      "SD-S060"
+    ],
+    "roles": [
+      "Founder"
+    ],
+    "authority": [
+      "Public advocacy and company influence"
+    ],
+    "constraints": [
+      "Founder title does not establish sole executive authority",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Strengthen industrial cooperation; stated company position"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2026-09-29",
+        "text": "Luckey supported industrial cooperation to improve military capability.",
+        "source_ids": [
+          "SD-S060"
+        ],
+        "limits": "Company announcement; no inference about intended war."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S060: Access is search_excerpt. Official indexed text identifies Palmer Luckey as founder. Partnership announcement is not proof of delivery. Direct page yielded no usable body."
+    ]
+  },
+  {
+    "id": "SD-E070",
+    "name": "Brian Schimpf",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Anduril CEO in the January 2025 company record; current tenure not reverified.",
+    "as_of": "2025-01-23",
+    "source_ids": [
+      "SD-S059"
+    ],
+    "roles": [
+      "Chief executive at source date"
+    ],
+    "authority": [
+      "Company executive decisions at source date"
+    ],
+    "constraints": [
+      "2025 role evidence does not prove continued tenure",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Company delivery and growth; stated company position"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2025-01-23",
+        "text": "Schimpf linked leadership changes to delivery and company growth.",
+        "source_ids": [
+          "SD-S059"
+        ],
+        "limits": "Corporate management statement, not a view on war probability."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S059: Access is search_excerpt. Official indexed text identifies Brian Schimpf as CEO. Direct page yielded no usable body. Historical role evidence, not a current roster."
+    ]
+  },
+  {
+    "id": "SD-E071",
+    "name": "Lockheed Martin",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Aerospace and defense contractor. Its leadership promotes digital integration with AI.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S061",
+      "SD-S062"
+    ],
+    "roles": [
+      "Defense supplier",
+      "Technology integration"
+    ],
+    "authority": [
+      "Product and investment decisions"
+    ],
+    "constraints": [
+      "Customer authorization and delivery limits; design abstraction"
+    ],
+    "incentives": [
+      "Integrated deterrence; company-stated objective"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  },
+  {
+    "id": "SD-E072",
+    "name": "Jim Taiclet",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "Company biography identifies chairman, president and CEO of Lockheed Martin.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S061",
+      "SD-S062"
+    ],
+    "roles": [
+      "Chairman",
+      "President",
+      "Chief executive"
+    ],
+    "authority": [
+      "Company strategy and executive decisions"
+    ],
+    "constraints": [
+      "Undated biography; official extract only",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Accelerate defense technology integration; stated position"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [
+      {
+        "date": "2023",
+        "text": "Taiclet supported integration of AI and other digital technologies for deterrence.",
+        "source_ids": [
+          "SD-S062"
+        ],
+        "limits": "Company-hosted testimony extract; exact day not verified."
+      }
+    ],
+    "role_evidence_notes": [
+      "SD-S061: Undated live page, accessed 2026-10-10. Access is search_excerpt. Live company biography extract: chairman, president and CEO. Direct open failed. Start dates: CEO June 2020; chairman March 2021.",
+      "SD-S062: Undated live page, accessed 2026-10-10. Access is search_excerpt. Company-hosted testimony extract, 2023; exact day not verified. Direct open failed. Supports his stated digital-integration agenda."
+    ]
+  },
+  {
+    "id": "SD-E073",
+    "name": "RTX",
+    "kind": "organization",
+    "jurisdiction": "United States",
+    "summary": "Aerospace and defense group with Collins Aerospace, Pratt & Whitney and Raytheon businesses.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S063",
+      "SD-S064"
+    ],
+    "roles": [
+      "Defense and aviation supplier"
+    ],
+    "authority": [
+      "Company product and investment decisions"
+    ],
+    "constraints": [
+      "AI support products do not establish autonomous lethal authority"
+    ],
+    "incentives": [
+      "Improve product support and operations; stated company purpose"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  },
+  {
+    "id": "SD-E074",
+    "name": "Christopher Calio",
+    "kind": "person",
+    "jurisdiction": "United States",
+    "summary": "RTX biography identifies chairman and CEO.",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "SD-S063"
+    ],
+    "roles": [
+      "Chairman",
+      "Chief executive"
+    ],
+    "authority": [
+      "Corporate leadership"
+    ],
+    "constraints": [
+      "Undated live page; tenure must be rechecked later",
+      "No state command authority"
+    ],
+    "incentives": [
+      "Business strategy and delivery; design abstraction"
+    ],
+    "dossier_path": "research/states-defense/people.md",
+    "public_positions": [],
+    "role_evidence_notes": [
+      "SD-S063: Undated live page, accessed 2026-10-10. Undated live biography names chairman and CEO. It identifies the Collins Aerospace, Pratt & Whitney and Raytheon businesses."
+    ]
+  },
+  {
+    "id": "SD-E075",
+    "name": "Aviation Industry Corporation of China (AVIC)",
+    "kind": "organization",
+    "jurisdiction": "PRC",
+    "summary": "State-owned aviation group. The 2024 study covers military aircraft and unmanned systems.",
+    "as_of": "2024-01-01",
+    "source_ids": [
+      "SD-S065"
+    ],
+    "roles": [
+      "Aircraft development",
+      "Industrial research"
+    ],
+    "authority": [
+      "Company and subsidiary decisions under state ownership"
+    ],
+    "constraints": [
+      "Historical organization study",
+      "No supported claim of autonomous nuclear control"
+    ],
+    "incentives": [
+      "Industrial capability; design analysis"
+    ],
+    "dossier_path": "research/states-defense/contractors.md"
+  }
+]

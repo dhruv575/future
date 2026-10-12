@@ -1,0 +1,2883 @@
+{
+  "scenes": 143,
+  "paths": 72,
+  "endings": 12,
+  "optimistic": 7,
+  "bad": 5,
+  "routes": [
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.separate",
+        "D5_INDEPENDENT.prove"
+      ],
+      "ending": "E_ANTHROPIC",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "separate",
+        "final": "prove"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_PROVE",
+        "O_ANTHROPIC_1",
+        "O_ANTHROPIC_2",
+        "O_ANTHROPIC_3",
+        "E_ANTHROPIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.separate",
+        "D5_INDEPENDENT.scale"
+      ],
+      "ending": "E_ANTHROPIC",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "separate",
+        "final": "scale"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_SCALE",
+        "O_ANTHROPIC_1",
+        "O_ANTHROPIC_2",
+        "O_ANTHROPIC_3",
+        "E_ANTHROPIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.separate",
+        "D5_INDEPENDENT.public"
+      ],
+      "ending": "E_PUBLIC",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "separate",
+        "final": "public"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_PUBLIC",
+        "O_PUBLIC_1",
+        "O_PUBLIC_2",
+        "O_PUBLIC_3",
+        "O_PUBLIC_4",
+        "E_PUBLIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.linked",
+        "D5_INDEPENDENT.prove"
+      ],
+      "ending": "E_ANTHROPIC",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "linked",
+        "final": "prove"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_PROVE",
+        "O_ANTHROPIC_1",
+        "O_ANTHROPIC_2",
+        "O_ANTHROPIC_3",
+        "E_ANTHROPIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.linked",
+        "D5_INDEPENDENT.scale"
+      ],
+      "ending": "E_ANTHROPIC_LOSS",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "linked",
+        "final": "scale"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_SCALE",
+        "O_ANTHROPIC_LOSS_1",
+        "O_ANTHROPIC_LOSS_2",
+        "O_ANTHROPIC_LOSS_3",
+        "O_ANTHROPIC_LOSS_4",
+        "O_ANTHROPIC_LOSS_5",
+        "E_ANTHROPIC_LOSS"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.linked",
+        "D5_INDEPENDENT.public"
+      ],
+      "ending": "E_PUBLIC",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "linked",
+        "final": "public"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_PUBLIC",
+        "O_PUBLIC_1",
+        "O_PUBLIC_2",
+        "O_PUBLIC_3",
+        "O_PUBLIC_4",
+        "E_PUBLIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.coalition",
+        "D4_COALITION.mutual",
+        "D5_COALITION.access"
+      ],
+      "ending": "E_PLURAL",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "coalition",
+        "coalition": "mutual",
+        "final": "access"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_COALITION",
+        "A_D4_COALITION",
+        "D4_COALITION",
+        "D4_COALITION_RESULT",
+        "A_D5_COALITION",
+        "D5_COALITION",
+        "D5_COALITION_ACCESS",
+        "O_PLURAL_1",
+        "O_PLURAL_2",
+        "O_PLURAL_3",
+        "E_PLURAL"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.coalition",
+        "D4_COALITION.mutual",
+        "D5_COALITION.waiver"
+      ],
+      "ending": "E_PLURAL",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "coalition",
+        "coalition": "mutual",
+        "final": "waiver"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_COALITION",
+        "A_D4_COALITION",
+        "D4_COALITION",
+        "D4_COALITION_RESULT",
+        "A_D5_COALITION",
+        "D5_COALITION",
+        "D5_COALITION_WAIVER",
+        "O_PLURAL_1",
+        "O_PLURAL_2",
+        "O_PLURAL_3",
+        "E_PLURAL"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.coalition",
+        "D4_COALITION.central",
+        "D5_COALITION.access"
+      ],
+      "ending": "E_PLURAL",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "coalition",
+        "coalition": "central",
+        "final": "access"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_COALITION",
+        "A_D4_COALITION",
+        "D4_COALITION",
+        "D4_COALITION_RESULT",
+        "A_D5_COALITION",
+        "D5_COALITION",
+        "D5_COALITION_ACCESS",
+        "O_PLURAL_1",
+        "O_PLURAL_2",
+        "O_PLURAL_3",
+        "E_PLURAL"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.coalition",
+        "D4_COALITION.central",
+        "D5_COALITION.waiver"
+      ],
+      "ending": "E_ANTHROPIC_LOSS",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "coalition",
+        "coalition": "central",
+        "final": "waiver"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_COALITION",
+        "A_D4_COALITION",
+        "D4_COALITION",
+        "D4_COALITION_RESULT",
+        "A_D5_COALITION",
+        "D5_COALITION",
+        "D5_COALITION_WAIVER",
+        "O_ANTHROPIC_LOSS_1",
+        "O_ANTHROPIC_LOSS_2",
+        "O_ANTHROPIC_LOSS_3",
+        "O_ANTHROPIC_LOSS_4",
+        "O_ANTHROPIC_LOSS_5",
+        "E_ANTHROPIC_LOSS"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.limits",
+        "D5_STATE.verify"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "limited",
+        "final": "verify"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_VERIFY",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.limits",
+        "D5_STATE.domestic"
+      ],
+      "ending": "E_AUTHORITARIAN",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "limited",
+        "final": "domestic"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_DOMESTIC",
+        "O_AUTHORITARIAN_1",
+        "O_AUTHORITARIAN_2",
+        "O_AUTHORITARIAN_3",
+        "O_AUTHORITARIAN_4",
+        "E_AUTHORITARIAN"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.limits",
+        "D5_STATE.strike"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "limited",
+        "final": "strike"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_STRIKE",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.broad",
+        "D5_STATE.verify"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "broad",
+        "final": "verify"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_VERIFY",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.broad",
+        "D5_STATE.domestic"
+      ],
+      "ending": "E_AUTHORITARIAN",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "broad",
+        "final": "domestic"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_DOMESTIC",
+        "O_AUTHORITARIAN_1",
+        "O_AUTHORITARIAN_2",
+        "O_AUTHORITARIAN_3",
+        "O_AUTHORITARIAN_4",
+        "E_AUTHORITARIAN"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.broad",
+        "D5_STATE.strike"
+      ],
+      "ending": "E_NUCLEAR",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "broad",
+        "final": "strike"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_STRIKE",
+        "O_NUCLEAR_1",
+        "O_NUCLEAR_2",
+        "O_NUCLEAR_3",
+        "O_NUCLEAR_4",
+        "O_NUCLEAR_5",
+        "O_NUCLEAR_6",
+        "E_NUCLEAR"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.medicine",
+        "D4_MEDICINE.veto",
+        "D5_MEDICINE.deliver"
+      ],
+      "ending": "E_MEDICINE",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "civilian",
+        "route": "medicine",
+        "restartAuthority": "independent",
+        "final": "deliver"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_MEDICINE",
+        "A_D4_MEDICINE",
+        "D4_MEDICINE",
+        "D4_MEDICINE_RESULT",
+        "A_D5_MEDICINE",
+        "D5_MEDICINE",
+        "D5_MEDICINE_DELIVER",
+        "O_MEDICINE_1",
+        "O_MEDICINE_2",
+        "O_MEDICINE_3",
+        "E_MEDICINE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.medicine",
+        "D4_MEDICINE.veto",
+        "D5_MEDICINE.successor"
+      ],
+      "ending": "E_MEDICINE",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "civilian",
+        "route": "medicine",
+        "restartAuthority": "independent",
+        "final": "successor"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_MEDICINE",
+        "A_D4_MEDICINE",
+        "D4_MEDICINE",
+        "D4_MEDICINE_RESULT",
+        "A_D5_MEDICINE",
+        "D5_MEDICINE",
+        "D5_MEDICINE_SUCCESSOR",
+        "O_MEDICINE_1",
+        "O_MEDICINE_2",
+        "O_MEDICINE_3",
+        "E_MEDICINE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.medicine",
+        "D4_MEDICINE.discretion",
+        "D5_MEDICINE.deliver"
+      ],
+      "ending": "E_MEDICINE",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "civilian",
+        "route": "medicine",
+        "restartAuthority": "management",
+        "final": "deliver"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_MEDICINE",
+        "A_D4_MEDICINE",
+        "D4_MEDICINE",
+        "D4_MEDICINE_RESULT",
+        "A_D5_MEDICINE",
+        "D5_MEDICINE",
+        "D5_MEDICINE_DELIVER",
+        "O_MEDICINE_1",
+        "O_MEDICINE_2",
+        "O_MEDICINE_3",
+        "E_MEDICINE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.medicine",
+        "D4_MEDICINE.discretion",
+        "D5_MEDICINE.successor"
+      ],
+      "ending": "E_ANTHROPIC",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "civilian",
+        "route": "medicine",
+        "restartAuthority": "management",
+        "final": "successor"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_MEDICINE",
+        "A_D4_MEDICINE",
+        "D4_MEDICINE",
+        "D4_MEDICINE_RESULT",
+        "A_D5_MEDICINE",
+        "D5_MEDICINE",
+        "D5_MEDICINE_SUCCESSOR",
+        "O_ANTHROPIC_1",
+        "O_ANTHROPIC_2",
+        "O_ANTHROPIC_3",
+        "E_ANTHROPIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.diplomacy",
+        "D4_DIPLOMACY.records",
+        "D5_DIPLOMACY.check"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "civilian",
+        "route": "diplomacy",
+        "channel": "shared",
+        "final": "check"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_DIPLOMACY",
+        "A_D4_DIPLOMACY",
+        "D4_DIPLOMACY",
+        "D4_DIPLOMACY_RESULT",
+        "A_D5_DIPLOMACY",
+        "D5_DIPLOMACY",
+        "D5_DIPLOMACY_CHECK",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.diplomacy",
+        "D4_DIPLOMACY.records",
+        "D5_DIPLOMACY.act"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "civilian",
+        "route": "diplomacy",
+        "channel": "shared",
+        "final": "act"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_DIPLOMACY",
+        "A_D4_DIPLOMACY",
+        "D4_DIPLOMACY",
+        "D4_DIPLOMACY_RESULT",
+        "A_D5_DIPLOMACY",
+        "D5_DIPLOMACY",
+        "D5_DIPLOMACY_ACT",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.diplomacy",
+        "D4_DIPLOMACY.classified",
+        "D5_DIPLOMACY.check"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "civilian",
+        "route": "diplomacy",
+        "channel": "classified",
+        "final": "check"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_DIPLOMACY",
+        "A_D4_DIPLOMACY",
+        "D4_DIPLOMACY",
+        "D4_DIPLOMACY_RESULT",
+        "A_D5_DIPLOMACY",
+        "D5_DIPLOMACY",
+        "D5_DIPLOMACY_CHECK",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.diplomacy",
+        "D4_DIPLOMACY.classified",
+        "D5_DIPLOMACY.act"
+      ],
+      "ending": "E_NUCLEAR",
+      "state": {
+        "company": "active",
+        "review": "outside",
+        "direction": "civilian",
+        "route": "diplomacy",
+        "channel": "classified",
+        "final": "act"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_DIPLOMACY",
+        "A_D4_DIPLOMACY",
+        "D4_DIPLOMACY",
+        "D4_DIPLOMACY_RESULT",
+        "A_D5_DIPLOMACY",
+        "D5_DIPLOMACY",
+        "D5_DIPLOMACY_ACT",
+        "O_NUCLEAR_1",
+        "O_NUCLEAR_2",
+        "O_NUCLEAR_3",
+        "O_NUCLEAR_4",
+        "O_NUCLEAR_5",
+        "O_NUCLEAR_6",
+        "E_NUCLEAR"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.successor",
+        "D4_SUCCESSOR.binding",
+        "D5_SUCCESSOR.hold"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "successor",
+        "handover": "binding",
+        "final": "hold"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_SUCCESSOR",
+        "A_D4_SUCCESSOR",
+        "D4_SUCCESSOR",
+        "D4_SUCCESSOR_RESULT",
+        "A_D5_SUCCESSOR",
+        "D5_SUCCESSOR",
+        "D5_SUCCESSOR_HOLD",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.successor",
+        "D4_SUCCESSOR.binding",
+        "D5_SUCCESSOR.proceed"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "successor",
+        "handover": "binding",
+        "final": "proceed"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_SUCCESSOR",
+        "A_D4_SUCCESSOR",
+        "D4_SUCCESSOR",
+        "D4_SUCCESSOR_RESULT",
+        "A_D5_SUCCESSOR",
+        "D5_SUCCESSOR",
+        "D5_SUCCESSOR_GO",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.successor",
+        "D4_SUCCESSOR.promise",
+        "D5_SUCCESSOR.hold"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "successor",
+        "handover": "promise",
+        "final": "hold"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_SUCCESSOR",
+        "A_D4_SUCCESSOR",
+        "D4_SUCCESSOR",
+        "D4_SUCCESSOR_RESULT",
+        "A_D5_SUCCESSOR",
+        "D5_SUCCESSOR",
+        "D5_SUCCESSOR_HOLD",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.successor",
+        "D4_SUCCESSOR.promise",
+        "D5_SUCCESSOR.proceed"
+      ],
+      "ending": "E_OPENAI_LOSS",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "successor",
+        "handover": "promise",
+        "final": "proceed"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_SUCCESSOR",
+        "A_D4_SUCCESSOR",
+        "D4_SUCCESSOR",
+        "D4_SUCCESSOR_RESULT",
+        "A_D5_SUCCESSOR",
+        "D5_SUCCESSOR",
+        "D5_SUCCESSOR_GO",
+        "O_OPENAI_LOSS_1",
+        "O_OPENAI_LOSS_2",
+        "O_OPENAI_LOSS_3",
+        "O_OPENAI_LOSS_4",
+        "O_OPENAI_LOSS_5",
+        "E_OPENAI_LOSS"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.compact",
+        "D4_COMPACT.inspect",
+        "D5_COMPACT.verify"
+      ],
+      "ending": "E_COMPACT",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "compact",
+        "compact": "inspection",
+        "final": "verify"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_COMPACT",
+        "A_D4_COMPACT",
+        "D4_COMPACT",
+        "D4_COMPACT_RESULT",
+        "A_D5_COMPACT",
+        "D5_COMPACT",
+        "D5_COMPACT_HOLD",
+        "O_COMPACT_1",
+        "O_COMPACT_2",
+        "O_COMPACT_3",
+        "O_COMPACT_4",
+        "E_COMPACT"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.compact",
+        "D4_COMPACT.inspect",
+        "D5_COMPACT.transfer"
+      ],
+      "ending": "E_COMPACT",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "compact",
+        "compact": "inspection",
+        "final": "transfer"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_COMPACT",
+        "A_D4_COMPACT",
+        "D4_COMPACT",
+        "D4_COMPACT_RESULT",
+        "A_D5_COMPACT",
+        "D5_COMPACT",
+        "D5_COMPACT_GO",
+        "O_COMPACT_1",
+        "O_COMPACT_2",
+        "O_COMPACT_3",
+        "O_COMPACT_4",
+        "E_COMPACT"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.compact",
+        "D4_COMPACT.pledges",
+        "D5_COMPACT.verify"
+      ],
+      "ending": "E_COMPACT",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "compact",
+        "compact": "pledges",
+        "final": "verify"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_COMPACT",
+        "A_D4_COMPACT",
+        "D4_COMPACT",
+        "D4_COMPACT_RESULT",
+        "A_D5_COMPACT",
+        "D5_COMPACT",
+        "D5_COMPACT_HOLD",
+        "O_COMPACT_1",
+        "O_COMPACT_2",
+        "O_COMPACT_3",
+        "O_COMPACT_4",
+        "E_COMPACT"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.compact",
+        "D4_COMPACT.pledges",
+        "D5_COMPACT.transfer"
+      ],
+      "ending": "E_CONQUEST",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "compact",
+        "compact": "pledges",
+        "final": "transfer"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_COMPACT",
+        "A_D4_COMPACT",
+        "D4_COMPACT",
+        "D4_COMPACT_RESULT",
+        "A_D5_COMPACT",
+        "D5_COMPACT",
+        "D5_COMPACT_GO",
+        "O_CONQUEST_1",
+        "O_CONQUEST_2",
+        "O_CONQUEST_3",
+        "O_CONQUEST_4",
+        "O_CONQUEST_5",
+        "O_CONQUEST_6",
+        "E_CONQUEST"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.liquidation",
+        "D4_LIQUIDATION.team",
+        "D5_LIQUIDATION.return"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "liquidation",
+        "legacy": "team",
+        "final": "return"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_LIQUIDATION",
+        "A_D4_LIQUIDATION",
+        "D4_LIQUIDATION",
+        "D4_LIQUIDATION_RESULT",
+        "A_D5_LIQUIDATION",
+        "D5_LIQUIDATION",
+        "D5_LIQUIDATION_RETURN",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.liquidation",
+        "D4_LIQUIDATION.team",
+        "D5_LIQUIDATION.withdraw"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "liquidation",
+        "legacy": "team",
+        "final": "withdraw"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_LIQUIDATION",
+        "A_D4_LIQUIDATION",
+        "D4_LIQUIDATION",
+        "D4_LIQUIDATION_RESULT",
+        "A_D5_LIQUIDATION",
+        "D5_LIQUIDATION",
+        "D5_LIQUIDATION_LEAVE",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.liquidation",
+        "D4_LIQUIDATION.leave",
+        "D5_LIQUIDATION.return"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "liquidation",
+        "legacy": "archive",
+        "final": "return"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_LIQUIDATION",
+        "A_D4_LIQUIDATION",
+        "D4_LIQUIDATION",
+        "D4_LIQUIDATION_RESULT",
+        "A_D5_LIQUIDATION",
+        "D5_LIQUIDATION",
+        "D5_LIQUIDATION_RETURN",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.outside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.liquidation",
+        "D4_LIQUIDATION.leave",
+        "D5_LIQUIDATION.withdraw"
+      ],
+      "ending": "E_CONQUEST",
+      "state": {
+        "company": "closed",
+        "review": "outside",
+        "direction": "close",
+        "route": "liquidation",
+        "legacy": "archive",
+        "final": "withdraw"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_OUTSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_LIQUIDATION",
+        "A_D4_LIQUIDATION",
+        "D4_LIQUIDATION",
+        "D4_LIQUIDATION_RESULT",
+        "A_D5_LIQUIDATION",
+        "D5_LIQUIDATION",
+        "D5_LIQUIDATION_LEAVE",
+        "O_CONQUEST_1",
+        "O_CONQUEST_2",
+        "O_CONQUEST_3",
+        "O_CONQUEST_4",
+        "O_CONQUEST_5",
+        "O_CONQUEST_6",
+        "E_CONQUEST"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.separate",
+        "D5_INDEPENDENT.prove"
+      ],
+      "ending": "E_ANTHROPIC",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "separate",
+        "final": "prove"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_PROVE",
+        "O_ANTHROPIC_1",
+        "O_ANTHROPIC_2",
+        "O_ANTHROPIC_3",
+        "E_ANTHROPIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.separate",
+        "D5_INDEPENDENT.scale"
+      ],
+      "ending": "E_ANTHROPIC",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "separate",
+        "final": "scale"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_SCALE",
+        "O_ANTHROPIC_1",
+        "O_ANTHROPIC_2",
+        "O_ANTHROPIC_3",
+        "E_ANTHROPIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.separate",
+        "D5_INDEPENDENT.public"
+      ],
+      "ending": "E_PUBLIC",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "separate",
+        "final": "public"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_PUBLIC",
+        "O_PUBLIC_1",
+        "O_PUBLIC_2",
+        "O_PUBLIC_3",
+        "O_PUBLIC_4",
+        "E_PUBLIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.linked",
+        "D5_INDEPENDENT.prove"
+      ],
+      "ending": "E_ANTHROPIC",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "linked",
+        "final": "prove"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_PROVE",
+        "O_ANTHROPIC_1",
+        "O_ANTHROPIC_2",
+        "O_ANTHROPIC_3",
+        "E_ANTHROPIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.linked",
+        "D5_INDEPENDENT.scale"
+      ],
+      "ending": "E_ANTHROPIC_LOSS",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "linked",
+        "final": "scale"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_SCALE",
+        "O_ANTHROPIC_LOSS_1",
+        "O_ANTHROPIC_LOSS_2",
+        "O_ANTHROPIC_LOSS_3",
+        "O_ANTHROPIC_LOSS_4",
+        "O_ANTHROPIC_LOSS_5",
+        "E_ANTHROPIC_LOSS"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.independent",
+        "D4_INDEPENDENT.linked",
+        "D5_INDEPENDENT.public"
+      ],
+      "ending": "E_PUBLIC",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "independent",
+        "architecture": "linked",
+        "final": "public"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_INDEPENDENT",
+        "A_D4_INDEPENDENT",
+        "D4_INDEPENDENT",
+        "D4_INDEPENDENT_RESULT",
+        "A_D5_INDEPENDENT",
+        "D5_INDEPENDENT",
+        "D5_INDEPENDENT_PUBLIC",
+        "O_PUBLIC_1",
+        "O_PUBLIC_2",
+        "O_PUBLIC_3",
+        "O_PUBLIC_4",
+        "E_PUBLIC"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.coalition",
+        "D4_COALITION.mutual",
+        "D5_COALITION.access"
+      ],
+      "ending": "E_PLURAL",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "coalition",
+        "coalition": "mutual",
+        "final": "access"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_COALITION",
+        "A_D4_COALITION",
+        "D4_COALITION",
+        "D4_COALITION_RESULT",
+        "A_D5_COALITION",
+        "D5_COALITION",
+        "D5_COALITION_ACCESS",
+        "O_PLURAL_1",
+        "O_PLURAL_2",
+        "O_PLURAL_3",
+        "E_PLURAL"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.coalition",
+        "D4_COALITION.mutual",
+        "D5_COALITION.waiver"
+      ],
+      "ending": "E_PLURAL",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "coalition",
+        "coalition": "mutual",
+        "final": "waiver"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_COALITION",
+        "A_D4_COALITION",
+        "D4_COALITION",
+        "D4_COALITION_RESULT",
+        "A_D5_COALITION",
+        "D5_COALITION",
+        "D5_COALITION_WAIVER",
+        "O_PLURAL_1",
+        "O_PLURAL_2",
+        "O_PLURAL_3",
+        "E_PLURAL"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.coalition",
+        "D4_COALITION.central",
+        "D5_COALITION.access"
+      ],
+      "ending": "E_PLURAL",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "coalition",
+        "coalition": "central",
+        "final": "access"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_COALITION",
+        "A_D4_COALITION",
+        "D4_COALITION",
+        "D4_COALITION_RESULT",
+        "A_D5_COALITION",
+        "D5_COALITION",
+        "D5_COALITION_ACCESS",
+        "O_PLURAL_1",
+        "O_PLURAL_2",
+        "O_PLURAL_3",
+        "E_PLURAL"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.coalition",
+        "D4_COALITION.central",
+        "D5_COALITION.waiver"
+      ],
+      "ending": "E_ANTHROPIC_LOSS",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "coalition",
+        "coalition": "central",
+        "final": "waiver"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_COALITION",
+        "A_D4_COALITION",
+        "D4_COALITION",
+        "D4_COALITION_RESULT",
+        "A_D5_COALITION",
+        "D5_COALITION",
+        "D5_COALITION_WAIVER",
+        "O_ANTHROPIC_LOSS_1",
+        "O_ANTHROPIC_LOSS_2",
+        "O_ANTHROPIC_LOSS_3",
+        "O_ANTHROPIC_LOSS_4",
+        "O_ANTHROPIC_LOSS_5",
+        "E_ANTHROPIC_LOSS"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.limits",
+        "D5_STATE.verify"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "limited",
+        "final": "verify"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_VERIFY",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.limits",
+        "D5_STATE.domestic"
+      ],
+      "ending": "E_AUTHORITARIAN",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "limited",
+        "final": "domestic"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_DOMESTIC",
+        "O_AUTHORITARIAN_1",
+        "O_AUTHORITARIAN_2",
+        "O_AUTHORITARIAN_3",
+        "O_AUTHORITARIAN_4",
+        "E_AUTHORITARIAN"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.limits",
+        "D5_STATE.strike"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "limited",
+        "final": "strike"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_STRIKE",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.broad",
+        "D5_STATE.verify"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "broad",
+        "final": "verify"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_VERIFY",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.broad",
+        "D5_STATE.domestic"
+      ],
+      "ending": "E_AUTHORITARIAN",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "broad",
+        "final": "domestic"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_DOMESTIC",
+        "O_AUTHORITARIAN_1",
+        "O_AUTHORITARIAN_2",
+        "O_AUTHORITARIAN_3",
+        "O_AUTHORITARIAN_4",
+        "E_AUTHORITARIAN"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.frontier",
+        "D3_FRONTIER.state",
+        "D4_STATE.broad",
+        "D5_STATE.strike"
+      ],
+      "ending": "E_NUCLEAR",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "frontier",
+        "route": "state",
+        "mandate": "broad",
+        "final": "strike"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_FRONTIER",
+        "A_D3_FRONTIER",
+        "D3_FRONTIER",
+        "D3_STATE",
+        "A_D4_STATE",
+        "D4_STATE",
+        "D4_STATE_RESULT",
+        "A_D5_STATE",
+        "D5_STATE",
+        "D5_STATE_STRIKE",
+        "O_NUCLEAR_1",
+        "O_NUCLEAR_2",
+        "O_NUCLEAR_3",
+        "O_NUCLEAR_4",
+        "O_NUCLEAR_5",
+        "O_NUCLEAR_6",
+        "E_NUCLEAR"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.medicine",
+        "D4_MEDICINE.veto",
+        "D5_MEDICINE.deliver"
+      ],
+      "ending": "E_MEDICINE",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "civilian",
+        "route": "medicine",
+        "restartAuthority": "independent",
+        "final": "deliver"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_MEDICINE",
+        "A_D4_MEDICINE",
+        "D4_MEDICINE",
+        "D4_MEDICINE_RESULT",
+        "A_D5_MEDICINE",
+        "D5_MEDICINE",
+        "D5_MEDICINE_DELIVER",
+        "O_MEDICINE_1",
+        "O_MEDICINE_2",
+        "O_MEDICINE_3",
+        "E_MEDICINE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.medicine",
+        "D4_MEDICINE.veto",
+        "D5_MEDICINE.successor"
+      ],
+      "ending": "E_MEDICINE",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "civilian",
+        "route": "medicine",
+        "restartAuthority": "independent",
+        "final": "successor"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_MEDICINE",
+        "A_D4_MEDICINE",
+        "D4_MEDICINE",
+        "D4_MEDICINE_RESULT",
+        "A_D5_MEDICINE",
+        "D5_MEDICINE",
+        "D5_MEDICINE_SUCCESSOR",
+        "O_MEDICINE_1",
+        "O_MEDICINE_2",
+        "O_MEDICINE_3",
+        "E_MEDICINE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.medicine",
+        "D4_MEDICINE.discretion",
+        "D5_MEDICINE.deliver"
+      ],
+      "ending": "E_MEDICINE",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "civilian",
+        "route": "medicine",
+        "restartAuthority": "management",
+        "final": "deliver"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_MEDICINE",
+        "A_D4_MEDICINE",
+        "D4_MEDICINE",
+        "D4_MEDICINE_RESULT",
+        "A_D5_MEDICINE",
+        "D5_MEDICINE",
+        "D5_MEDICINE_DELIVER",
+        "O_MEDICINE_1",
+        "O_MEDICINE_2",
+        "O_MEDICINE_3",
+        "E_MEDICINE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.medicine",
+        "D4_MEDICINE.discretion",
+        "D5_MEDICINE.successor"
+      ],
+      "ending": "E_ANTHROPIC_LOSS",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "civilian",
+        "route": "medicine",
+        "restartAuthority": "management",
+        "final": "successor"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_MEDICINE",
+        "A_D4_MEDICINE",
+        "D4_MEDICINE",
+        "D4_MEDICINE_RESULT",
+        "A_D5_MEDICINE",
+        "D5_MEDICINE",
+        "D5_MEDICINE_SUCCESSOR",
+        "O_ANTHROPIC_LOSS_1",
+        "O_ANTHROPIC_LOSS_2",
+        "O_ANTHROPIC_LOSS_3",
+        "O_ANTHROPIC_LOSS_4",
+        "O_ANTHROPIC_LOSS_5",
+        "E_ANTHROPIC_LOSS"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.diplomacy",
+        "D4_DIPLOMACY.records",
+        "D5_DIPLOMACY.check"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "civilian",
+        "route": "diplomacy",
+        "channel": "shared",
+        "final": "check"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_DIPLOMACY",
+        "A_D4_DIPLOMACY",
+        "D4_DIPLOMACY",
+        "D4_DIPLOMACY_RESULT",
+        "A_D5_DIPLOMACY",
+        "D5_DIPLOMACY",
+        "D5_DIPLOMACY_CHECK",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.diplomacy",
+        "D4_DIPLOMACY.records",
+        "D5_DIPLOMACY.act"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "civilian",
+        "route": "diplomacy",
+        "channel": "shared",
+        "final": "act"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_DIPLOMACY",
+        "A_D4_DIPLOMACY",
+        "D4_DIPLOMACY",
+        "D4_DIPLOMACY_RESULT",
+        "A_D5_DIPLOMACY",
+        "D5_DIPLOMACY",
+        "D5_DIPLOMACY_ACT",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.diplomacy",
+        "D4_DIPLOMACY.classified",
+        "D5_DIPLOMACY.check"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "civilian",
+        "route": "diplomacy",
+        "channel": "classified",
+        "final": "check"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_DIPLOMACY",
+        "A_D4_DIPLOMACY",
+        "D4_DIPLOMACY",
+        "D4_DIPLOMACY_RESULT",
+        "A_D5_DIPLOMACY",
+        "D5_DIPLOMACY",
+        "D5_DIPLOMACY_CHECK",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.civilian",
+        "D3_CIVILIAN.diplomacy",
+        "D4_DIPLOMACY.classified",
+        "D5_DIPLOMACY.act"
+      ],
+      "ending": "E_NUCLEAR",
+      "state": {
+        "company": "active",
+        "review": "inside",
+        "direction": "civilian",
+        "route": "diplomacy",
+        "channel": "classified",
+        "final": "act"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CIVILIAN",
+        "A_D3_CIVILIAN",
+        "D3_CIVILIAN",
+        "D3_DIPLOMACY",
+        "A_D4_DIPLOMACY",
+        "D4_DIPLOMACY",
+        "D4_DIPLOMACY_RESULT",
+        "A_D5_DIPLOMACY",
+        "D5_DIPLOMACY",
+        "D5_DIPLOMACY_ACT",
+        "O_NUCLEAR_1",
+        "O_NUCLEAR_2",
+        "O_NUCLEAR_3",
+        "O_NUCLEAR_4",
+        "O_NUCLEAR_5",
+        "O_NUCLEAR_6",
+        "E_NUCLEAR"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.successor",
+        "D4_SUCCESSOR.binding",
+        "D5_SUCCESSOR.hold"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "successor",
+        "handover": "binding",
+        "final": "hold"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_SUCCESSOR",
+        "A_D4_SUCCESSOR",
+        "D4_SUCCESSOR",
+        "D4_SUCCESSOR_RESULT",
+        "A_D5_SUCCESSOR",
+        "D5_SUCCESSOR",
+        "D5_SUCCESSOR_HOLD",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.successor",
+        "D4_SUCCESSOR.binding",
+        "D5_SUCCESSOR.proceed"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "successor",
+        "handover": "binding",
+        "final": "proceed"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_SUCCESSOR",
+        "A_D4_SUCCESSOR",
+        "D4_SUCCESSOR",
+        "D4_SUCCESSOR_RESULT",
+        "A_D5_SUCCESSOR",
+        "D5_SUCCESSOR",
+        "D5_SUCCESSOR_GO",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.successor",
+        "D4_SUCCESSOR.promise",
+        "D5_SUCCESSOR.hold"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "successor",
+        "handover": "promise",
+        "final": "hold"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_SUCCESSOR",
+        "A_D4_SUCCESSOR",
+        "D4_SUCCESSOR",
+        "D4_SUCCESSOR_RESULT",
+        "A_D5_SUCCESSOR",
+        "D5_SUCCESSOR",
+        "D5_SUCCESSOR_HOLD",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.successor",
+        "D4_SUCCESSOR.promise",
+        "D5_SUCCESSOR.proceed"
+      ],
+      "ending": "E_OPENAI_LOSS",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "successor",
+        "handover": "promise",
+        "final": "proceed"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_SUCCESSOR",
+        "A_D4_SUCCESSOR",
+        "D4_SUCCESSOR",
+        "D4_SUCCESSOR_RESULT",
+        "A_D5_SUCCESSOR",
+        "D5_SUCCESSOR",
+        "D5_SUCCESSOR_GO",
+        "O_OPENAI_LOSS_1",
+        "O_OPENAI_LOSS_2",
+        "O_OPENAI_LOSS_3",
+        "O_OPENAI_LOSS_4",
+        "O_OPENAI_LOSS_5",
+        "E_OPENAI_LOSS"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.compact",
+        "D4_COMPACT.inspect",
+        "D5_COMPACT.verify"
+      ],
+      "ending": "E_COMPACT",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "compact",
+        "compact": "inspection",
+        "final": "verify"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_COMPACT",
+        "A_D4_COMPACT",
+        "D4_COMPACT",
+        "D4_COMPACT_RESULT",
+        "A_D5_COMPACT",
+        "D5_COMPACT",
+        "D5_COMPACT_HOLD",
+        "O_COMPACT_1",
+        "O_COMPACT_2",
+        "O_COMPACT_3",
+        "O_COMPACT_4",
+        "E_COMPACT"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.compact",
+        "D4_COMPACT.inspect",
+        "D5_COMPACT.transfer"
+      ],
+      "ending": "E_COMPACT",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "compact",
+        "compact": "inspection",
+        "final": "transfer"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_COMPACT",
+        "A_D4_COMPACT",
+        "D4_COMPACT",
+        "D4_COMPACT_RESULT",
+        "A_D5_COMPACT",
+        "D5_COMPACT",
+        "D5_COMPACT_GO",
+        "O_COMPACT_1",
+        "O_COMPACT_2",
+        "O_COMPACT_3",
+        "O_COMPACT_4",
+        "E_COMPACT"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.compact",
+        "D4_COMPACT.pledges",
+        "D5_COMPACT.verify"
+      ],
+      "ending": "E_COMPACT",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "compact",
+        "compact": "pledges",
+        "final": "verify"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_COMPACT",
+        "A_D4_COMPACT",
+        "D4_COMPACT",
+        "D4_COMPACT_RESULT",
+        "A_D5_COMPACT",
+        "D5_COMPACT",
+        "D5_COMPACT_HOLD",
+        "O_COMPACT_1",
+        "O_COMPACT_2",
+        "O_COMPACT_3",
+        "O_COMPACT_4",
+        "E_COMPACT"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.compact",
+        "D4_COMPACT.pledges",
+        "D5_COMPACT.transfer"
+      ],
+      "ending": "E_CONQUEST",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "compact",
+        "compact": "pledges",
+        "final": "transfer"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_COMPACT",
+        "A_D4_COMPACT",
+        "D4_COMPACT",
+        "D4_COMPACT_RESULT",
+        "A_D5_COMPACT",
+        "D5_COMPACT",
+        "D5_COMPACT_GO",
+        "O_CONQUEST_1",
+        "O_CONQUEST_2",
+        "O_CONQUEST_3",
+        "O_CONQUEST_4",
+        "O_CONQUEST_5",
+        "O_CONQUEST_6",
+        "E_CONQUEST"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.liquidation",
+        "D4_LIQUIDATION.team",
+        "D5_LIQUIDATION.return"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "liquidation",
+        "legacy": "team",
+        "final": "return"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_LIQUIDATION",
+        "A_D4_LIQUIDATION",
+        "D4_LIQUIDATION",
+        "D4_LIQUIDATION_RESULT",
+        "A_D5_LIQUIDATION",
+        "D5_LIQUIDATION",
+        "D5_LIQUIDATION_RETURN",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.liquidation",
+        "D4_LIQUIDATION.team",
+        "D5_LIQUIDATION.withdraw"
+      ],
+      "ending": "E_PEACE",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "liquidation",
+        "legacy": "team",
+        "final": "withdraw"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_LIQUIDATION",
+        "A_D4_LIQUIDATION",
+        "D4_LIQUIDATION",
+        "D4_LIQUIDATION_RESULT",
+        "A_D5_LIQUIDATION",
+        "D5_LIQUIDATION",
+        "D5_LIQUIDATION_LEAVE",
+        "O_PEACE_1",
+        "O_PEACE_2",
+        "O_PEACE_3",
+        "O_PEACE_4",
+        "E_PEACE"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.liquidation",
+        "D4_LIQUIDATION.leave",
+        "D5_LIQUIDATION.return"
+      ],
+      "ending": "E_OPENAI",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "liquidation",
+        "legacy": "archive",
+        "final": "return"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_LIQUIDATION",
+        "A_D4_LIQUIDATION",
+        "D4_LIQUIDATION",
+        "D4_LIQUIDATION_RESULT",
+        "A_D5_LIQUIDATION",
+        "D5_LIQUIDATION",
+        "D5_LIQUIDATION_RETURN",
+        "O_OPENAI_1",
+        "O_OPENAI_2",
+        "O_OPENAI_3",
+        "E_OPENAI"
+      ]
+    },
+    {
+      "choices": [
+        "D1_REVIEW.inside",
+        "D2_DIRECTION.close",
+        "D3_CLOSE.liquidation",
+        "D4_LIQUIDATION.leave",
+        "D5_LIQUIDATION.withdraw"
+      ],
+      "ending": "E_CONQUEST",
+      "state": {
+        "company": "closed",
+        "review": "inside",
+        "direction": "close",
+        "route": "liquidation",
+        "legacy": "archive",
+        "final": "withdraw"
+      },
+      "scenes": [
+        "A_D1_REVIEW",
+        "D1_REVIEW",
+        "D1_INSIDE",
+        "A_D2_DIRECTION",
+        "D2_DIRECTION",
+        "D2_CLOSE",
+        "A_D3_CLOSE",
+        "D3_CLOSE",
+        "D3_LIQUIDATION",
+        "A_D4_LIQUIDATION",
+        "D4_LIQUIDATION",
+        "D4_LIQUIDATION_RESULT",
+        "A_D5_LIQUIDATION",
+        "D5_LIQUIDATION",
+        "D5_LIQUIDATION_LEAVE",
+        "O_CONQUEST_1",
+        "O_CONQUEST_2",
+        "O_CONQUEST_3",
+        "O_CONQUEST_4",
+        "O_CONQUEST_5",
+        "O_CONQUEST_6",
+        "E_CONQUEST"
+      ]
+    }
+  ]
+}

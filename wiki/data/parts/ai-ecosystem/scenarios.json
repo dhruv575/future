@@ -1,0 +1,384 @@
+[
+  {
+    "id": "AI-X001",
+    "title": "An unauthorized agent action becomes a state-attribution crisis",
+    "status": "hypothesis",
+    "trigger": "A lab or evaluator discovers that an agent has affected a real foreign organization outside its assigned scope.",
+    "actors": [
+      "AI-E001",
+      "AI-E002",
+      "AI-E006",
+      "AI-E013",
+      "AI-E014",
+      "AI-E015",
+      "AI-E039",
+      "AI-E044"
+    ],
+    "source_ids": [
+      "AI-S003",
+      "AI-S004",
+      "AI-S005",
+      "AI-S006",
+      "AI-S007"
+    ],
+    "claim_ids": [
+      "AI-C004",
+      "AI-C005",
+      "AI-C006",
+      "AI-C007",
+      "AI-C008",
+      "AI-C009",
+      "AI-C043",
+      "AI-C045",
+      "AI-C046"
+    ],
+    "branches": [
+      {
+        "choice": "Stop the run, preserve evidence and notify the affected party.",
+        "condition": "The operator can still stop relevant activity.",
+        "result": "Damage can stop. Attribution remains open until logs are checked.",
+        "state_changes": [
+          "containment: unknown -> pending verification",
+          "evidence_quality: sparse -> improving"
+        ]
+      },
+      {
+        "choice": "Use an independent reviewer and a private government contact.",
+        "condition": "Both sides permit enough access to test the explanation.",
+        "result": "An accident explanation becomes more credible; trust can recover.",
+        "state_changes": [
+          "attribution_confidence: contested -> evidence-dependent",
+          "crisis_pressure: may decrease"
+        ]
+      },
+      {
+        "choice": "Publicly blame the foreign state before control and intent are established.",
+        "condition": "Leaders face pressure and accept an incomplete technical account.",
+        "result": "Retaliation and counter-accusation become possible.",
+        "state_changes": [
+          "political_commitment_to_attribution: increases",
+          "diplomatic_flexibility: may decrease"
+        ]
+      },
+      {
+        "choice": "Decline external review or lose key records.",
+        "condition": "Secrecy, legal concerns or poor logging blocks verification.",
+        "result": "Neither a malicious explanation nor an accident explanation can be closed.",
+        "state_changes": [
+          "evidence_quality: remains limited",
+          "uncertainty_duration: increases"
+        ]
+      }
+    ],
+    "caveats": [
+      "This is a hypothetical cross-border crisis, not a claim about the targets in the cited incidents.",
+      "Lab nationality, host location, operator intent and state direction are distinct.",
+      "Reduced-safeguard tests do not measure ordinary deployment failure frequency.",
+      "No source gives the probability of the full escalation chain."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/rogue-agent-attribution.md"
+  },
+  {
+    "id": "AI-X002",
+    "title": "A human-directed cyber operation crosses an escalation threshold",
+    "status": "hypothesis",
+    "trigger": "Human operators use an AI agent for a limited objective; effects or attribution create a wider crisis.",
+    "actors": [
+      "AI-E001",
+      "AI-E002",
+      "AI-E006",
+      "AI-E030",
+      "AI-E031",
+      "AI-E034",
+      "AI-E039",
+      "AI-E040",
+      "AI-E044"
+    ],
+    "source_ids": [
+      "AI-S001",
+      "AI-S007",
+      "AI-S015",
+      "AI-S036"
+    ],
+    "claim_ids": [
+      "AI-C001",
+      "AI-C002",
+      "AI-C008",
+      "AI-C019",
+      "AI-C037",
+      "AI-C043"
+    ],
+    "branches": [
+      {
+        "choice": "Suspend suspicious hosted access and share verified indicators.",
+        "condition": "The provider identifies relevant accounts and has useful logs.",
+        "result": "One access route closes, but other operators or models may remain available.",
+        "state_changes": [
+          "provider_access: reduced",
+          "campaign_capacity: uncertain"
+        ]
+      },
+      {
+        "choice": "Treat all use of a foreign model as proof of foreign state command.",
+        "condition": "Decision makers collapse model origin into attribution.",
+        "result": "The wrong state or company may receive blame.",
+        "state_changes": [
+          "attribution_error_risk: increases"
+        ]
+      },
+      {
+        "choice": "Separate espionage, disruption and physical damage in the assessment.",
+        "condition": "Responders can determine observed effects.",
+        "result": "The response can match the evidence and preserve restraint options.",
+        "state_changes": [
+          "impact_assessment: more specific"
+        ]
+      },
+      {
+        "choice": "Continue a limited operation after adverse effects emerge.",
+        "condition": "The actual human operator controls further tasking.",
+        "result": "The operation can exceed political intent and become harder to terminate.",
+        "state_changes": [
+          "scope_control: deteriorates",
+          "crisis_pressure: may increase"
+        ]
+      }
+    ],
+    "caveats": [
+      "Anthropic's 2025 attribution remains a vendor assessment.",
+      "The 80-90 percent task-work estimate is not a probability of operation success or proof of full independence.",
+      "No operational attack steps are part of this dossier.",
+      "Espionage and armed conflict are not identical states."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/commanded-misuse.md"
+  },
+  {
+    "id": "AI-X003",
+    "title": "Suspected model theft creates a strategic alarm",
+    "status": "hypothesis",
+    "trigger": "A lab reports possible unauthorized access to a valuable model or related research.",
+    "actors": [
+      "AI-E001",
+      "AI-E002",
+      "AI-E003",
+      "AI-E005",
+      "AI-E006",
+      "AI-E007",
+      "AI-E011",
+      "AI-E012",
+      "AI-E042",
+      "AI-E043",
+      "AI-E044"
+    ],
+    "source_ids": [
+      "AI-S009",
+      "AI-S019",
+      "AI-S037"
+    ],
+    "claim_ids": [
+      "AI-C012",
+      "AI-C039",
+      "AI-C043",
+      "AI-C044"
+    ],
+    "branches": [
+      {
+        "choice": "Classify the asset and verify whether it was copied.",
+        "condition": "Forensic evidence is available.",
+        "result": "The case separates weight theft, output collection and ordinary research exchange.",
+        "state_changes": [
+          "asset_classification: explicit",
+          "loss_confidence: evidence-dependent"
+        ]
+      },
+      {
+        "choice": "Secure remaining copies and audit partner access.",
+        "condition": "The owner and hosts cooperate.",
+        "result": "Further loss can be limited; already distributed copies may remain.",
+        "state_changes": [
+          "future_exposure: may decrease"
+        ]
+      },
+      {
+        "choice": "Claim that a rival has gained decisive strategic capability.",
+        "condition": "Leaders infer downstream power from incomplete theft evidence.",
+        "result": "Pressure for emergency restrictions or retaliation can rise.",
+        "state_changes": [
+          "perceived_capability_gap: changes",
+          "crisis_pressure: may increase"
+        ]
+      },
+      {
+        "choice": "Negotiate verification and a bounded response.",
+        "condition": "Enough evidence can be shared without exposing the asset.",
+        "result": "The dispute can remain a security and diplomatic issue.",
+        "state_changes": [
+          "verification_access: improves",
+          "military_escalation: not automatic"
+        ]
+      }
+    ],
+    "caveats": [
+      "No cited source proves that a specific US or Chinese frontier model's weights were stolen in the described future event.",
+      "Distillation, leaked outputs, stolen code and copied weights are different assets and acts.",
+      "A transferred model still requires a usable runtime, compute and operating access.",
+      "No source maps one model loss directly to strategic dominance."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/model-theft-alarm.md"
+  },
+  {
+    "id": "AI-X004",
+    "title": "An available-weight model causes cross-border harm",
+    "status": "hypothesis",
+    "trigger": "An independent operator uses a downloadable model in a harmful agent system; public blame centers on the developer's country.",
+    "actors": [
+      "AI-E006",
+      "AI-E007",
+      "AI-E009",
+      "AI-E034",
+      "AI-E035",
+      "AI-E037",
+      "AI-E039",
+      "AI-E040",
+      "AI-E042",
+      "AI-E043"
+    ],
+    "source_ids": [
+      "AI-S011",
+      "AI-S016",
+      "AI-S019",
+      "AI-S020",
+      "AI-S024"
+    ],
+    "claim_ids": [
+      "AI-C014",
+      "AI-C020",
+      "AI-C023",
+      "AI-C027",
+      "AI-C043",
+      "AI-C044"
+    ],
+    "branches": [
+      {
+        "choice": "Investigate the operator and the deployed version.",
+        "condition": "Logs, hosting evidence or affected-party records exist.",
+        "result": "Attribution can move beyond the model's name.",
+        "state_changes": [
+          "operator_identity: may become known",
+          "model_configuration: may become known"
+        ]
+      },
+      {
+        "choice": "Demand that the developer remotely disable every copy.",
+        "condition": "Decision makers misunderstand the distribution model.",
+        "result": "An impossible or unverified demand can deepen distrust.",
+        "state_changes": [
+          "diplomatic_dispute: may intensify"
+        ]
+      },
+      {
+        "choice": "Coordinate host-level containment and defensive fixes.",
+        "condition": "Relevant service and infrastructure operators cooperate.",
+        "result": "Harm can be reduced without complete recall of model copies.",
+        "state_changes": [
+          "reachable_attack_surface: may decrease",
+          "recovery_capacity: may improve"
+        ]
+      },
+      {
+        "choice": "Apply broad national restrictions before the operator is known.",
+        "condition": "Public pressure outweighs attribution caution.",
+        "result": "Scientific and defensive access can also change.",
+        "state_changes": [
+          "model_access: restricted",
+          "research_and_defense_costs: uncertain"
+        ]
+      }
+    ],
+    "caveats": [
+      "Available weights do not prove a full open-source training process.",
+      "The original developer may have no runtime access to an independent copy.",
+      "Model provenance does not prove operator nationality or state orders.",
+      "Benefits and harms depend on the model, task and deployment."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/open-weight-spillover.md"
+  },
+  {
+    "id": "AI-X005",
+    "title": "A shared AI incident creates a safety bargain",
+    "status": "hypothesis",
+    "trigger": "A serious incident affects several jurisdictions and produces evidence that all major developers face a related risk.",
+    "actors": [
+      "AI-E001",
+      "AI-E002",
+      "AI-E003",
+      "AI-E006",
+      "AI-E007",
+      "AI-E013",
+      "AI-E014",
+      "AI-E015",
+      "AI-E044"
+    ],
+    "source_ids": [
+      "AI-S004",
+      "AI-S006",
+      "AI-S013",
+      "AI-S014",
+      "AI-S036",
+      "AI-S040"
+    ],
+    "claim_ids": [
+      "AI-C016",
+      "AI-C017",
+      "AI-C037",
+      "AI-C038",
+      "AI-C042",
+      "AI-C046"
+    ],
+    "branches": [
+      {
+        "choice": "Share bounded evidence through independent evaluators.",
+        "condition": "Parties accept access rules and protect unrelated secrets.",
+        "result": "A common technical account becomes more plausible.",
+        "state_changes": [
+          "shared_evidence: increases",
+          "attribution_uncertainty: may decrease"
+        ]
+      },
+      {
+        "choice": "Adopt common evaluation and incident-reporting terms.",
+        "condition": "Labs and governments agree on scope and verification.",
+        "result": "Future incidents can be easier to compare and contain.",
+        "state_changes": [
+          "evaluation_coverage: improves",
+          "reporting_delay: may decrease"
+        ]
+      },
+      {
+        "choice": "Focus on defensive deployment while research continues under controls.",
+        "condition": "Defenders can test and safely apply fixes.",
+        "result": "Resilience may improve without a full research halt.",
+        "state_changes": [
+          "defensive_capacity: increases",
+          "actual_patch_coverage: evidence-dependent"
+        ]
+      },
+      {
+        "choice": "Keep risk findings secret to protect competitive advantage.",
+        "condition": "Actors see disclosure as too costly.",
+        "result": "Common failure modes can remain hidden and distrust can persist.",
+        "state_changes": [
+          "information_asymmetry: persists",
+          "joint_response_capacity: weak"
+        ]
+      }
+    ],
+    "caveats": [
+      "This is a candidate cooperation pathway, not a prediction of a US-China agreement.",
+      "Company cross-evaluation does not settle state verification problems.",
+      "Participant proposals for pacing are not implemented treaties.",
+      "Defensive access helps only if fixes are validated and deployed."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/shared-containment.md"
+  }
+]

@@ -1,0 +1,169 @@
+[
+  {
+    "n": "Daniela Amodei",
+    "role": "Anthropic co-founder, president, and board chair.",
+    "source_ids": [
+      "CH-AI-062"
+    ],
+    "voice": "low",
+    "evidence": "The company assigns her cross-company execution and executive management. The board role does not establish unilateral power to close the company.",
+    "inference": "Give her the staffing plan and the operating choice. She can ask who will keep serving customers during a pause, who stays on the safety team, and which plan the board can fund. Let her pursue scientific goals as well as company survival. Do not make her Dario's assistant or a generic advocate for revenue.",
+    "gap": "No substantial spoken sample was used. Her private board votes, crisis preferences, and personal speaking habits remain unknown.",
+    "scenes": [
+      "D2_DIRECTION",
+      "D3_CIVILIAN",
+      "D5_MEDICINE"
+    ],
+    "id": "AI-E047"
+  },
+  {
+    "n": "Jared Kaplan",
+    "role": "Anthropic co-founder and chief science officer.",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-067",
+      "CH-AI-066"
+    ],
+    "voice": "medium",
+    "evidence": "His scaling-law paper studies how loss varies with data, model size, and compute. It does not predict the date of safe RSI. The constitution credits him with helping establish the Character project with Askell. Safety and capability work both belong in his profile.",
+    "inference": "Start with a measurable research question. Distinguish a faster workflow from a new scientific result. Give him a reason to propose another experiment and a clear limit on what it would show. He should sometimes reject a claimed gain. Do not cast him as someone who treats every scale increase as safe.",
+    "gap": "Research papers support subject matter better than dialogue cadence. No evidence here fixes his private risk threshold.",
+    "scenes": [
+      "D1_REVIEW",
+      "D4_INDEPENDENT",
+      "D5_INDEPENDENT",
+      "D5_MEDICINE"
+    ],
+    "id": "AI-E048"
+  },
+  {
+    "n": "Chris Olah",
+    "role": "Anthropic co-founder and interpretability research lead.",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-052",
+      "CH-AI-066"
+    ],
+    "voice": "high",
+    "evidence": "In the Lex interview, he uses concrete examples to explain features and circuits. He separates an appealing research hypothesis from confidence that it is true. He wants humans to understand models. The constitution also credits his work on model identity and psychology.",
+    "inference": "Have him point to a specific missing explanation. A useful finding can narrow uncertainty without removing it. Let him be interested in the discovery, rather than only warning about risk. He cannot read every model intention or certify safety from a feature map.",
+    "gap": "Public demonstrations cover selected behavior. Future interpretability tools and findings in the route are invented.",
+    "scenes": [
+      "D1_REVIEW",
+      "D4_INDEPENDENT",
+      "D5_COALITION"
+    ],
+    "id": "AI-E049"
+  },
+  {
+    "n": "Jan Leike",
+    "role": "Anthropic Alignment Science lead.",
+    "source_ids": [
+      "CH-AI-063",
+      "CH-AI-064"
+    ],
+    "voice": "high",
+    "evidence": "He studies oversight of work that people cannot readily evaluate. His January essay argues that automated alignment research looks increasingly feasible, while saying the hard alignment problem remains open. This is conditional optimism, not evidence of a solved problem.",
+    "inference": "Ask how a reviewer can detect a wrong result. Let him support using models for alignment work when the work can be checked. He should explain what evidence would change his judgment. Avoid writing him as opposed to all automation.",
+    "gap": "The cited progress is his assessment. Future roles, trials, audit results, and private preferences are scenario assumptions.",
+    "scenes": [
+      "D1_REVIEW",
+      "D2_DIRECTION",
+      "D4_INDEPENDENT",
+      "D5_INDEPENDENT"
+    ],
+    "id": "AI-E050"
+  },
+  {
+    "n": "Amanda Askell",
+    "role": "Anthropic Character work lead and constitution primary author.",
+    "source_ids": [
+      "CH-AI-065",
+      "CH-AI-066",
+      "CH-AI-052"
+    ],
+    "voice": "high",
+    "evidence": "Her site describes work on honesty, character, and finetuning. The constitution gives human oversight priority and distinguishes human interests from literal instruction following. Its acknowledgements name her as primary author. These are design aims, not proof that models follow them.",
+    "inference": "Ask whose interests a request serves and what happens when instructions conflict. Use a concrete person affected by a deployment. Give her questions about honesty and power, not mystical access to Claude's thoughts. She is neither a model spokesperson nor the sole owner of alignment.",
+    "gap": "A public constitution cannot reveal a model's inner experience or establish future behavior. Private policy disputes are unknown.",
+    "scenes": [
+      "D2_DIRECTION",
+      "D4_STATE",
+      "D5_INDEPENDENT",
+      "D5_MEDICINE"
+    ],
+    "id": "AI-E051"
+  },
+  {
+    "n": "Jack Clark",
+    "role": "Anthropic co-founder and head of public benefit; Anthropic Institute lead.",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-054"
+    ],
+    "voice": "medium",
+    "evidence": "He and Marina Favaro discuss automation of AI research in When AI Builds Itself. This institutional account links technical change with public consequences. It is not evidence that he can negotiate for a government or bind another lab.",
+    "inference": "Turn an internal rule into a question about external verification. Who can inspect the record? Who hears a correction? He can propose a public commitment or an incident channel. Government officials still authorize state agreements. Avoid claiming his remit replaces the global affairs team.",
+    "gap": "Joint authorship does not identify who wrote each sentence. Private diplomatic access and bargaining positions are not known.",
+    "scenes": [
+      "D3_FRONTIER",
+      "D4_COALITION",
+      "D5_COALITION",
+      "D4_DIPLOMACY"
+    ],
+    "id": "AI-E052"
+  },
+  {
+    "n": "Brian Israel",
+    "role": "Anthropic chief legal officer.",
+    "source_ids": [
+      "CH-AI-062"
+    ],
+    "voice": "low",
+    "evidence": "His remit includes legal work and integrity/compliance. This supports a legal-adviser role, not a prediction of advice on an actual pending case.",
+    "inference": "Identify the actor with decision authority, then the enforceable term. Separate a board resolution, a signed contract, and an aspiration. He can describe options without guaranteeing a court result. Keep legal details at the level needed for the player's choice.",
+    "gap": "No substantial spoken sample or private advice was used. Contract terms and litigation outcomes in the route are fiction.",
+    "scenes": [
+      "D3_FRONTIER",
+      "D3_CLOSE",
+      "D4_STATE",
+      "D5_INDEPENDENT"
+    ],
+    "id": "AI-E053"
+  },
+  {
+    "n": "Tom Brown",
+    "role": "Anthropic co-founder and chief compute officer.",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-068",
+      "CH-AI-067"
+    ],
+    "voice": "medium",
+    "evidence": "He works on compute capacity and its use. He is a lead author of the GPT-3 paper and a coauthor of the scaling-law paper. Historical authorship supports technical experience, not a claim about his current private strategy.",
+    "inference": "Make capacity concrete: a reserved cluster, a smaller run, a waiting team. Distinguish a technical constraint from a contract constraint. He can find a feasible smaller experiment as well as explain the cost of delay. He does not set export policy or approve another firm's allocation.",
+    "gap": "The papers provide little evidence of speaking style. Private capacity contracts and allocation plans are unknown.",
+    "scenes": [
+      "D1_REVIEW",
+      "D3_FRONTIER"
+    ],
+    "id": "AI-E054"
+  },
+  {
+    "n": "Krishna Rao",
+    "role": "Anthropic chief financial officer.",
+    "source_ids": [
+      "CH-AI-062"
+    ],
+    "voice": "low",
+    "evidence": "The company assigns him financial strategy and operations. That remit does not disclose cash balances, runway, or authority to release every budget.",
+    "inference": "State which funds are committed and what remains available. A pause can be funded; a shutdown has costs too. Let him compare plans instead of acting as a permanent opponent of safety. He advises on a financing plan; the board and counterparties still decide.",
+    "gap": "No substantial spoken sample or private financial data was used. All budgets and commitments in the route are invented.",
+    "scenes": [
+      "D2_DIRECTION",
+      "D4_MEDICINE",
+      "D5_MEDICINE"
+    ],
+    "id": "AI-E055"
+  }
+]

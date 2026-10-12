@@ -1,0 +1,475 @@
+[
+  {
+    "id": "tw_policy",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "status_quo",
+      "dialogue",
+      "restriction_proposed",
+      "restriction_adopted"
+    ],
+    "initial": "unknown",
+    "meaning": "The selected Taiwan policy in the scenario.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "tw_legal_status",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "not_started",
+      "review",
+      "blocked",
+      "effective"
+    ],
+    "initial": "unknown",
+    "meaning": "Legal status of the specific measure. This is not a sovereignty change.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "firm_response",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "not_requested",
+      "review",
+      "comply",
+      "challenge"
+    ],
+    "initial": "unknown",
+    "meaning": "Response of the affected firm to that measure.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "us_new_chip_access",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "normal",
+      "reduced",
+      "interrupted"
+    ],
+    "initial": "unknown",
+    "meaning": "US access to new chips covered by this scenario. It is not all semiconductor trade.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "installed_compute",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "available",
+      "constrained",
+      "disrupted"
+    ],
+    "initial": "unknown",
+    "meaning": "Access to the existing compute fleet. Do not change it solely because new chips stop.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "capacity_substitution",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "limited",
+      "partial",
+      "qualified"
+    ],
+    "initial": "unknown",
+    "meaning": "Ability to replace the affected supply for the specified use.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "power_access",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "available",
+      "delayed",
+      "constrained"
+    ],
+    "initial": "unknown",
+    "meaning": "Power and grid availability for the specified compute expansion.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "export_rule",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "baseline",
+      "tightened",
+      "conditional_relief"
+    ],
+    "initial": "unknown",
+    "meaning": "Scenario change to an export rule. The baseline must be dated.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "ai_progress",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "slow",
+      "uneven",
+      "fast"
+    ],
+    "initial": "unknown",
+    "meaning": "Assumed technical progress branch. Not an observed universal rating.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "perceived_ai_lead",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "small",
+      "large_temporary",
+      "large_durable"
+    ],
+    "initial": "unknown",
+    "meaning": "The acting decision-maker’s belief about the rival lead.",
+    "layer": "belief",
+    "scope": "acting_actor"
+  },
+  {
+    "id": "actual_ai_lead",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "small",
+      "large_temporary",
+      "large_durable"
+    ],
+    "initial": "unknown",
+    "meaning": "Adjudicated lead in specified capabilities. May differ from belief.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "race_pressure",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "routine",
+      "high",
+      "extreme"
+    ],
+    "initial": "unknown",
+    "meaning": "Design category for urgency. It is not a measured psychological trait.",
+    "layer": "belief",
+    "scope": "acting_actor"
+  },
+  {
+    "id": "deployment_access",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "limited",
+      "broad",
+      "suspended"
+    ],
+    "initial": "unknown",
+    "meaning": "Tool and system access for the relevant AI deployment.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "incident_status",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "none",
+      "reported",
+      "confirmed",
+      "contained",
+      "disproved"
+    ],
+    "initial": "unknown",
+    "meaning": "Status of the specific incident.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "incident_cause",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "accident",
+      "human_misuse",
+      "control_failure",
+      "mixed"
+    ],
+    "initial": "unknown",
+    "meaning": "Adjudicated cause. More detail belongs in the incident record.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "evidence_quality",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "weak",
+      "partial",
+      "corroborated"
+    ],
+    "initial": "unknown",
+    "meaning": "Evidence for the incident assessment. This is not trust in a country.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "attribution",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "unresolved",
+      "private_operator",
+      "state_linked",
+      "state_directed"
+    ],
+    "initial": "unknown",
+    "meaning": "Adjudicated attribution level for the incident.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "public_blame",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "none",
+      "private_actor",
+      "rival_state"
+    ],
+    "initial": "unknown",
+    "meaning": "Public accusation. It can differ from adjudicated attribution.",
+    "layer": "public_signal",
+    "scope": "scenario"
+  },
+  {
+    "id": "state_authorization",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "absent",
+      "unresolved",
+      "established"
+    ],
+    "initial": "unknown",
+    "meaning": "Evidence of state approval of the harmful action. Approval of a test or general mission is not sufficient.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "technical_logs",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "missing",
+      "preserved",
+      "shared_limited"
+    ],
+    "initial": "unknown",
+    "meaning": "Status of evidence needed for review.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "crisis_channel",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "closed",
+      "open",
+      "responsive"
+    ],
+    "initial": "unknown",
+    "meaning": "Whether a channel exists and receives a response.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "allied_coordination",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "none",
+      "consulting",
+      "aligned",
+      "divided"
+    ],
+    "initial": "unknown",
+    "meaning": "Scenario-specific consultation and agreement among affected allies.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "maritime_access",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "normal",
+      "selective_controls",
+      "severe_disruption"
+    ],
+    "initial": "unknown",
+    "meaning": "Actual effect on shipping, independent of the legal label used.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "conflict_level",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "competition",
+      "diplomatic_crisis",
+      "coercion",
+      "limited_armed_conflict",
+      "major_war",
+      "nuclear_use"
+    ],
+    "initial": "unknown",
+    "meaning": "Broad conflict state. It is not a required escalation ladder.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "nuclear_concern",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "routine",
+      "elevated",
+      "acute"
+    ],
+    "initial": "unknown",
+    "meaning": "Decision-maker concern about nuclear risk. This is not a launch order.",
+    "layer": "belief",
+    "scope": "acting_actor"
+  },
+  {
+    "id": "human_review",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "effective",
+      "rushed",
+      "bypassed"
+    ],
+    "initial": "unknown",
+    "meaning": "Scenario condition for review of high-stakes advice.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "oversight",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "limited",
+      "domestic",
+      "verifiable"
+    ],
+    "initial": "unknown",
+    "meaning": "Visibility and assessment of the relevant AI program.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "services",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "normal",
+      "degraded",
+      "recovering"
+    ],
+    "initial": "unknown",
+    "meaning": "Civilian service continuity in the scenario.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "settlement",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "none",
+      "talks",
+      "provisional",
+      "verified"
+    ],
+    "initial": "unknown",
+    "meaning": "Status of a specific agreement or incident resolution.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "information_check",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "unchecked",
+      "corroborated",
+      "disproved"
+    ],
+    "initial": "unknown",
+    "meaning": "Independent assessment of the triggering information.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "shipment_exposure",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "none",
+      "partial",
+      "full"
+    ],
+    "initial": "unknown",
+    "meaning": "Exposure of the selected delivery flow to the measure or disruption. Specify products, customers, and offsets.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "settlement_scope",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "incident",
+      "trade",
+      "conflict_wide"
+    ],
+    "initial": "unknown",
+    "meaning": "Scope of the agreement under review. A narrow agreement does not settle a wider war.",
+    "layer": "world",
+    "scope": "scenario"
+  },
+  {
+    "id": "operator_type",
+    "type": "enum",
+    "values": [
+      "unknown",
+      "private_actor",
+      "state_organ"
+    ],
+    "initial": "unknown",
+    "meaning": "Type of identified operator. It is separate from state direction or authorization.",
+    "layer": "world",
+    "scope": "scenario"
+  }
+]

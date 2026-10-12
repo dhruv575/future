@@ -1,0 +1,1197 @@
+[
+  {
+    "id": "AI-E001",
+    "name": "OpenAI",
+    "kind": "organization",
+    "summary": "Develops GPT models and agent services.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S004",
+      "AI-S005",
+      "AI-S027",
+      "AI-S033"
+    ],
+    "roles": [
+      "Model developer and service operator"
+    ],
+    "authority": [
+      "Game design analysis: Allocate research resources; restrict its services; commission incident review."
+    ],
+    "constraints": [
+      "Game design analysis: Provider logs cover only its systems. Corporate authority is not military command."
+    ],
+    "incentives": [
+      "Game design analysis: Commercial adoption; research progress; public trust."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/openai.md"
+  },
+  {
+    "id": "AI-E002",
+    "name": "Anthropic",
+    "kind": "organization",
+    "summary": "Develops Claude models and publishes safety and misuse reports.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S001",
+      "AI-S003",
+      "AI-S036",
+      "AI-S038"
+    ],
+    "roles": [
+      "Model developer and service operator"
+    ],
+    "authority": [
+      "Game design analysis: Set release processes; restrict hosted products; fund defenses."
+    ],
+    "constraints": [
+      "Game design analysis: Cloud partners and independent operators can create different conditions."
+    ],
+    "incentives": [
+      "Game design analysis: AI capability; safety credibility; compute access."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/anthropic.md"
+  },
+  {
+    "id": "AI-E003",
+    "name": "Google DeepMind",
+    "kind": "organization",
+    "summary": "Develops Gemini within Google's AI organization.",
+    "jurisdiction": "United Kingdom / United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S010",
+      "AI-S032"
+    ],
+    "roles": [
+      "AI research and model development"
+    ],
+    "authority": [
+      "Game design analysis: Choose research priorities and propose release conditions within Google."
+    ],
+    "constraints": [
+      "Game design analysis: Operational and strategic leadership are now separate roles."
+    ],
+    "incentives": [
+      "Game design analysis: Research leadership; Google product integration."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/google-deepmind.md"
+  },
+  {
+    "id": "AI-E004",
+    "name": "Meta",
+    "kind": "organization",
+    "summary": "Announced an enterprise AI platform built around Muse products.",
+    "jurisdiction": "United States",
+    "as_of": "2026-09-28",
+    "source_ids": [
+      "AI-S030"
+    ],
+    "roles": [
+      "Model and agent developer; distribution platform"
+    ],
+    "authority": [
+      "Game design analysis: Choose distribution, product permissions and rollout."
+    ],
+    "constraints": [
+      "Game design analysis: Platform reach is not military control."
+    ],
+    "incentives": [
+      "Game design analysis: Adoption; enterprise revenue; platform influence."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/meta.md"
+  },
+  {
+    "id": "AI-E005",
+    "name": "xAI / SpaceX AI business",
+    "kind": "organization",
+    "summary": "The Grok developer joined SpaceX in February 2026.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S031",
+      "AI-S041"
+    ],
+    "roles": [
+      "AI development business within SpaceX"
+    ],
+    "authority": [
+      "Game design analysis: Set Grok access and integration within parent governance."
+    ],
+    "constraints": [
+      "Game design analysis: Brand labels vary. Separate ownership from product names."
+    ],
+    "incentives": [
+      "Game design analysis: Deployment speed; compute scale; integration."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/xai-spacex-ai-business.md"
+  },
+  {
+    "id": "AI-E006",
+    "name": "DeepSeek",
+    "kind": "organization",
+    "summary": "Publishes reasoning models and agent-training infrastructure research.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S017",
+      "AI-S019",
+      "AI-S039"
+    ],
+    "roles": [
+      "Model developer"
+    ],
+    "authority": [
+      "Game design analysis: Select research and available-weight releases."
+    ],
+    "constraints": [
+      "Game design analysis: Released weights can be run by unrelated parties."
+    ],
+    "incentives": [
+      "Game design analysis: Research progress; compute efficiency; adoption."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/deepseek.md"
+  },
+  {
+    "id": "AI-E007",
+    "name": "Alibaba Group / Alibaba Cloud",
+    "kind": "organization",
+    "summary": "Combines Qwen models, cloud services and chip development.",
+    "jurisdiction": "China",
+    "as_of": "2026-09-22",
+    "source_ids": [
+      "AI-S020",
+      "AI-S021"
+    ],
+    "roles": [
+      "Developer, cloud provider and platform group"
+    ],
+    "authority": [
+      "Game design analysis: Allocate capacity and choose model access terms."
+    ],
+    "constraints": [
+      "Game design analysis: Capacity targets are not installed capacity."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud demand; application adoption; compute supply."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/alibaba-group-alibaba-cloud.md"
+  },
+  {
+    "id": "AI-E008",
+    "name": "Baidu",
+    "kind": "organization",
+    "summary": "Develops ERNIE and AI cloud applications.",
+    "jurisdiction": "China",
+    "as_of": "2026-05-18",
+    "source_ids": [
+      "AI-S022",
+      "AI-S023"
+    ],
+    "roles": [
+      "AI developer and application provider"
+    ],
+    "authority": [
+      "Game design analysis: Choose releases and cloud deployment policy."
+    ],
+    "constraints": [
+      "Game design analysis: Benchmarks do not prove robust agent behavior."
+    ],
+    "incentives": [
+      "Game design analysis: AI revenue; product use; compute utilization."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/baidu.md"
+  },
+  {
+    "id": "AI-E009",
+    "name": "Tencent",
+    "kind": "organization",
+    "summary": "Develops Hy models and integrates them with software products.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S024",
+      "AI-S025"
+    ],
+    "roles": [
+      "AI developer and distribution platform"
+    ],
+    "authority": [
+      "Game design analysis: Set release and hosted-agent permissions."
+    ],
+    "constraints": [
+      "Game design analysis: Copied weights and hosted services can have different safeguards."
+    ],
+    "incentives": [
+      "Game design analysis: Adoption; usefulness; distribution scale."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/tencent.md"
+  },
+  {
+    "id": "AI-E010",
+    "name": "Huawei",
+    "kind": "organization",
+    "summary": "Links Pangu models with its compute and device ecosystem.",
+    "jurisdiction": "China",
+    "as_of": "2026-09-17",
+    "source_ids": [
+      "AI-S026"
+    ],
+    "roles": [
+      "Compute, model and systems provider"
+    ],
+    "authority": [
+      "Game design analysis: Allocate effort across chips, software and model support."
+    ],
+    "constraints": [
+      "Game design analysis: A roadmap is not proof of delivered capability."
+    ],
+    "incentives": [
+      "Game design analysis: Technology supply; ecosystem adoption; demand."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/huawei.md"
+  },
+  {
+    "id": "AI-E011",
+    "name": "Microsoft",
+    "kind": "organization",
+    "summary": "Supplies Azure infrastructure and partners with OpenAI.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S027",
+      "AI-S028"
+    ],
+    "roles": [
+      "Cloud provider, investor and AI company"
+    ],
+    "authority": [
+      "Game design analysis: Allocate capacity and enforce its own platform controls."
+    ],
+    "constraints": [
+      "Game design analysis: The OpenAI cloud partnership is not wholly exclusive."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud and software demand; security."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/microsoft.md"
+  },
+  {
+    "id": "AI-E012",
+    "name": "Amazon / AWS",
+    "kind": "organization",
+    "summary": "Supplies Anthropic with compute and invests in the company.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S029"
+    ],
+    "roles": [
+      "Cloud provider and investor"
+    ],
+    "authority": [
+      "Game design analysis: Build capacity; set platform controls; support defense."
+    ],
+    "constraints": [
+      "Game design analysis: Future commitments and available capacity differ."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud utilization; chip adoption; retention."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/amazon-aws.md"
+  },
+  {
+    "id": "AI-E013",
+    "name": "Hugging Face",
+    "kind": "organization",
+    "summary": "Hosts AI resources and was affected by the July 2026 incident.",
+    "jurisdiction": "United States / France",
+    "as_of": "2026-08-26",
+    "source_ids": [
+      "AI-S004",
+      "AI-S005",
+      "AI-S006"
+    ],
+    "roles": [
+      "Model and dataset platform; incident responder"
+    ],
+    "authority": [
+      "Game design analysis: Contain activity on its systems; share evidence."
+    ],
+    "constraints": [
+      "Game design analysis: It does not control the originating lab."
+    ],
+    "incentives": [
+      "Game design analysis: Platform trust; broad AI access; recovery."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/hugging-face.md"
+  },
+  {
+    "id": "AI-E014",
+    "name": "METR",
+    "kind": "organization",
+    "summary": "Measures AI capabilities and performed an independent incident review.",
+    "jurisdiction": "United States",
+    "as_of": "2026-09-08",
+    "source_ids": [
+      "AI-S006",
+      "AI-S008"
+    ],
+    "roles": [
+      "Independent evaluator"
+    ],
+    "authority": [
+      "Game design analysis: Design tests and publish bounded findings."
+    ],
+    "constraints": [
+      "Game design analysis: Access, staff time and task coverage limit conclusions."
+    ],
+    "incentives": [
+      "Game design analysis: Reliable measurement; independent assessment."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/metr.md"
+  },
+  {
+    "id": "AI-E015",
+    "name": "UK AI Security Institute",
+    "kind": "government",
+    "summary": "Tests frontier models and reported its own evaluation incident.",
+    "jurisdiction": "United Kingdom",
+    "as_of": "2026-07-28",
+    "source_ids": [
+      "AI-S007"
+    ],
+    "roles": [
+      "Government technical evaluator"
+    ],
+    "authority": [
+      "Game design analysis: Stop its tests and advise government."
+    ],
+    "constraints": [
+      "Game design analysis: Test access is not authority over all foreign labs."
+    ],
+    "incentives": [
+      "Game design analysis: Risk discovery; evidence; secure deployment."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/uk-ai-security-institute.md"
+  },
+  {
+    "id": "AI-E016",
+    "name": "Sam Altman",
+    "kind": "person",
+    "summary": "OpenAI's forum identified him as co-founder and CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026-04-06",
+    "source_ids": [
+      "AI-S033"
+    ],
+    "roles": [
+      "OpenAI co-founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Influence company strategy through corporate governance."
+    ],
+    "constraints": [
+      "Game design analysis: Cannot unilaterally control all deployments or US policy."
+    ],
+    "incentives": [
+      "Game design analysis: Research progress; adoption; trust."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/sam-altman.md",
+    "public_positions": [
+      {
+        "date": "2026-04-06",
+        "text": "Expected highly capable models soon and urged preparation.",
+        "source_ids": [
+          "AI-S033"
+        ],
+        "limits": "Participant expectation. Timing and reliability remain uncertain."
+      }
+    ]
+  },
+  {
+    "id": "AI-E017",
+    "name": "Dario Amodei",
+    "kind": "person",
+    "summary": "Anthropic co-founder and CEO; author of a pacing proposal.",
+    "jurisdiction": "United States",
+    "as_of": "2026-09",
+    "source_ids": [
+      "AI-S014",
+      "AI-S029"
+    ],
+    "roles": [
+      "Anthropic co-founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Set priorities and advocate shared safety rules."
+    ],
+    "constraints": [
+      "Game design analysis: His proposals do not bind other firms or governments."
+    ],
+    "incentives": [
+      "Game design analysis: Capability progress; safety; democratic-country leadership."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/dario-amodei.md",
+    "public_positions": [
+      {
+        "date": "2026-09",
+        "text": "Proposed pacing frontier development and independent evaluation. Warned that more capable misaligned agent swarms could threaten internet-wide control within 6-12 months without adequate safeguards.",
+        "source_ids": [
+          "AI-S014"
+        ],
+        "limits": "Conditional warning, not established current capability or calibrated probability. Exact publication day unavailable."
+      }
+    ]
+  },
+  {
+    "id": "AI-E018",
+    "name": "Demis Hassabis",
+    "kind": "person",
+    "summary": "Google's leadership letter assigns him strategic and scientific roles.",
+    "jurisdiction": "United Kingdom",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S032"
+    ],
+    "roles": [
+      "GDM chair; Alphabet chief scientist"
+    ],
+    "authority": [
+      "Game design analysis: Advise AI strategy and science."
+    ],
+    "constraints": [
+      "Game design analysis: Day-to-day GDM leadership moved to Kavukcuoglu."
+    ],
+    "incentives": [
+      "Game design analysis: Science; safe AI development."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/demis-hassabis.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E019",
+    "name": "Koray Kavukcuoglu",
+    "kind": "person",
+    "summary": "Google's leadership letter places him in charge of GDM.",
+    "jurisdiction": "United Kingdom / United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S032"
+    ],
+    "roles": [
+      "GDM SVP; Google chief AI architect"
+    ],
+    "authority": [
+      "Game design analysis: Lead model, research and related product teams."
+    ],
+    "constraints": [
+      "Game design analysis: Reports to Sundar Pichai."
+    ],
+    "incentives": [
+      "Game design analysis: Model quality; delivery; research."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/koray-kavukcuoglu.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E020",
+    "name": "Sundar Pichai",
+    "kind": "person",
+    "summary": "Google's leadership letter identifies him as Google and Alphabet CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S032"
+    ],
+    "roles": [
+      "Google and Alphabet CEO"
+    ],
+    "authority": [
+      "Game design analysis: Allocate priorities and appoint AI leadership."
+    ],
+    "constraints": [
+      "Game design analysis: Company authority does not set state policy."
+    ],
+    "incentives": [
+      "Game design analysis: Business performance; deployment; science."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/sundar-pichai.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E021",
+    "name": "Mark Zuckerberg",
+    "kind": "person",
+    "summary": "Meta's September 2026 announcement identifies him as founder and CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026-09-28",
+    "source_ids": [
+      "AI-S030"
+    ],
+    "roles": [
+      "Meta founder and CEO"
+    ],
+    "authority": [
+      "Game design analysis: Set platform and enterprise AI strategy."
+    ],
+    "constraints": [
+      "Game design analysis: Reach does not remove technical or regulatory constraints."
+    ],
+    "incentives": [
+      "Game design analysis: Adoption; enterprise growth; access."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/mark-zuckerberg.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E022",
+    "name": "Liang Wenfeng",
+    "kind": "person",
+    "summary": "Reuters identified him as DeepSeek CEO in September 2026.",
+    "jurisdiction": "China",
+    "as_of": "2026-09-24",
+    "source_ids": [
+      "AI-S034",
+      "AI-S035"
+    ],
+    "roles": [
+      "DeepSeek founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Influence research and release policy."
+    ],
+    "constraints": [
+      "Game design analysis: Public evidence about internal governance is limited."
+    ],
+    "incentives": [
+      "Game design analysis: Reported focus on AGI and compute access; second-hand statement."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/liang-wenfeng.md",
+    "public_positions": [
+      {
+        "date": "2026-07-23",
+        "text": "Reportedly prioritized AGI and expected DeepSeek to keep advanced models open.",
+        "source_ids": [
+          "AI-S035"
+        ],
+        "limits": "Reuters relayed Yicai. This is not a direct transcript or binding release commitment."
+      }
+    ]
+  },
+  {
+    "id": "AI-E023",
+    "name": "Eddie Wu",
+    "kind": "person",
+    "summary": "Delivered Alibaba's September 2026 AI strategy as group CEO.",
+    "jurisdiction": "China",
+    "as_of": "2026-09-22",
+    "source_ids": [
+      "AI-S021"
+    ],
+    "roles": [
+      "Alibaba Group CEO"
+    ],
+    "authority": [
+      "Game design analysis: Direct group AI and cloud strategy."
+    ],
+    "constraints": [
+      "Game design analysis: Expansion depends on physical supply and financing."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud scale; model and chip development."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/eddie-wu.md",
+    "public_positions": [
+      {
+        "date": "2026-09-22",
+        "text": "Set a target of more than 20 GW of global data-center capacity operated by Alibaba Cloud by 2032.",
+        "source_ids": [
+          "AI-S021"
+        ],
+        "limits": "Corporate plan. Not installed capacity or a measure of usable frontier training compute."
+      }
+    ]
+  },
+  {
+    "id": "AI-E024",
+    "name": "Robin Li",
+    "kind": "person",
+    "summary": "Baidu's May 2026 results identify him as co-founder and CEO.",
+    "jurisdiction": "China",
+    "as_of": "2026-05-18",
+    "source_ids": [
+      "AI-S022"
+    ],
+    "roles": [
+      "Baidu co-founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Set commercial and research priorities."
+    ],
+    "constraints": [
+      "Game design analysis: Refresh role evidence for later start dates."
+    ],
+    "incentives": [
+      "Game design analysis: AI cloud and application growth."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/robin-li.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E025",
+    "name": "Pony Ma / Ma Huateng",
+    "kind": "person",
+    "summary": "Tencent's current profile identifies him as chairman and CEO.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S025"
+    ],
+    "roles": [
+      "Tencent co-founder, chairman and CEO"
+    ],
+    "authority": [
+      "Game design analysis: Lead strategy and management."
+    ],
+    "constraints": [
+      "Game design analysis: Specific releases may be delegated."
+    ],
+    "incentives": [
+      "Game design analysis: Usefulness; business performance."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/pony-ma-ma-huateng.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E026",
+    "name": "Satya Nadella",
+    "kind": "person",
+    "summary": "Microsoft's FY2026 event page identifies him as chairman and CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026",
+    "source_ids": [
+      "AI-S028"
+    ],
+    "roles": [
+      "Microsoft chairman and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Set investment and platform strategy."
+    ],
+    "constraints": [
+      "Game design analysis: Partner agreements constrain choices."
+    ],
+    "incentives": [
+      "Game design analysis: Cloud growth; adoption; security."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/satya-nadella.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E027",
+    "name": "Andy Jassy",
+    "kind": "person",
+    "summary": "Amazon's 2026 Anthropic announcement identifies him as CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026",
+    "source_ids": [
+      "AI-S029"
+    ],
+    "roles": [
+      "Amazon CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Set investment and infrastructure priorities."
+    ],
+    "constraints": [
+      "Game design analysis: Committed compute may take time to build."
+    ],
+    "incentives": [
+      "Game design analysis: AWS demand; custom-chip adoption."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/andy-jassy.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E028",
+    "name": "Clement Delangue",
+    "kind": "person",
+    "summary": "A joint-response post identifies him as Hugging Face co-founder and CEO.",
+    "jurisdiction": "United States / France",
+    "as_of": "2026-07-21",
+    "source_ids": [
+      "AI-S004"
+    ],
+    "roles": [
+      "Hugging Face co-founder and CEO at source date"
+    ],
+    "authority": [
+      "Game design analysis: Coordinate platform response and communication."
+    ],
+    "constraints": [
+      "Game design analysis: Needs evidence from several organizations."
+    ],
+    "incentives": [
+      "Game design analysis: Trust; collaborative safety; broad access."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/clement-delangue.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E029",
+    "name": "Elon Musk",
+    "kind": "person",
+    "summary": "August reporting identifies him as SpaceX founder and CEO and xAI founder.",
+    "jurisdiction": "United States",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "AI-S042"
+    ],
+    "roles": [
+      "SpaceX founder and CEO; xAI founder"
+    ],
+    "authority": [
+      "Game design analysis: Influence parent-company AI investment."
+    ],
+    "constraints": [
+      "Game design analysis: Exact product authority follows corporate governance."
+    ],
+    "incentives": [
+      "Game design analysis: Compute growth; AI business scale."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/elon-musk.md",
+    "public_positions": []
+  },
+  {
+    "id": "AI-E030",
+    "name": "GPT model family",
+    "kind": "capability",
+    "summary": "OpenAI's models can be placed in agent systems.",
+    "jurisdiction": "Developer: United States; deployment varies",
+    "as_of": "2026-08-26",
+    "source_ids": [
+      "AI-S004",
+      "AI-S005"
+    ],
+    "roles": [
+      "General-purpose model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Acts through granted tools."
+    ],
+    "constraints": [
+      "Game design analysis: Checkpoints, safeguards and tools change behavior."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/gpt-model-family.md"
+  },
+  {
+    "id": "AI-E031",
+    "name": "Claude model family",
+    "kind": "capability",
+    "summary": "Anthropic models appear in products and reported cyber incidents.",
+    "jurisdiction": "Developer: United States; deployment varies",
+    "as_of": "2026-09-09",
+    "source_ids": [
+      "AI-S001",
+      "AI-S003"
+    ],
+    "roles": [
+      "General-purpose model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Permissions determine reachable actions."
+    ],
+    "constraints": [
+      "Game design analysis: Tests with disabled safeguards differ from public services."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/claude-model-family.md"
+  },
+  {
+    "id": "AI-E032",
+    "name": "Gemini model family",
+    "kind": "capability",
+    "summary": "Google develops Gemini with documented security evaluations.",
+    "jurisdiction": "Developer: Google; deployment varies",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S010",
+      "AI-S011"
+    ],
+    "roles": [
+      "General-purpose model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Tool access is separate."
+    ],
+    "constraints": [
+      "Game design analysis: Prompt injection and deployment conditions matter."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/gemini-model-family.md"
+  },
+  {
+    "id": "AI-E033",
+    "name": "Grok model family",
+    "kind": "capability",
+    "summary": "Grok is listed by the xAI business.",
+    "jurisdiction": "Developer: xAI / SpaceX; deployment varies",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S041"
+    ],
+    "roles": [
+      "General-purpose model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Product and operator controls are separate."
+    ],
+    "constraints": [
+      "Game design analysis: Ownership does not prove military integration."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/grok-model-family.md"
+  },
+  {
+    "id": "AI-E034",
+    "name": "DeepSeek R1 and V3 model families",
+    "kind": "capability",
+    "summary": "Published families include reasoning and mixture-of-experts models.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-01-04",
+    "source_ids": [
+      "AI-S017",
+      "AI-S018",
+      "AI-S019"
+    ],
+    "roles": [
+      "Historical model families; not inherently weapons"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Deployers configure derived systems."
+    ],
+    "constraints": [
+      "Game design analysis: Not a complete inventory of current releases."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/deepseek-r1-and-v3-model-families.md"
+  },
+  {
+    "id": "AI-E035",
+    "name": "Qwen model family",
+    "kind": "capability",
+    "summary": "Alibaba's Qwen line includes available-weight releases.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-09-22",
+    "source_ids": [
+      "AI-S020",
+      "AI-S021"
+    ],
+    "roles": [
+      "Model family; release terms vary"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Hosts control tools and permissions."
+    ],
+    "constraints": [
+      "Game design analysis: No single license or capability level covers the whole family."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/qwen-model-family.md"
+  },
+  {
+    "id": "AI-E036",
+    "name": "ERNIE model family",
+    "kind": "capability",
+    "summary": "Baidu released ERNIE 5.1 in May 2026.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-05-09",
+    "source_ids": [
+      "AI-S023"
+    ],
+    "roles": [
+      "Model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Agents need a host."
+    ],
+    "constraints": [
+      "Game design analysis: Vendor benchmarks are task-specific."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/ernie-model-family.md"
+  },
+  {
+    "id": "AI-E037",
+    "name": "Tencent Hy / Hunyuan model family",
+    "kind": "capability",
+    "summary": "Tencent's Hy3 supports hosted and downloaded use.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-07-06",
+    "source_ids": [
+      "AI-S024"
+    ],
+    "roles": [
+      "Model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Operators control deployment."
+    ],
+    "constraints": [
+      "Game design analysis: Product permissions and release conditions differ."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/tencent-hy-hunyuan-model-family.md"
+  },
+  {
+    "id": "AI-E038",
+    "name": "Pangu model family",
+    "kind": "capability",
+    "summary": "Huawei includes Pangu in its system roadmap.",
+    "jurisdiction": "Developer: China; deployment varies",
+    "as_of": "2026-09-17",
+    "source_ids": [
+      "AI-S026"
+    ],
+    "roles": [
+      "Model family; not inherently a weapon"
+    ],
+    "authority": [
+      "Game design analysis: No legal authority. Device and cloud integration set action scope."
+    ],
+    "constraints": [
+      "Game design analysis: Strategy does not prove assessed capability."
+    ],
+    "incentives": [
+      "Game design analysis: No human political incentives assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/pangu-model-family.md"
+  },
+  {
+    "id": "AI-E039",
+    "name": "Tool-using AI agent",
+    "kind": "capability",
+    "summary": "An agent combines a model, tools and an action loop.",
+    "jurisdiction": "Deployment-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S001",
+      "AI-S008",
+      "AI-S011"
+    ],
+    "roles": [
+      "System class"
+    ],
+    "authority": [
+      "Game design analysis: Acts through available interfaces and resources."
+    ],
+    "constraints": [
+      "Game design analysis: Permissions, oversight, runtime budget and environment matter."
+    ],
+    "incentives": [
+      "Game design analysis: Task objective differs from operator intent."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/tool-using-ai-agent.md"
+  },
+  {
+    "id": "AI-E040",
+    "name": "AI-assisted cyber operations",
+    "kind": "capability",
+    "summary": "Models can assist both malicious operations and defense.",
+    "jurisdiction": "Operator-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S001",
+      "AI-S007",
+      "AI-S036"
+    ],
+    "roles": [
+      "Dual-use capability class"
+    ],
+    "authority": [
+      "Game design analysis: Authorization belongs to humans and institutions."
+    ],
+    "constraints": [
+      "Game design analysis: Results depend on access and evaluation setup."
+    ],
+    "incentives": [
+      "Game design analysis: Operator goals determine use."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/ai-assisted-cyber-operations.md"
+  },
+  {
+    "id": "AI-E041",
+    "name": "Indirect prompt injection",
+    "kind": "capability",
+    "summary": "Untrusted content can redirect an agent from the user's task.",
+    "jurisdiction": "Cross-border",
+    "as_of": "2025-05-20",
+    "source_ids": [
+      "AI-S011"
+    ],
+    "roles": [
+      "Attack and failure mechanism"
+    ],
+    "authority": [
+      "Game design analysis: Can misuse permissions through a compromised instruction path."
+    ],
+    "constraints": [
+      "Game design analysis: Training alone does not guarantee prevention."
+    ],
+    "incentives": [
+      "Game design analysis: Attacker intent differs from developer intent."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/indirect-prompt-injection.md"
+  },
+  {
+    "id": "AI-E042",
+    "name": "Model weights",
+    "kind": "infrastructure",
+    "summary": "Stored parameters are a transferable part of a model.",
+    "jurisdiction": "Storage- and copy-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S009",
+      "AI-S019",
+      "AI-S020"
+    ],
+    "roles": [
+      "Information asset"
+    ],
+    "authority": [
+      "Game design analysis: Possession may permit independent deployment."
+    ],
+    "constraints": [
+      "Game design analysis: Copies still need compute, software and operating access."
+    ],
+    "incentives": [
+      "Game design analysis: Owners seek control; other actors may seek access."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/model-weights.md"
+  },
+  {
+    "id": "AI-E043",
+    "name": "AI compute and cloud capacity",
+    "kind": "infrastructure",
+    "summary": "Training and inference use physical and contracted compute resources.",
+    "jurisdiction": "Site- and contract-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S021",
+      "AI-S026",
+      "AI-S027",
+      "AI-S029"
+    ],
+    "roles": [
+      "Shared infrastructure class"
+    ],
+    "authority": [
+      "Game design analysis: Providers allocate capacity under contracts and law."
+    ],
+    "constraints": [
+      "Game design analysis: Power, hardware, construction and financing constrain supply."
+    ],
+    "incentives": [
+      "Game design analysis: Utilization competes with redundancy and isolation."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/ai-compute-and-cloud-capacity.md"
+  },
+  {
+    "id": "AI-E044",
+    "name": "Evaluation, monitoring and containment",
+    "kind": "capability",
+    "summary": "Tests and controls can expose or restrict unsafe behavior.",
+    "jurisdiction": "Organization-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S003",
+      "AI-S006",
+      "AI-S007",
+      "AI-S010",
+      "AI-S038"
+    ],
+    "roles": [
+      "Defensive capability class"
+    ],
+    "authority": [
+      "Game design analysis: Authorized staff halt runs, restrict access and preserve evidence."
+    ],
+    "constraints": [
+      "Game design analysis: Tests have blind spots. Independent review needs access."
+    ],
+    "incentives": [
+      "Game design analysis: Detection; evidence; harm reduction."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/evaluation-monitoring-and-containment.md"
+  },
+  {
+    "id": "AI-E045",
+    "name": "AI research automation",
+    "kind": "capability",
+    "summary": "Participants describe using AI to accelerate AI research.",
+    "jurisdiction": "Deployment-specific",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "AI-S014",
+      "AI-S021",
+      "AI-S039"
+    ],
+    "roles": [
+      "Research capability and forecast domain"
+    ],
+    "authority": [
+      "Game design analysis: Research changes need deployment decisions."
+    ],
+    "constraints": [
+      "Game design analysis: Speed does not prove reliable self-improvement."
+    ],
+    "incentives": [
+      "Game design analysis: No intrinsic geopolitical objective assigned."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/ai-research-automation.md"
+  },
+  {
+    "id": "AI-E046",
+    "name": "SpaceX",
+    "kind": "organization",
+    "summary": "Acquired xAI in February 2026.",
+    "jurisdiction": "United States",
+    "as_of": "2026-08-11",
+    "source_ids": [
+      "AI-S031",
+      "AI-S042"
+    ],
+    "roles": [
+      "Parent of the acquired AI business"
+    ],
+    "authority": [
+      "Game design analysis: Allocate resources under corporate governance."
+    ],
+    "constraints": [
+      "Game design analysis: Subsidiary capabilities do not form one unconstrained actor."
+    ],
+    "incentives": [
+      "Game design analysis: AI and infrastructure growth."
+    ],
+    "dossier_path": "research/ai-ecosystem/entities/spacex.md"
+  }
+]

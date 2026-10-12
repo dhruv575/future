@@ -1,0 +1,404 @@
+[
+  {
+    "entity_id": "ST-E001",
+    "name": "Jacquelyn Schneider",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e001.md",
+    "source_ids": [
+      "CH-RD-001",
+      "CH-RD-002",
+      "CH-RD-003"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2024-10-03",
+    "gaps": [
+      "Interview publication date not exposed.",
+      "Private crisis-room manner and future appointments are unknown."
+    ]
+  },
+  {
+    "entity_id": "ST-E002",
+    "name": "Max Lamparth",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e002.md",
+    "source_ids": [
+      "CH-RD-003",
+      "CH-RD-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2024-10-03",
+    "gaps": [
+      "No sustained spoken interview reviewed.",
+      "Personal site is undated; CV link has a September 2026 update marker.",
+      "Individual policy preferences cannot be recovered from coauthorship."
+    ]
+  },
+  {
+    "entity_id": "ST-E003",
+    "name": "Kenneth Payne",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e003.md",
+    "source_ids": [
+      "CH-RD-005",
+      "CH-RD-006",
+      "CH-RD-007"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-02-16",
+    "gaps": [
+      "No extended spoken transcript reviewed.",
+      "The 2026 preprint is a simulation, not a forecast of real nuclear decisions."
+    ]
+  },
+  {
+    "entity_id": "ST-E004",
+    "name": "Sam Bresnick",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e004.md",
+    "source_ids": [
+      "CH-RD-008",
+      "CH-RD-009"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": null,
+    "gaps": [
+      "No full spoken interview reviewed.",
+      "Report summary reviewed; underlying full report not read in this task.",
+      "June 2024 publication has no verified day."
+    ]
+  },
+  {
+    "entity_id": "ST-E005",
+    "name": "James M. Acton",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e005.md",
+    "source_ids": [
+      "CH-RD-010",
+      "CH-RD-011"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2016-08-18",
+    "gaps": [
+      "Main voice sample dates to 2016.",
+      "No current classified command-and-control access established.",
+      "Recent personal positions on frontier-model governance need more direct evidence."
+    ]
+  },
+  {
+    "entity_id": "ST-E006",
+    "name": "Daniel Kokotajlo",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e006.md",
+    "source_ids": [
+      "CH-RD-012",
+      "CH-RD-013",
+      "CH-RD-014"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-08-27",
+    "gaps": [
+      "Private OpenAI disputes and current internal access are not verified.",
+      "Forecasts and recommendations require separate dates and labels."
+    ]
+  },
+  {
+    "entity_id": "ST-E007",
+    "name": "Eli Lifland",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e007.md",
+    "source_ids": [
+      "CH-RD-012",
+      "CH-RD-015"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2025-05-07",
+    "gaps": [
+      "No extended spoken interview reviewed.",
+      "Latest linked forecasting model not independently audited here.",
+      "Formal leadership and technical authority differ from government authority."
+    ]
+  },
+  {
+    "entity_id": "ST-E008",
+    "name": "Leopold Aschenbrenner",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e008.md",
+    "source_ids": [
+      "CH-RD-016",
+      "CH-RD-017"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2024-06-04",
+    "gaps": [
+      "This brief is anchored to June 2024, not his complete 2026 public record.",
+      "Current investment role and holdings not verified.",
+      "Claims about former employers require separate corroboration."
+    ]
+  },
+  {
+    "entity_id": "ST-E009",
+    "name": "Matt Sheehan",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e009.md",
+    "source_ids": [
+      "CH-RD-018",
+      "CH-RD-019",
+      "CH-RD-020"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-07-23",
+    "gaps": [
+      "Written first-person material reviewed; no sustained spoken transcript.",
+      "Proposal is not evidence of government agreement.",
+      "Private access and personal ties are unverified."
+    ]
+  },
+  {
+    "entity_id": "ST-E010",
+    "name": "Katja Grace",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e010.md",
+    "source_ids": [
+      "CH-RD-021",
+      "CH-RD-022"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2024-01-05",
+    "gaps": [
+      "Main voice sample is from 2018.",
+      "Current organizational title not re-established by a dated role source.",
+      "Survey results are respondent beliefs, not her personal forecast."
+    ]
+  },
+  {
+    "entity_id": "ST-E011",
+    "name": "Dan Hendrycks",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e011.md",
+    "source_ids": [
+      "CH-RD-023",
+      "CH-RD-024"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2025-04-14",
+    "gaps": [
+      "No extended individual interview reviewed.",
+      "Advisory decision rights not specified.",
+      "Joint policy paper abstract cannot establish individual conversational style."
+    ]
+  },
+  {
+    "entity_id": "ST-E012",
+    "name": "Eric Schmidt",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e012.md",
+    "source_ids": [
+      "CH-RD-024",
+      "CH-RD-025",
+      "CH-RD-026"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-04-14",
+    "gaps": [
+      "Current portfolio and any defense-company operating role not audited.",
+      "Main interview is dated May 2024.",
+      "Joint paper is not evidence that government adopted the proposal."
+    ]
+  },
+  {
+    "entity_id": "ST-E013",
+    "name": "Alexandr Wang",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e013.md",
+    "source_ids": [
+      "CH-RD-024",
+      "CH-RD-027",
+      "CH-RD-028"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2025-06-12",
+    "gaps": [
+      "Exact later Meta title and authority not verified in this source set.",
+      "Prepared public letters support rhetoric, not spontaneous speech.",
+      "Do not carry Scale CEO title past June 12, 2025."
+    ]
+  },
+  {
+    "entity_id": "ST-E014",
+    "name": "Tobias Sytsma",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e014.md",
+    "source_ids": [
+      "CH-RD-029",
+      "CH-RD-031",
+      "CH-RD-048"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-30",
+    "gaps": [
+      "A model's equilibrium conditions are not measured political probabilities.",
+      "Main voice sample addresses labor economics, not a private security negotiation."
+    ]
+  },
+  {
+    "entity_id": "ST-E015",
+    "name": "Alvin Moon",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e015.md",
+    "source_ids": [
+      "CH-RD-030",
+      "CH-RD-031"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-09-30",
+    "gaps": [
+      "No sustained first-person speech sample reviewed.",
+      "Joint report summary does not establish individual policy preferences.",
+      "Full mathematical report not reviewed in this task."
+    ]
+  },
+  {
+    "entity_id": "ST-E016",
+    "name": "Abby Doll",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e016.md",
+    "source_ids": [
+      "CH-RD-032",
+      "CH-RD-034"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-04-29",
+    "gaps": [
+      "No extended first-person interview reviewed.",
+      "Breakwater summary is preliminary and partial.",
+      "No evidence of current military command authority."
+    ]
+  },
+  {
+    "entity_id": "ST-E017",
+    "name": "Karl P. Mueller",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e017.md",
+    "source_ids": [
+      "CH-RD-033",
+      "CH-RD-034",
+      "CH-RD-035",
+      "CH-RD-036"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-24",
+    "gaps": [
+      "Public analysis is not evidence of Chinese internal plans.",
+      "No future government appointment established.",
+      "Paper summaries reviewed, not full reports."
+    ]
+  },
+  {
+    "entity_id": "SD-E067",
+    "name": "Alex Karp",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e067.md",
+    "source_ids": [
+      "CH-RD-037",
+      "CH-RD-038"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-17",
+    "gaps": [
+      "CNBC source is selected unofficial transcript excerpts, not full interview.",
+      "2020 corporate letter is historical evidence, not current governance verification.",
+      "Private intent and confidential customer decisions are unknown."
+    ]
+  },
+  {
+    "entity_id": "SD-E069",
+    "name": "Palmer Luckey",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e069.md",
+    "source_ids": [
+      "CH-RD-039",
+      "CH-RD-040"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-05-07",
+    "gaps": [
+      "Main full interview recorded May 7, 2026; page publication date not exposed.",
+      "Second source is only episode summary and biography.",
+      "Founder title does not establish sole corporate decision rights."
+    ]
+  },
+  {
+    "entity_id": "SD-E070",
+    "name": "Brian Schimpf",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e070.md",
+    "source_ids": [
+      "CH-RD-041",
+      "CH-RD-042"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-01-28",
+    "gaps": [
+      "Sources are investor-hosted public interviews.",
+      "Product performance and procurement claims need independent corroboration.",
+      "Current 2026 title and private decision rights are not audited beyond dated interviews."
+    ]
+  },
+  {
+    "entity_id": "SD-E072",
+    "name": "Jim Taiclet",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e072.md",
+    "source_ids": [
+      "CH-RD-043",
+      "CH-RD-044"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2023-09-20",
+    "gaps": [
+      "Prepared testimony supports formal rhetoric, not private conversational cadence.",
+      "Current authority must be rechecked for future game dates.",
+      "Original dossier lacked exact testimony date; verified here."
+    ]
+  },
+  {
+    "entity_id": "SD-E074",
+    "name": "Christopher Calio",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e074.md",
+    "source_ids": [
+      "CH-RD-045",
+      "CH-RD-046",
+      "CH-RD-047"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-01-27",
+    "gaps": [
+      "No full spontaneous interview reviewed; earnings-call PDF could not be opened.",
+      "No personal position on frontier-model governance established.",
+      "Operational authority is corporate, not military."
+    ]
+  }
+]

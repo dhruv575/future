@@ -1,0 +1,5434 @@
+{
+  "version": 1,
+  "style": "Formal arcade pixel art",
+  "counts": {
+    "organization": 51,
+    "government": 19,
+    "person": 79,
+    "capability": 36,
+    "infrastructure": 4
+  },
+  "ready": 189,
+  "total": 189,
+  "items": [
+    {
+      "id": "AI-E001",
+      "name": "OpenAI",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Develops GPT models and agent services.",
+      "source_ids": [
+        "AI-S004",
+        "AI-S005",
+        "AI-S027",
+        "AI-S033"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/openai.md",
+      "src": "/sprites/entities/ai-e001.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        43,
+        1242,
+        1228
+      ],
+      "visible_fraction": 0.4556,
+      "bytes": 799181
+    },
+    {
+      "id": "AI-E002",
+      "name": "Anthropic",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Develops Claude models and publishes safety and misuse reports.",
+      "source_ids": [
+        "AI-S001",
+        "AI-S003",
+        "AI-S036",
+        "AI-S038"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/anthropic.md",
+      "src": "/sprites/entities/ai-e002.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 2172,
+      "height": 724,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        112,
+        212,
+        2088,
+        667
+      ],
+      "visible_fraction": 0.1407,
+      "bytes": 159855
+    },
+    {
+      "id": "AI-E003",
+      "name": "Google DeepMind",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Develops Gemini within Google's AI organization.",
+      "source_ids": [
+        "AI-S010",
+        "AI-S032"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/google-deepmind.md",
+      "src": "/sprites/entities/ai-e003.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        81,
+        19,
+        1198,
+        1254
+      ],
+      "visible_fraction": 0.2645,
+      "bytes": 526162
+    },
+    {
+      "id": "AI-E004",
+      "name": "Meta",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Announced an enterprise AI platform built around Muse products.",
+      "source_ids": [
+        "AI-S030"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/meta.md",
+      "src": "/sprites/entities/ai-e004.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        69,
+        1230,
+        1232
+      ],
+      "visible_fraction": 0.2918,
+      "bytes": 535577
+    },
+    {
+      "id": "AI-E005",
+      "name": "xAI / SpaceX AI business",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "The Grok developer joined SpaceX in February 2026.",
+      "source_ids": [
+        "AI-S031",
+        "AI-S041"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/xai-spacex-ai-business.md",
+      "src": "/sprites/entities/ai-e005.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        78,
+        1214,
+        1230
+      ],
+      "visible_fraction": 0.2633,
+      "bytes": 507593
+    },
+    {
+      "id": "AI-E006",
+      "name": "DeepSeek",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Publishes reasoning models and agent-training infrastructure research.",
+      "source_ids": [
+        "AI-S017",
+        "AI-S019",
+        "AI-S039"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/deepseek.md",
+      "src": "/sprites/entities/ai-e006.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        17,
+        55,
+        1222,
+        1254
+      ],
+      "visible_fraction": 0.3198,
+      "bytes": 570645
+    },
+    {
+      "id": "AI-E007",
+      "name": "Alibaba Group / Alibaba Cloud",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Combines Qwen models, cloud services and chip development.",
+      "source_ids": [
+        "AI-S020",
+        "AI-S021"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/alibaba-group-alibaba-cloud.md",
+      "src": "/sprites/entities/ai-e007.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        17,
+        1220,
+        1230
+      ],
+      "visible_fraction": 0.2215,
+      "bytes": 486199
+    },
+    {
+      "id": "AI-E008",
+      "name": "Baidu",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Develops ERNIE and AI cloud applications.",
+      "source_ids": [
+        "AI-S022",
+        "AI-S023"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/baidu.md",
+      "src": "/sprites/entities/ai-e008.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        67,
+        1202,
+        1254
+      ],
+      "visible_fraction": 0.3122,
+      "bytes": 549695
+    },
+    {
+      "id": "AI-E009",
+      "name": "Tencent",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Develops Hy models and integrates them with software products.",
+      "source_ids": [
+        "AI-S024",
+        "AI-S025"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/tencent.md",
+      "src": "/sprites/entities/ai-e009.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        49,
+        69,
+        1230,
+        1190
+      ],
+      "visible_fraction": 0.1168,
+      "bytes": 308484
+    },
+    {
+      "id": "AI-E010",
+      "name": "Huawei",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Links Pangu models with its compute and device ecosystem.",
+      "source_ids": [
+        "AI-S026"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/huawei.md",
+      "src": "/sprites/entities/ai-e010.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        21,
+        1234,
+        1254
+      ],
+      "visible_fraction": 0.3196,
+      "bytes": 627754
+    },
+    {
+      "id": "AI-E011",
+      "name": "Microsoft",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Supplies Azure infrastructure and partners with OpenAI.",
+      "source_ids": [
+        "AI-S027",
+        "AI-S028"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/microsoft.md",
+      "src": "/sprites/entities/ai-e011.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        73,
+        33,
+        1200,
+        1182
+      ],
+      "visible_fraction": 0.2895,
+      "bytes": 493652
+    },
+    {
+      "id": "AI-E012",
+      "name": "Amazon / AWS",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Supplies Anthropic with compute and invests in the company.",
+      "source_ids": [
+        "AI-S029"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/amazon-aws.md",
+      "src": "/sprites/entities/ai-e012.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        158,
+        1230,
+        1230
+      ],
+      "visible_fraction": 0.2946,
+      "bytes": 599803
+    },
+    {
+      "id": "AI-E013",
+      "name": "Hugging Face",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Hosts AI resources and was affected by the July 2026 incident.",
+      "source_ids": [
+        "AI-S004",
+        "AI-S005",
+        "AI-S006"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/hugging-face.md",
+      "src": "/sprites/entities/ai-e013.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        6,
+        1228,
+        1254
+      ],
+      "visible_fraction": 0.4719,
+      "bytes": 831117
+    },
+    {
+      "id": "AI-E014",
+      "name": "METR",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Measures AI capabilities and performed an independent incident review.",
+      "source_ids": [
+        "AI-S006",
+        "AI-S008"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/metr.md",
+      "src": "/sprites/entities/ai-e014.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.3787,
+      "bytes": 811446
+    },
+    {
+      "id": "AI-E015",
+      "name": "UK AI Security Institute",
+      "kind": "government",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Tests frontier models and reported its own evaluation incident.",
+      "source_ids": [
+        "AI-S007"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/uk-ai-security-institute.md",
+      "src": "/sprites/entities/ai-e015.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.4113,
+      "bytes": 850156
+    },
+    {
+      "id": "AI-E016",
+      "name": "Sam Altman",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "OpenAI's forum identified him as co-founder and CEO.",
+      "source_ids": [
+        "AI-S033"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/sam-altman.md",
+      "src": "/sprites/people/ai-e016.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Turn three-quarters toward the left. Put the right hand in the trouser pocket; let the left arm hang freely. Weight on the back leg, attentive face toward the viewer.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        49,
+        19,
+        974,
+        1519
+      ],
+      "visible_fraction": 0.2555,
+      "bytes": 1293174
+    },
+    {
+      "id": "AI-E017",
+      "name": "Dario Amodei",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic co-founder and CEO; author of a pacing proposal.",
+      "source_ids": [
+        "AI-S014",
+        "AI-S029"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/dario-amodei.md",
+      "src": "/sprites/people/ai-e017.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Preserve the approved Dario pose: hands gently clasped at the waist, dark suit, burgundy tie, calm serious expression.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        67,
+        14,
+        924,
+        1516
+      ],
+      "visible_fraction": 0.2626,
+      "bytes": 1189793
+    },
+    {
+      "id": "AI-E018",
+      "name": "Demis Hassabis",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Google's leadership letter assigns him strategic and scientific roles.",
+      "source_ids": [
+        "AI-S032"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/demis-hassabis.md",
+      "src": "/sprites/people/ai-e018.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters right, one forearm across the lower chest supporting the other elbow, the other hand lightly near the chin in a thoughtful pose. Keep the face fully visible.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        57,
+        32,
+        994,
+        1512
+      ],
+      "visible_fraction": 0.2508,
+      "bytes": 1315841
+    },
+    {
+      "id": "AI-E019",
+      "name": "Koray Kavukcuoglu",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Google's leadership letter places him in charge of GDM.",
+      "source_ids": [
+        "AI-S032"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/koray-kavukcuoglu.md",
+      "src": "/sprites/people/ai-e019.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand upright facing forward, arms loosely folded across the chest, shoulders relaxed, thoughtful level gaze. Avoid clenched hands or an aggressive stance.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        51,
+        31,
+        978,
+        1513
+      ],
+      "visible_fraction": 0.2554,
+      "bytes": 1212320
+    },
+    {
+      "id": "AI-E020",
+      "name": "Sundar Pichai",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Google's leadership letter identifies him as Google and Alphabet CEO.",
+      "source_ids": [
+        "AI-S032"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/sundar-pichai.md",
+      "src": "/sprites/people/ai-e020.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Turn slightly left, left hand holding a slim closed notebook at waist level while the right hand makes one small open-palm explanatory gesture at chest height.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        53,
+        25,
+        914,
+        1536
+      ],
+      "visible_fraction": 0.2619,
+      "bytes": 1161651
+    },
+    {
+      "id": "AI-E021",
+      "name": "Mark Zuckerberg",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Meta's September 2026 announcement identifies him as founder and CEO.",
+      "source_ids": [
+        "AI-S030"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/mark-zuckerberg.md",
+      "src": "/sprites/people/ai-e021.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing, shoulders level, both arms resting separately at the sides, hands open and relaxed. Feet parallel, balanced formal stance.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        65,
+        24,
+        998,
+        1536
+      ],
+      "visible_fraction": 0.2838,
+      "bytes": 1281046
+    },
+    {
+      "id": "AI-E022",
+      "name": "Liang Wenfeng",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Reuters identified him as DeepSeek CEO in September 2026.",
+      "source_ids": [
+        "AI-S034",
+        "AI-S035"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/liang-wenfeng.md",
+      "src": "/sprites/people/ai-e022.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand almost front-facing, left arm at the side, right hand lightly touching the jacket lapel. One foot slightly ahead, calm mid-conversation posture.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        57,
+        32,
+        972,
+        1512
+      ],
+      "visible_fraction": 0.2603,
+      "bytes": 1212631
+    },
+    {
+      "id": "AI-E023",
+      "name": "Eddie Wu",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Delivered Alibaba's September 2026 AI strategy as group CEO.",
+      "source_ids": [
+        "AI-S021"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/eddie-wu.md",
+      "src": "/sprites/people/ai-e023.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters left with the left forearm supporting a slim closed folio against the torso; the right hand rests on its top edge. Head turned toward the viewer.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        17,
+        1000,
+        1520
+      ],
+      "visible_fraction": 0.2563,
+      "bytes": 1355637
+    },
+    {
+      "id": "AI-E024",
+      "name": "Robin Li",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Baidu's May 2026 results identify him as co-founder and CEO.",
+      "source_ids": [
+        "AI-S022"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/robin-li.md",
+      "src": "/sprites/people/ai-e024.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand in a composed pause, slightly angled right. The left hand adjusts the right shirt cuff in front of the lower torso. Keep the elbows separated and feet uncrossed.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        41,
+        21,
+        1004,
+        1536
+      ],
+      "visible_fraction": 0.2477,
+      "bytes": 1254541
+    },
+    {
+      "id": "AI-E025",
+      "name": "Pony Ma / Ma Huateng",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Tencent's current profile identifies him as chairman and CEO.",
+      "source_ids": [
+        "AI-S025"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/pony-ma-ma-huateng.md",
+      "src": "/sprites/people/ai-e025.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing with the left hand in a trouser pocket and right hand held low with the palm slightly open, making a restrained explanatory gesture. Weight shifted subtly left.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        31,
+        978,
+        1536
+      ],
+      "visible_fraction": 0.2666,
+      "bytes": 1178449
+    },
+    {
+      "id": "AI-E026",
+      "name": "Satya Nadella",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Microsoft's FY2026 event page identifies him as chairman and CEO.",
+      "source_ids": [
+        "AI-S028"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/satya-nadella.md",
+      "src": "/sprites/people/ai-e026.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters right, one forearm across the lower chest supporting the other elbow, the other hand lightly near the chin in a thoughtful pose. Keep the face fully visible.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        121,
+        30,
+        940,
+        1518
+      ],
+      "visible_fraction": 0.2467,
+      "bytes": 1208403
+    },
+    {
+      "id": "AI-E027",
+      "name": "Andy Jassy",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Amazon's 2026 Anthropic announcement identifies him as CEO.",
+      "source_ids": [
+        "AI-S029"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/andy-jassy.md",
+      "src": "/sprites/people/ai-e027.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand slightly left-facing, hold a thin tablet in the left hand at waist level and point gently at its blank screen with the right index finger. Serious focused expression, head mostly upright.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        14,
+        906,
+        1520
+      ],
+      "visible_fraction": 0.2699,
+      "bytes": 1278006
+    },
+    {
+      "id": "AI-E028",
+      "name": "Clement Delangue",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "A joint-response post identifies him as Hugging Face co-founder and CEO.",
+      "source_ids": [
+        "AI-S004"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/clement-delangue.md",
+      "src": "/sprites/people/ai-e028.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand upright facing the viewer, holding a closed folder down at the right side, left hand loosely resting on the jacket seam. Feet slightly offset and shoulders level.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        127,
+        33,
+        980,
+        1536
+      ],
+      "visible_fraction": 0.273,
+      "bytes": 1283078
+    },
+    {
+      "id": "AI-E029",
+      "name": "Elon Musk",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "August reporting identifies him as SpaceX founder and CEO and xAI founder.",
+      "source_ids": [
+        "AI-S042"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/elon-musk.md",
+      "src": "/sprites/people/ai-e029.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand upright facing forward, arms loosely folded across the chest, shoulders relaxed, thoughtful level gaze. Avoid clenched hands or an aggressive stance.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        49,
+        11,
+        930,
+        1523
+      ],
+      "visible_fraction": 0.2701,
+      "bytes": 1203197
+    },
+    {
+      "id": "AI-E030",
+      "name": "GPT model family",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "OpenAI's models can be placed in agent systems.",
+      "source_ids": [
+        "AI-S004",
+        "AI-S005"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/gpt-model-family.md",
+      "src": "/sprites/entities/ai-e030.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        19,
+        1253,
+        1230
+      ],
+      "visible_fraction": 0.4313,
+      "bytes": 751804
+    },
+    {
+      "id": "AI-E031",
+      "name": "Claude model family",
+      "kind": "capability",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Anthropic models appear in products and reported cyber incidents.",
+      "source_ids": [
+        "AI-S001",
+        "AI-S003"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/claude-model-family.md",
+      "src": "/sprites/entities/ai-e031.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        41,
+        1234,
+        1254
+      ],
+      "visible_fraction": 0.2983,
+      "bytes": 571251
+    },
+    {
+      "id": "AI-E032",
+      "name": "Gemini model family",
+      "kind": "capability",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Google develops Gemini with documented security evaluations.",
+      "source_ids": [
+        "AI-S010",
+        "AI-S011"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/gemini-model-family.md",
+      "src": "/sprites/entities/ai-e032.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        27,
+        33,
+        1226,
+        1254
+      ],
+      "visible_fraction": 0.1864,
+      "bytes": 386902
+    },
+    {
+      "id": "AI-E033",
+      "name": "Grok model family",
+      "kind": "capability",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Grok is listed by the xAI business.",
+      "source_ids": [
+        "AI-S041"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/grok-model-family.md",
+      "src": "/sprites/entities/ai-e033.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        137,
+        33,
+        1218,
+        1230
+      ],
+      "visible_fraction": 0.2628,
+      "bytes": 552690
+    },
+    {
+      "id": "AI-E034",
+      "name": "DeepSeek R1 and V3 model families",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Published families include reasoning and mixture-of-experts models.",
+      "source_ids": [
+        "AI-S017",
+        "AI-S018",
+        "AI-S019"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/deepseek-r1-and-v3-model-families.md",
+      "src": "/sprites/entities/ai-e034.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        17,
+        1224,
+        1254
+      ],
+      "visible_fraction": 0.4523,
+      "bytes": 831233
+    },
+    {
+      "id": "AI-E035",
+      "name": "Qwen model family",
+      "kind": "capability",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Alibaba's Qwen line includes available-weight releases.",
+      "source_ids": [
+        "AI-S020",
+        "AI-S021"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/qwen-model-family.md",
+      "src": "/sprites/entities/ai-e035.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        19,
+        1238,
+        1254
+      ],
+      "visible_fraction": 0.3431,
+      "bytes": 663106
+    },
+    {
+      "id": "AI-E036",
+      "name": "ERNIE model family",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Baidu released ERNIE 5.1 in May 2026.",
+      "source_ids": [
+        "AI-S023"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/ernie-model-family.md",
+      "src": "/sprites/entities/ai-e036.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        34,
+        1230,
+        1254
+      ],
+      "visible_fraction": 0.3484,
+      "bytes": 628089
+    },
+    {
+      "id": "AI-E037",
+      "name": "Tencent Hy / Hunyuan model family",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Tencent's Hy3 supports hosted and downloaded use.",
+      "source_ids": [
+        "AI-S024"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/tencent-hy-hunyuan-model-family.md",
+      "src": "/sprites/entities/ai-e037.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.3744,
+      "bytes": 776462
+    },
+    {
+      "id": "AI-E038",
+      "name": "Pangu model family",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Huawei includes Pangu in its system roadmap.",
+      "source_ids": [
+        "AI-S026"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/pangu-model-family.md",
+      "src": "/sprites/entities/ai-e038.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        73,
+        1236,
+        1254
+      ],
+      "visible_fraction": 0.3899,
+      "bytes": 914134
+    },
+    {
+      "id": "AI-E039",
+      "name": "Tool-using AI agent",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "An agent combines a model, tools and an action loop.",
+      "source_ids": [
+        "AI-S001",
+        "AI-S008",
+        "AI-S011"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/tool-using-ai-agent.md",
+      "src": "/sprites/entities/ai-e039.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        21,
+        19,
+        1242,
+        1236
+      ],
+      "visible_fraction": 0.2435,
+      "bytes": 591404
+    },
+    {
+      "id": "AI-E040",
+      "name": "AI-assisted cyber operations",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Models can assist both malicious operations and defense.",
+      "source_ids": [
+        "AI-S001",
+        "AI-S007",
+        "AI-S036"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/ai-assisted-cyber-operations.md",
+      "src": "/sprites/entities/ai-e040.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        96,
+        19,
+        1198,
+        1215
+      ],
+      "visible_fraction": 0.3325,
+      "bytes": 739295
+    },
+    {
+      "id": "AI-E041",
+      "name": "Indirect prompt injection",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Untrusted content can redirect an agent from the user's task.",
+      "source_ids": [
+        "AI-S011"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/indirect-prompt-injection.md",
+      "src": "/sprites/entities/ai-e041.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        23,
+        39,
+        1180,
+        1188
+      ],
+      "visible_fraction": 0.2884,
+      "bytes": 574619
+    },
+    {
+      "id": "AI-E042",
+      "name": "Model weights",
+      "kind": "infrastructure",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Stored parameters are a transferable part of a model.",
+      "source_ids": [
+        "AI-S009",
+        "AI-S019",
+        "AI-S020"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/model-weights.md",
+      "src": "/sprites/entities/ai-e042.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        33,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.4136,
+      "bytes": 883304
+    },
+    {
+      "id": "AI-E043",
+      "name": "AI compute and cloud capacity",
+      "kind": "infrastructure",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Training and inference use physical and contracted compute resources.",
+      "source_ids": [
+        "AI-S021",
+        "AI-S026",
+        "AI-S027",
+        "AI-S029"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/ai-compute-and-cloud-capacity.md",
+      "src": "/sprites/entities/ai-e043.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        26,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.405,
+      "bytes": 951229
+    },
+    {
+      "id": "AI-E044",
+      "name": "Evaluation, monitoring and containment",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Tests and controls can expose or restrict unsafe behavior.",
+      "source_ids": [
+        "AI-S003",
+        "AI-S006",
+        "AI-S007",
+        "AI-S010",
+        "AI-S038"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/evaluation-monitoring-and-containment.md",
+      "src": "/sprites/entities/ai-e044.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        9,
+        1236,
+        1254
+      ],
+      "visible_fraction": 0.3762,
+      "bytes": 799162
+    },
+    {
+      "id": "AI-E045",
+      "name": "AI research automation",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Participants describe using AI to accelerate AI research.",
+      "source_ids": [
+        "AI-S014",
+        "AI-S021",
+        "AI-S039"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/ai-research-automation.md",
+      "src": "/sprites/entities/ai-e045.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        85,
+        1218,
+        1236
+      ],
+      "visible_fraction": 0.3663,
+      "bytes": 720514
+    },
+    {
+      "id": "AI-E046",
+      "name": "SpaceX",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Acquired xAI in February 2026.",
+      "source_ids": [
+        "AI-S031",
+        "AI-S042"
+      ],
+      "dossier_path": "research/ai-ecosystem/entities/spacex.md",
+      "src": "/sprites/entities/ai-e046.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        30,
+        103,
+        1232,
+        1229
+      ],
+      "visible_fraction": 0.07,
+      "bytes": 228384
+    },
+    {
+      "id": "AI-E047",
+      "name": "Daniela Amodei",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic co-founder, president, and board chair.",
+      "source_ids": [
+        "AC-S003"
+      ],
+      "dossier_path": "characters/people/ai-e047.md",
+      "src": "/sprites/people/ai-e047.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand at a slight three-quarter angle, right hand holding a closed briefing folder down beside the thigh, left arm relaxed at the side. Navy trouser suit and ivory blouse. Shoulder-length brown waves, no glasses.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        35,
+        21,
+        956,
+        1522
+      ],
+      "visible_fraction": 0.2684,
+      "bytes": 1263981
+    },
+    {
+      "id": "AI-E048",
+      "name": "Jared Kaplan",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic co-founder and chief science officer.",
+      "source_ids": [
+        "AC-S003",
+        "AC-S008",
+        "AC-S007"
+      ],
+      "dossier_path": "characters/people/ai-e048.md",
+      "src": "/sprites/people/ai-e048.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "One hand in the trouser pocket, other hand making a small open-palm explanatory gesture at waist height. Charcoal suit, light shirt, muted blue tie. Preserve short dark swept-back hair and rectangular glasses.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        20,
+        1002,
+        1536
+      ],
+      "visible_fraction": 0.278,
+      "bytes": 1329047
+    },
+    {
+      "id": "AI-E049",
+      "name": "Chris Olah",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic co-founder and interpretability research lead.",
+      "source_ids": [
+        "AC-S003",
+        "AC-S001",
+        "AC-S007"
+      ],
+      "dossier_path": "characters/people/ai-e049.md",
+      "src": "/sprites/people/ai-e049.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand thoughtfully with one forearm supporting the other elbow and the free hand near the chin, leaving face visible. Slate suit, white shirt, burgundy tie. Preserve side-parted dark hair, rectangular glasses and broad facial structure.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        890,
+        1519
+      ],
+      "visible_fraction": 0.2695,
+      "bytes": 1265476
+    },
+    {
+      "id": "AI-E050",
+      "name": "Jan Leike",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic Alignment Science lead.",
+      "source_ids": [
+        "AC-S004",
+        "AC-S005"
+      ],
+      "dossier_path": "characters/people/ai-e050.md",
+      "src": "/sprites/people/ai-e050.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand slightly angled, arms loosely folded, relaxed shoulders, attentive level gaze. Navy suit, pale shirt, subdued gray tie. Preserve straight light-brown parted hair and short light stubble, no glasses.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        75,
+        31,
+        968,
+        1536
+      ],
+      "visible_fraction": 0.2437,
+      "bytes": 1213171
+    },
+    {
+      "id": "AI-E051",
+      "name": "Amanda Askell",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic Character work lead and constitution primary author.",
+      "source_ids": [
+        "AC-S006",
+        "AC-S007",
+        "AC-S001"
+      ],
+      "dossier_path": "characters/people/ai-e051.md",
+      "src": "/sprites/people/ai-e051.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand mostly front-facing, holding a slim closed notebook in the left hand at waist level, right palm making a small measured gesture. Dark charcoal trouser suit, ivory blouse. Blonde hair tied in a loose high bun as in the identity reference, no glasses.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        57,
+        15,
+        992,
+        1518
+      ],
+      "visible_fraction": 0.2503,
+      "bytes": 1269221
+    },
+    {
+      "id": "AI-E052",
+      "name": "Jack Clark",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic co-founder and head of public benefit; Anthropic Institute lead.",
+      "source_ids": [
+        "AC-S003",
+        "AC-S002"
+      ],
+      "dossier_path": "characters/people/ai-e052.md",
+      "src": "/sprites/people/ai-e052.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters turned with both hands behind the back and head turned toward the viewer. Dark navy suit, white shirt and muted rust tie. Preserve short straight brown hair and broad features, no glasses.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        113,
+        21,
+        978,
+        1507
+      ],
+      "visible_fraction": 0.2461,
+      "bytes": 1197960
+    },
+    {
+      "id": "AI-E053",
+      "name": "Brian Israel",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic chief legal officer.",
+      "source_ids": [
+        "AC-S003"
+      ],
+      "dossier_path": "characters/people/ai-e053.md",
+      "src": "/sprites/people/ai-e053.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand almost front-facing, left arm supporting a thin closed legal folio against the hip, right hand resting on its top edge. Charcoal suit, light blue shirt and navy tie. Preserve side-parted short brown hair, clean-shaven face, no glasses.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        49,
+        34,
+        988,
+        1508
+      ],
+      "visible_fraction": 0.2787,
+      "bytes": 1281645
+    },
+    {
+      "id": "AI-E054",
+      "name": "Tom Brown",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic co-founder and chief compute officer.",
+      "source_ids": [
+        "AC-S003",
+        "AC-S009",
+        "AC-S008"
+      ],
+      "dossier_path": "characters/people/ai-e054.md",
+      "src": "/sprites/people/ai-e054.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand slightly angled, left hand in trouser pocket, right arm hanging freely at side. Gray suit, white shirt and muted blue tie. Preserve short dark hair, dark eyebrows and close stubble, no glasses.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        952,
+        1521
+      ],
+      "visible_fraction": 0.2814,
+      "bytes": 1362358
+    },
+    {
+      "id": "AI-E055",
+      "name": "Krishna Rao",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anthropic chief financial officer.",
+      "source_ids": [
+        "AC-S003"
+      ],
+      "dossier_path": "characters/people/ai-e055.md",
+      "src": "/sprites/people/ai-e055.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing, hold a thin tablet at waist level with left hand and point gently at its blank screen with right index finger. Navy suit, white shirt and burgundy tie. Preserve medium-brown skin, short side-parted dark hair, clean-shaven face and no glasses.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        73,
+        32,
+        970,
+        1536
+      ],
+      "visible_fraction": 0.2752,
+      "bytes": 1268879
+    },
+    {
+      "id": "SD-E001",
+      "name": "United States government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "Federal actor. Executive and legislature have separate powers.",
+      "source_ids": [
+        "SD-S006",
+        "SD-S016",
+        "SD-S045"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e001.png",
+      "status": "ready",
+      "likeness_review": null,
+      "style_revision": "pixel-emblems-v2",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        2,
+        89,
+        1253,
+        1236
+      ],
+      "visible_fraction": 0.5833,
+      "bytes": 1140780
+    },
+    {
+      "id": "SD-E002",
+      "name": "People's Republic of China government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [
+        "TW-E032"
+      ],
+      "summary": "Party-led state. Its Taiwan sovereignty claim is disputed.",
+      "source_ids": [
+        "SD-S009",
+        "SD-S016",
+        "SD-S044"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e002.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        41,
+        1240,
+        1214
+      ],
+      "visible_fraction": 0.349,
+      "bytes": 685328
+    },
+    {
+      "id": "SD-E004",
+      "name": "Japan government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "US treaty ally with separate constitutional decisions.",
+      "source_ids": [
+        "SD-S019",
+        "SD-S020"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e004.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        85,
+        1222,
+        1216
+      ],
+      "visible_fraction": 0.3811,
+      "bytes": 651426
+    },
+    {
+      "id": "SD-E005",
+      "name": "Philippines government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "US treaty ally. Maritime incidents can create alliance crises.",
+      "source_ids": [
+        "SD-S021",
+        "SD-S022"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e005.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        21,
+        1218,
+        1212
+      ],
+      "visible_fraction": 0.4227,
+      "bytes": 840727
+    },
+    {
+      "id": "SD-E006",
+      "name": "Republic of Korea government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "US treaty ally. Korean Peninsula security is a separate decision problem.",
+      "source_ids": [
+        "SD-S023",
+        "SD-S024"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e006.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        104,
+        1203,
+        1254
+      ],
+      "visible_fraction": 0.4225,
+      "bytes": 859375
+    },
+    {
+      "id": "SD-E007",
+      "name": "Australia government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "2026 strategy stresses deterrence, self-reliance and partnerships.",
+      "source_ids": [
+        "SD-S025",
+        "SD-S026"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e007.png",
+      "status": "ready",
+      "likeness_review": null,
+      "style_revision": "pixel-emblems-v2",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        37,
+        1214,
+        1236
+      ],
+      "visible_fraction": 0.399,
+      "bytes": 814511
+    },
+    {
+      "id": "SD-E008",
+      "name": "Netherlands government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "Controls some advanced chip-equipment exports through licensing.",
+      "source_ids": [
+        "SD-S029",
+        "SD-S030"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e008.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        21,
+        1198,
+        1228
+      ],
+      "visible_fraction": 0.3867,
+      "bytes": 699737
+    },
+    {
+      "id": "SD-E009",
+      "name": "United Kingdom government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "Nuclear-armed AUKUS partner.",
+      "source_ids": [
+        "SD-S014",
+        "SD-S027",
+        "SD-S031"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e009.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        63,
+        1245,
+        1235
+      ],
+      "visible_fraction": 0.4377,
+      "bytes": 856100
+    },
+    {
+      "id": "SD-E010",
+      "name": "European Union institutions",
+      "kind": "organization",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "Commission and European Council have different roles.",
+      "source_ids": [
+        "SD-S032",
+        "SD-S033"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e010.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        38,
+        1253,
+        1254
+      ],
+      "visible_fraction": 0.4567,
+      "bytes": 781364
+    },
+    {
+      "id": "SD-E011",
+      "name": "Russian Federation government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "Nuclear-armed state. Separate actor in a possible wider crisis.",
+      "source_ids": [
+        "SD-S014",
+        "SD-S034"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e011.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        61,
+        1168,
+        1238
+      ],
+      "visible_fraction": 0.3159,
+      "bytes": 612073
+    },
+    {
+      "id": "SD-E012",
+      "name": "Democratic People's Republic of Korea government",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [],
+      "summary": "Nuclear-armed state with close public ties to the PRC.",
+      "source_ids": [
+        "SD-S011",
+        "SD-S014"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e012.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        29,
+        23,
+        1218,
+        1254
+      ],
+      "visible_fraction": 0.4116,
+      "bytes": 811727
+    },
+    {
+      "id": "SD-E013",
+      "name": "Central Military Commission",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Top military command institution in cited PRC policy.",
+      "source_ids": [
+        "SD-S009",
+        "SD-S044"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e013.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1246,
+        1254
+      ],
+      "visible_fraction": 0.4448,
+      "bytes": 968530
+    },
+    {
+      "id": "SD-E014",
+      "name": "People's Liberation Army",
+      "kind": "organization",
+      "art_kind": "emblem",
+      "aliases": [],
+      "summary": "Armed forces with conventional, nuclear, cyber and space capability categories.",
+      "source_ids": [
+        "SD-S038",
+        "SD-S044"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e014.png",
+      "status": "ready",
+      "likeness_review": null,
+      "style_revision": "pixel-emblems-v2",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        25,
+        20,
+        1240,
+        1238
+      ],
+      "visible_fraction": 0.2797,
+      "bytes": 593325
+    },
+    {
+      "id": "SD-E015",
+      "name": "U.S. Department of Defense",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Defense department; sources also use secondary Department of War title.",
+      "source_ids": [
+        "SD-S006",
+        "SD-S008",
+        "SD-S045"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e015.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        6,
+        1222,
+        1232
+      ],
+      "visible_fraction": 0.5064,
+      "bytes": 1186738
+    },
+    {
+      "id": "SD-E016",
+      "name": "U.S. Congress",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Legislative actor with defense oversight and Taiwan policy roles.",
+      "source_ids": [
+        "SD-S006",
+        "SD-S016",
+        "SD-S017"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e016.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        39,
+        1232,
+        1254
+      ],
+      "visible_fraction": 0.4919,
+      "bytes": 1139416
+    },
+    {
+      "id": "SD-E017",
+      "name": "U.S. Indo-Pacific Command",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Regional combatant command; official website also uses Pacific Command.",
+      "source_ids": [
+        "SD-S005",
+        "SD-S006"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e017.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1253,
+        1254
+      ],
+      "visible_fraction": 0.4243,
+      "bytes": 1240518
+    },
+    {
+      "id": "SD-E018",
+      "name": "U.S. Strategic Command",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Command involved in strategic deterrence and nuclear advice and execution.",
+      "source_ids": [
+        "SD-S007",
+        "SD-S008"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e018.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1238,
+        1254
+      ],
+      "visible_fraction": 0.4281,
+      "bytes": 1129838
+    },
+    {
+      "id": "SD-E019",
+      "name": "U.S. Department of State",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Diplomacy institution led by the secretary of state.",
+      "source_ids": [
+        "SD-S001"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e019.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1244,
+        1254
+      ],
+      "visible_fraction": 0.4388,
+      "bytes": 1341551
+    },
+    {
+      "id": "SD-E020",
+      "name": "PRC Ministry of Foreign Affairs",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Public diplomacy and policy communication institution.",
+      "source_ids": [
+        "SD-S009",
+        "SD-S010",
+        "SD-S048"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e020.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        18,
+        43,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.4709,
+      "bytes": 1385737
+    },
+    {
+      "id": "SD-E021",
+      "name": "PRC Ministry of National Defense",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Defense ministry. Do not map its minister directly to the US defense secretary.",
+      "source_ids": [
+        "SD-S009",
+        "SD-S010",
+        "SD-S044"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e021.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        21,
+        1222,
+        1254
+      ],
+      "visible_fraction": 0.5292,
+      "bytes": 1197634
+    },
+    {
+      "id": "SD-E022",
+      "name": "Taiwan armed forces",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Military institution for Taiwan defense.",
+      "source_ids": [
+        "SD-S017"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e022.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        25,
+        1236,
+        1254
+      ],
+      "visible_fraction": 0.4311,
+      "bytes": 1240296
+    },
+    {
+      "id": "SD-E023",
+      "name": "AUKUS partnership",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Trilateral defense cooperation with submarine and advanced-capability tracks.",
+      "source_ids": [
+        "SD-S027",
+        "SD-S028"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e023.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        41,
+        1234,
+        1254
+      ],
+      "visible_fraction": 0.4306,
+      "bytes": 1066306
+    },
+    {
+      "id": "SD-E024",
+      "name": "PLA Information Support Force",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Established in April 2024 under direct CMC leadership.",
+      "source_ids": [
+        "SD-S044"
+      ],
+      "dossier_path": "research/states-defense/actors.md",
+      "src": "/sprites/entities/sd-e024.png",
+      "status": "ready",
+      "likeness_review": null,
+      "style_revision": "pixel-emblems-v2",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        17,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.4122,
+      "bytes": 1082644
+    },
+    {
+      "id": "SD-E025",
+      "name": "Donald Trump",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "President of the United States.",
+      "source_ids": [
+        "SD-S002",
+        "SD-S007",
+        "SD-S045"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e025.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters right, right arm resting at the side, left hand making a small measured palm-down gesture at waist height. Calm diplomatic posture.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        17,
+        970,
+        1521
+      ],
+      "visible_fraction": 0.2926,
+      "bytes": 1281254
+    },
+    {
+      "id": "SD-E026",
+      "name": "JD Vance",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Vice President of the United States.",
+      "source_ids": [
+        "SD-S003",
+        "SD-S054"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e026.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters left, hands holding a thin closed briefing folder horizontally at waist height, with elbows slightly away from the torso. Neutral focused face.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        49,
+        13,
+        994,
+        1524
+      ],
+      "visible_fraction": 0.2785,
+      "bytes": 1295060
+    },
+    {
+      "id": "SD-E027",
+      "name": "Pete Hegseth",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Defense secretary; White House uses Secretary of War title.",
+      "source_ids": [
+        "SD-S001",
+        "SD-S006",
+        "SD-S008"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e027.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing, shoulders level, both arms resting separately at the sides, hands open and relaxed. Feet parallel, balanced formal stance.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        17,
+        16,
+        984,
+        1521
+      ],
+      "visible_fraction": 0.3129,
+      "bytes": 1300981
+    },
+    {
+      "id": "SD-E028",
+      "name": "Marco Rubio",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Secretary of State.",
+      "source_ids": [
+        "SD-S001"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e028.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Turn three-quarters toward the left. Put the right hand in the trouser pocket; let the left arm hang freely. Weight on the back leg, attentive face toward the viewer.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        14,
+        1004,
+        1522
+      ],
+      "visible_fraction": 0.2693,
+      "bytes": 1315934
+    },
+    {
+      "id": "SD-E029",
+      "name": "Dan Caine",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Chairman of the Joint Chiefs of Staff.",
+      "source_ids": [
+        "SD-S004",
+        "SD-S007",
+        "SD-S051"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e029.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters toward the right, holding a thin closed document folder vertically at the left hip with the left hand. The right arm rests naturally at the side.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        25,
+        32,
+        994,
+        1536
+      ],
+      "visible_fraction": 0.2721,
+      "bytes": 1291695
+    },
+    {
+      "id": "SD-E030",
+      "name": "Samuel Paparo",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Regional combatant commander.",
+      "source_ids": [
+        "SD-S005",
+        "SD-S006",
+        "SD-S050"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e030.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand upright facing forward, arms loosely folded across the chest, shoulders relaxed, thoughtful level gaze. Avoid clenched hands or an aggressive stance.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        129,
+        22,
+        932,
+        1536
+      ],
+      "visible_fraction": 0.2575,
+      "bytes": 1133506
+    },
+    {
+      "id": "SD-E031",
+      "name": "Xi Jinping",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "PRC president, CPC general secretary and CMC chair.",
+      "source_ids": [
+        "SD-S011",
+        "SD-S052",
+        "SD-S009",
+        "SD-S049"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e031.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand at a right-facing three-quarter angle with both hands behind the back. Chest relaxed, chin slightly lowered, serious listening expression.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        15,
+        986,
+        1523
+      ],
+      "visible_fraction": 0.2822,
+      "bytes": 1146438
+    },
+    {
+      "id": "SD-E032",
+      "name": "Wang Yi",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Minister of Foreign Affairs.",
+      "source_ids": [
+        "SD-S010"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e032.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand at a right-facing three-quarter angle with both hands behind the back. Chest relaxed, chin slightly lowered, serious listening expression.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        49,
+        16,
+        1010,
+        1520
+      ],
+      "visible_fraction": 0.2618,
+      "bytes": 1131834
+    },
+    {
+      "id": "SD-E033",
+      "name": "Dong Jun",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Minister of National Defense.",
+      "source_ids": [
+        "SD-S010"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e033.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand almost front-facing, left arm at the side, right hand lightly touching the jacket lapel. One foot slightly ahead, calm mid-conversation posture.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        33,
+        944,
+        1521
+      ],
+      "visible_fraction": 0.2832,
+      "bytes": 1311845
+    },
+    {
+      "id": "SD-E036",
+      "name": "Sanae Takaichi",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Prime Minister of Japan.",
+      "source_ids": [
+        "SD-S019",
+        "SD-S020"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e036.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters left with the left forearm supporting a slim closed folio against the torso; the right hand rests on its top edge. Head turned toward the viewer.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        41,
+        17,
+        946,
+        1521
+      ],
+      "visible_fraction": 0.2289,
+      "bytes": 1238675
+    },
+    {
+      "id": "SD-E037",
+      "name": "Ferdinand Marcos Jr.",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "President of the Philippines.",
+      "source_ids": [
+        "SD-S021",
+        "SD-S022"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e037.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand in a composed pause, slightly angled right. The left hand adjusts the right shirt cuff in front of the lower torso. Keep the elbows separated and feet uncrossed.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        25,
+        998,
+        1536
+      ],
+      "visible_fraction": 0.2569,
+      "bytes": 1182455
+    },
+    {
+      "id": "SD-E038",
+      "name": "Lee Jae Myung",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "President of the Republic of Korea.",
+      "source_ids": [
+        "SD-S023",
+        "SD-S024"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e038.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing with the left hand in a trouser pocket and right hand held low with the palm slightly open, making a restrained explanatory gesture. Weight shifted subtly left.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        17,
+        1002,
+        1520
+      ],
+      "visible_fraction": 0.2812,
+      "bytes": 1268201
+    },
+    {
+      "id": "SD-E039",
+      "name": "Anthony Albanese",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Prime Minister of Australia.",
+      "source_ids": [
+        "SD-S026"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e039.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters right, one forearm across the lower chest supporting the other elbow, the other hand lightly near the chin in a thoughtful pose. Keep the face fully visible.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        137,
+        17,
+        908,
+        1521
+      ],
+      "visible_fraction": 0.262,
+      "bytes": 1228167
+    },
+    {
+      "id": "SD-E040",
+      "name": "Richard Marles",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Deputy Prime Minister and Defence Minister.",
+      "source_ids": [
+        "SD-S025"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e040.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand slightly left-facing, hold a thin tablet in the left hand at waist level and point gently at its blank screen with the right index finger. Serious focused expression, head mostly upright.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        49,
+        28,
+        984,
+        1536
+      ],
+      "visible_fraction": 0.2676,
+      "bytes": 1319125
+    },
+    {
+      "id": "SD-E041",
+      "name": "Rob Jetten",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Prime Minister and Minister of General Affairs.",
+      "source_ids": [
+        "SD-S029"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e041.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand upright facing the viewer, holding a closed folder down at the right side, left hand loosely resting on the jacket seam. Feet slightly offset and shoulders level.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        29,
+        922,
+        1536
+      ],
+      "visible_fraction": 0.2587,
+      "bytes": 1278038
+    },
+    {
+      "id": "SD-E042",
+      "name": "Andy Burnham",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Prime Minister of the United Kingdom.",
+      "source_ids": [
+        "SD-S031",
+        "SD-S055"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e042.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters right, right arm resting at the side, left hand making a small measured palm-down gesture at waist height. Calm diplomatic posture.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        47,
+        30,
+        954,
+        1520
+      ],
+      "visible_fraction": 0.2614,
+      "bytes": 1203702
+    },
+    {
+      "id": "SD-E043",
+      "name": "Ursula von der Leyen",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "President of the European Commission.",
+      "source_ids": [
+        "SD-S032"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e043.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing with one hand resting lightly over the other wrist behind the back. Feet naturally spaced, head angled a few degrees left in attentive listening.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        27,
+        978,
+        1510
+      ],
+      "visible_fraction": 0.2495,
+      "bytes": 1210081
+    },
+    {
+      "id": "SD-E044",
+      "name": "Antonio Costa",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "President of the European Council.",
+      "source_ids": [
+        "SD-S033"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e044.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters left, hands holding a thin closed briefing folder horizontally at waist height, with elbows slightly away from the torso. Neutral focused face.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        35,
+        19,
+        996,
+        1536
+      ],
+      "visible_fraction": 0.2635,
+      "bytes": 1257312
+    },
+    {
+      "id": "SD-E045",
+      "name": "Vladimir Putin",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "President of the Russian Federation.",
+      "source_ids": [
+        "SD-S034"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e045.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing, shoulders level, both arms resting separately at the sides, hands open and relaxed. Feet parallel, balanced formal stance.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        115,
+        44,
+        954,
+        1502
+      ],
+      "visible_fraction": 0.3078,
+      "bytes": 1317042
+    },
+    {
+      "id": "SD-E046",
+      "name": "Kim Jong Un",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "WPK general secretary and president of State Affairs.",
+      "source_ids": [
+        "SD-S011"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e046.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Turn three-quarters toward the left. Put the right hand in the trouser pocket; let the left arm hang freely. Weight on the back leg, attentive face toward the viewer.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        37,
+        1004,
+        1536
+      ],
+      "visible_fraction": 0.2881,
+      "bytes": 1231749
+    },
+    {
+      "id": "SD-E047",
+      "name": "Zhang Youxia",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Historical senior military official; expelled in September 2026 notice.",
+      "source_ids": [
+        "SD-S012"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e047.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters toward the right, holding a thin closed document folder vertically at the left hip with the left hand. The right arm rests naturally at the side.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        67,
+        24,
+        956,
+        1536
+      ],
+      "visible_fraction": 0.2994,
+      "bytes": 1211329
+    },
+    {
+      "id": "SD-E048",
+      "name": "Liu Zhenli",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Historical senior military official; expelled in September 2026 notice.",
+      "source_ids": [
+        "SD-S012"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e048.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand upright facing forward, arms loosely folded across the chest, shoulders relaxed, thoughtful level gaze. Avoid clenched hands or an aggressive stance.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        95,
+        32,
+        1010,
+        1536
+      ],
+      "visible_fraction": 0.2645,
+      "bytes": 1248901
+    },
+    {
+      "id": "SD-E049",
+      "name": "US nuclear arsenal",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Estimated stockpile of 3,700 warheads in January 2026.",
+      "source_ids": [
+        "SD-S014",
+        "SD-S047"
+      ],
+      "dossier_path": "research/states-defense/nuclear.md",
+      "src": "/sprites/entities/sd-e049.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        25,
+        1222,
+        1254
+      ],
+      "visible_fraction": 0.4204,
+      "bytes": 893890
+    },
+    {
+      "id": "SD-E050",
+      "name": "PRC nuclear arsenal",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Estimated stockpile of 620 warheads in January 2026.",
+      "source_ids": [
+        "SD-S014",
+        "SD-S009"
+      ],
+      "dossier_path": "research/states-defense/nuclear.md",
+      "src": "/sprites/entities/sd-e050.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        66,
+        1222,
+        1254
+      ],
+      "visible_fraction": 0.4659,
+      "bytes": 1019391
+    },
+    {
+      "id": "SD-E051",
+      "name": "Russian nuclear arsenal",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Estimated stockpile of 4,400 warheads in January 2026.",
+      "source_ids": [
+        "SD-S014"
+      ],
+      "dossier_path": "research/states-defense/nuclear.md",
+      "src": "/sprites/entities/sd-e051.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1236,
+        1254
+      ],
+      "visible_fraction": 0.5037,
+      "bytes": 1331285
+    },
+    {
+      "id": "SD-E052",
+      "name": "UK nuclear arsenal",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Estimated stockpile of 225 warheads in January 2026.",
+      "source_ids": [
+        "SD-S014"
+      ],
+      "dossier_path": "research/states-defense/nuclear.md",
+      "src": "/sprites/entities/sd-e052.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        9,
+        1236,
+        1254
+      ],
+      "visible_fraction": 0.4023,
+      "bytes": 915026
+    },
+    {
+      "id": "SD-E053",
+      "name": "DPRK nuclear arsenal",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Estimated stockpile of 60 warheads in January 2026.",
+      "source_ids": [
+        "SD-S014"
+      ],
+      "dossier_path": "research/states-defense/nuclear.md",
+      "src": "/sprites/entities/sd-e053.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        30,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.5255,
+      "bytes": 1209946
+    },
+    {
+      "id": "SD-E054",
+      "name": "French nuclear arsenal",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Estimated stockpile of 290 warheads in January 2026.",
+      "source_ids": [
+        "SD-S014"
+      ],
+      "dossier_path": "research/states-defense/nuclear.md",
+      "src": "/sprites/entities/sd-e054.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        7,
+        1240,
+        1230
+      ],
+      "visible_fraction": 0.4495,
+      "bytes": 955220
+    },
+    {
+      "id": "SD-E055",
+      "name": "Autonomous conventional weapon systems",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Weapon systems with automated functions; scope differs from an LLM.",
+      "source_ids": [
+        "SD-S035",
+        "SD-S015"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e055.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        31,
+        1240,
+        1214
+      ],
+      "visible_fraction": 0.2014,
+      "bytes": 546385
+    },
+    {
+      "id": "SD-E056",
+      "name": "Military AI decision support and LLMs",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Information tools that can affect human decisions.",
+      "source_ids": [
+        "SD-S015",
+        "SD-S039"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e056.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        8,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.4578,
+      "bytes": 914122
+    },
+    {
+      "id": "SD-E057",
+      "name": "State cyber capabilities",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Cyber activity can create attribution and escalation disputes.",
+      "source_ids": [
+        "SD-S037",
+        "SD-S048"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e057.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        7,
+        1227,
+        1254
+      ],
+      "visible_fraction": 0.48,
+      "bytes": 1241235
+    },
+    {
+      "id": "SD-E058",
+      "name": "Nuclear command, control and communications",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Systems support warning, advice, communication and authorized action.",
+      "source_ids": [
+        "SD-S007",
+        "SD-S008",
+        "SD-S009"
+      ],
+      "dossier_path": "research/states-defense/nuclear.md",
+      "src": "/sprites/entities/sd-e058.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        19,
+        1242,
+        1254
+      ],
+      "visible_fraction": 0.324,
+      "bytes": 896486
+    },
+    {
+      "id": "SD-E059",
+      "name": "Space and counterspace capabilities",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Capabilities affect space services and confidence in their continuity.",
+      "source_ids": [
+        "SD-S043",
+        "SD-S040"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e059.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1226,
+        1254
+      ],
+      "visible_fraction": 0.2913,
+      "bytes": 902768
+    },
+    {
+      "id": "SD-E060",
+      "name": "Missile defense and Golden Dome",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Missile defense programs and proposed expansion.",
+      "source_ids": [
+        "SD-S046"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e060.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        17,
+        1253,
+        1254
+      ],
+      "visible_fraction": 0.4602,
+      "bytes": 1266311
+    },
+    {
+      "id": "SD-E061",
+      "name": "US conventional armed forces",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Air, maritime and other non-nuclear forces under civilian command.",
+      "source_ids": [
+        "SD-S006",
+        "SD-S045"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e061.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        9,
+        1230,
+        1254
+      ],
+      "visible_fraction": 0.393,
+      "bytes": 876870
+    },
+    {
+      "id": "SD-E062",
+      "name": "PLA conventional armed forces",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Broad military capability set covered by US assessments.",
+      "source_ids": [
+        "SD-S038"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e062.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1232,
+        1254
+      ],
+      "visible_fraction": 0.5178,
+      "bytes": 1256077
+    },
+    {
+      "id": "SD-E063",
+      "name": "Taiwan conventional defense",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Military capability for deterrence and defense.",
+      "source_ids": [
+        "SD-S017"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e063.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        9,
+        1224,
+        1254
+      ],
+      "visible_fraction": 0.4787,
+      "bytes": 1117042
+    },
+    {
+      "id": "SD-E064",
+      "name": "Replicator autonomy initiative",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "DIU reported software contract awards in November 2024.",
+      "source_ids": [
+        "SD-S036"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e064.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1246,
+        1254
+      ],
+      "visible_fraction": 0.3054,
+      "bytes": 966683
+    },
+    {
+      "id": "SD-E065",
+      "name": "AUKUS AI and autonomy cooperation",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Partners reported common AI algorithms on maritime patrol aircraft.",
+      "source_ids": [
+        "SD-S027",
+        "SD-S028"
+      ],
+      "dossier_path": "research/states-defense/capabilities.md",
+      "src": "/sprites/entities/sd-e065.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        8,
+        1236,
+        1236
+      ],
+      "visible_fraction": 0.3614,
+      "bytes": 962454
+    },
+    {
+      "id": "SD-E066",
+      "name": "Palantir Technologies",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Company offers defense data integration and AI software.",
+      "source_ids": [
+        "SD-S056",
+        "SD-S057"
+      ],
+      "dossier_path": "research/states-defense/contractors.md",
+      "src": "/sprites/entities/sd-e066.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        113,
+        53,
+        1192,
+        1254
+      ],
+      "visible_fraction": 0.2686,
+      "bytes": 502554
+    },
+    {
+      "id": "SD-E067",
+      "name": "Alex Karp",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Palantir co-founder and CEO in the May 2026 company release.",
+      "source_ids": [
+        "SD-S056"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e067.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Turn slightly left, left hand holding a slim closed notebook at waist level while the right hand makes one small open-palm explanatory gesture at chest height.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        67,
+        17,
+        1002,
+        1510
+      ],
+      "visible_fraction": 0.257,
+      "bytes": 1308710
+    },
+    {
+      "id": "SD-E068",
+      "name": "Anduril Industries",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Company offers Lattice software and autonomous defense systems.",
+      "source_ids": [
+        "SD-S058",
+        "SD-S060"
+      ],
+      "dossier_path": "research/states-defense/contractors.md",
+      "src": "/sprites/entities/sd-e068.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        81,
+        30,
+        1214,
+        1254
+      ],
+      "visible_fraction": 0.2855,
+      "bytes": 569160
+    },
+    {
+      "id": "SD-E069",
+      "name": "Palmer Luckey",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anduril founder identified in its September 2026 announcement.",
+      "source_ids": [
+        "SD-S060"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e069.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand at a right-facing three-quarter angle with both hands behind the back. Chest relaxed, chin slightly lowered, serious listening expression.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        145,
+        16,
+        920,
+        1536
+      ],
+      "visible_fraction": 0.2486,
+      "bytes": 1203826
+    },
+    {
+      "id": "SD-E070",
+      "name": "Brian Schimpf",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Anduril CEO in the January 2025 company record; current tenure not reverified.",
+      "source_ids": [
+        "SD-S059"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e070.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand almost front-facing, left arm at the side, right hand lightly touching the jacket lapel. One foot slightly ahead, calm mid-conversation posture.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        33,
+        996,
+        1518
+      ],
+      "visible_fraction": 0.2666,
+      "bytes": 1269644
+    },
+    {
+      "id": "SD-E071",
+      "name": "Lockheed Martin",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Aerospace and defense contractor. Its leadership promotes digital integration with AI.",
+      "source_ids": [
+        "SD-S061",
+        "SD-S062"
+      ],
+      "dossier_path": "research/states-defense/contractors.md",
+      "src": "/sprites/entities/sd-e071.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        40,
+        177,
+        1238,
+        1214
+      ],
+      "visible_fraction": 0.0856,
+      "bytes": 294635
+    },
+    {
+      "id": "SD-E072",
+      "name": "Jim Taiclet",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Company biography identifies chairman, president and CEO of Lockheed Martin.",
+      "source_ids": [
+        "SD-S061",
+        "SD-S062"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e072.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters left with the left forearm supporting a slim closed folio against the torso; the right hand rests on its top edge. Head turned toward the viewer.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        127,
+        18,
+        946,
+        1536
+      ],
+      "visible_fraction": 0.253,
+      "bytes": 1196525
+    },
+    {
+      "id": "SD-E073",
+      "name": "RTX",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Aerospace and defense group with Collins Aerospace, Pratt & Whitney and Raytheon businesses.",
+      "source_ids": [
+        "SD-S063",
+        "SD-S064"
+      ],
+      "dossier_path": "research/states-defense/contractors.md",
+      "src": "/sprites/entities/sd-e073.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        17,
+        37,
+        1238,
+        1188
+      ],
+      "visible_fraction": 0.2146,
+      "bytes": 392951
+    },
+    {
+      "id": "SD-E074",
+      "name": "Christopher Calio",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "RTX biography identifies chairman and CEO.",
+      "source_ids": [
+        "SD-S063"
+      ],
+      "dossier_path": "research/states-defense/people.md",
+      "src": "/sprites/people/sd-e074.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand in a composed pause, slightly angled right. The left hand adjusts the right shirt cuff in front of the lower torso. Keep the elbows separated and feet uncrossed.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        27,
+        20,
+        984,
+        1536
+      ],
+      "visible_fraction": 0.2614,
+      "bytes": 1306746
+    },
+    {
+      "id": "SD-E075",
+      "name": "Aviation Industry Corporation of China (AVIC)",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "State-owned aviation group. The 2024 study covers military aircraft and unmanned systems.",
+      "source_ids": [
+        "SD-S065"
+      ],
+      "dossier_path": "research/states-defense/contractors.md",
+      "src": "/sprites/entities/sd-e075.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        30,
+        1224,
+        1254
+      ],
+      "visible_fraction": 0.3724,
+      "bytes": 762326
+    },
+    {
+      "id": "ST-E001",
+      "name": "Jacquelyn Schneider",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of the human–model war game study.",
+      "source_ids": [
+        "ST-S002"
+      ],
+      "dossier_path": "research/strategy/actors/st-e001.md",
+      "src": "/sprites/people/st-e001.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing with the left hand in a trouser pocket and right hand held low with the palm slightly open, making a restrained explanatory gesture. Weight shifted subtly left.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        39,
+        37,
+        976,
+        1513
+      ],
+      "visible_fraction": 0.258,
+      "bytes": 1191519
+    },
+    {
+      "id": "ST-E002",
+      "name": "Max Lamparth",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of the human–model war game study.",
+      "source_ids": [
+        "ST-S002"
+      ],
+      "dossier_path": "research/strategy/actors/st-e002.md",
+      "src": "/sprites/people/st-e002.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters right, one forearm across the lower chest supporting the other elbow, the other hand lightly near the chin in a thoughtful pose. Keep the face fully visible.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        35,
+        984,
+        1506
+      ],
+      "visible_fraction": 0.243,
+      "bytes": 1288041
+    },
+    {
+      "id": "ST-E003",
+      "name": "Kenneth Payne",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Author of the simulated nuclear-crisis study.",
+      "source_ids": [
+        "ST-S004"
+      ],
+      "dossier_path": "research/strategy/actors/st-e003.md",
+      "src": "/sprites/people/st-e003.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Turn slightly left, left hand holding a slim closed notebook at waist level while the right hand makes one small open-palm explanatory gesture at chest height.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        25,
+        996,
+        1536
+      ],
+      "visible_fraction": 0.266,
+      "bytes": 1332837
+    },
+    {
+      "id": "ST-E004",
+      "name": "Sam Bresnick",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Author of research on Chinese military AI literature.",
+      "source_ids": [
+        "ST-S011"
+      ],
+      "dossier_path": "research/strategy/actors/st-e004.md",
+      "src": "/sprites/people/st-e004.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand at a right-facing three-quarter angle with both hands behind the back. Chest relaxed, chin slightly lowered, serious listening expression.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        115,
+        24,
+        924,
+        1520
+      ],
+      "visible_fraction": 0.2722,
+      "bytes": 1240763
+    },
+    {
+      "id": "ST-E005",
+      "name": "James M. Acton",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Author of research on nuclear–conventional entanglement.",
+      "source_ids": [
+        "ST-S009"
+      ],
+      "dossier_path": "research/strategy/actors/st-e005.md",
+      "src": "/sprites/people/st-e005.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand almost front-facing, left arm at the side, right hand lightly touching the jacket lapel. One foot slightly ahead, calm mid-conversation posture.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        137,
+        33,
+        1004,
+        1520
+      ],
+      "visible_fraction": 0.2712,
+      "bytes": 1281050
+    },
+    {
+      "id": "ST-E006",
+      "name": "Daniel Kokotajlo",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of AI 2027.",
+      "source_ids": [
+        "ST-S013"
+      ],
+      "dossier_path": "research/strategy/actors/st-e006.md",
+      "src": "/sprites/people/st-e006.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters left with the left forearm supporting a slim closed folio against the torso; the right hand rests on its top edge. Head turned toward the viewer.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        15,
+        992,
+        1536
+      ],
+      "visible_fraction": 0.2747,
+      "bytes": 1390909
+    },
+    {
+      "id": "ST-E007",
+      "name": "Eli Lifland",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of AI 2027.",
+      "source_ids": [
+        "ST-S013"
+      ],
+      "dossier_path": "research/strategy/actors/st-e007.md",
+      "src": "/sprites/people/st-e007.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand in a composed pause, slightly angled right. The left hand adjusts the right shirt cuff in front of the lower torso. Keep the elbows separated and feet uncrossed.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        57,
+        17,
+        1010,
+        1522
+      ],
+      "visible_fraction": 0.2623,
+      "bytes": 1266457
+    },
+    {
+      "id": "ST-E008",
+      "name": "Leopold Aschenbrenner",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Author of Situational Awareness.",
+      "source_ids": [
+        "ST-S014"
+      ],
+      "dossier_path": "research/strategy/actors/st-e008.md",
+      "src": "/sprites/people/st-e008.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing with the left hand in a trouser pocket and right hand held low with the palm slightly open, making a restrained explanatory gesture. Weight shifted subtly left.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        55,
+        45,
+        976,
+        1505
+      ],
+      "visible_fraction": 0.2654,
+      "bytes": 1250466
+    },
+    {
+      "id": "ST-E009",
+      "name": "Matt Sheehan",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Author of the AI safety in parallel proposal.",
+      "source_ids": [
+        "ST-S017"
+      ],
+      "dossier_path": "research/strategy/actors/st-e009.md",
+      "src": "/sprites/people/st-e009.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters right, one forearm across the lower chest supporting the other elbow, the other hand lightly near the chin in a thoughtful pose. Keep the face fully visible.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        113,
+        19,
+        968,
+        1518
+      ],
+      "visible_fraction": 0.2564,
+      "bytes": 1238836
+    },
+    {
+      "id": "ST-E010",
+      "name": "Katja Grace",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of the AI researcher survey.",
+      "source_ids": [
+        "ST-S015"
+      ],
+      "dossier_path": "research/strategy/actors/st-e010.md",
+      "src": "/sprites/people/st-e010.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand slightly left-facing, hold a thin tablet in the left hand at waist level and point gently at its blank screen with the right index finger. Serious focused expression, head mostly upright.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        31,
+        10,
+        1002,
+        1522
+      ],
+      "visible_fraction": 0.2791,
+      "bytes": 1269662
+    },
+    {
+      "id": "ST-E011",
+      "name": "Dan Hendrycks",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of Superintelligence Strategy.",
+      "source_ids": [
+        "ST-S023"
+      ],
+      "dossier_path": "research/strategy/actors/st-e011.md",
+      "src": "/sprites/people/st-e011.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand upright facing the viewer, holding a closed folder down at the right side, left hand loosely resting on the jacket seam. Feet slightly offset and shoulders level.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        129,
+        42,
+        874,
+        1512
+      ],
+      "visible_fraction": 0.2419,
+      "bytes": 1250553
+    },
+    {
+      "id": "ST-E012",
+      "name": "Eric Schmidt",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of Superintelligence Strategy.",
+      "source_ids": [
+        "ST-S023"
+      ],
+      "dossier_path": "research/strategy/actors/st-e012.md",
+      "src": "/sprites/people/st-e012.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Turn slightly left, left hand holding a slim closed notebook at waist level while the right hand makes one small open-palm explanatory gesture at chest height.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        14,
+        1000,
+        1520
+      ],
+      "visible_fraction": 0.283,
+      "bytes": 1274996
+    },
+    {
+      "id": "ST-E013",
+      "name": "Alexandr Wang",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of Superintelligence Strategy.",
+      "source_ids": [
+        "ST-S023"
+      ],
+      "dossier_path": "research/strategy/actors/st-e013.md",
+      "src": "/sprites/people/st-e013.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand at a right-facing three-quarter angle with both hands behind the back. Chest relaxed, chin slightly lowered, serious listening expression.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        25,
+        19,
+        964,
+        1509
+      ],
+      "visible_fraction": 0.2445,
+      "bytes": 1213277
+    },
+    {
+      "id": "ST-E014",
+      "name": "Tobias Sytsma",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of the formal model of AI restraint.",
+      "source_ids": [
+        "ST-S018"
+      ],
+      "dossier_path": "research/strategy/actors/st-e014.md",
+      "src": "/sprites/people/st-e014.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters left, hands holding a thin closed briefing folder horizontally at waist height, with elbows slightly away from the torso. Neutral focused face.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        63,
+        30,
+        1010,
+        1518
+      ],
+      "visible_fraction": 0.2616,
+      "bytes": 1187604
+    },
+    {
+      "id": "ST-E015",
+      "name": "Alvin Moon",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of the formal model of AI restraint.",
+      "source_ids": [
+        "ST-S018"
+      ],
+      "dossier_path": "research/strategy/actors/st-e015.md",
+      "src": "/sprites/people/st-e015.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing, shoulders level, both arms resting separately at the sides, hands open and relaxed. Feet parallel, balanced formal stance.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        994,
+        1522
+      ],
+      "visible_fraction": 0.2374,
+      "bytes": 1219572
+    },
+    {
+      "id": "ST-E016",
+      "name": "Abby Doll",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of the Breakwater game overview.",
+      "source_ids": [
+        "ST-S020"
+      ],
+      "dossier_path": "research/strategy/actors/st-e016.md",
+      "src": "/sprites/people/st-e016.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Turn three-quarters toward the left. Put the right hand in the trouser pocket; let the left arm hang freely. Weight on the back leg, attentive face toward the viewer.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        19,
+        32,
+        952,
+        1536
+      ],
+      "visible_fraction": 0.2512,
+      "bytes": 1262740
+    },
+    {
+      "id": "ST-E017",
+      "name": "Karl P. Mueller",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Coauthor of the AGI Rideout strategy.",
+      "source_ids": [
+        "ST-S021"
+      ],
+      "dossier_path": "research/strategy/actors/st-e017.md",
+      "src": "/sprites/people/st-e017.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters toward the right, holding a thin closed document folder vertically at the left hip with the left hand. The right arm rests naturally at the side.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        41,
+        29,
+        976,
+        1517
+      ],
+      "visible_fraction": 0.2741,
+      "bytes": 1321723
+    },
+    {
+      "id": "ST-E018",
+      "name": "RAND",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Publishes research on AI competition, conflict, and cooperation.",
+      "source_ids": [
+        "ST-S005"
+      ],
+      "dossier_path": "research/strategy/actors/st-e018.md",
+      "src": "/sprites/entities/st-e018.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        23,
+        36,
+        1224,
+        1230
+      ],
+      "visible_fraction": 0.2055,
+      "bytes": 377654
+    },
+    {
+      "id": "ST-E019",
+      "name": "Center for Security and Emerging Technology",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Publishes analysis of technology and national security.",
+      "source_ids": [
+        "ST-S011"
+      ],
+      "dossier_path": "research/strategy/actors/st-e019.md",
+      "src": "/sprites/entities/st-e019.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        27,
+        29,
+        1234,
+        1254
+      ],
+      "visible_fraction": 0.413,
+      "bytes": 847335
+    },
+    {
+      "id": "ST-E020",
+      "name": "International Energy Agency",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Produces energy analysis and scenario projections.",
+      "source_ids": [
+        "ST-S016"
+      ],
+      "dossier_path": "research/strategy/actors/st-e020.md",
+      "src": "/sprites/entities/st-e020.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        35,
+        8,
+        1224,
+        1222
+      ],
+      "visible_fraction": 0.2461,
+      "bytes": 471449
+    },
+    {
+      "id": "ST-E021",
+      "name": "Data-center power and grid access",
+      "kind": "infrastructure",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Electricity and grid connections constrain data-center operations.",
+      "source_ids": [
+        "ST-S016"
+      ],
+      "dossier_path": "research/strategy/actors/st-e021.md",
+      "src": "/sprites/entities/st-e021.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        25,
+        19,
+        1230,
+        1254
+      ],
+      "visible_fraction": 0.3221,
+      "bytes": 858659
+    },
+    {
+      "id": "ST-E022",
+      "name": "AI strategic decision support",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Systems can assist information review and the generation of options.",
+      "source_ids": [
+        "ST-S010"
+      ],
+      "dossier_path": "research/strategy/actors/st-e022.md",
+      "src": "/sprites/entities/st-e022.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        21,
+        1186,
+        1214
+      ],
+      "visible_fraction": 0.2157,
+      "bytes": 512390
+    },
+    {
+      "id": "ST-E023",
+      "name": "AI governance and verification",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Oversight can make development activity more observable.",
+      "source_ids": [
+        "ST-S018"
+      ],
+      "dossier_path": "research/strategy/actors/st-e023.md",
+      "src": "/sprites/entities/st-e023.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        17,
+        8,
+        1232,
+        1254
+      ],
+      "visible_fraction": 0.2619,
+      "bytes": 608145
+    },
+    {
+      "id": "TW-E001",
+      "name": "Taiwan government (Republic of China)",
+      "kind": "government",
+      "art_kind": "flag",
+      "aliases": [
+        "SD-E003"
+      ],
+      "summary": "Democratic institutions govern Taiwan and set its trade and security policy.",
+      "source_ids": [
+        "TW-S001",
+        "TW-S002",
+        "TW-S004"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e001.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        31,
+        1232,
+        1254
+      ],
+      "visible_fraction": 0.4023,
+      "bytes": 760853
+    },
+    {
+      "id": "TW-E002",
+      "name": "Executive Yuan",
+      "kind": "government",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Cabinet led by the premier.",
+      "source_ids": [
+        "TW-S001",
+        "TW-S002",
+        "TW-S004"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e002.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        31,
+        1241,
+        1254
+      ],
+      "visible_fraction": 0.4752,
+      "bytes": 1100328
+    },
+    {
+      "id": "TW-E003",
+      "name": "Legislative Yuan",
+      "kind": "government",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Taiwan's elected legislature.",
+      "source_ids": [
+        "TW-S001",
+        "TW-S002"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e003.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        19,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.4697,
+      "bytes": 1011326
+    },
+    {
+      "id": "TW-E004",
+      "name": "Mainland Affairs Council",
+      "kind": "government",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Taiwan body responsible for cross-Strait affairs under the reviewed statute.",
+      "source_ids": [
+        "TW-S002"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e004.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        21,
+        1240,
+        1230
+      ],
+      "visible_fraction": 0.2119,
+      "bytes": 626980
+    },
+    {
+      "id": "TW-E005",
+      "name": "Democratic Progressive Party",
+      "kind": "organization",
+      "art_kind": "emblem",
+      "aliases": [],
+      "summary": "Party of the winning 2024 presidential ticket.",
+      "source_ids": [
+        "TW-S003",
+        "TW-S033"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e005.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        25,
+        80,
+        1212,
+        1182
+      ],
+      "visible_fraction": 0.402,
+      "bytes": 647489
+    },
+    {
+      "id": "TW-E006",
+      "name": "Kuomintang",
+      "kind": "organization",
+      "art_kind": "emblem",
+      "aliases": [],
+      "summary": "Opposition party that advocates engagement with Beijing.",
+      "source_ids": [
+        "TW-S005",
+        "TW-S006"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e006.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        56,
+        1234,
+        1254
+      ],
+      "visible_fraction": 0.5043,
+      "bytes": 761123
+    },
+    {
+      "id": "TW-E007",
+      "name": "Taiwan People's Party",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Taiwan party with its own leadership and electoral interests.",
+      "source_ids": [
+        "TW-S003",
+        "TW-S007"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e007.png",
+      "status": "ready",
+      "likeness_review": null,
+      "style_revision": "pixel-emblems-v2",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        121,
+        19,
+        1166,
+        1254
+      ],
+      "visible_fraction": 0.3708,
+      "bytes": 679126
+    },
+    {
+      "id": "TW-E008",
+      "name": "Lai Ching-te",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [
+        "SD-E034"
+      ],
+      "summary": "Taiwan president in the dated October 2026 speech.",
+      "source_ids": [
+        "TW-S004"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e008.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters right, one forearm across the lower chest supporting the other elbow, the other hand lightly near the chin in a thoughtful pose. Keep the face fully visible.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        952,
+        1520
+      ],
+      "visible_fraction": 0.2544,
+      "bytes": 1235508
+    },
+    {
+      "id": "TW-E009",
+      "name": "Hsiao Bi-khim",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [
+        "SD-E035"
+      ],
+      "summary": "Taiwan vice president in the dated October 2026 speech.",
+      "source_ids": [
+        "TW-S004",
+        "TW-S001"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e009.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand slightly left-facing, hold a thin tablet in the left hand at waist level and point gently at its blank screen with the right index finger. Serious focused expression, head mostly upright.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        17,
+        988,
+        1520
+      ],
+      "visible_fraction": 0.2546,
+      "bytes": 1214034
+    },
+    {
+      "id": "TW-E010",
+      "name": "Cho Jung-tai",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Taiwan premier in the dated October 2026 speech.",
+      "source_ids": [
+        "TW-S004",
+        "TW-S001"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e010.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand upright facing the viewer, holding a closed folder down at the right side, left hand loosely resting on the jacket seam. Feet slightly offset and shoulders level.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        63,
+        19,
+        988,
+        1516
+      ],
+      "visible_fraction": 0.2858,
+      "bytes": 1308853
+    },
+    {
+      "id": "TW-E011",
+      "name": "Han Kuo-yu",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Legislative Yuan president in the dated October 2026 speech.",
+      "source_ids": [
+        "TW-S004",
+        "TW-S001"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e011.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters right, right arm resting at the side, left hand making a small measured palm-down gesture at waist height. Calm diplomatic posture.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        53,
+        29,
+        971,
+        1536
+      ],
+      "visible_fraction": 0.2727,
+      "bytes": 1285483
+    },
+    {
+      "id": "TW-E012",
+      "name": "Cheng Li-wun (also Cheng Li-wen)",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "KMT chair in June 2026 reporting.",
+      "source_ids": [
+        "TW-S005",
+        "TW-S006"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e012.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing with one hand resting lightly over the other wrist behind the back. Feet naturally spaced, head angled a few degrees left in attentive listening.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        33,
+        38,
+        1010,
+        1504
+      ],
+      "visible_fraction": 0.2414,
+      "bytes": 1236107
+    },
+    {
+      "id": "TW-E013",
+      "name": "Huang Kuo-chang",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "TPP chair on the reviewed party page.",
+      "source_ids": [
+        "TW-S007"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e013.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters left, hands holding a thin closed briefing folder horizontally at waist height, with elbows slightly away from the torso. Neutral focused face.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        47,
+        24,
+        914,
+        1520
+      ],
+      "visible_fraction": 0.2614,
+      "bytes": 1265657
+    },
+    {
+      "id": "TW-E014",
+      "name": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Foundry that makes customer-designed chips across several jurisdictions.",
+      "source_ids": [
+        "TW-S008",
+        "TW-S009",
+        "TW-S011",
+        "TW-S012"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e014.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        49,
+        53,
+        1240,
+        1245
+      ],
+      "visible_fraction": 0.423,
+      "bytes": 757233
+    },
+    {
+      "id": "TW-E015",
+      "name": "C.C. Wei",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "TSMC chairman and CEO on the reviewed executive page.",
+      "source_ids": [
+        "TW-S010",
+        "TW-S012"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e015.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing, shoulders level, both arms resting separately at the sides, hands open and relaxed. Feet parallel, balanced formal stance.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        113,
+        32,
+        994,
+        1506
+      ],
+      "visible_fraction": 0.3069,
+      "bytes": 1212230
+    },
+    {
+      "id": "TW-E016",
+      "name": "Sylvia Fang",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "TSMC general counsel and corporate governance officer.",
+      "source_ids": [
+        "TW-S010"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e016.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Turn three-quarters toward the left. Put the right hand in the trouser pocket; let the left arm hang freely. Weight on the back leg, attentive face toward the viewer.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        27,
+        978,
+        1508
+      ],
+      "visible_fraction": 0.2386,
+      "bytes": 1176620
+    },
+    {
+      "id": "TW-E017",
+      "name": "ASML",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Netherlands-based supplier of lithography and related systems.",
+      "source_ids": [
+        "TW-S019",
+        "TW-S020",
+        "TW-S027"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e017.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        64,
+        95,
+        1240,
+        1197
+      ],
+      "visible_fraction": 0.1466,
+      "bytes": 309641
+    },
+    {
+      "id": "TW-E018",
+      "name": "Christophe Fouquet",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "ASML president and CEO on the reviewed governance page.",
+      "source_ids": [
+        "TW-S020"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e018.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters toward the right, holding a thin closed document folder vertically at the left hip with the left hand. The right arm rests naturally at the side.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        45,
+        26,
+        978,
+        1536
+      ],
+      "visible_fraction": 0.2591,
+      "bytes": 1251182
+    },
+    {
+      "id": "TW-E019",
+      "name": "NVIDIA",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "AI computing supplier with external foundry, memory and packaging links.",
+      "source_ids": [
+        "TW-S015",
+        "TW-S026"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e019.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        37,
+        1234,
+        1231
+      ],
+      "visible_fraction": 0.3713,
+      "bytes": 685856
+    },
+    {
+      "id": "TW-E020",
+      "name": "Jensen Huang",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "NVIDIA founder, president and CEO.",
+      "source_ids": [
+        "TW-S018",
+        "TW-S015"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e020.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand front-facing with the left hand in a trouser pocket and right hand held low with the palm slightly open, making a restrained explanatory gesture. Weight shifted subtly left.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        25,
+        23,
+        978,
+        1536
+      ],
+      "visible_fraction": 0.2852,
+      "bytes": 1300440
+    },
+    {
+      "id": "TW-E021",
+      "name": "Advanced Micro Devices (AMD)",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Computing designer with reported TSMC dependence for advanced CPU and GPU wafers.",
+      "source_ids": [
+        "TW-S016",
+        "TW-S026"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e021.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1224,
+        1236
+      ],
+      "visible_fraction": 0.1818,
+      "bytes": 353661
+    },
+    {
+      "id": "TW-E022",
+      "name": "Lisa Su",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "AMD chair and CEO on its reviewed profile.",
+      "source_ids": [
+        "TW-S017"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e022.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand three-quarters toward the right, holding a thin closed document folder vertically at the left hip with the left hand. The right arm rests naturally at the side.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        15,
+        1004,
+        1522
+      ],
+      "visible_fraction": 0.2547,
+      "bytes": 1262715
+    },
+    {
+      "id": "TW-E023",
+      "name": "Samsung Electronics",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Korean supplier with memory, foundry and packaging operations.",
+      "source_ids": [
+        "TW-S024",
+        "TW-S015"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e023.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        109,
+        1214,
+        1214
+      ],
+      "visible_fraction": 0.2221,
+      "bytes": 410879
+    },
+    {
+      "id": "TW-E024",
+      "name": "SK hynix",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Korean memory supplier with TSMC HBM integration cooperation.",
+      "source_ids": [
+        "TW-S023",
+        "TW-S015"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e024.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        20,
+        1240,
+        1231
+      ],
+      "visible_fraction": 0.2007,
+      "bytes": 474627
+    },
+    {
+      "id": "TW-E025",
+      "name": "Micron Technology",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Memory supplier listed by NVIDIA.",
+      "source_ids": [
+        "TW-S015"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e025.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        39,
+        129,
+        1206,
+        1149
+      ],
+      "visible_fraction": 0.1287,
+      "bytes": 336669
+    },
+    {
+      "id": "TW-E026",
+      "name": "Tokyo Electron",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Japanese supplier of several semiconductor process-tool classes.",
+      "source_ids": [
+        "TW-S021",
+        "TW-S028"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e026.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        65,
+        103,
+        1220,
+        1212
+      ],
+      "visible_fraction": 0.1898,
+      "bytes": 342047
+    },
+    {
+      "id": "TW-E027",
+      "name": "Applied Materials",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "US supplier of fabrication equipment, services and spare parts.",
+      "source_ids": [
+        "TW-S022",
+        "TW-S025"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e027.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        18,
+        1234,
+        1254
+      ],
+      "visible_fraction": 0.3557,
+      "bytes": 703036
+    },
+    {
+      "id": "TW-E028",
+      "name": "Carl Zeiss SMT",
+      "kind": "organization",
+      "art_kind": "brand",
+      "aliases": [],
+      "summary": "Critical optical-component supplier identified in ASML's filing excerpt.",
+      "source_ids": [
+        "TW-S045"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e028.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        157,
+        239,
+        1200,
+        1218
+      ],
+      "visible_fraction": 0.4281,
+      "bytes": 665355
+    },
+    {
+      "id": "TW-E029",
+      "name": "US Bureau of Industry and Security (BIS)",
+      "kind": "government",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "US export-control regulator for relevant chips and tools.",
+      "source_ids": [
+        "TW-S025",
+        "TW-S026"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e029.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1234,
+        1234
+      ],
+      "visible_fraction": 0.4632,
+      "bytes": 1231594
+    },
+    {
+      "id": "TW-E030",
+      "name": "Government of the Netherlands: export-control authority",
+      "kind": "government",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "National authority that licenses controlled semiconductor equipment exports.",
+      "source_ids": [
+        "TW-S027"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e030.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        30,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.299,
+      "bytes": 709955
+    },
+    {
+      "id": "TW-E031",
+      "name": "Japan Ministry of Economy, Trade and Industry (METI)",
+      "kind": "government",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Japanese ministry with semiconductor policy and export-control responsibilities.",
+      "source_ids": [
+        "TW-S028",
+        "TW-S013"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e031.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        17,
+        1202,
+        1220
+      ],
+      "visible_fraction": 0.4105,
+      "bytes": 761187
+    },
+    {
+      "id": "TW-E033",
+      "name": "China Coast Guard",
+      "kind": "government",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Law-enforcement actor central to CSIS quarantine scenarios.",
+      "source_ids": [
+        "TW-S031"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e033.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        39,
+        1226,
+        1232
+      ],
+      "visible_fraction": 0.3869,
+      "bytes": 845295
+    },
+    {
+      "id": "TW-E034",
+      "name": "TSMC Arizona",
+      "kind": "infrastructure",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "US TSMC production site with active output and staged expansion plans.",
+      "source_ids": [
+        "TW-S008",
+        "TW-S011",
+        "TW-S012"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e034.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        0,
+        1253,
+        1254
+      ],
+      "visible_fraction": 0.3831,
+      "bytes": 1178983
+    },
+    {
+      "id": "TW-E035",
+      "name": "Japan Advanced Semiconductor Manufacturing (JASM)",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "TSMC-majority joint venture in Kumamoto with Japanese industrial partners.",
+      "source_ids": [
+        "TW-S013",
+        "TW-S008"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e035.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        43,
+        1240,
+        1254
+      ],
+      "visible_fraction": 0.4127,
+      "bytes": 1044352
+    },
+    {
+      "id": "TW-E036",
+      "name": "European Semiconductor Manufacturing Company (ESMC)",
+      "kind": "organization",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Dresden joint venture for planned automotive and industrial chip output.",
+      "source_ids": [
+        "TW-S014",
+        "TW-S008"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e036.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        3,
+        1248,
+        1254
+      ],
+      "visible_fraction": 0.3657,
+      "bytes": 921863
+    },
+    {
+      "id": "TW-E037",
+      "name": "CoWoS and advanced packaging",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Packaging joins logic and memory into useful systems.",
+      "source_ids": [
+        "TW-S023",
+        "TW-S015"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e037.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        5,
+        1251,
+        1254
+      ],
+      "visible_fraction": 0.3595,
+      "bytes": 1150721
+    },
+    {
+      "id": "TW-E038",
+      "name": "High-bandwidth memory (HBM)",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Memory class used with advanced AI computing systems.",
+      "source_ids": [
+        "TW-S023",
+        "TW-S024",
+        "TW-S025"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e038.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        0,
+        27,
+        1242,
+        1254
+      ],
+      "visible_fraction": 0.3754,
+      "bytes": 990447
+    },
+    {
+      "id": "TW-E039",
+      "name": "Mark Liu",
+      "kind": "person",
+      "art_kind": "portrait",
+      "aliases": [],
+      "summary": "Former TSMC chairman; relevant public voice in a 2022 interview.",
+      "source_ids": [
+        "TW-S039",
+        "TW-S010"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/people/tw-e039.png",
+      "status": "ready",
+      "likeness_review": "review_requested",
+      "pose_brief": "Stand at a right-facing three-quarter angle with both hands behind the back. Chest relaxed, chin slightly lowered, serious listening expression.",
+      "style_revision": "varied-serious-poses-v2",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        215,
+        0,
+        946,
+        1520
+      ],
+      "visible_fraction": 0.2747,
+      "bytes": 1187111
+    },
+    {
+      "id": "TW-E040",
+      "name": "Semiconductor equipment service and spare parts",
+      "kind": "capability",
+      "art_kind": "symbol",
+      "aliases": [],
+      "summary": "Support needed to maintain productive tools over time.",
+      "source_ids": [
+        "TW-S022",
+        "TW-S029"
+      ],
+      "dossier_path": "research/taiwan-chips/entity-cards.md",
+      "src": "/sprites/entities/tw-e040.png",
+      "status": "ready",
+      "likeness_review": null,
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "has_transparency": true,
+      "content_bounds": [
+        27,
+        31,
+        1200,
+        1208
+      ],
+      "visible_fraction": 0.4025,
+      "bytes": 871846
+    }
+  ]
+}

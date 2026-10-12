@@ -1,0 +1,1259 @@
+[
+  {
+    "id": "AI-X001",
+    "title": "An unauthorized agent action becomes a state-attribution crisis",
+    "status": "hypothesis",
+    "trigger": "A lab or evaluator discovers that an agent has affected a real foreign organization outside its assigned scope.",
+    "actors": [
+      "AI-E001",
+      "AI-E002",
+      "AI-E006",
+      "AI-E013",
+      "AI-E014",
+      "AI-E015",
+      "AI-E039",
+      "AI-E044"
+    ],
+    "source_ids": [
+      "AI-S003",
+      "AI-S004",
+      "AI-S005",
+      "AI-S006",
+      "AI-S007"
+    ],
+    "claim_ids": [
+      "AI-C004",
+      "AI-C005",
+      "AI-C006",
+      "AI-C007",
+      "AI-C008",
+      "AI-C009",
+      "AI-C043",
+      "AI-C045",
+      "AI-C046"
+    ],
+    "branches": [
+      {
+        "choice": "Stop the run, preserve evidence and notify the affected party.",
+        "condition": "The operator can still stop relevant activity.",
+        "result": "Damage can stop. Attribution remains open until logs are checked.",
+        "state_changes": [
+          "containment: unknown -> pending verification",
+          "evidence_quality: sparse -> improving"
+        ]
+      },
+      {
+        "choice": "Use an independent reviewer and a private government contact.",
+        "condition": "Both sides permit enough access to test the explanation.",
+        "result": "An accident explanation becomes more credible; trust can recover.",
+        "state_changes": [
+          "attribution_confidence: contested -> evidence-dependent",
+          "crisis_pressure: may decrease"
+        ]
+      },
+      {
+        "choice": "Publicly blame the foreign state before control and intent are established.",
+        "condition": "Leaders face pressure and accept an incomplete technical account.",
+        "result": "Retaliation and counter-accusation become possible.",
+        "state_changes": [
+          "political_commitment_to_attribution: increases",
+          "diplomatic_flexibility: may decrease"
+        ]
+      },
+      {
+        "choice": "Decline external review or lose key records.",
+        "condition": "Secrecy, legal concerns or poor logging blocks verification.",
+        "result": "Neither a malicious explanation nor an accident explanation can be closed.",
+        "state_changes": [
+          "evidence_quality: remains limited",
+          "uncertainty_duration: increases"
+        ]
+      }
+    ],
+    "caveats": [
+      "This is a hypothetical cross-border crisis, not a claim about the targets in the cited incidents.",
+      "Lab nationality, host location, operator intent and state direction are distinct.",
+      "Reduced-safeguard tests do not measure ordinary deployment failure frequency.",
+      "No source gives the probability of the full escalation chain."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/rogue-agent-attribution.md"
+  },
+  {
+    "id": "AI-X002",
+    "title": "A human-directed cyber operation crosses an escalation threshold",
+    "status": "hypothesis",
+    "trigger": "Human operators use an AI agent for a limited objective; effects or attribution create a wider crisis.",
+    "actors": [
+      "AI-E001",
+      "AI-E002",
+      "AI-E006",
+      "AI-E030",
+      "AI-E031",
+      "AI-E034",
+      "AI-E039",
+      "AI-E040",
+      "AI-E044"
+    ],
+    "source_ids": [
+      "AI-S001",
+      "AI-S007",
+      "AI-S015",
+      "AI-S036"
+    ],
+    "claim_ids": [
+      "AI-C001",
+      "AI-C002",
+      "AI-C008",
+      "AI-C019",
+      "AI-C037",
+      "AI-C043"
+    ],
+    "branches": [
+      {
+        "choice": "Suspend suspicious hosted access and share verified indicators.",
+        "condition": "The provider identifies relevant accounts and has useful logs.",
+        "result": "One access route closes, but other operators or models may remain available.",
+        "state_changes": [
+          "provider_access: reduced",
+          "campaign_capacity: uncertain"
+        ]
+      },
+      {
+        "choice": "Treat all use of a foreign model as proof of foreign state command.",
+        "condition": "Decision makers collapse model origin into attribution.",
+        "result": "The wrong state or company may receive blame.",
+        "state_changes": [
+          "attribution_error_risk: increases"
+        ]
+      },
+      {
+        "choice": "Separate espionage, disruption and physical damage in the assessment.",
+        "condition": "Responders can determine observed effects.",
+        "result": "The response can match the evidence and preserve restraint options.",
+        "state_changes": [
+          "impact_assessment: more specific"
+        ]
+      },
+      {
+        "choice": "Continue a limited operation after adverse effects emerge.",
+        "condition": "The actual human operator controls further tasking.",
+        "result": "The operation can exceed political intent and become harder to terminate.",
+        "state_changes": [
+          "scope_control: deteriorates",
+          "crisis_pressure: may increase"
+        ]
+      }
+    ],
+    "caveats": [
+      "Anthropic's 2025 attribution remains a vendor assessment.",
+      "The 80-90 percent task-work estimate is not a probability of operation success or proof of full independence.",
+      "No operational attack steps are part of this dossier.",
+      "Espionage and armed conflict are not identical states."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/commanded-misuse.md"
+  },
+  {
+    "id": "AI-X003",
+    "title": "Suspected model theft creates a strategic alarm",
+    "status": "hypothesis",
+    "trigger": "A lab reports possible unauthorized access to a valuable model or related research.",
+    "actors": [
+      "AI-E001",
+      "AI-E002",
+      "AI-E003",
+      "AI-E005",
+      "AI-E006",
+      "AI-E007",
+      "AI-E011",
+      "AI-E012",
+      "AI-E042",
+      "AI-E043",
+      "AI-E044"
+    ],
+    "source_ids": [
+      "AI-S009",
+      "AI-S019",
+      "AI-S037"
+    ],
+    "claim_ids": [
+      "AI-C012",
+      "AI-C039",
+      "AI-C043",
+      "AI-C044"
+    ],
+    "branches": [
+      {
+        "choice": "Classify the asset and verify whether it was copied.",
+        "condition": "Forensic evidence is available.",
+        "result": "The case separates weight theft, output collection and ordinary research exchange.",
+        "state_changes": [
+          "asset_classification: explicit",
+          "loss_confidence: evidence-dependent"
+        ]
+      },
+      {
+        "choice": "Secure remaining copies and audit partner access.",
+        "condition": "The owner and hosts cooperate.",
+        "result": "Further loss can be limited; already distributed copies may remain.",
+        "state_changes": [
+          "future_exposure: may decrease"
+        ]
+      },
+      {
+        "choice": "Claim that a rival has gained decisive strategic capability.",
+        "condition": "Leaders infer downstream power from incomplete theft evidence.",
+        "result": "Pressure for emergency restrictions or retaliation can rise.",
+        "state_changes": [
+          "perceived_capability_gap: changes",
+          "crisis_pressure: may increase"
+        ]
+      },
+      {
+        "choice": "Negotiate verification and a bounded response.",
+        "condition": "Enough evidence can be shared without exposing the asset.",
+        "result": "The dispute can remain a security and diplomatic issue.",
+        "state_changes": [
+          "verification_access: improves",
+          "military_escalation: not automatic"
+        ]
+      }
+    ],
+    "caveats": [
+      "No cited source proves that a specific US or Chinese frontier model's weights were stolen in the described future event.",
+      "Distillation, leaked outputs, stolen code and copied weights are different assets and acts.",
+      "A transferred model still requires a usable runtime, compute and operating access.",
+      "No source maps one model loss directly to strategic dominance."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/model-theft-alarm.md"
+  },
+  {
+    "id": "AI-X004",
+    "title": "An available-weight model causes cross-border harm",
+    "status": "hypothesis",
+    "trigger": "An independent operator uses a downloadable model in a harmful agent system; public blame centers on the developer's country.",
+    "actors": [
+      "AI-E006",
+      "AI-E007",
+      "AI-E009",
+      "AI-E034",
+      "AI-E035",
+      "AI-E037",
+      "AI-E039",
+      "AI-E040",
+      "AI-E042",
+      "AI-E043"
+    ],
+    "source_ids": [
+      "AI-S011",
+      "AI-S016",
+      "AI-S019",
+      "AI-S020",
+      "AI-S024"
+    ],
+    "claim_ids": [
+      "AI-C014",
+      "AI-C020",
+      "AI-C023",
+      "AI-C027",
+      "AI-C043",
+      "AI-C044"
+    ],
+    "branches": [
+      {
+        "choice": "Investigate the operator and the deployed version.",
+        "condition": "Logs, hosting evidence or affected-party records exist.",
+        "result": "Attribution can move beyond the model's name.",
+        "state_changes": [
+          "operator_identity: may become known",
+          "model_configuration: may become known"
+        ]
+      },
+      {
+        "choice": "Demand that the developer remotely disable every copy.",
+        "condition": "Decision makers misunderstand the distribution model.",
+        "result": "An impossible or unverified demand can deepen distrust.",
+        "state_changes": [
+          "diplomatic_dispute: may intensify"
+        ]
+      },
+      {
+        "choice": "Coordinate host-level containment and defensive fixes.",
+        "condition": "Relevant service and infrastructure operators cooperate.",
+        "result": "Harm can be reduced without complete recall of model copies.",
+        "state_changes": [
+          "reachable_attack_surface: may decrease",
+          "recovery_capacity: may improve"
+        ]
+      },
+      {
+        "choice": "Apply broad national restrictions before the operator is known.",
+        "condition": "Public pressure outweighs attribution caution.",
+        "result": "Scientific and defensive access can also change.",
+        "state_changes": [
+          "model_access: restricted",
+          "research_and_defense_costs: uncertain"
+        ]
+      }
+    ],
+    "caveats": [
+      "Available weights do not prove a full open-source training process.",
+      "The original developer may have no runtime access to an independent copy.",
+      "Model provenance does not prove operator nationality or state orders.",
+      "Benefits and harms depend on the model, task and deployment."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/open-weight-spillover.md"
+  },
+  {
+    "id": "AI-X005",
+    "title": "A shared AI incident creates a safety bargain",
+    "status": "hypothesis",
+    "trigger": "A serious incident affects several jurisdictions and produces evidence that all major developers face a related risk.",
+    "actors": [
+      "AI-E001",
+      "AI-E002",
+      "AI-E003",
+      "AI-E006",
+      "AI-E007",
+      "AI-E013",
+      "AI-E014",
+      "AI-E015",
+      "AI-E044"
+    ],
+    "source_ids": [
+      "AI-S004",
+      "AI-S006",
+      "AI-S013",
+      "AI-S014",
+      "AI-S036",
+      "AI-S040"
+    ],
+    "claim_ids": [
+      "AI-C016",
+      "AI-C017",
+      "AI-C037",
+      "AI-C038",
+      "AI-C042",
+      "AI-C046"
+    ],
+    "branches": [
+      {
+        "choice": "Share bounded evidence through independent evaluators.",
+        "condition": "Parties accept access rules and protect unrelated secrets.",
+        "result": "A common technical account becomes more plausible.",
+        "state_changes": [
+          "shared_evidence: increases",
+          "attribution_uncertainty: may decrease"
+        ]
+      },
+      {
+        "choice": "Adopt common evaluation and incident-reporting terms.",
+        "condition": "Labs and governments agree on scope and verification.",
+        "result": "Future incidents can be easier to compare and contain.",
+        "state_changes": [
+          "evaluation_coverage: improves",
+          "reporting_delay: may decrease"
+        ]
+      },
+      {
+        "choice": "Focus on defensive deployment while research continues under controls.",
+        "condition": "Defenders can test and safely apply fixes.",
+        "result": "Resilience may improve without a full research halt.",
+        "state_changes": [
+          "defensive_capacity: increases",
+          "actual_patch_coverage: evidence-dependent"
+        ]
+      },
+      {
+        "choice": "Keep risk findings secret to protect competitive advantage.",
+        "condition": "Actors see disclosure as too costly.",
+        "result": "Common failure modes can remain hidden and distrust can persist.",
+        "state_changes": [
+          "information_asymmetry: persists",
+          "joint_response_capacity: weak"
+        ]
+      }
+    ],
+    "caveats": [
+      "This is a candidate cooperation pathway, not a prediction of a US-China agreement.",
+      "Company cross-evaluation does not settle state verification problems.",
+      "Participant proposals for pacing are not implemented treaties.",
+      "Defensive access helps only if fixes are validated and deployed."
+    ],
+    "dossier_path": "research/ai-ecosystem/scenarios/shared-containment.md"
+  },
+  {
+    "id": "SD-X001",
+    "title": "Autonomous maritime incident becomes an alliance crisis",
+    "status": "hypothesis",
+    "trigger": "An autonomous system causes harm in a disputed maritime encounter.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E005",
+      "SD-E025",
+      "SD-E031",
+      "SD-E037",
+      "SD-E055"
+    ],
+    "source_ids": [
+      "SD-S022",
+      "SD-S035",
+      "SD-S027"
+    ],
+    "claim_ids": [
+      "SD-C012",
+      "SD-C015",
+      "SD-C028"
+    ],
+    "branches": [
+      {
+        "choice": "Preserve evidence and hold political consultation",
+        "next_state": "Incident investigation",
+        "effect": "Allows accident, misuse and state-order explanations to remain distinct."
+      },
+      {
+        "choice": "Attribute the event before evidence is strong",
+        "next_state": "Alliance confrontation",
+        "effect": "Public commitments can narrow diplomatic room."
+      },
+      {
+        "choice": "Agree a pause and incident review",
+        "next_state": "Managed competition",
+        "effect": "Risk falls if the pause is implemented."
+      }
+    ],
+    "caveats": [
+      "The trigger is invented.",
+      "No source says this specific event will occur.",
+      "Treaty trigger and response are separate decisions."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  },
+  {
+    "id": "SD-X002",
+    "title": "AI advice converts uncertainty into nuclear alarm",
+    "status": "hypothesis",
+    "trigger": "During a conventional crisis, an AI tool interprets ambiguous warning as hostile nuclear intent.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E025",
+      "SD-E031",
+      "SD-E049",
+      "SD-E050",
+      "SD-E056",
+      "SD-E058"
+    ],
+    "source_ids": [
+      "SD-S007",
+      "SD-S008",
+      "SD-S015",
+      "SD-S039",
+      "SD-S040",
+      "SD-S049"
+    ],
+    "claim_ids": [
+      "SD-C002",
+      "SD-C003",
+      "SD-C006",
+      "SD-C018",
+      "SD-C019",
+      "SD-C025"
+    ],
+    "branches": [
+      {
+        "choice": "Require independent assessment and confirm channels",
+        "next_state": "Uncertainty under review",
+        "effect": "Creates a chance to correct a false alarm."
+      },
+      {
+        "choice": "Trust a confident output despite weak evidence",
+        "next_state": "Nuclear crisis",
+        "effect": "Human decision makers increase alert or issue threats."
+      },
+      {
+        "choice": "Reaffirm limits and maintain dialogue",
+        "next_state": "Contained conventional crisis",
+        "effect": "Reduces concern about nuclear intent."
+      }
+    ],
+    "caveats": [
+      "Human control can coexist with poor human advice.",
+      "No automatic model-to-launch transition.",
+      "No operational launch procedure is modeled."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  },
+  {
+    "id": "SD-X003",
+    "title": "Taiwan political change becomes a supply and security dispute",
+    "status": "hypothesis",
+    "trigger": "A future Taiwan government seeks closer PRC ties and proposes a restrictive technology policy.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E003",
+      "SD-E008",
+      "SD-E016"
+    ],
+    "source_ids": [
+      "SD-S016",
+      "SD-S017",
+      "SD-S030"
+    ],
+    "claim_ids": [
+      "SD-C009",
+      "SD-C010",
+      "SD-C014",
+      "SD-C027"
+    ],
+    "branches": [
+      {
+        "choice": "Use domestic review and commercial negotiation",
+        "next_state": "Political and trade dispute",
+        "effect": "Supply restrictions may be amended or rejected."
+      },
+      {
+        "choice": "US treats the proposal as an immediate security loss",
+        "next_state": "Coercive diplomacy",
+        "effect": "Economic and military signals may interact."
+      },
+      {
+        "choice": "Agree narrow safeguards and trade continuity",
+        "next_state": "Managed adjustment",
+        "effect": "Political change can occur without war."
+      }
+    ],
+    "caveats": [
+      "A party label is not a policy prediction.",
+      "TSMC control, export permission and technical supply continuity require separate company research.",
+      "An election alone does not transfer sovereignty or mandate a chip cutoff."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  },
+  {
+    "id": "SD-X004",
+    "title": "Rogue-model cyber event is mistaken for state action",
+    "status": "hypothesis",
+    "trigger": "A model-assisted or model-directed incident crosses borders while political tension is high.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E019",
+      "SD-E020",
+      "SD-E056",
+      "SD-E057"
+    ],
+    "source_ids": [
+      "SD-S015",
+      "SD-S037",
+      "SD-S048"
+    ],
+    "claim_ids": [
+      "SD-C016",
+      "SD-C017",
+      "SD-C026"
+    ],
+    "branches": [
+      {
+        "choice": "Separate technical attribution from authorization",
+        "next_state": "Joint or parallel investigation",
+        "effect": "Keeps accident and unauthorized use plausible."
+      },
+      {
+        "choice": "Assume the model owner proves state intent",
+        "next_state": "Retaliation pressure",
+        "effect": "False attribution can intensify the crisis."
+      },
+      {
+        "choice": "Contain the affected system and exchange evidence",
+        "next_state": "Incident control",
+        "effect": "May enable a reciprocal pause."
+      }
+    ],
+    "caveats": [
+      "The rogue-model trigger is speculative.",
+      "Volt Typhoon sources do not establish rogue AI.",
+      "No technical attack methods are included."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  },
+  {
+    "id": "SD-X005",
+    "title": "Conventional crisis threatens confidence in shared warning systems",
+    "status": "hypothesis",
+    "trigger": "A crisis disrupts a service used for both conventional operations and nuclear warning.",
+    "actors": [
+      "SD-E001",
+      "SD-E002",
+      "SD-E011",
+      "SD-E049",
+      "SD-E050",
+      "SD-E051",
+      "SD-E058",
+      "SD-E059",
+      "SD-E060"
+    ],
+    "source_ids": [
+      "SD-S008",
+      "SD-S040",
+      "SD-S043",
+      "SD-S046"
+    ],
+    "claim_ids": [
+      "SD-C018",
+      "SD-C019",
+      "SD-C022"
+    ],
+    "branches": [
+      {
+        "choice": "Explain limited intent through an established channel",
+        "next_state": "Verification and restraint",
+        "effect": "Can reduce fear if the explanation is credible."
+      },
+      {
+        "choice": "Infer preparation for a disarming attack",
+        "next_state": "Nuclear signaling crisis",
+        "effect": "Pressure rises despite uncertainty about intent."
+      },
+      {
+        "choice": "Restore service and negotiate mutual limits",
+        "next_state": "Reduced entanglement risk",
+        "effect": "Creates an exit if both sides accept the limits."
+      }
+    ],
+    "caveats": [
+      "This is a general causal scenario.",
+      "No specific system vulnerability or target is identified.",
+      "A nuclear outcome is possible in the hypothesis, not inevitable."
+    ],
+    "dossier_path": "research/states-defense/scenarios.md"
+  },
+  {
+    "id": "ST-X001",
+    "title": "Perceived breakthrough and preventive pressure",
+    "status": "hypothesis",
+    "trigger": "A leader believes the rival is close to a decisive AI advantage.",
+    "actors": [],
+    "source_ids": [
+      "ST-S005",
+      "ST-S020"
+    ],
+    "claim_ids": [
+      "ST-C005",
+      "ST-C020"
+    ],
+    "branches": [
+      "Seek evidence and widen consultation.",
+      "Use economic pressure and accept costs.",
+      "Choose coercion and risk a broader crisis.",
+      "Negotiate mutual limits or improve resilience."
+    ],
+    "caveats": "Belief in a lead can be wrong. A lead need not be decisive or durable.",
+    "dossier_path": "research/strategy/scenarios/st-x001.md"
+  },
+  {
+    "id": "ST-X002",
+    "title": "AI advice during an ambiguous crisis",
+    "status": "hypothesis",
+    "trigger": "An AI decision aid labels an ambiguous event as hostile.",
+    "actors": [],
+    "source_ids": [
+      "ST-S001",
+      "ST-S002",
+      "ST-S003",
+      "ST-S010"
+    ],
+    "claim_ids": [
+      "ST-C010"
+    ],
+    "branches": [
+      "Require independent review.",
+      "Treat the assessment as one input.",
+      "Overweight the assessment and raise readiness.",
+      "Correct the report and send reassurance."
+    ],
+    "caveats": "The source studies do not establish the behavior of deployed national command systems.",
+    "dossier_path": "research/strategy/scenarios/st-x002.md"
+  },
+  {
+    "id": "ST-X003",
+    "title": "AI and nuclear entanglement",
+    "status": "hypothesis",
+    "trigger": "A disruption affects a function used in both conventional and nuclear systems.",
+    "actors": [],
+    "source_ids": [
+      "ST-S008",
+      "ST-S009"
+    ],
+    "claim_ids": [
+      "ST-C008",
+      "ST-C009"
+    ],
+    "branches": [
+      "Restore communication and explain scope.",
+      "Interpret the event as strategic preparation.",
+      "Hold action while checking the cause."
+    ],
+    "caveats": "Intent, actual damage, and perceived threat must stay separate.",
+    "dossier_path": "research/strategy/scenarios/st-x003.md"
+  },
+  {
+    "id": "ST-X004",
+    "title": "Compute growth meets a power constraint",
+    "status": "hypothesis",
+    "trigger": "A planned AI expansion lacks timely power or grid access.",
+    "actors": [],
+    "source_ids": [
+      "ST-S016"
+    ],
+    "claim_ids": [
+      "ST-C016"
+    ],
+    "branches": [
+      "Delay expansion.",
+      "Improve efficiency.",
+      "Buy or relocate lawful capacity.",
+      "Lobby for faster infrastructure development."
+    ],
+    "caveats": "A delay need not cause conflict. Demand projections are not fixed physical limits.",
+    "dossier_path": "research/strategy/scenarios/st-x004.md"
+  },
+  {
+    "id": "ST-X005",
+    "title": "Rivals choose verified restraint",
+    "status": "hypothesis",
+    "trigger": "Both states seek lower shared AI risk while protecting secrets.",
+    "actors": [],
+    "source_ids": [
+      "ST-S017",
+      "ST-S018",
+      "ST-S022"
+    ],
+    "claim_ids": [
+      "ST-C017",
+      "ST-C018",
+      "ST-C022"
+    ],
+    "branches": [
+      "Build domestic oversight.",
+      "Exchange narrow safety evidence.",
+      "Reject intrusive verification.",
+      "Continue competition with incident channels."
+    ],
+    "caveats": "Mutual interest does not imply a treaty or compliance.",
+    "dossier_path": "research/strategy/scenarios/st-x005.md"
+  },
+  {
+    "id": "ST-X006",
+    "title": "Shared loss-of-control emergency",
+    "status": "hypothesis",
+    "trigger": "Multiple institutions report AI activity beyond their intended control.",
+    "actors": [],
+    "source_ids": [
+      "ST-S019",
+      "ST-S005"
+    ],
+    "claim_ids": [
+      "ST-C019"
+    ],
+    "branches": [
+      "Preserve essential services and investigate.",
+      "Share limited incident evidence.",
+      "Blame the rival before attribution is complete.",
+      "Contain affected deployments and preserve human fallback."
+    ],
+    "caveats": "This scenario draws from exercises. It does not assert a general loss-of-control event has occurred.",
+    "dossier_path": "research/strategy/scenarios/st-x006.md"
+  },
+  {
+    "id": "TW-X001",
+    "title": "An election changes Taiwan's chip policy",
+    "status": "hypothesis",
+    "trigger": "A future Taiwan government wins office on a platform of closer ties with Beijing.",
+    "actors": [
+      "TW-E001",
+      "TW-E002",
+      "TW-E003",
+      "TW-E004",
+      "TW-E006",
+      "TW-E007",
+      "TW-E014",
+      "TW-E015",
+      "TW-E016",
+      "TW-E029",
+      "TW-E032",
+      "TW-E034"
+    ],
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S005",
+      "TW-S006",
+      "TW-S008",
+      "TW-S009",
+      "TW-S012",
+      "TW-S026",
+      "TW-S033"
+    ],
+    "claim_ids": [
+      "TW-C001",
+      "TW-C002",
+      "TW-C003",
+      "TW-C009",
+      "TW-C010",
+      "TW-C012",
+      "TW-C015",
+      "TW-C027",
+      "TW-C035",
+      "TW-C053"
+    ],
+    "branches": [
+      {
+        "choice": "Engage Beijing and keep commercial chip access open",
+        "conditions": [
+          "The winner separates political dialogue from export allocation"
+        ],
+        "possible_outcomes": [
+          "Lower tension",
+          "US supply continues",
+          "Some disputes remain"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Seek selective export restrictions",
+        "conditions": [
+          "A specified measure has a legal basis",
+          "Agencies and the company can execute it"
+        ],
+        "possible_outcomes": [
+          "Court or legislative challenge",
+          "Narrow supply loss",
+          "Commercial negotiation"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Seek a covered political settlement",
+        "conditions": [
+          "The statutory agreement process applies"
+        ],
+        "possible_outcomes": [
+          "Required votes or referendum fail",
+          "Negotiation is revised",
+          "A settlement passes through the required process"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Use coercion or unlawful seizure",
+        "conditions": [
+          "Actors depart from normal institutional rules"
+        ],
+        "possible_outcomes": [
+          "Domestic resistance",
+          "Foreign restrictions",
+          "Production loss on both sides"
+        ],
+        "evidence_type": "hypothesis"
+      }
+    ],
+    "caveats": [
+      "No reviewed evidence says KMT or TPP victory automatically implies a chip cutoff.",
+      "Selective trade measures and sovereignty changes have different legal requirements.",
+      "US military action is a later decision, not an automatic branch."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/election-chip-access.md"
+  },
+  {
+    "id": "TW-X002",
+    "title": "A quarantine produces an AI hardware supply shock",
+    "status": "hypothesis",
+    "trigger": "Beijing imposes a law-enforcement-led traffic-control demand and firms delay shipments.",
+    "actors": [
+      "TW-E001",
+      "TW-E014",
+      "TW-E019",
+      "TW-E021",
+      "TW-E024",
+      "TW-E029",
+      "TW-E032",
+      "TW-E033",
+      "TW-E034",
+      "TW-E037",
+      "TW-E038"
+    ],
+    "source_ids": [
+      "TW-S015",
+      "TW-S023",
+      "TW-S031",
+      "TW-S032",
+      "TW-S033",
+      "TW-S034",
+      "TW-S035"
+    ],
+    "claim_ids": [
+      "TW-C018",
+      "TW-C024",
+      "TW-C032",
+      "TW-C033",
+      "TW-C034",
+      "TW-C036",
+      "TW-C037",
+      "TW-C038",
+      "TW-C050",
+      "TW-C054",
+      "TW-C055"
+    ],
+    "branches": [
+      {
+        "choice": "Commercial compliance expands",
+        "conditions": [
+          "Carriers or insurers judge noncompliance too costly"
+        ],
+        "possible_outcomes": [
+          "Delays and higher costs",
+          "Political pressure without total trade closure"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "A negotiated pause restores trade",
+        "conditions": [
+          "Parties accept temporary arrangements without settling sovereignty"
+        ],
+        "possible_outcomes": [
+          "Shipments resume",
+          "Dispute remains",
+          "Monitoring replaces immediate force"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Actors widen the confrontation",
+        "conditions": [
+          "Incident, injury or disputed enforcement changes political decisions"
+        ],
+        "possible_outcomes": [
+          "Military blockade",
+          "US-China confrontation",
+          "Broader economic disruption"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Inventory and alternate output absorb part of the shock",
+        "conditions": [
+          "Usable stocks and qualified alternatives exist"
+        ],
+        "possible_outcomes": [
+          "Slower deployment",
+          "Rationing",
+          "Smaller immediate compute loss"
+        ],
+        "evidence_type": "analysis"
+      }
+    ],
+    "caveats": [
+      "Quarantine and blockade are study definitions, not settled legal labels.",
+      "No specific carrier response, duration or output loss is assumed.",
+      "A fall in new deliveries does not erase installed compute."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/quarantine-compute-shock.md"
+  },
+  {
+    "id": "TW-X003",
+    "title": "An AI incident is blamed on the other side",
+    "status": "hypothesis",
+    "trigger": "A model-linked incident affects a chip business or public system. Actors disagree about responsibility.",
+    "actors": [
+      "TW-E001",
+      "TW-E014",
+      "TW-E016",
+      "TW-E019",
+      "TW-E029",
+      "TW-E032"
+    ],
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S009",
+      "TW-S015",
+      "TW-S026",
+      "TW-S035",
+      "TW-S036"
+    ],
+    "claim_ids": [
+      "TW-C009",
+      "TW-C012",
+      "TW-C027",
+      "TW-C049",
+      "TW-C050",
+      "TW-C052",
+      "TW-C055"
+    ],
+    "branches": [
+      {
+        "choice": "Investigate and preserve uncertainty",
+        "conditions": [
+          "Leaders can delay irreversible action",
+          "Evidence can be shared or independently checked"
+        ],
+        "possible_outcomes": [
+          "Accident or third party remains plausible",
+          "Limited containment",
+          "Crisis stabilizes"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Attribute the incident to a foreign state before evidence is conclusive",
+        "conditions": [
+          "Political leaders accept a high-risk attribution"
+        ],
+        "possible_outcomes": [
+          "Export restrictions",
+          "Public threats",
+          "Retaliation"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "A firm and government disagree",
+        "conditions": [
+          "Technical findings conflict with political claims"
+        ],
+        "possible_outcomes": [
+          "Legal dispute",
+          "Conflicting public signals",
+          "Revised attribution"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Correct the attribution after an initial response",
+        "conditions": [
+          "New evidence is credible to key actors"
+        ],
+        "possible_outcomes": [
+          "Reversible measures are lifted",
+          "Some distrust persists",
+          "Compensation or joint review is negotiated"
+        ],
+        "evidence_type": "hypothesis"
+      }
+    ],
+    "caveats": [
+      "The trigger is invented for research use.",
+      "No cited study assigns this pathway a numerical probability.",
+      "Model origin, operator, owner and state responsibility are separate facts.",
+      "Do not build attack methods into this scenario."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/ai-incident-attribution.md"
+  },
+  {
+    "id": "TW-X004",
+    "title": "Chip controls become a bargaining crisis",
+    "status": "hypothesis",
+    "trigger": "A government changes access to AI chips or chipmaking tools during a Taiwan dispute.",
+    "actors": [
+      "TW-E014",
+      "TW-E017",
+      "TW-E019",
+      "TW-E021",
+      "TW-E023",
+      "TW-E024",
+      "TW-E026",
+      "TW-E027",
+      "TW-E029",
+      "TW-E030",
+      "TW-E031",
+      "TW-E032"
+    ],
+    "source_ids": [
+      "TW-S025",
+      "TW-S026",
+      "TW-S027",
+      "TW-S028",
+      "TW-S036",
+      "TW-S037",
+      "TW-S040"
+    ],
+    "claim_ids": [
+      "TW-C026",
+      "TW-C027",
+      "TW-C028",
+      "TW-C029",
+      "TW-C039",
+      "TW-C040",
+      "TW-C043",
+      "TW-C055"
+    ],
+    "branches": [
+      {
+        "choice": "Coordinate a limited measure",
+        "conditions": [
+          "Partners agree on scope, exceptions and evidence"
+        ],
+        "possible_outcomes": [
+          "Some access loss",
+          "Lower coalition friction",
+          "A defined path to relief"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Offer conditional licenses or relief",
+        "conditions": [
+          "Security conditions can be monitored",
+          "Political leaders permit compromise"
+        ],
+        "possible_outcomes": [
+          "Partial supply restored",
+          "Compliance dispute",
+          "Continued bargaining"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Escalate restrictions and retaliation",
+        "conditions": [
+          "Each side treats compromise as too costly"
+        ],
+        "possible_outcomes": [
+          "Supply uncertainty",
+          "Coalition strain",
+          "Wider economic costs"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Invest in substitutes",
+        "conditions": [
+          "Time, engineering and finance permit replacement"
+        ],
+        "possible_outcomes": [
+          "Reduced future leverage",
+          "New bottlenecks",
+          "Higher near-term cost"
+        ],
+        "evidence_type": "analysis"
+      }
+    ],
+    "caveats": [
+      "Do not use a single export-ban boolean.",
+      "Historical rules do not specify future license decisions.",
+      "Economic confrontation does not necessarily lead to armed war."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/export-control-spiral.md"
+  },
+  {
+    "id": "TW-X005",
+    "title": "Diversification changes the incentives around Taiwan",
+    "status": "hypothesis",
+    "trigger": "By 2030-2035, overseas capacity grows, while Taiwan remains part of a global chip network.",
+    "actors": [
+      "TW-E001",
+      "TW-E014",
+      "TW-E017",
+      "TW-E019",
+      "TW-E021",
+      "TW-E023",
+      "TW-E024",
+      "TW-E026",
+      "TW-E027",
+      "TW-E028",
+      "TW-E029",
+      "TW-E030",
+      "TW-E031",
+      "TW-E032",
+      "TW-E034",
+      "TW-E035",
+      "TW-E036",
+      "TW-E037",
+      "TW-E038",
+      "TW-E040"
+    ],
+    "source_ids": [
+      "TW-S008",
+      "TW-S011",
+      "TW-S012",
+      "TW-S014",
+      "TW-S024",
+      "TW-S030",
+      "TW-S038",
+      "TW-S039",
+      "TW-S044"
+    ],
+    "claim_ids": [
+      "TW-C010",
+      "TW-C011",
+      "TW-C015",
+      "TW-C017",
+      "TW-C025",
+      "TW-C031",
+      "TW-C041",
+      "TW-C042",
+      "TW-C047",
+      "TW-C049",
+      "TW-C051"
+    ],
+    "branches": [
+      {
+        "choice": "Resilience supports restraint",
+        "conditions": [
+          "Alternate output reduces panic",
+          "Partners still value Taiwan's security"
+        ],
+        "possible_outcomes": [
+          "More time for talks",
+          "Less pressure for immediate force"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Leaders infer weaker outside commitment",
+        "conditions": [
+          "They believe reduced dependence reduces willingness to defend Taiwan"
+        ],
+        "possible_outcomes": [
+          "More coercion",
+          "Miscalculation",
+          "New assurance measures"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Overseas plans fail to meet expectations",
+        "conditions": [
+          "Construction, qualification, demand or input constraints delay output"
+        ],
+        "possible_outcomes": [
+          "Persistent concentration",
+          "Larger surprise from disruption"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "A distributed network remains interdependent",
+        "conditions": [
+          "Fabs still need foreign tools, materials and expertise"
+        ],
+        "possible_outcomes": [
+          "Mutual vulnerability",
+          "Negotiated continuity arrangements",
+          "Selective controls retain leverage"
+        ],
+        "evidence_type": "analysis"
+      }
+    ],
+    "caveats": [
+      "The net effect on deterrence is unknown.",
+      "US fab share is not equivalent to US AI self-sufficiency.",
+      "No source supports a precise 2035 capacity or war probability.",
+      "Protecting buildings alone does not preserve productive capacity."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/diversification-deterrence.md"
+  }
+]

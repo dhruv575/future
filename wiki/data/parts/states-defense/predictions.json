@@ -1,0 +1,99 @@
+[
+  {
+    "id": "SD-P001",
+    "statement": "Under many tested assumptions, the CSIS conventional invasion model preserved Taiwan autonomy at high cost.",
+    "source_ids": [
+      "SD-S041"
+    ],
+    "issued_date": "2023-01-09",
+    "horizon": "Hypothetical 2026 invasion; initial weeks",
+    "probability": null,
+    "conditions": [
+      "Taiwan continues resistance",
+      "US intervenes",
+      "Allied access and other game assumptions apply"
+    ],
+    "caveats": [
+      "24 designed iterations are not a representative probability sample",
+      "Not an AI-war forecast",
+      "Not a 2035 force model"
+    ],
+    "type": "conditional_result"
+  },
+  {
+    "id": "SD-P002",
+    "statement": "Blockade decisions can create escalation pressure and require negotiated exits.",
+    "source_ids": [
+      "SD-S042"
+    ],
+    "issued_date": "2025-07-31",
+    "horizon": "Hypothetical blockade campaign",
+    "probability": null,
+    "conditions": [
+      "Political leaders choose blockade and responses",
+      "Trade interruption persists"
+    ],
+    "caveats": [
+      "Researcher transcript of 26 games",
+      "No numerical frequency or inevitability claimed"
+    ],
+    "type": "conditional_result"
+  },
+  {
+    "id": "SD-P003",
+    "statement": "AI may worsen nuclear strategic instability through capability perceptions and decision support.",
+    "source_ids": [
+      "SD-S039"
+    ],
+    "issued_date": "2018-04-24",
+    "horizon": "2040 in the source; mechanism only for this corpus through 2035",
+    "probability": null,
+    "conditions": [
+      "AI changes perceived threats or trusted advice"
+    ],
+    "caveats": [
+      "Workshop perspective",
+      "Potential benefits also discussed",
+      "Do not relabel its date as a 2035 prediction"
+    ],
+    "type": "warning"
+  },
+  {
+    "id": "SD-P004",
+    "statement": "Conflict involving shared conventional and nuclear systems can escalate through mistaken interpretation.",
+    "source_ids": [
+      "SD-S040"
+    ],
+    "issued_date": "2019-01-23",
+    "horizon": "No fixed date",
+    "probability": null,
+    "conditions": [
+      "A conventional event affects a dual-use system",
+      "An adversary interprets it as a nuclear threat"
+    ],
+    "caveats": [
+      "Causal argument",
+      "No calibrated probability"
+    ],
+    "type": "warning"
+  },
+  {
+    "id": "SD-P005",
+    "statement": "China could have at least as many ICBMs as the US or Russia by the turn of the decade, depending on force choices.",
+    "source_ids": [
+      "SD-S013"
+    ],
+    "issued_date": "2026-06-08",
+    "horizon": "Around 2030",
+    "probability": null,
+    "conditions": [
+      "Specified future force-structure choices"
+    ],
+    "caveats": [
+      "Missiles are not warheads",
+      "Conditional SIPRI assessment",
+      "Not evidence of intended first use"
+    ],
+    "type": "forecast"
+  }
+]

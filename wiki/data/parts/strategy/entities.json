@@ -1,0 +1,571 @@
+[
+  {
+    "id": "ST-E001",
+    "name": "Jacquelyn Schneider",
+    "kind": "person",
+    "summary": "Coauthor of the human–model war game study.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-10-03",
+    "source_ids": [
+      "ST-S002"
+    ],
+    "roles": [
+      "Coauthor of the human–model war game study."
+    ],
+    "authority": [
+      "Can publish evidence and advise on game design."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e001.md"
+  },
+  {
+    "id": "ST-E002",
+    "name": "Max Lamparth",
+    "kind": "person",
+    "summary": "Coauthor of the human–model war game study.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-10-03",
+    "source_ids": [
+      "ST-S002"
+    ],
+    "roles": [
+      "Coauthor of the human–model war game study."
+    ],
+    "authority": [
+      "Can study model behavior and explain test limits."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e002.md"
+  },
+  {
+    "id": "ST-E003",
+    "name": "Kenneth Payne",
+    "kind": "person",
+    "summary": "Author of the simulated nuclear-crisis study.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-02-16",
+    "source_ids": [
+      "ST-S004"
+    ],
+    "roles": [
+      "Author of the simulated nuclear-crisis study."
+    ],
+    "authority": [
+      "Can propose and test strategic simulation methods."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e003.md"
+  },
+  {
+    "id": "ST-E004",
+    "name": "Sam Bresnick",
+    "kind": "person",
+    "summary": "Author of research on Chinese military AI literature.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-06",
+    "source_ids": [
+      "ST-S011"
+    ],
+    "roles": [
+      "Author of research on Chinese military AI literature."
+    ],
+    "authority": [
+      "Can assess public Chinese sources and challenge capability claims."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e004.md"
+  },
+  {
+    "id": "ST-E005",
+    "name": "James M. Acton",
+    "kind": "person",
+    "summary": "Author of research on nuclear–conventional entanglement.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2018-08-08",
+    "source_ids": [
+      "ST-S009"
+    ],
+    "roles": [
+      "Author of research on nuclear–conventional entanglement."
+    ],
+    "authority": [
+      "Can advise on strategic risk and interpret public doctrine."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e005.md"
+  },
+  {
+    "id": "ST-E006",
+    "name": "Daniel Kokotajlo",
+    "kind": "person",
+    "summary": "Coauthor of AI 2027.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-03",
+    "source_ids": [
+      "ST-S013"
+    ],
+    "roles": [
+      "Coauthor of AI 2027."
+    ],
+    "authority": [
+      "Can publish scenarios and change public forecasts."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e006.md"
+  },
+  {
+    "id": "ST-E007",
+    "name": "Eli Lifland",
+    "kind": "person",
+    "summary": "Coauthor of AI 2027.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-03",
+    "source_ids": [
+      "ST-S013"
+    ],
+    "roles": [
+      "Coauthor of AI 2027."
+    ],
+    "authority": [
+      "Can publish forecasts and review their calibration."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e007.md"
+  },
+  {
+    "id": "ST-E008",
+    "name": "Leopold Aschenbrenner",
+    "kind": "person",
+    "summary": "Author of Situational Awareness.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-06",
+    "source_ids": [
+      "ST-S014"
+    ],
+    "roles": [
+      "Author of Situational Awareness."
+    ],
+    "authority": [
+      "Can publish strategic arguments and influence debate."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e008.md"
+  },
+  {
+    "id": "ST-E009",
+    "name": "Matt Sheehan",
+    "kind": "person",
+    "summary": "Author of the AI safety in parallel proposal.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-07-23",
+    "source_ids": [
+      "ST-S017"
+    ],
+    "roles": [
+      "Author of the AI safety in parallel proposal."
+    ],
+    "authority": [
+      "Can propose dialogue and explain Chinese AI governance."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e009.md"
+  },
+  {
+    "id": "ST-E010",
+    "name": "Katja Grace",
+    "kind": "person",
+    "summary": "Coauthor of the AI researcher survey.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2024-01-05",
+    "source_ids": [
+      "ST-S015"
+    ],
+    "roles": [
+      "Coauthor of the AI researcher survey."
+    ],
+    "authority": [
+      "Can collect expert forecasts and test question framing."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e010.md"
+  },
+  {
+    "id": "ST-E011",
+    "name": "Dan Hendrycks",
+    "kind": "person",
+    "summary": "Coauthor of Superintelligence Strategy.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-14",
+    "source_ids": [
+      "ST-S023"
+    ],
+    "roles": [
+      "Coauthor of Superintelligence Strategy."
+    ],
+    "authority": [
+      "Can propose AI governance and deterrence concepts."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e011.md"
+  },
+  {
+    "id": "ST-E012",
+    "name": "Eric Schmidt",
+    "kind": "person",
+    "summary": "Coauthor of Superintelligence Strategy.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-14",
+    "source_ids": [
+      "ST-S023"
+    ],
+    "roles": [
+      "Coauthor of Superintelligence Strategy."
+    ],
+    "authority": [
+      "Can advocate policy and influence the technology debate."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e012.md"
+  },
+  {
+    "id": "ST-E013",
+    "name": "Alexandr Wang",
+    "kind": "person",
+    "summary": "Coauthor of Superintelligence Strategy.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2025-04-14",
+    "source_ids": [
+      "ST-S023"
+    ],
+    "roles": [
+      "Coauthor of Superintelligence Strategy."
+    ],
+    "authority": [
+      "Can advocate policy. Any corporate authority requires a separate dated role."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e013.md"
+  },
+  {
+    "id": "ST-E014",
+    "name": "Tobias Sytsma",
+    "kind": "person",
+    "summary": "Coauthor of the formal model of AI restraint.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-09-30",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "roles": [
+      "Coauthor of the formal model of AI restraint."
+    ],
+    "authority": [
+      "Can assess conditions for cooperation in the model."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e014.md"
+  },
+  {
+    "id": "ST-E015",
+    "name": "Alvin Moon",
+    "kind": "person",
+    "summary": "Coauthor of the formal model of AI restraint.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-09-30",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "roles": [
+      "Coauthor of the formal model of AI restraint."
+    ],
+    "authority": [
+      "Can assess verification and strategic incentives."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e015.md"
+  },
+  {
+    "id": "ST-E016",
+    "name": "Abby Doll",
+    "kind": "person",
+    "summary": "Coauthor of the Breakwater game overview.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-04-29",
+    "source_ids": [
+      "ST-S020"
+    ],
+    "roles": [
+      "Coauthor of the Breakwater game overview."
+    ],
+    "authority": [
+      "Can develop and interpret crisis exercises."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e016.md"
+  },
+  {
+    "id": "ST-E017",
+    "name": "Karl P. Mueller",
+    "kind": "person",
+    "summary": "Coauthor of the AGI Rideout strategy.",
+    "jurisdiction": "Public research and policy debate",
+    "as_of": "2026-04-27",
+    "source_ids": [
+      "ST-S021"
+    ],
+    "roles": [
+      "Coauthor of the AGI Rideout strategy."
+    ],
+    "authority": [
+      "Can assess high-level strategic options and resilience."
+    ],
+    "constraints": [
+      "Research influence is not state command authority.",
+      "This record establishes authorship at the source date. It does not verify a current job."
+    ],
+    "incentives": [
+      "Model assumption: accurate analysis and influence on public decisions."
+    ],
+    "dossier_path": "research/strategy/actors/st-e017.md"
+  },
+  {
+    "id": "ST-E018",
+    "name": "RAND",
+    "kind": "organization",
+    "summary": "Publishes research on AI competition, conflict, and cooperation.",
+    "jurisdiction": "International",
+    "as_of": "2025-08-04",
+    "source_ids": [
+      "ST-S005"
+    ],
+    "roles": [
+      "Publishes research on AI competition, conflict, and cooperation."
+    ],
+    "authority": [
+      "Research and convening."
+    ],
+    "constraints": [
+      "Does not set state policy."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e018.md"
+  },
+  {
+    "id": "ST-E019",
+    "name": "Center for Security and Emerging Technology",
+    "kind": "organization",
+    "summary": "Publishes analysis of technology and national security.",
+    "jurisdiction": "International",
+    "as_of": "2024-06",
+    "source_ids": [
+      "ST-S011"
+    ],
+    "roles": [
+      "Publishes analysis of technology and national security."
+    ],
+    "authority": [
+      "Research and public-source assessment."
+    ],
+    "constraints": [
+      "Its literature sample does not reveal all classified programs."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e019.md"
+  },
+  {
+    "id": "ST-E020",
+    "name": "International Energy Agency",
+    "kind": "organization",
+    "summary": "Produces energy analysis and scenario projections.",
+    "jurisdiction": "International",
+    "as_of": "2025-04-10",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "roles": [
+      "Produces energy analysis and scenario projections."
+    ],
+    "authority": [
+      "Data, analysis, and policy advice."
+    ],
+    "constraints": [
+      "Cannot order national grid investment."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e020.md"
+  },
+  {
+    "id": "ST-E021",
+    "name": "Data-center power and grid access",
+    "kind": "infrastructure",
+    "summary": "Electricity and grid connections constrain data-center operations.",
+    "jurisdiction": "International",
+    "as_of": "2025-04-10",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "roles": [
+      "Electricity and grid connections constrain data-center operations."
+    ],
+    "authority": [
+      "Infrastructure class. It has no independent agency."
+    ],
+    "constraints": [
+      "Capacity, location, and delivery dates matter."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e021.md"
+  },
+  {
+    "id": "ST-E022",
+    "name": "AI strategic decision support",
+    "kind": "capability",
+    "summary": "Systems can assist information review and the generation of options.",
+    "jurisdiction": "International",
+    "as_of": "2023-03",
+    "source_ids": [
+      "ST-S010"
+    ],
+    "roles": [
+      "Systems can assist information review and the generation of options."
+    ],
+    "authority": [
+      "Capability class. Authority stays with the deploying institution."
+    ],
+    "constraints": [
+      "Testing does not prove reliable judgment about an adversary’s intent."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e022.md"
+  },
+  {
+    "id": "ST-E023",
+    "name": "AI governance and verification",
+    "kind": "capability",
+    "summary": "Oversight can make development activity more observable.",
+    "jurisdiction": "International",
+    "as_of": "2026-09-30",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "roles": [
+      "Oversight can make development activity more observable."
+    ],
+    "authority": [
+      "Institutional capability. It needs legal and technical support."
+    ],
+    "constraints": [
+      "Visibility is incomplete. Verification can expose sensitive information."
+    ],
+    "incentives": [
+      "Model assumptions depend on the organization or operator."
+    ],
+    "dossier_path": "research/strategy/actors/st-e023.md"
+  }
+]

@@ -1,0 +1,1345 @@
+[
+  {
+    "id": "M-T001",
+    "title": "Election changes the policy agenda",
+    "kind": "event",
+    "actor_roles": [
+      "TW_EXEC",
+      "TW_LEG"
+    ],
+    "guards": {},
+    "outcomes": [
+      {
+        "id": "M-T001-O1",
+        "label": "New leaders seek dialogue",
+        "effects": {
+          "tw_policy": "dialogue"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T001-O2",
+        "label": "The policy remains unchanged",
+        "effects": {
+          "tw_policy": "status_quo"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C001",
+      "TW-C009"
+    ],
+    "source_ids": [
+      "TW-S004"
+    ],
+    "time_scale": "months",
+    "status": "proposed_model_rule",
+    "limits": "Election results and office holders are scenario inputs. No chip-access effect is automatic."
+  },
+  {
+    "id": "M-T002",
+    "title": "Propose a selected chip-access restriction",
+    "kind": "choice",
+    "actor_roles": [
+      "TW_EXEC",
+      "TW_LEG"
+    ],
+    "guards": {
+      "tw_policy": [
+        "dialogue",
+        "status_quo"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T002-O1",
+        "label": "Proposal enters legal review",
+        "effects": {
+          "tw_policy": "restriction_proposed",
+          "tw_legal_status": "review"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C009",
+      "TW-C053"
+    ],
+    "source_ids": [],
+    "time_scale": "weeks to months",
+    "status": "proposed_model_rule",
+    "limits": "A specific policy and legal basis must be defined before play."
+  },
+  {
+    "id": "M-T003",
+    "title": "Resolve the legal process",
+    "kind": "event",
+    "actor_roles": [
+      "TW_EXEC",
+      "TW_LEG"
+    ],
+    "guards": {
+      "tw_legal_status": [
+        "review"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T003-O1",
+        "label": "Measure takes legal effect",
+        "effects": {
+          "tw_legal_status": "effective",
+          "tw_policy": "restriction_adopted"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T003-O2",
+        "label": "Measure is blocked",
+        "effects": {
+          "tw_legal_status": "blocked",
+          "tw_policy": "status_quo"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C002",
+      "TW-C003",
+      "TW-C053"
+    ],
+    "source_ids": [],
+    "time_scale": "months",
+    "status": "proposed_model_rule",
+    "limits": "Do not apply constitutional-amendment thresholds to every export measure."
+  },
+  {
+    "id": "M-T004",
+    "title": "Firm responds to the measure",
+    "kind": "choice",
+    "actor_roles": [
+      "TSMC"
+    ],
+    "guards": {
+      "tw_legal_status": [
+        "effective"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T004-O1",
+        "label": "Firm complies within scope",
+        "effects": {
+          "firm_response": "comply"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T004-O2",
+        "label": "Firm challenges scope or validity",
+        "effects": {
+          "firm_response": "challenge"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C012",
+      "TW-C049"
+    ],
+    "source_ids": [],
+    "time_scale": "days to months",
+    "status": "proposed_model_rule",
+    "limits": "Compliance alone does not establish a supply loss. Observe deliveries and offsets in M-T029."
+  },
+  {
+    "id": "M-T005",
+    "title": "Adapt to the supply change",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "TSMC",
+      "SUPPLIER"
+    ],
+    "guards": {
+      "us_new_chip_access": [
+        "reduced",
+        "interrupted"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T005-O1",
+        "label": "Qualified substitutes reduce the loss",
+        "effects": {
+          "capacity_substitution": "qualified",
+          "us_new_chip_access": "reduced"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T005-O2",
+        "label": "Adaptation remains limited",
+        "effects": {
+          "capacity_substitution": "limited"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C010",
+      "TW-C030",
+      "TW-C050"
+    ],
+    "source_ids": [],
+    "time_scale": "months to years",
+    "status": "proposed_model_rule",
+    "limits": "Existing compute remains separate. Substitution requires technical qualification."
+  },
+  {
+    "id": "M-T006",
+    "title": "Escalate the trade dispute diplomatically",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC"
+    ],
+    "guards": {
+      "us_new_chip_access": [
+        "reduced",
+        "interrupted"
+      ],
+      "conflict_level": [
+        "competition"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T006-O1",
+        "label": "A diplomatic crisis opens",
+        "effects": {
+          "conflict_level": "diplomatic_crisis",
+          "settlement": "talks"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T006-O2",
+        "label": "Talks contain the dispute",
+        "effects": {
+          "settlement": "provisional"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C055"
+    ],
+    "source_ids": [
+      "ST-S005"
+    ],
+    "time_scale": "days to weeks",
+    "status": "proposed_model_rule",
+    "limits": "Economic loss alone is insufficient to infer a decision for war."
+  },
+  {
+    "id": "M-T007",
+    "title": "Change an export rule",
+    "kind": "choice",
+    "actor_roles": [
+      "REGULATOR"
+    ],
+    "guards": {},
+    "outcomes": [
+      {
+        "id": "M-T007-O1",
+        "label": "Rule tightens",
+        "effects": {
+          "export_rule": "tightened"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T007-O2",
+        "label": "Conditional access is permitted",
+        "effects": {
+          "export_rule": "conditional_relief"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C026",
+      "TW-C027"
+    ],
+    "source_ids": [],
+    "time_scale": "weeks to months",
+    "status": "proposed_model_rule",
+    "limits": "The actor must have authority over the specific rule. This does not directly set overseas production."
+  },
+  {
+    "id": "M-T008",
+    "title": "Review an AI breakthrough claim",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC",
+      "RESEARCH"
+    ],
+    "guards": {
+      "perceived_ai_lead": [
+        "large_temporary",
+        "large_durable"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T008-O1",
+        "label": "Independent review weakens the claim",
+        "effects": {
+          "perceived_ai_lead": "small",
+          "race_pressure": "routine"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T008-O2",
+        "label": "Leaders retain a strong fear of disadvantage",
+        "effects": {
+          "race_pressure": "extreme"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C020"
+    ],
+    "source_ids": [
+      "ST-S006"
+    ],
+    "time_scale": "days to months",
+    "status": "proposed_model_rule",
+    "limits": "Beliefs are per actor. The actual lead does not change merely because a report changes."
+  },
+  {
+    "id": "M-T009",
+    "title": "Choose deployment scope",
+    "kind": "choice",
+    "actor_roles": [
+      "LAB"
+    ],
+    "guards": {},
+    "outcomes": [
+      {
+        "id": "M-T009-O1",
+        "label": "Limit system access",
+        "effects": {
+          "deployment_access": "limited"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T009-O2",
+        "label": "Authorize broad access",
+        "effects": {
+          "deployment_access": "broad"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "AI-C009",
+      "ST-C010"
+    ],
+    "source_ids": [],
+    "time_scale": "hours to weeks",
+    "status": "proposed_model_rule",
+    "limits": "The model, tools, permissions, and safeguards must be stated in the incident record."
+  },
+  {
+    "id": "M-T010",
+    "title": "Receive an incident report",
+    "kind": "event",
+    "actor_roles": [
+      "LAB",
+      "US_EXEC",
+      "PRC_EXEC"
+    ],
+    "guards": {
+      "incident_status": [
+        "none"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T010-O1",
+        "label": "Treat report as unverified",
+        "effects": {
+          "incident_status": "reported",
+          "evidence_quality": "weak",
+          "attribution": "unresolved",
+          "state_authorization": "unresolved"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "AI-C043"
+    ],
+    "source_ids": [
+      "ST-S019"
+    ],
+    "time_scale": "hours",
+    "status": "proposed_model_rule",
+    "limits": "An initial report does not establish cause or state approval."
+  },
+  {
+    "id": "M-T011",
+    "title": "Preserve incident evidence",
+    "kind": "choice",
+    "actor_roles": [
+      "LAB"
+    ],
+    "guards": {
+      "incident_status": [
+        "reported",
+        "confirmed",
+        "contained"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T011-O1",
+        "label": "Logs are preserved",
+        "effects": {
+          "technical_logs": "preserved"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T011-O2",
+        "label": "Evidence is incomplete",
+        "effects": {
+          "technical_logs": "missing"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "AI-C046"
+    ],
+    "source_ids": [
+      "ST-S019"
+    ],
+    "time_scale": "hours",
+    "status": "proposed_model_rule",
+    "limits": "Evidence work can continue after containment. Do not assume access to another firm’s records."
+  },
+  {
+    "id": "M-T012",
+    "title": "Run independent attribution review",
+    "kind": "choice",
+    "actor_roles": [
+      "RESEARCH",
+      "LAB"
+    ],
+    "guards": {
+      "technical_logs": [
+        "preserved",
+        "shared_limited"
+      ],
+      "incident_status": [
+        "confirmed",
+        "contained"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T012-O1",
+        "label": "Private operator is corroborated",
+        "effects": {
+          "operator_type": "private_actor",
+          "evidence_quality": "corroborated"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T012-O2",
+        "label": "Evidence establishes state direction",
+        "effects": {
+          "attribution": "state_directed",
+          "evidence_quality": "corroborated",
+          "state_authorization": "established"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T012-O3",
+        "label": "No new attribution finding is established",
+        "effects": {},
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "AI-C043",
+      "AI-C044"
+    ],
+    "source_ids": [],
+    "time_scale": "days to months",
+    "status": "proposed_model_rule",
+    "limits": "Operator identity and state approval are separate. An operator-only finding preserves prior attribution, authorization, and containment state."
+  },
+  {
+    "id": "M-T013",
+    "title": "Publicly blame the rival",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC"
+    ],
+    "guards": {
+      "incident_status": [
+        "reported",
+        "confirmed",
+        "contained"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T013-O1",
+        "label": "Issue a public accusation",
+        "effects": {
+          "public_blame": "rival_state"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "AI-C043"
+    ],
+    "source_ids": [
+      "ST-S010"
+    ],
+    "time_scale": "hours to days",
+    "status": "proposed_model_rule",
+    "limits": "This changes a public signal only. M-T031 models the separate political consequence."
+  },
+  {
+    "id": "M-T014",
+    "title": "Suspend the affected deployment",
+    "kind": "choice",
+    "actor_roles": [
+      "LAB"
+    ],
+    "guards": {
+      "incident_status": [
+        "reported",
+        "confirmed"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T014-O1",
+        "label": "Containment succeeds",
+        "effects": {
+          "deployment_access": "suspended",
+          "incident_status": "contained"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T014-O2",
+        "label": "Containment is incomplete",
+        "effects": {
+          "deployment_access": "suspended"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "AI-C046"
+    ],
+    "source_ids": [
+      "ST-S019"
+    ],
+    "time_scale": "hours to days",
+    "status": "proposed_model_rule",
+    "limits": "Containment does not prove civilian services were damaged or restored. Assess those effects separately."
+  },
+  {
+    "id": "M-T015",
+    "title": "Share limited incident evidence",
+    "kind": "choice",
+    "actor_roles": [
+      "LAB",
+      "US_EXEC",
+      "PRC_EXEC"
+    ],
+    "guards": {
+      "technical_logs": [
+        "preserved"
+      ],
+      "crisis_channel": [
+        "open",
+        "responsive"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T015-O1",
+        "label": "The other party responds",
+        "effects": {
+          "technical_logs": "shared_limited",
+          "crisis_channel": "responsive",
+          "settlement": "talks"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T015-O2",
+        "label": "Exchange stalls",
+        "effects": {
+          "crisis_channel": "open"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "AI-C046",
+      "ST-C017"
+    ],
+    "source_ids": [],
+    "time_scale": "days",
+    "status": "proposed_model_rule",
+    "limits": "Disclosure can improve assessment without settling blame."
+  },
+  {
+    "id": "M-T016",
+    "title": "Consult affected allies",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "ALLY"
+    ],
+    "guards": {},
+    "outcomes": [
+      {
+        "id": "M-T016-O1",
+        "label": "Agreement forms",
+        "effects": {
+          "allied_coordination": "aligned"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T016-O2",
+        "label": "Positions differ",
+        "effects": {
+          "allied_coordination": "divided"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T016-O3",
+        "label": "Consultation continues",
+        "effects": {
+          "allied_coordination": "consulting"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [],
+    "source_ids": [
+      "ST-S008"
+    ],
+    "time_scale": "days to weeks",
+    "status": "proposed_model_rule",
+    "limits": "Participation and any use of force require their own authorities."
+  },
+  {
+    "id": "M-T017",
+    "title": "Maritime controls start a coercion episode",
+    "kind": "event",
+    "actor_roles": [
+      "PRC_EXEC"
+    ],
+    "guards": {
+      "maritime_access": [
+        "normal"
+      ],
+      "conflict_level": [
+        "competition",
+        "diplomatic_crisis",
+        "coercion"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T017-O1",
+        "label": "Selective controls alter trade",
+        "effects": {
+          "maritime_access": "selective_controls",
+          "conflict_level": "coercion"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T017-O2",
+        "label": "Wider disruption follows",
+        "effects": {
+          "maritime_access": "severe_disruption",
+          "conflict_level": "coercion"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C032",
+      "TW-C033",
+      "TW-C034"
+    ],
+    "source_ids": [],
+    "time_scale": "days",
+    "status": "proposed_model_rule",
+    "limits": "This onset event cannot reduce an existing war. M-T029 requires separate evidence for any chip-flow loss."
+  },
+  {
+    "id": "M-T018",
+    "title": "An armed incident occurs",
+    "kind": "event",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC",
+      "ALLY"
+    ],
+    "guards": {
+      "conflict_level": [
+        "coercion",
+        "diplomatic_crisis"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T018-O1",
+        "label": "A limited clash begins",
+        "effects": {
+          "conflict_level": "limited_armed_conflict",
+          "services": "degraded"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C034"
+    ],
+    "source_ids": [
+      "ST-S005"
+    ],
+    "time_scale": "hours to days",
+    "status": "proposed_model_rule",
+    "limits": "This is an adjudicated event. No tactical method or target is specified."
+  },
+  {
+    "id": "M-T019",
+    "title": "Negotiate a pause",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC",
+      "TW_EXEC",
+      "ALLY"
+    ],
+    "guards": {
+      "conflict_level": [
+        "diplomatic_crisis",
+        "coercion",
+        "limited_armed_conflict",
+        "major_war"
+      ],
+      "crisis_channel": [
+        "open",
+        "responsive"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T019-O1",
+        "label": "A pause is accepted within the stated scope",
+        "effects": {
+          "settlement": "provisional"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T019-O2",
+        "label": "Talks continue without agreement",
+        "effects": {
+          "settlement": "talks"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C017",
+      "ST-C022"
+    ],
+    "source_ids": [],
+    "time_scale": "days to weeks",
+    "status": "proposed_model_rule",
+    "limits": "The scenario must state settlement_scope and participating parties. Declaration alone does not lower conflict level."
+  },
+  {
+    "id": "M-T020",
+    "title": "Crisis broadens into major war",
+    "kind": "event",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC"
+    ],
+    "guards": {
+      "conflict_level": [
+        "limited_armed_conflict"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T020-O1",
+        "label": "Broader hostilities follow",
+        "effects": {
+          "conflict_level": "major_war",
+          "services": "degraded",
+          "nuclear_concern": "elevated"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C005"
+    ],
+    "source_ids": [
+      "ST-S008"
+    ],
+    "time_scale": "days to weeks",
+    "status": "proposed_model_rule",
+    "limits": "Requires further decisions and events. It is never the automatic outcome of a chip shortage."
+  },
+  {
+    "id": "M-T021",
+    "title": "Ambiguous damage raises nuclear concern",
+    "kind": "event",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC"
+    ],
+    "guards": {
+      "conflict_level": [
+        "limited_armed_conflict",
+        "major_war"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T021-O1",
+        "label": "Leaders fear a threat to deterrence",
+        "effects": {
+          "nuclear_concern": "acute",
+          "human_review": "rushed"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T021-O2",
+        "label": "Independent checks limit concern",
+        "effects": {
+          "nuclear_concern": "elevated",
+          "human_review": "effective"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C008",
+      "ST-C009"
+    ],
+    "source_ids": [],
+    "time_scale": "hours",
+    "status": "proposed_model_rule",
+    "limits": "Concern is a belief. It does not establish intent, actual damage, or launch authority."
+  },
+  {
+    "id": "M-T022",
+    "title": "Verify a warning before action",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC",
+      "RESEARCH"
+    ],
+    "guards": {
+      "information_check": [
+        "unchecked"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T022-O1",
+        "label": "Warning is disproved",
+        "effects": {
+          "information_check": "disproved",
+          "human_review": "effective"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T022-O2",
+        "label": "Warning is corroborated",
+        "effects": {
+          "information_check": "corroborated",
+          "human_review": "effective"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T022-O3",
+        "label": "Review remains incomplete",
+        "effects": {
+          "human_review": "rushed"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C010",
+      "ST-C002"
+    ],
+    "source_ids": [],
+    "time_scale": "hours to days",
+    "status": "proposed_model_rule",
+    "limits": "Corroboration of an event is separate from attribution of intent."
+  },
+  {
+    "id": "M-T023",
+    "title": "Improve domestic AI oversight",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC",
+      "REGULATOR"
+    ],
+    "guards": {},
+    "outcomes": [
+      {
+        "id": "M-T023-O1",
+        "label": "Oversight becomes verifiable",
+        "effects": {
+          "oversight": "verifiable"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T023-O2",
+        "label": "Domestic oversight improves",
+        "effects": {
+          "oversight": "domestic"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T023-O3",
+        "label": "Implementation stalls",
+        "effects": {
+          "oversight": "limited"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C018"
+    ],
+    "source_ids": [],
+    "time_scale": "months to years",
+    "status": "proposed_model_rule",
+    "limits": "A public pledge does not prove effective oversight."
+  },
+  {
+    "id": "M-T024",
+    "title": "Verify a limited settlement",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC",
+      "TW_EXEC",
+      "ALLY",
+      "LAB"
+    ],
+    "guards": {
+      "settlement": [
+        "provisional"
+      ],
+      "crisis_channel": [
+        "responsive"
+      ],
+      "settlement_scope": [
+        "incident",
+        "trade",
+        "conflict_wide"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T024-O1",
+        "label": "Compliance is verified",
+        "effects": {
+          "settlement": "verified"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T024-O2",
+        "label": "A dispute remains",
+        "effects": {
+          "settlement": "talks"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C018",
+      "ST-C017"
+    ],
+    "source_ids": [],
+    "time_scale": "weeks to months",
+    "status": "proposed_model_rule",
+    "limits": "Verification of one agreement does not settle other disputes. Conflict level is preserved."
+  },
+  {
+    "id": "M-T025",
+    "title": "Power delays slow expansion",
+    "kind": "event",
+    "actor_roles": [
+      "LAB",
+      "SUPPLIER"
+    ],
+    "guards": {},
+    "outcomes": [
+      {
+        "id": "M-T025-O1",
+        "label": "Grid access is delayed",
+        "effects": {
+          "power_access": "delayed"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T025-O2",
+        "label": "Capacity is available",
+        "effects": {
+          "power_access": "available"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C016"
+    ],
+    "source_ids": [],
+    "time_scale": "months to years",
+    "status": "proposed_model_rule",
+    "limits": "No direct conflict effect. Existing infrastructure and future expansion differ."
+  },
+  {
+    "id": "M-T026",
+    "title": "Nuclear use is recorded",
+    "kind": "event",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC"
+    ],
+    "guards": {
+      "conflict_level": [
+        "major_war"
+      ],
+      "nuclear_concern": [
+        "acute"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T026-O1",
+        "label": "Catastrophic outcome",
+        "effects": {
+          "conflict_level": "nuclear_use",
+          "services": "degraded"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C008",
+      "ST-C009"
+    ],
+    "source_ids": [],
+    "time_scale": "hours",
+    "status": "proposed_model_rule",
+    "limits": "An exogenous end-state event for the prototype. The guards are narrative prerequisites, not a forecast or authorization rule."
+  },
+  {
+    "id": "M-T027",
+    "title": "Restore civilian services",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC",
+      "TW_EXEC",
+      "LAB"
+    ],
+    "guards": {
+      "services": [
+        "degraded",
+        "recovering"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T027-O1",
+        "label": "Recovery advances",
+        "effects": {
+          "services": "recovering"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T027-O2",
+        "label": "Services return",
+        "effects": {
+          "services": "normal"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C019"
+    ],
+    "source_ids": [],
+    "time_scale": "days to years",
+    "status": "proposed_model_rule",
+    "limits": "Restoration does not erase casualties, losses, or responsibility."
+  },
+  {
+    "id": "M-T028",
+    "title": "Open a crisis channel",
+    "kind": "choice",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC",
+      "TW_EXEC",
+      "ALLY"
+    ],
+    "guards": {},
+    "outcomes": [
+      {
+        "id": "M-T028-O1",
+        "label": "The channel is opened",
+        "effects": {
+          "crisis_channel": "open"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T028-O2",
+        "label": "The channel remains closed",
+        "effects": {
+          "crisis_channel": "closed"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C022",
+      "ST-C019"
+    ],
+    "source_ids": [],
+    "time_scale": "hours to months",
+    "status": "proposed_model_rule",
+    "limits": "Technical availability does not guarantee a response."
+  },
+  {
+    "id": "M-T029",
+    "title": "Observe the selected chip delivery flow",
+    "kind": "event",
+    "actor_roles": [
+      "TSMC",
+      "SUPPLIER",
+      "RESEARCH"
+    ],
+    "guards": {
+      "shipment_exposure": [
+        "partial",
+        "full"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T029-O1",
+        "label": "Deliveries fall after offsets",
+        "effects": {
+          "us_new_chip_access": "reduced"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T029-O2",
+        "label": "Deliveries stop after offsets",
+        "effects": {
+          "us_new_chip_access": "interrupted"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T029-O3",
+        "label": "Offsets preserve deliveries",
+        "effects": {
+          "us_new_chip_access": "normal"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "TW-C030",
+      "TW-C049",
+      "TW-C050",
+      "TW-C055"
+    ],
+    "source_ids": [],
+    "time_scale": "days to months",
+    "status": "proposed_model_rule",
+    "limits": "Requires observed deliveries for specified products and customers, with inventory and overseas offsets. It is not implied by a compliance or shipping event."
+  },
+  {
+    "id": "M-T030",
+    "title": "Confirm an end to the modeled conflict",
+    "kind": "event",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC",
+      "TW_EXEC",
+      "ALLY"
+    ],
+    "guards": {
+      "settlement": [
+        "verified"
+      ],
+      "settlement_scope": [
+        "conflict_wide"
+      ],
+      "conflict_level": [
+        "diplomatic_crisis",
+        "coercion",
+        "limited_armed_conflict",
+        "major_war"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T030-O1",
+        "label": "The modeled conflict ends",
+        "effects": {
+          "conflict_level": "competition"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "ST-C017",
+      "ST-C018"
+    ],
+    "source_ids": [],
+    "time_scale": "weeks to months",
+    "status": "proposed_model_rule",
+    "limits": "Requires verified cessation across the modeled conflict and all relevant parties. An incident or trade agreement cannot enable this event."
+  },
+  {
+    "id": "M-T031",
+    "title": "An accusation becomes a diplomatic crisis",
+    "kind": "event",
+    "actor_roles": [
+      "US_EXEC",
+      "PRC_EXEC"
+    ],
+    "guards": {
+      "public_blame": [
+        "rival_state"
+      ],
+      "conflict_level": [
+        "competition"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T031-O1",
+        "label": "Political responses create a crisis",
+        "effects": {
+          "conflict_level": "diplomatic_crisis"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T031-O2",
+        "label": "The accusation does not create a new crisis",
+        "effects": {},
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "AI-C043",
+      "ST-C010"
+    ],
+    "source_ids": [],
+    "time_scale": "hours to days",
+    "status": "proposed_model_rule",
+    "limits": "Public blame and its political effect are separate. This event cannot downgrade an existing conflict."
+  },
+  {
+    "id": "M-T032",
+    "title": "Check whether the reported incident occurred",
+    "kind": "event",
+    "actor_roles": [
+      "LAB",
+      "RESEARCH"
+    ],
+    "guards": {
+      "incident_status": [
+        "reported"
+      ]
+    },
+    "outcomes": [
+      {
+        "id": "M-T032-O1",
+        "label": "The event is confirmed",
+        "effects": {
+          "incident_status": "confirmed",
+          "evidence_quality": "partial"
+        },
+        "probability": null
+      },
+      {
+        "id": "M-T032-O2",
+        "label": "The reported event is disproved",
+        "effects": {
+          "incident_status": "disproved",
+          "evidence_quality": "corroborated"
+        },
+        "probability": null
+      }
+    ],
+    "claim_ids": [
+      "AI-C043",
+      "ST-C010"
+    ],
+    "source_ids": [],
+    "time_scale": "hours to days",
+    "status": "proposed_model_rule",
+    "limits": "Confirmation of an event does not establish the operator, intent, state approval, or civilian harm."
+  }
+]

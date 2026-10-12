@@ -1,0 +1,202 @@
+[
+  {
+    "id": "AI-E016-POS01",
+    "entity_id": "AI-E016",
+    "date": "2026-04-06",
+    "text": "Expected highly capable models soon and urged preparation.",
+    "source_ids": [
+      "AI-S033"
+    ],
+    "limits": "Participant expectation. Timing and reliability remain uncertain."
+  },
+  {
+    "id": "AI-E017-POS01",
+    "entity_id": "AI-E017",
+    "date": "2026-09",
+    "text": "Proposed pacing frontier development and independent evaluation. Warned that more capable misaligned agent swarms could threaten internet-wide control within 6-12 months without adequate safeguards.",
+    "source_ids": [
+      "AI-S014"
+    ],
+    "limits": "Conditional warning, not established current capability or calibrated probability. Exact publication day unavailable."
+  },
+  {
+    "id": "AI-E022-POS01",
+    "entity_id": "AI-E022",
+    "date": "2026-07-23",
+    "text": "Reportedly prioritized AGI and expected DeepSeek to keep advanced models open.",
+    "source_ids": [
+      "AI-S035"
+    ],
+    "limits": "Reuters relayed Yicai. This is not a direct transcript or binding release commitment."
+  },
+  {
+    "id": "AI-E023-POS01",
+    "entity_id": "AI-E023",
+    "date": "2026-09-22",
+    "text": "Set a target of more than 20 GW of global data-center capacity operated by Alibaba Cloud by 2032.",
+    "source_ids": [
+      "AI-S021"
+    ],
+    "limits": "Corporate plan. Not installed capacity or a measure of usable frontier training compute."
+  },
+  {
+    "id": "SD-E025-POS01",
+    "entity_id": "SD-E025",
+    "date": "2026-01-23",
+    "text": "The US strategy attributes to Trump a goal of stable peace and fair trade with China.",
+    "source_ids": [
+      "SD-S045"
+    ],
+    "limits": "Policy document attribution; not a personal transcript."
+  },
+  {
+    "id": "SD-E026-POS01",
+    "entity_id": "SD-E026",
+    "date": "2026-05-28",
+    "text": "Vance said humans should make life-and-death decisions in war. He expressed concern about AI warfare.",
+    "source_ids": [
+      "SD-S054"
+    ],
+    "limits": "Contemporaneous pool report."
+  },
+  {
+    "id": "SD-E029-POS01",
+    "entity_id": "SD-E029",
+    "date": "2026-08-31",
+    "text": "The official readout says Caine and his Philippine counterpart supported deterrence and South China Sea stability.",
+    "source_ids": [
+      "SD-S051"
+    ],
+    "limits": "Readout; limited access."
+  },
+  {
+    "id": "SD-E030-POS01",
+    "entity_id": "SD-E030",
+    "date": "2026-08-03",
+    "text": "Paparo supported faster use of AI tools while retaining human judgment and accountability for lethal decisions.",
+    "source_ids": [
+      "SD-S050"
+    ],
+    "limits": "Official speech extract; direct page blocked."
+  },
+  {
+    "id": "SD-E031-POS01",
+    "entity_id": "SD-E031",
+    "date": "2024-11-16",
+    "text": "Xi and Biden affirmed human control over nuclear-use decisions.",
+    "source_ids": [
+      "SD-S049"
+    ],
+    "limits": "Public commitment; implementation is not verified."
+  },
+  {
+    "id": "SD-E034-POS01",
+    "entity_id": "SD-E034",
+    "date": "2026",
+    "text": "Lai endorsed shared norms to prevent military AI from undermining peace. He linked trustworthy AI and chips to supply-chain stability.",
+    "source_ids": [
+      "SD-S053"
+    ],
+    "limits": "Official letter; exact day not visible."
+  },
+  {
+    "id": "SD-E040-POS01",
+    "entity_id": "SD-E040",
+    "date": "2026-04-17",
+    "text": "Marles described the new defense strategy as a stronger focus on self-reliance.",
+    "source_ids": [
+      "SD-S025"
+    ],
+    "limits": "Official policy statement."
+  },
+  {
+    "id": "SD-E042-POS01",
+    "entity_id": "SD-E042",
+    "date": "2026-09-08",
+    "text": "The UK readout says Burnham and Xi supported continued dialogue and practical cooperation.",
+    "source_ids": [
+      "SD-S055"
+    ],
+    "limits": "Official readout; no claim that disputes ended."
+  },
+  {
+    "id": "SD-E046-POS01",
+    "entity_id": "SD-E046",
+    "date": "2026-06-08",
+    "text": "The PRC readout says Kim supported China's one-China principle and core-interest positions.",
+    "source_ids": [
+      "SD-S011"
+    ],
+    "limits": "Attributed by the PRC; not proof of a war commitment."
+  },
+  {
+    "id": "SD-E069-POS01",
+    "entity_id": "SD-E069",
+    "date": "2026-09-29",
+    "text": "Luckey supported industrial cooperation to improve military capability.",
+    "source_ids": [
+      "SD-S060"
+    ],
+    "limits": "Company announcement; no inference about intended war."
+  },
+  {
+    "id": "SD-E070-POS01",
+    "entity_id": "SD-E070",
+    "date": "2025-01-23",
+    "text": "Schimpf linked leadership changes to delivery and company growth.",
+    "source_ids": [
+      "SD-S059"
+    ],
+    "limits": "Corporate management statement, not a view on war probability."
+  },
+  {
+    "id": "SD-E072-POS01",
+    "entity_id": "SD-E072",
+    "date": "2023",
+    "text": "Taiclet supported integration of AI and other digital technologies for deterrence.",
+    "source_ids": [
+      "SD-S062"
+    ],
+    "limits": "Company-hosted testimony extract; exact day not verified."
+  },
+  {
+    "id": "TW-E008-POS01",
+    "entity_id": "TW-E008",
+    "date": "2026-10-10",
+    "text": "Lai supported stronger self-defense and dialogue on equal terms. He welcomed US-China dialogue to reduce conflict risk and rejected Taiwan subordination.",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "limits": "Declared position in the official National Day address. This does not prove private intent or future decisions."
+  },
+  {
+    "id": "TW-E012-POS01",
+    "entity_id": "TW-E012",
+    "date": "2026-06-12",
+    "text": "Cheng said her party supported Taiwan defense and dialogue with Beijing.",
+    "source_ids": [
+      "TW-S006"
+    ],
+    "limits": "AP reporting of a public position. This does not establish PRC control of the party or a plan to restrict US chip access."
+  },
+  {
+    "id": "TW-E015-POS01",
+    "entity_id": "TW-E015",
+    "date": "2026-07-16",
+    "text": "Wei announced another USD 100 billion of planned Arizona investment. He said the schedule would depend on market conditions and customer demand.",
+    "source_ids": [
+      "TW-S012"
+    ],
+    "limits": "Company commitment. No firm schedule was given. Planned investment is not completed spending or operational capacity."
+  },
+  {
+    "id": "TW-E039-POS01",
+    "entity_id": "TW-E039",
+    "date": "2022-08-16",
+    "text": "Liu warned that military force would stop TSMC factories from operating because they depend on links with overseas partners.",
+    "source_ids": [
+      "TW-S039"
+    ],
+    "limits": "CNN aired the interview excerpt on this date and described the interview as earlier that month. Liu was chairman then. This is a warning, not a verified shutdown mechanism or a fixed recovery time."
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.5.15/schema.json",
+  "files": {
+    "includes": [
+      "**",
+      "!!wiki",
+      "!!node_modules",
+      "!!**/node_modules",
+      "!!**/dist",
+      "!!.turbo",
+      "!!**/.turbo",
+      "!!.tools",
+      "!!.wrangler",
+      "!!.playwright-mcp",
+      "!!.agents",
+      "!!assets/sprites",
+      "!!apps/web/public/sprites",
+      "!!apps/web/src/data/sprites.json",
+      "!!pnpm-lock.yaml"
+    ]
+  },
+  "formatter": { "indentStyle": "space", "indentWidth": 2, "lineWidth": 100 },
+  "javascript": { "formatter": { "quoteStyle": "double" } },
+  "css": { "parser": { "tailwindDirectives": true } },
+  "linter": { "enabled": true, "rules": { "preset": "recommended" } }
+}

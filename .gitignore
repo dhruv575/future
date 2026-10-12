@@ -1,0 +1,34 @@
+node_modules/
+.turbo/
+.wrangler/
+.tools/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+__pycache__/
+
+# Local tooling, browser captures, and source downloads.
+.agents/
+.playwright-mcp/
+tmp/
+skills-lock.json
+*.pem
+*.key
+*.p12
+*.pfx
+.dev.vars*
+wiki/characters/dario-amodei/downloads/
+wiki/characters/dario-amodei/text/
+wiki/characters/dario-amodei/previews/
+
+# Art is hosted on R2; raw generation records include local machine paths.
+apps/web/public/
+assets/sprites/references/
+assets/sprites/revisions/
+assets/sprites/generation/
+assets/scenes/*.json

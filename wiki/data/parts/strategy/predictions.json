@@ -1,0 +1,106 @@
+[
+  {
+    "id": "ST-P001",
+    "statement": "A fast-AI future can branch into a continued race or a slowdown.",
+    "source_ids": [
+      "ST-S013"
+    ],
+    "issued_date": "2025-04-03",
+    "horizon": "2027–2035",
+    "probability": null,
+    "conditions": "Rapid progress and effective AI research automation.",
+    "caveats": "The firms are fictional. The authors distinguish a modal year from a median. The story is not a probability distribution.",
+    "type": "scenario"
+  },
+  {
+    "id": "ST-P002",
+    "statement": "AGI by 2027 is plausible under the author’s extrapolation.",
+    "source_ids": [
+      "ST-S014"
+    ],
+    "issued_date": "2024-06",
+    "horizon": "2027",
+    "probability": null,
+    "conditions": "Continued compute, algorithm, and agent gains.",
+    "caveats": "This is an individual forecast and strategic argument. Trend extrapolation is not proof of an intelligence explosion.",
+    "type": "forecast"
+  },
+  {
+    "id": "ST-P003",
+    "statement": "Aggregate survey forecast: unaided machines outperform humans in every possible task by 2027.",
+    "source_ids": [
+      "ST-S015"
+    ],
+    "issued_date": "2024-01-05",
+    "horizon": "2027",
+    "probability": 0.1,
+    "conditions": "Science continues without disruption. Use the survey’s outcome definition.",
+    "caveats": "The definition is demanding and differs from other AGI definitions. Respondent beliefs are not calibrated war probabilities.",
+    "type": "forecast"
+  },
+  {
+    "id": "ST-P004",
+    "statement": "Global data-center electricity demand reaches about 1,200 TWh in the 2035 base case.",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "issued_date": "2025-04-10",
+    "horizon": "2035",
+    "probability": null,
+    "conditions": "IEA base-case assumptions for adoption, efficiency, and infrastructure.",
+    "caveats": "These figures cover all data centers. The 2035 cases span 700–1,700 TWh. They are not a forecast of AI compute alone.",
+    "type": "conditional_result"
+  },
+  {
+    "id": "ST-P005",
+    "statement": "Credible mutual restraint depends on oversight and detectable defection in the authors’ model.",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "issued_date": "2026-09-30",
+    "horizon": "No fixed calendar horizon",
+    "probability": null,
+    "conditions": "Repeated strategic interaction and the model’s incentive assumptions.",
+    "caveats": "The reviewed page summarizes a stylized two-stage model. Its equilibrium conditions are not empirical event frequencies.",
+    "type": "conditional_result"
+  },
+  {
+    "id": "ST-P006",
+    "statement": "Belief in a decisive rival AI lead can create pressure for preventive action.",
+    "source_ids": [
+      "ST-S020"
+    ],
+    "issued_date": "2026-04-29",
+    "horizon": "No fixed calendar horizon",
+    "probability": null,
+    "conditions": "Leaders perceive a threatened strategic position and believe action can help.",
+    "caveats": "The accessible summary describes early observations and hypotheses. It supplies no calibrated conflict rate.",
+    "type": "warning"
+  },
+  {
+    "id": "ST-P007",
+    "statement": "Common AI risks can create incentives for cooperation despite strategic rivalry.",
+    "source_ids": [
+      "ST-S005"
+    ],
+    "issued_date": "2025-08-04",
+    "horizon": "No fixed calendar horizon",
+    "probability": null,
+    "conditions": "Shared risks become salient and usable channels exist.",
+    "caveats": "This is a policy argument. Claims about future capabilities remain conditional.",
+    "type": "warning"
+  },
+  {
+    "id": "ST-P008",
+    "statement": "AI failure can worsen a crisis through its interaction with human judgment.",
+    "source_ids": [
+      "ST-S010"
+    ],
+    "issued_date": "2023-03",
+    "horizon": "No fixed calendar horizon",
+    "probability": null,
+    "conditions": "Decision processes rely on a faulty system under crisis pressure.",
+    "caveats": "The report identifies mechanisms and safeguards. It does not measure a universal escalation rate.",
+    "type": "warning"
+  }
+]

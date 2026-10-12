@@ -1,0 +1,285 @@
+.event-stage {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+}
+.event-set {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  max-width: none;
+  height: 100%;
+  pointer-events: none;
+}
+.event-reading-surface {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  text-wrap: pretty;
+}
+.event-dateline {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 6px 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid currentColor;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.event-headline {
+  display: block;
+  margin: 24px 0 22px;
+  font-size: clamp(24px, 2.7vw, 38px);
+  line-height: 1.16;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+.event-passage {
+  display: block;
+  font-size: clamp(17px, 1.5vw, 22px);
+  line-height: 1.65;
+}
+.event-next {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  padding-top: 24px;
+  font-size: 12px;
+  opacity: 0.65;
+}
+.surface-paper .event-reading-surface {
+  inset: 13% 15% 14% 40%;
+  color: #302b24;
+}
+.surface-paper .event-dateline {
+  font-family: Consolas, monospace;
+  color: #655a4b;
+}
+.surface-paper .event-headline {
+  margin-top: 36px;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.surface-paper .event-passage {
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.8;
+}
+.surface-terminal .event-reading-surface,
+.surface-dispatch .event-reading-surface,
+.surface-broadcast .event-reading-surface {
+  inset: 15% 11% 36% 29%;
+  color: #e2e6ed;
+  text-shadow: 0 0 12px #b3cef421;
+}
+.surface-terminal .event-dateline,
+.surface-dispatch .event-dateline {
+  font-family: Consolas, monospace;
+  color: #aabed2;
+  border-color: #72869d66;
+}
+.surface-terminal .event-headline {
+  color: #d8e5f2;
+}
+.surface-terminal .event-passage {
+  padding-left: 18px;
+  border-left: 2px solid #8499ad;
+}
+.surface-dispatch .event-dateline {
+  color: #d9b991;
+}
+.surface-dispatch .event-headline {
+  padding-left: 18px;
+  border-left: 3px solid #bf9162;
+}
+.surface-broadcast .event-reading-surface {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 0 24px;
+  align-content: start;
+  text-shadow: none;
+}
+.surface-broadcast .event-dateline {
+  grid-column: 1 / -1;
+  margin-bottom: 24px;
+  border-color: #8499ad66;
+}
+.surface-broadcast .event-dateline > span {
+  padding: 2px 10px;
+  background: #944b47;
+  color: #fff1ed;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.broadcast-image {
+  grid-row: 2 / span 2;
+  display: block;
+  min-height: 0;
+}
+.broadcast-image img {
+  width: 100%;
+  height: 100%;
+  min-height: 160px;
+  max-height: 290px;
+  object-fit: cover;
+  outline: 1px solid #ffffff1a;
+}
+.surface-broadcast .event-headline {
+  margin: 0 0 18px;
+  font-size: clamp(22px, 2vw, 30px);
+}
+.surface-broadcast .event-passage {
+  font-size: clamp(16px, 1.3vw, 19px);
+}
+.surface-broadcast .event-next {
+  grid-column: 1 / -1;
+}
+.surface-arrival,
+.surface-cinematic {
+  background: linear-gradient(transparent 35%, #0e10173d 52%, #0e1017ed 100%);
+}
+.arrival-cast {
+  opacity: 0.85;
+}
+.arrival-cast::after {
+  content: "";
+  position: absolute;
+  inset: 30% 0 0;
+  z-index: 2;
+  background: linear-gradient(transparent, #0e1017ed);
+}
+.surface-arrival .event-reading-surface,
+.surface-cinematic .event-reading-surface {
+  z-index: 3;
+  left: max(190px, 14%);
+  right: 12%;
+  bottom: max(32px, 6%);
+  max-height: 58%;
+  text-shadow: 0 2px 10px #000;
+}
+.surface-arrival .event-dateline,
+.surface-cinematic .event-dateline {
+  justify-content: flex-start;
+  border: 0;
+  padding: 0;
+  color: #cbd0d9;
+}
+.surface-arrival .event-headline {
+  margin: 15px 0 20px;
+  font-size: clamp(28px, 3vw, 40px);
+}
+.surface-cinematic .event-headline {
+  margin: 14px 0 18px;
+  font-size: clamp(23px, 2.4vw, 34px);
+}
+.surface-arrival .event-passage,
+.surface-cinematic .event-passage {
+  max-width: 830px;
+}
+.has-event .score-overlay {
+  z-index: 4;
+  pointer-events: none;
+}
+@media (max-width: 760px) {
+  .event-set {
+    width: 175%;
+    left: -68%;
+  }
+  .surface-paper .event-reading-surface {
+    inset: 19% 14% 13% 10%;
+  }
+  .surface-terminal .event-reading-surface,
+  .surface-dispatch .event-reading-surface,
+  .surface-broadcast .event-reading-surface {
+    inset: 17% 10% 35% 7%;
+  }
+  .event-dateline {
+    font-size: 10px;
+    gap: 4px 12px;
+    padding-bottom: 10px;
+  }
+  .event-headline,
+  .surface-paper .event-headline {
+    font-size: 25px;
+    margin: 18px 0;
+  }
+  .event-passage {
+    font-size: 17px;
+    line-height: 1.6;
+  }
+  .event-next {
+    padding-top: 18px;
+  }
+  .surface-broadcast .event-reading-surface {
+    display: flex;
+  }
+  .surface-broadcast .event-dateline {
+    margin-bottom: 14px;
+  }
+  .broadcast-image {
+    flex-shrink: 0;
+    height: 90px;
+    margin-bottom: 14px;
+  }
+  .broadcast-image img {
+    min-height: 0;
+  }
+  .surface-broadcast .event-headline {
+    font-size: 22px;
+    margin-bottom: 14px;
+  }
+  .surface-arrival .event-reading-surface,
+  .surface-cinematic .event-reading-surface {
+    left: 7%;
+    right: 7%;
+    bottom: max(22px, env(safe-area-inset-bottom));
+    max-height: 55%;
+  }
+}
+@media (max-height: 560px) and (orientation: landscape) {
+  .event-headline,
+  .surface-paper .event-headline {
+    font-size: 23px;
+    margin: 14px 0;
+  }
+  .event-passage,
+  .surface-broadcast .event-passage {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .event-dateline {
+    font-size: 10px;
+    padding-bottom: 8px;
+  }
+  .event-next {
+    padding-top: 12px;
+  }
+  .surface-broadcast .event-dateline {
+    margin-bottom: 12px;
+  }
+  .broadcast-image img {
+    min-height: 90px;
+  }
+  .surface-arrival .event-reading-surface,
+  .surface-cinematic .event-reading-surface {
+    left: 150px;
+    right: 76px;
+    bottom: 20px;
+    max-height: 84%;
+  }
+}

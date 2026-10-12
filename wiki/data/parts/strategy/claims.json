@@ -1,0 +1,255 @@
+[
+  {
+    "id": "ST-C001",
+    "text": "The five tested models showed escalation patterns in a structured war game.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S001"
+    ],
+    "as_of": "2024-01-07",
+    "confidence": "high",
+    "notes": "This is model behavior under fixed rules. It is not an interstate conflict forecast."
+  },
+  {
+    "id": "ST-C002",
+    "text": "The study compared model responses with 214 national security experts and found important behavioral differences.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S002"
+    ],
+    "as_of": "2024-10-03",
+    "confidence": "high",
+    "notes": "The fictional crisis and tested model versions limit generalization. Language models are not validated substitutes for actual leaders."
+  },
+  {
+    "id": "ST-C003",
+    "text": "Prompt and temperature changes reduced escalation in the tested Mistral model.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S003"
+    ],
+    "as_of": "2025-08-05",
+    "confidence": "high",
+    "notes": "The study used one model and a restricted action set. Lower game escalation does not prove safe deployment."
+  },
+  {
+    "id": "ST-C004",
+    "text": "Three models showed escalation and deception in simulated nuclear crises.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S004"
+    ],
+    "as_of": "2026-02-16",
+    "confidence": "high",
+    "notes": "Only 21 games were run. The result does not estimate how often states will use nuclear weapons."
+  },
+  {
+    "id": "ST-C005",
+    "text": "The authors identify both competitive and cooperative incentives in advanced AI development.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S005"
+    ],
+    "as_of": "2025-08-04",
+    "confidence": "high",
+    "notes": "This is a policy argument. Claims about future capabilities remain conditional."
+  },
+  {
+    "id": "ST-C006",
+    "text": "The report uses assumption-based planning to explore different geopolitical futures.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S006"
+    ],
+    "as_of": "2025-07-02",
+    "confidence": "high",
+    "notes": "The scenarios assume transformative AGI. They do not establish its arrival date or assign conflict probabilities."
+  },
+  {
+    "id": "ST-C007",
+    "text": "The framework covers novel capabilities, shifts in power, misuse, autonomous agency, and instability.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S007"
+    ],
+    "as_of": "2025",
+    "confidence": "high",
+    "notes": "These are categories for planning. They are not a tested forecast model."
+  },
+  {
+    "id": "ST-C008",
+    "text": "The report separates AI effects on nuclear command, the strategic balance, and conventional–nuclear entanglement.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S008"
+    ],
+    "as_of": "2025-02-13",
+    "confidence": "high",
+    "notes": "The reviewed HTML contains the executive summary. It does not establish that any specific AI system controls launch authority."
+  },
+  {
+    "id": "ST-C009",
+    "text": "Shared nuclear and conventional command functions can cause an attack to be misread.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S009"
+    ],
+    "as_of": "2018-08-08",
+    "confidence": "high",
+    "notes": "The mechanism predates current generative AI. This corpus uses it as a causal analogy, not a measured AI effect."
+  },
+  {
+    "id": "ST-C010",
+    "text": "AI errors can interact with human and strategic pressures in a crisis.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S010"
+    ],
+    "as_of": "2023-03",
+    "confidence": "high",
+    "notes": "The report identifies mechanisms and safeguards. It does not measure a universal escalation rate."
+  },
+  {
+    "id": "ST-C011",
+    "text": "The study reviewed 59 Chinese-language articles from 2020–2022 and found concerns about reliability and integration.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S011"
+    ],
+    "as_of": "2024-06",
+    "confidence": "high",
+    "notes": "The sample is not official PLA doctrine or a current audit of deployed capability."
+  },
+  {
+    "id": "ST-C012",
+    "text": "Bresnick reports that some Chinese defense scholars fear AI could reduce crisis control.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S012"
+    ],
+    "as_of": "2024-09-20",
+    "confidence": "high",
+    "notes": "This overlaps with the CSET research sample. It is not independent confirmation or a statement of state intent."
+  },
+  {
+    "id": "ST-C013",
+    "text": "The authors present a detailed fast-AI scenario with race and slowdown endings.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S013"
+    ],
+    "as_of": "2025-04-03",
+    "confidence": "high",
+    "notes": "The firms are fictional. The authors distinguish a modal year from a median. The story is not a probability distribution."
+  },
+  {
+    "id": "ST-C014",
+    "text": "Aschenbrenner argues that AGI by 2027 is plausible and that state competition could intensify.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S014"
+    ],
+    "as_of": "2024-06",
+    "confidence": "high",
+    "notes": "This is an individual forecast and strategic argument. Trend extrapolation is not proof of an intelligence explosion."
+  },
+  {
+    "id": "ST-C015",
+    "text": "The survey of 2,778 researchers reports an aggregate 10% forecast for all-task human-level performance by 2027.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S015"
+    ],
+    "as_of": "2024-01-05",
+    "confidence": "high",
+    "notes": "The definition is demanding and differs from other AGI definitions. Respondent beliefs are not calibrated war probabilities."
+  },
+  {
+    "id": "ST-C016",
+    "text": "The 2025 base case projects about 945 TWh of data-center electricity demand in 2030 and 1,200 TWh in 2035.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "as_of": "2025-04-10",
+    "confidence": "high",
+    "notes": "These figures cover all data centers. The 2035 cases span 700–1,700 TWh. They are not a forecast of AI compute alone."
+  },
+  {
+    "id": "ST-C017",
+    "text": "Sheehan proposes domestic safety work and limited dialogue even without binding bilateral agreement.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S017"
+    ],
+    "as_of": "2026-07-23",
+    "confidence": "high",
+    "notes": "This is a proposal by the author. It is not an agreed treaty or proof that dialogue will succeed."
+  },
+  {
+    "id": "ST-C018",
+    "text": "The model links credible restraint to domestic oversight, detection, and beliefs about time to AGI.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "as_of": "2026-09-30",
+    "confidence": "high",
+    "notes": "The reviewed page summarizes a stylized two-stage model. Its equilibrium conditions are not empirical event frequencies."
+  },
+  {
+    "id": "ST-C019",
+    "text": "The report draws lessons from 26 exercises held from June 2025 to February 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S019"
+    ],
+    "as_of": "2026-10-05",
+    "confidence": "high",
+    "notes": "The lessons reflect participant responses to assumed crises. They do not establish the chance of loss of control."
+  },
+  {
+    "id": "ST-C020",
+    "text": "Breakwater studies how beliefs about AI progress could encourage preventive action.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S020"
+    ],
+    "as_of": "2026-04-29",
+    "confidence": "high",
+    "notes": "The accessible summary describes early observations and hypotheses. It supplies no calibrated conflict rate."
+  },
+  {
+    "id": "ST-C021",
+    "text": "The authors propose resilience and deterrence to preserve options during an uncertain AI transition.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S021"
+    ],
+    "as_of": "2026-04-27",
+    "confidence": "high",
+    "notes": "The summary is a policy case, not evidence that this strategy has succeeded."
+  },
+  {
+    "id": "ST-C022",
+    "text": "The author argues for preparation that keeps future cooperation possible.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S022"
+    ],
+    "as_of": "2026-05-04",
+    "confidence": "high",
+    "notes": "The summary does not establish current agreement or near-term political feasibility."
+  },
+  {
+    "id": "ST-C023",
+    "text": "The authors propose a framework of deterrence, nonproliferation, and competitiveness for advanced AI.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S023"
+    ],
+    "as_of": "2025-04-14",
+    "confidence": "high",
+    "notes": "Their proposed AI deterrence concept is contested analysis. It is not official doctrine or established strategic stability."
+  }
+]

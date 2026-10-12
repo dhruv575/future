@@ -1,0 +1,406 @@
+[
+  {
+    "id": "TW-R001",
+    "subject": "TW-E008",
+    "predicate": "holds_office_in",
+    "object": "TW-E001",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "claim_ids": [
+      "TW-C005"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "TW-R002",
+    "subject": "TW-E010",
+    "predicate": "leads",
+    "object": "TW-E002",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "claim_ids": [
+      "TW-C005"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "TW-R003",
+    "subject": "TW-E011",
+    "predicate": "presides_over",
+    "object": "TW-E003",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "claim_ids": [
+      "TW-C005"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "TW-R004",
+    "subject": "TW-E012",
+    "predicate": "chairs",
+    "object": "TW-E006",
+    "source_ids": [
+      "TW-S006"
+    ],
+    "claim_ids": [
+      "TW-C007"
+    ],
+    "status": "documented_as_of_2026-06-12"
+  },
+  {
+    "id": "TW-R005",
+    "subject": "TW-E013",
+    "predicate": "chairs",
+    "object": "TW-E007",
+    "source_ids": [
+      "TW-S007"
+    ],
+    "claim_ids": [
+      "TW-C008"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R006",
+    "subject": "TW-E002",
+    "predicate": "submits_covered_political_agreements_to",
+    "object": "TW-E003",
+    "source_ids": [
+      "TW-S002"
+    ],
+    "claim_ids": [
+      "TW-C003"
+    ],
+    "status": "documented_legal_process"
+  },
+  {
+    "id": "TW-R007",
+    "subject": "TW-E014",
+    "predicate": "has_executive",
+    "object": "TW-E015",
+    "source_ids": [
+      "TW-S010"
+    ],
+    "claim_ids": [
+      "TW-C013"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R008",
+    "subject": "TW-E014",
+    "predicate": "has_legal_governance_officer",
+    "object": "TW-E016",
+    "source_ids": [
+      "TW-S010"
+    ],
+    "claim_ids": [
+      "TW-C013"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R009",
+    "subject": "TW-E014",
+    "predicate": "operates",
+    "object": "TW-E034",
+    "source_ids": [
+      "TW-S008"
+    ],
+    "claim_ids": [
+      "TW-C010"
+    ],
+    "status": "company_report"
+  },
+  {
+    "id": "TW-R010",
+    "subject": "TW-E014",
+    "predicate": "holds_majority_interest_in",
+    "object": "TW-E035",
+    "source_ids": [
+      "TW-S013"
+    ],
+    "claim_ids": [
+      "TW-C016"
+    ],
+    "status": "announced_arrangement"
+  },
+  {
+    "id": "TW-R011",
+    "subject": "TW-E014",
+    "predicate": "holds_majority_interest_in",
+    "object": "TW-E036",
+    "source_ids": [
+      "TW-S014"
+    ],
+    "claim_ids": [
+      "TW-C017"
+    ],
+    "status": "announced_arrangement"
+  },
+  {
+    "id": "TW-R012",
+    "subject": "TW-E019",
+    "predicate": "uses_foundry",
+    "object": "TW-E014",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier"
+  },
+  {
+    "id": "TW-R013",
+    "subject": "TW-E019",
+    "predicate": "uses_foundry",
+    "object": "TW-E023",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier_not_equal_substitute"
+  },
+  {
+    "id": "TW-R014",
+    "subject": "TW-E019",
+    "predicate": "purchases_memory_from",
+    "object": "TW-E024",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier"
+  },
+  {
+    "id": "TW-R015",
+    "subject": "TW-E019",
+    "predicate": "purchases_memory_from",
+    "object": "TW-E025",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier"
+  },
+  {
+    "id": "TW-R016",
+    "subject": "TW-E019",
+    "predicate": "purchases_memory_from",
+    "object": "TW-E023",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier"
+  },
+  {
+    "id": "TW-R017",
+    "subject": "TW-E019",
+    "predicate": "uses",
+    "object": "TW-E037",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_technology"
+  },
+  {
+    "id": "TW-R018",
+    "subject": "TW-E021",
+    "predicate": "relies_on_advanced_wafers_from",
+    "object": "TW-E014",
+    "source_ids": [
+      "TW-S016"
+    ],
+    "claim_ids": [
+      "TW-C019"
+    ],
+    "status": "historical_fiscal_2024"
+  },
+  {
+    "id": "TW-R019",
+    "subject": "TW-E024",
+    "predicate": "cooperates_on_hbm_integration_with",
+    "object": "TW-E014",
+    "source_ids": [
+      "TW-S023"
+    ],
+    "claim_ids": [
+      "TW-C024"
+    ],
+    "status": "announced_mou"
+  },
+  {
+    "id": "TW-R020",
+    "subject": "TW-E024",
+    "predicate": "develops",
+    "object": "TW-E038",
+    "source_ids": [
+      "TW-S023"
+    ],
+    "claim_ids": [
+      "TW-C024"
+    ],
+    "status": "company_statement"
+  },
+  {
+    "id": "TW-R021",
+    "subject": "TW-E023",
+    "predicate": "produces",
+    "object": "TW-E038",
+    "source_ids": [
+      "TW-S024"
+    ],
+    "claim_ids": [
+      "TW-C025"
+    ],
+    "status": "company_statement"
+  },
+  {
+    "id": "TW-R022",
+    "subject": "TW-E029",
+    "predicate": "licenses_relevant_exports_by",
+    "object": "TW-E019",
+    "source_ids": [
+      "TW-S026"
+    ],
+    "claim_ids": [
+      "TW-C027"
+    ],
+    "status": "conditional_regulatory_relationship"
+  },
+  {
+    "id": "TW-R023",
+    "subject": "TW-E029",
+    "predicate": "licenses_relevant_exports_by",
+    "object": "TW-E021",
+    "source_ids": [
+      "TW-S026"
+    ],
+    "claim_ids": [
+      "TW-C027"
+    ],
+    "status": "conditional_regulatory_relationship"
+  },
+  {
+    "id": "TW-R024",
+    "subject": "TW-E030",
+    "predicate": "licenses_controlled_exports_by",
+    "object": "TW-E017",
+    "source_ids": [
+      "TW-S027"
+    ],
+    "claim_ids": [
+      "TW-C028"
+    ],
+    "status": "product_specific_not_blanket"
+  },
+  {
+    "id": "TW-R025",
+    "subject": "TW-E017",
+    "predicate": "depends_on_critical_optics_from",
+    "object": "TW-E028",
+    "source_ids": [
+      "TW-S045"
+    ],
+    "claim_ids": [
+      "TW-C048"
+    ],
+    "status": "filing_search_excerpt"
+  },
+  {
+    "id": "TW-R026",
+    "subject": "TW-E027",
+    "predicate": "provides",
+    "object": "TW-E040",
+    "source_ids": [
+      "TW-S022"
+    ],
+    "claim_ids": [
+      "TW-C023"
+    ],
+    "status": "company_filing"
+  },
+  {
+    "id": "TW-R027",
+    "subject": "TW-E032",
+    "predicate": "directs",
+    "object": "TW-E033",
+    "source_ids": [
+      "TW-S031"
+    ],
+    "claim_ids": [
+      "TW-C032",
+      "TW-C033"
+    ],
+    "status": "scenario_actor_mapping"
+  },
+  {
+    "id": "TW-R028",
+    "subject": "TW-E015",
+    "predicate": "warns_against_fixed_schedule_for",
+    "object": "TW-E034",
+    "source_ids": [
+      "TW-S012"
+    ],
+    "claim_ids": [
+      "TW-C015"
+    ],
+    "status": "public_statement"
+  },
+  {
+    "id": "TW-R029",
+    "subject": "TW-E018",
+    "predicate": "leads",
+    "object": "TW-E017",
+    "source_ids": [
+      "TW-S020"
+    ],
+    "claim_ids": [
+      "TW-C020"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R030",
+    "subject": "TW-E020",
+    "predicate": "leads",
+    "object": "TW-E019",
+    "source_ids": [
+      "TW-S018"
+    ],
+    "claim_ids": [
+      "TW-C020"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R031",
+    "subject": "TW-E022",
+    "predicate": "leads",
+    "object": "TW-E021",
+    "source_ids": [
+      "TW-S017"
+    ],
+    "claim_ids": [
+      "TW-C020"
+    ],
+    "status": "live_page_verified"
+  }
+]

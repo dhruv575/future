@@ -1,0 +1,165 @@
+[
+  {
+    "id": "AI-E047",
+    "name": "Daniela Amodei",
+    "kind": "person",
+    "summary": "Anthropic co-founder, president, and board chair.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "dossier_path": "characters/people/ai-e047.md",
+    "roles": [
+      "Anthropic co-founder, president, and board chair."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E048",
+    "name": "Jared Kaplan",
+    "kind": "person",
+    "summary": "Anthropic co-founder and chief science officer.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003",
+      "AC-S008",
+      "AC-S007"
+    ],
+    "dossier_path": "characters/people/ai-e048.md",
+    "roles": [
+      "Anthropic co-founder and chief science officer."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E049",
+    "name": "Chris Olah",
+    "kind": "person",
+    "summary": "Anthropic co-founder and interpretability research lead.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003",
+      "AC-S001",
+      "AC-S007"
+    ],
+    "dossier_path": "characters/people/ai-e049.md",
+    "roles": [
+      "Anthropic co-founder and interpretability research lead."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E050",
+    "name": "Jan Leike",
+    "kind": "person",
+    "summary": "Anthropic Alignment Science lead.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S004",
+      "AC-S005"
+    ],
+    "dossier_path": "characters/people/ai-e050.md",
+    "roles": [
+      "Anthropic Alignment Science lead."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E051",
+    "name": "Amanda Askell",
+    "kind": "person",
+    "summary": "Anthropic Character work lead and constitution primary author.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S006",
+      "AC-S007",
+      "AC-S001"
+    ],
+    "dossier_path": "characters/people/ai-e051.md",
+    "roles": [
+      "Anthropic Character work lead and constitution primary author."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E052",
+    "name": "Jack Clark",
+    "kind": "person",
+    "summary": "Anthropic co-founder and head of public benefit; Anthropic Institute lead.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003",
+      "AC-S002"
+    ],
+    "dossier_path": "characters/people/ai-e052.md",
+    "roles": [
+      "Anthropic co-founder and head of public benefit; Anthropic Institute lead."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E053",
+    "name": "Brian Israel",
+    "kind": "person",
+    "summary": "Anthropic chief legal officer.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "dossier_path": "characters/people/ai-e053.md",
+    "roles": [
+      "Anthropic chief legal officer."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E054",
+    "name": "Tom Brown",
+    "kind": "person",
+    "summary": "Anthropic co-founder and chief compute officer.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003",
+      "AC-S009",
+      "AC-S008"
+    ],
+    "dossier_path": "characters/people/ai-e054.md",
+    "roles": [
+      "Anthropic co-founder and chief compute officer."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  },
+  {
+    "id": "AI-E055",
+    "name": "Krishna Rao",
+    "kind": "person",
+    "summary": "Anthropic chief financial officer.",
+    "as_of": "2026-10-11",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "dossier_path": "characters/people/ai-e055.md",
+    "roles": [
+      "Anthropic chief financial officer."
+    ],
+    "constraints": [
+      "Future authority and dialogue are scenario assumptions."
+    ]
+  }
+]

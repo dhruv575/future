@@ -1,0 +1,50 @@
+# Entity index
+
+Evidence dates are explicit. Person jurisdiction means work setting, not citizenship. Candidate authority and incentives are game-design analysis.
+
+- [OpenAI](openai.md) - AI-E001; organization; evidence date 2026-10-10.
+- [Anthropic](anthropic.md) - AI-E002; organization; evidence date 2026-10-10.
+- [Google DeepMind](google-deepmind.md) - AI-E003; organization; evidence date 2026-10-10.
+- [Meta](meta.md) - AI-E004; organization; evidence date 2026-09-28.
+- [xAI / SpaceX AI business](xai-spacex-ai-business.md) - AI-E005; organization; evidence date 2026-10-10.
+- [DeepSeek](deepseek.md) - AI-E006; organization; evidence date 2026-10-10.
+- [Alibaba Group / Alibaba Cloud](alibaba-group-alibaba-cloud.md) - AI-E007; organization; evidence date 2026-09-22.
+- [Baidu](baidu.md) - AI-E008; organization; evidence date 2026-05-18.
+- [Tencent](tencent.md) - AI-E009; organization; evidence date 2026-10-10.
+- [Huawei](huawei.md) - AI-E010; organization; evidence date 2026-09-17.
+- [Microsoft](microsoft.md) - AI-E011; organization; evidence date 2026-10-10.
+- [Amazon / AWS](amazon-aws.md) - AI-E012; organization; evidence date 2026-10-10.
+- [Hugging Face](hugging-face.md) - AI-E013; organization; evidence date 2026-08-26.
+- [METR](metr.md) - AI-E014; organization; evidence date 2026-09-08.
+- [UK AI Security Institute](uk-ai-security-institute.md) - AI-E015; government; evidence date 2026-07-28.
+- [Sam Altman](sam-altman.md) - AI-E016; person; evidence date 2026-04-06.
+- [Dario Amodei](dario-amodei.md) - AI-E017; person; evidence date 2026-09.
+- [Demis Hassabis](demis-hassabis.md) - AI-E018; person; evidence date 2026-10-10.
+- [Koray Kavukcuoglu](koray-kavukcuoglu.md) - AI-E019; person; evidence date 2026-10-10.
+- [Sundar Pichai](sundar-pichai.md) - AI-E020; person; evidence date 2026-10-10.
+- [Mark Zuckerberg](mark-zuckerberg.md) - AI-E021; person; evidence date 2026-09-28.
+- [Liang Wenfeng](liang-wenfeng.md) - AI-E022; person; evidence date 2026-09-24.
+- [Eddie Wu](eddie-wu.md) - AI-E023; person; evidence date 2026-09-22.
+- [Robin Li](robin-li.md) - AI-E024; person; evidence date 2026-05-18.
+- [Pony Ma / Ma Huateng](pony-ma-ma-huateng.md) - AI-E025; person; evidence date 2026-10-10.
+- [Satya Nadella](satya-nadella.md) - AI-E026; person; evidence date 2026.
+- [Andy Jassy](andy-jassy.md) - AI-E027; person; evidence date 2026.
+- [Clement Delangue](clement-delangue.md) - AI-E028; person; evidence date 2026-07-21.
+- [Elon Musk](elon-musk.md) - AI-E029; person; evidence date 2026-08-11.
+- [GPT model family](gpt-model-family.md) - AI-E030; capability; evidence date 2026-08-26.
+- [Claude model family](claude-model-family.md) - AI-E031; capability; evidence date 2026-09-09.
+- [Gemini model family](gemini-model-family.md) - AI-E032; capability; evidence date 2026-10-10.
+- [Grok model family](grok-model-family.md) - AI-E033; capability; evidence date 2026-10-10.
+- [DeepSeek R1 and V3 model families](deepseek-r1-and-v3-model-families.md) - AI-E034; capability; evidence date 2026-01-04.
+- [Qwen model family](qwen-model-family.md) - AI-E035; capability; evidence date 2026-09-22.
+- [ERNIE model family](ernie-model-family.md) - AI-E036; capability; evidence date 2026-05-09.
+- [Tencent Hy / Hunyuan model family](tencent-hy-hunyuan-model-family.md) - AI-E037; capability; evidence date 2026-07-06.
+- [Pangu model family](pangu-model-family.md) - AI-E038; capability; evidence date 2026-09-17.
+- [Tool-using AI agent](tool-using-ai-agent.md) - AI-E039; capability; evidence date 2026-10-10.
+- [AI-assisted cyber operations](ai-assisted-cyber-operations.md) - AI-E040; capability; evidence date 2026-10-10.
+- [Indirect prompt injection](indirect-prompt-injection.md) - AI-E041; capability; evidence date 2025-05-20.
+- [Model weights](model-weights.md) - AI-E042; infrastructure; evidence date 2026-10-10.
+- [AI compute and cloud capacity](ai-compute-and-cloud-capacity.md) - AI-E043; infrastructure; evidence date 2026-10-10.
+- [Evaluation, monitoring and containment](evaluation-monitoring-and-containment.md) - AI-E044; capability; evidence date 2026-10-10.
+- [AI research automation](ai-research-automation.md) - AI-E045; capability; evidence date 2026-10-10.
+- [SpaceX](spacex.md) - AI-E046; organization; evidence date 2026-08-11.

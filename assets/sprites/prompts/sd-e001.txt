@@ -1,0 +1,8 @@
+Use case: precise-object-edit.
+Asset type: transparent pixel-art flag sprite for a serious strategy game.
+Input image 1 is the original sprite and the style reference. Correct the US flag design while preserving the red, ivory and blue pixel-art palette and stepped arcade shading.
+Primary request: redraw one complete United States flag with EXACTLY 50 separate ivory five-point stars and EXACTLY 13 horizontal stripes, 7 red and 6 ivory. The top and bottom stripes are red. The blue canton occupies the upper left, with its bottom at the seventh stripe.
+Most important: the 50 stars are in nine horizontal rows. Row counts from top to bottom are 6, 5, 6, 5, 6, 5, 6, 5, 6. Five rows of six stars alternate with four rows of five stars. Use small clearly separated stars. All nine rows must be visible and countable. Do not hide stars in a fold. Do not draw fewer stars for a simplified icon.
+Composition: the flag is viewed straight on and held nearly flat with only a small shallow cloth ripple. No perspective compression or overlapping cloth. Full silhouette within a square canvas, at least 6 percent clear padding on every side. No flagpole.
+Style: high-detail early-1990s arcade pixel art, crisp square pixels, hard stair-step edges and restrained stepped highlights. Serious visual tone. No smooth gradients, antialiasing, blur, text, watermark, canvas frame or shadows outside the flag.
+Background: genuinely transparent alpha. Preserve transparency.

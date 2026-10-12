@@ -1,0 +1,86 @@
+[
+  {
+    "id": "CH-AI-062",
+    "title": "Leadership at Anthropic",
+    "url": "https://www.anthropic.com/company/leadership",
+    "publisher": "Anthropic",
+    "published_date": null,
+    "accessed_date": "2026-10-11",
+    "source_type": "official_biography",
+    "access": "full_text",
+    "locator": "Individual leadership biographies",
+    "notes": "Undated live page, checked 2026-10-11. Supports roles, not private preferences or future employment."
+  },
+  {
+    "id": "CH-AI-063",
+    "title": "Jan Leike: About me",
+    "url": "https://jan.leike.name/",
+    "publisher": "Jan Leike",
+    "published_date": null,
+    "accessed_date": "2026-10-11",
+    "source_type": "personal_biography",
+    "access": "full_text",
+    "locator": "About me; My Research",
+    "notes": "Self-description. Not an independent assessment of research success."
+  },
+  {
+    "id": "CH-AI-064",
+    "title": "Alignment is not solved, but it increasingly looks solvable",
+    "url": "https://aligned.substack.com/p/alignment-is-not-solved-but-increasingly-looks-solvable",
+    "publisher": "Jan Leike",
+    "published_date": "2026-01-22",
+    "accessed_date": "2026-10-11",
+    "source_type": "personal_essay",
+    "access": "full_text",
+    "locator": "Superalignment; automated alignment researcher; The work is not done",
+    "notes": "Conditional optimism and reported evaluation progress. Does not establish safe superintelligence."
+  },
+  {
+    "id": "CH-AI-065",
+    "title": "About Me: Amanda Askell",
+    "url": "https://askell.io/",
+    "publisher": "Amanda Askell",
+    "published_date": null,
+    "accessed_date": "2026-10-11",
+    "source_type": "personal_biography",
+    "access": "full_text",
+    "locator": "About Me",
+    "notes": "Self-description; undated page."
+  },
+  {
+    "id": "CH-AI-066",
+    "title": "Claude's Constitution",
+    "url": "https://www.anthropic.com/constitution",
+    "publisher": "Anthropic",
+    "published_date": "2026-01-21",
+    "accessed_date": "2026-10-11",
+    "source_type": "institutional_policy",
+    "access": "partial",
+    "locator": "Overview; ethical behavior; human oversight; Acknowledgements",
+    "notes": "Normative training document, not a guarantee of behavior. Acknowledgements distinguish individual contributions."
+  },
+  {
+    "id": "CH-AI-067",
+    "title": "Scaling Laws for Neural Language Models",
+    "url": "https://arxiv.org/abs/2001.08361",
+    "publisher": "Jared Kaplan and coauthors",
+    "published_date": "2020-01-23",
+    "accessed_date": "2026-10-11",
+    "source_type": "research_paper",
+    "access": "partial",
+    "locator": "Author list and abstract",
+    "notes": "Abstract only. Empirical language-model loss trends are not an RSI forecast."
+  },
+  {
+    "id": "CH-AI-068",
+    "title": "Language Models are Few-Shot Learners",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "publisher": "Tom B. Brown and coauthors",
+    "published_date": "2020-05-28",
+    "accessed_date": "2026-10-11",
+    "source_type": "research_paper",
+    "access": "partial",
+    "locator": "Author list and abstract",
+    "notes": "Abstract only. Historical GPT-3 study, not a current capability or safety claim."
+  }
+]

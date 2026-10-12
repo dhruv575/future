@@ -1,0 +1,201 @@
+[
+  {
+    "id": "TW-P001",
+    "statement": "US aggregate fab capacity could grow 203% from 2022 to 2032 and reach 14% of global capacity.",
+    "source_ids": [
+      "TW-S030"
+    ],
+    "issued_date": "2024-05-08",
+    "horizon": "2032",
+    "probability": null,
+    "conditions": [
+      "Investment plans and policy support proceed"
+    ],
+    "caveats": [
+      "Publisher summary reviewed; industry-sponsored forecast",
+      "Not leading-edge AI capacity and not a war forecast"
+    ],
+    "type": "forecast"
+  },
+  {
+    "id": "TW-P002",
+    "statement": "A favorable Taiwan election result could prompt Beijing to improve relations.",
+    "source_ids": [
+      "TW-S033"
+    ],
+    "issued_date": "2024-01-22",
+    "horizon": "The survey's 2024 election scenario",
+    "probability": null,
+    "conditions": [
+      "Beijing sees the winner as favorable"
+    ],
+    "caveats": [
+      "Over 80% describes expert agreement, not event probability",
+      "Do not copy this rate into 2028 or 2032"
+    ],
+    "type": "conditional_result"
+  },
+  {
+    "id": "TW-P003",
+    "statement": "Commercial compliance could give a quarantine political effect without a complete trade stop.",
+    "source_ids": [
+      "TW-S031"
+    ],
+    "issued_date": "2024-06-05",
+    "horizon": "Unspecified crisis",
+    "probability": null,
+    "conditions": [
+      "Beijing attempts a quarantine",
+      "Carriers and customers comply"
+    ],
+    "caveats": [
+      "Hypothetical mechanism; enforcement and reaction vary",
+      "The source's terminology does not settle legality"
+    ],
+    "type": "scenario"
+  },
+  {
+    "id": "TW-P004",
+    "statement": "A blockade could cause severe hardship and uncontrolled escalation.",
+    "source_ids": [
+      "TW-S034"
+    ],
+    "issued_date": "2025-07-31",
+    "horizon": "Unspecified future blockade",
+    "probability": null,
+    "conditions": [
+      "Beijing imposes a blockade",
+      "Opposing actors resist or widen action"
+    ],
+    "caveats": [
+      "Publisher abstract only",
+      "Wargame outcomes are not frequencies in the real world"
+    ],
+    "type": "warning"
+  },
+  {
+    "id": "TW-P005",
+    "statement": "A full Taiwan trade stop would expose well over $2 trillion in annualized economic activity.",
+    "source_ids": [
+      "TW-S035"
+    ],
+    "issued_date": "2022-12-14",
+    "horizon": "At the start of the study's blockade scenario",
+    "probability": null,
+    "conditions": [
+      "All Taiwan trade stops"
+    ],
+    "caveats": [
+      "Activity at risk, not GDP loss",
+      "2022 economic structure; no sanctions or second-order effects"
+    ],
+    "type": "conditional_result"
+  },
+  {
+    "id": "TW-P006",
+    "statement": "Broad China sanctions would produce large spillovers and coalition coordination problems.",
+    "source_ids": [
+      "TW-S036"
+    ],
+    "issued_date": "2023-06-22",
+    "horizon": "A major Taiwan crisis",
+    "probability": null,
+    "conditions": [
+      "G7 considers broad sanctions"
+    ],
+    "caveats": [
+      "No fixed sanctions package is assumed in this corpus",
+      "Costs can motivate restraint as well as escalation"
+    ],
+    "type": "conditional_result"
+  },
+  {
+    "id": "TW-P007",
+    "statement": "China may choose selective economic retaliation rather than a symmetric response.",
+    "source_ids": [
+      "TW-S037"
+    ],
+    "issued_date": null,
+    "horizon": "A Taiwan sanctions crisis",
+    "probability": null,
+    "conditions": [
+      "Beijing seeks leverage while limiting its own costs"
+    ],
+    "caveats": [
+      "2024 report; exact issue date not recorded",
+      "Bureaucratic and commercial constraints remain"
+    ],
+    "type": "forecast"
+  },
+  {
+    "id": "TW-P008",
+    "statement": "Semiconductor dependence can raise the cost of conflict without preventing an attack.",
+    "source_ids": [
+      "TW-S038"
+    ],
+    "issued_date": "2023-06",
+    "horizon": "Unspecified",
+    "probability": null,
+    "conditions": [
+      "Political and security goals outweigh expected economic losses"
+    ],
+    "caveats": [
+      "Task-force judgment; no estimated causal effect"
+    ],
+    "type": "warning"
+  },
+  {
+    "id": "TW-P009",
+    "statement": "TSMC could expand Arizona beyond its March 2025 plan, but the additional investment has no firm timetable.",
+    "source_ids": [
+      "TW-S012"
+    ],
+    "issued_date": "2026-07-16",
+    "horizon": "Demand-dependent; no firm schedule",
+    "probability": null,
+    "conditions": [
+      "Customer demand and project conditions support expansion"
+    ],
+    "caveats": [
+      "Management intention",
+      "Do not add planned dollars directly to current usable capacity"
+    ],
+    "type": "forecast"
+  },
+  {
+    "id": "TW-P010",
+    "statement": "Controls can encourage firms in China to replace or bypass US inputs.",
+    "source_ids": [
+      "TW-S040"
+    ],
+    "issued_date": "2024-10-04",
+    "horizon": "Medium and long term; no fixed year",
+    "probability": null,
+    "conditions": [
+      "Restrictions persist",
+      "Alternative technologies become commercially useful"
+    ],
+    "caveats": [
+      "Summary-level evidence; no quantified net effect on Chinese AI progress"
+    ],
+    "type": "conditional_result"
+  },
+  {
+    "id": "TW-P011",
+    "statement": "Force could interrupt TSMC production through loss of international connections.",
+    "source_ids": [
+      "TW-S039"
+    ],
+    "issued_date": "2022-08-16",
+    "horizon": "A hypothetical invasion",
+    "probability": null,
+    "conditions": [
+      "Conflict disrupts required external support"
+    ],
+    "caveats": [
+      "Mark Liu's warning; not independently validated",
+      "No claim about a secret disable mechanism"
+    ],
+    "type": "warning"
+  }
+]

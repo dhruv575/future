@@ -1,0 +1,6 @@
+Use case: precise-object-edit.
+Asset type: custom transparent pixel-art game badge for the PLA Information Support Force.
+Input image 1 is the edit target. Preserve its gold-edged red five-point star, blue circuit globe, gold communication arcs, pixel-art style, composition and transparent background. Correct only the central Chinese gold numerals.
+Text, verbatim: å…«ä¸€. Stack å…« above ä¸€ in the center of the red star.
+The upper character å…« has exactly TWO separate strokes. The left stroke slopes down toward the left; the right stroke slopes down toward the right. Leave a visible RED GAP between their upper ends. The strokes do not meet. There is NO horizontal bar, roof, crossbar, dot, cap or connection above the two strokes. Do not form å…­, å…€, å…ƒ, Ï€ or an arch. The lower character ä¸€ is exactly ONE horizontal gold stroke below the two diagonal strokes. Thus the complete inscription contains only three separate gold stroke shapes.
+Keep the inscription centered with ample red space around it. Use bold clear block strokes with crisp pixel steps. Keep the surrounding blue network and gold arcs unchanged. This is a custom game symbol, not an official force badge. No extra words or symbols. No blur, smooth gradients, backdrop, glow or watermark. Genuinely transparent alpha and clear padding around the whole silhouette.

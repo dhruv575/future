@@ -1,0 +1,23 @@
+{
+  "sources": 185,
+  "entities": 193,
+  "claims": 157,
+  "relationships": 130,
+  "predictions": 32,
+  "scenarios": 21,
+  "entity_kinds": {
+    "organization": 51,
+    "government": 21,
+    "person": 81,
+    "capability": 36,
+    "infrastructure": 4
+  },
+  "source_access": {
+    "full_text": 105,
+    "partial": 45,
+    "search_excerpt": 27,
+    "abstract": 8
+  },
+  "unique_source_urls": 185,
+  "duplicate_source_url_groups": 0
+}

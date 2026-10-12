@@ -1,0 +1,208 @@
+[
+  {
+    "id": "US_EXEC",
+    "name": "US executive decision-maker",
+    "entity_ids": [
+      "SD-E001",
+      "SD-E025"
+    ],
+    "choices": [
+      "Request assessments",
+      "Consult allies",
+      "Set diplomatic positions",
+      "Seek lawful economic or defense measures"
+    ],
+    "limits": [
+      "Congress, law, courts, agencies, and allies constrain action.",
+      "A playable person must hold the relevant office at the scenario date."
+    ]
+  },
+  {
+    "id": "PRC_EXEC",
+    "name": "PRC senior decision-maker",
+    "entity_ids": [
+      "SD-E002",
+      "SD-E013",
+      "SD-E031"
+    ],
+    "choices": [
+      "Set policy priorities",
+      "Direct authorized institutions",
+      "Choose dialogue or pressure"
+    ],
+    "limits": [
+      "Party and military institutions affect implementation.",
+      "Do not infer perfect information or automatic compliance."
+    ]
+  },
+  {
+    "id": "TW_EXEC",
+    "name": "Taiwan executive decision-maker",
+    "entity_ids": [
+      "TW-E001",
+      "TW-E002",
+      "TW-E008"
+    ],
+    "choices": [
+      "Propose policy",
+      "Direct lawful executive implementation",
+      "Seek talks and reassure firms"
+    ],
+    "limits": [
+      "Legislative, legal, electoral, and commercial constraints apply.",
+      "Party victory alone gives no direct ownership of TSMC."
+    ]
+  },
+  {
+    "id": "TW_LEG",
+    "name": "Taiwan legislator or party leader",
+    "entity_ids": [
+      "TW-E003",
+      "TW-E005",
+      "TW-E006",
+      "TW-E007",
+      "TW-E011",
+      "TW-E012",
+      "TW-E013"
+    ],
+    "choices": [
+      "Build a coalition",
+      "Propose, amend, or oppose a measure",
+      "Scrutinize the executive"
+    ],
+    "limits": [
+      "A single legislator cannot bind the legislature.",
+      "Different policy types have different legal procedures."
+    ]
+  },
+  {
+    "id": "TSMC",
+    "name": "TSMC corporate decision-maker",
+    "entity_ids": [
+      "TW-E014",
+      "TW-E015",
+      "TW-E016"
+    ],
+    "choices": [
+      "Assess legal obligations",
+      "Disclose capacity and delivery limits",
+      "Challenge an order",
+      "Plan continuity"
+    ],
+    "limits": [
+      "Boards, customers, workers, foreign inputs, and law constrain choices.",
+      "The firm cannot set Taiwan foreign policy."
+    ]
+  },
+  {
+    "id": "SUPPLIER",
+    "name": "Chip or equipment supplier",
+    "entity_ids": [
+      "TW-E017",
+      "TW-E018",
+      "TW-E019",
+      "TW-E020",
+      "TW-E021",
+      "TW-E022"
+    ],
+    "choices": [
+      "Apply for licenses",
+      "Adjust lawful supply plans",
+      "Report capacity limits"
+    ],
+    "limits": [
+      "Product qualification and licensing affect delivery.",
+      "A sale does not confer control of the buyer."
+    ]
+  },
+  {
+    "id": "REGULATOR",
+    "name": "Export or AI regulator",
+    "entity_ids": [
+      "TW-E029",
+      "TW-E030",
+      "TW-E031"
+    ],
+    "choices": [
+      "Review a license",
+      "Publish rules",
+      "Seek evidence and compliance"
+    ],
+    "limits": [
+      "Authority is jurisdiction- and product-specific.",
+      "Regulators do not command foreign firms without a legal basis."
+    ]
+  },
+  {
+    "id": "ALLY",
+    "name": "Allied government decision-maker",
+    "entity_ids": [
+      "SD-E004",
+      "SD-E005",
+      "SD-E006",
+      "SD-E007",
+      "SD-E008",
+      "SD-E009"
+    ],
+    "choices": [
+      "Consult partners",
+      "Decide domestic measures",
+      "Offer mediation"
+    ],
+    "limits": [
+      "Separate treaties and domestic authority apply.",
+      "A US request does not ensure approval."
+    ]
+  },
+  {
+    "id": "LAB",
+    "name": "AI developer or deployment operator",
+    "entity_ids": [
+      "AI-E001",
+      "AI-E002",
+      "AI-E003",
+      "AI-E006",
+      "AI-E007",
+      "AI-E008",
+      "AI-E009",
+      "AI-E010",
+      "AI-E011",
+      "AI-E012",
+      "AI-E016",
+      "AI-E017",
+      "AI-E019",
+      "AI-E022"
+    ],
+    "choices": [
+      "Limit deployment access",
+      "Preserve logs",
+      "Disclose an incident",
+      "Commission independent review"
+    ],
+    "limits": [
+      "A lab cannot issue state military orders.",
+      "Ownership, contracts, and regulator authority require separate checks.",
+      "A listed person controls only systems within their actual mandate."
+    ]
+  },
+  {
+    "id": "RESEARCH",
+    "name": "Researcher or independent reviewer",
+    "entity_ids": [
+      "ST-E001",
+      "ST-E003",
+      "ST-E004",
+      "ST-E009",
+      "ST-E010"
+    ],
+    "choices": [
+      "Review evidence",
+      "Publish findings",
+      "Advise institutions"
+    ],
+    "limits": [
+      "Advice is not command authority.",
+      "Access to evidence can be incomplete."
+    ]
+  }
+]

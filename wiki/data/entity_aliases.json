@@ -1,0 +1,22 @@
+[
+  {
+    "canonical_id": "SD-E002",
+    "alias_ids": ["TW-E032"],
+    "reason": "Both records identify the PRC government. Preserve each profile's source context."
+  },
+  {
+    "canonical_id": "TW-E001",
+    "alias_ids": ["SD-E003"],
+    "reason": "Both records identify the Taiwan government."
+  },
+  {
+    "canonical_id": "TW-E008",
+    "alias_ids": ["SD-E034"],
+    "reason": "Both records identify Lai Ching-te."
+  },
+  {
+    "canonical_id": "TW-E009",
+    "alias_ids": ["SD-E035"],
+    "reason": "Both records identify Hsiao Bi-khim."
+  }
+]

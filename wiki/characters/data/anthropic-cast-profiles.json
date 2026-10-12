@@ -1,0 +1,147 @@
+[
+  {
+    "entity_id": "AI-E047",
+    "name": "Daniela Amodei",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e047.md",
+    "source_ids": [
+      "CH-AI-062"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "No substantial spoken sample was used. Her private board votes, crisis preferences, and personal speaking habits remain unknown."
+    ]
+  },
+  {
+    "entity_id": "AI-E048",
+    "name": "Jared Kaplan",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e048.md",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-067",
+      "CH-AI-066"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Research papers support subject matter better than dialogue cadence. No evidence here fixes his private risk threshold."
+    ]
+  },
+  {
+    "entity_id": "AI-E049",
+    "name": "Chris Olah",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e049.md",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-052",
+      "CH-AI-066"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Public demonstrations cover selected behavior. Future interpretability tools and findings in the route are invented."
+    ]
+  },
+  {
+    "entity_id": "AI-E050",
+    "name": "Jan Leike",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e050.md",
+    "source_ids": [
+      "CH-AI-063",
+      "CH-AI-064"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "The cited progress is his assessment. Future roles, trials, audit results, and private preferences are scenario assumptions."
+    ]
+  },
+  {
+    "entity_id": "AI-E051",
+    "name": "Amanda Askell",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e051.md",
+    "source_ids": [
+      "CH-AI-065",
+      "CH-AI-066",
+      "CH-AI-052"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "A public constitution cannot reveal a model's inner experience or establish future behavior. Private policy disputes are unknown."
+    ]
+  },
+  {
+    "entity_id": "AI-E052",
+    "name": "Jack Clark",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e052.md",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-054"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Joint authorship does not identify who wrote each sentence. Private diplomatic access and bargaining positions are not known."
+    ]
+  },
+  {
+    "entity_id": "AI-E053",
+    "name": "Brian Israel",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e053.md",
+    "source_ids": [
+      "CH-AI-062"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "No substantial spoken sample or private advice was used. Contract terms and litigation outcomes in the route are fiction."
+    ]
+  },
+  {
+    "entity_id": "AI-E054",
+    "name": "Tom Brown",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e054.md",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-068",
+      "CH-AI-067"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "The papers provide little evidence of speaking style. Private capacity contracts and allocation plans are unknown."
+    ]
+  },
+  {
+    "entity_id": "AI-E055",
+    "name": "Krishna Rao",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e055.md",
+    "source_ids": [
+      "CH-AI-062"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "No substantial spoken sample or private financial data was used. All budgets and commitments in the route are invented."
+    ]
+  }
+]

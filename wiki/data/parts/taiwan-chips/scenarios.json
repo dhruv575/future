@@ -1,0 +1,492 @@
+[
+  {
+    "id": "TW-X001",
+    "title": "An election changes Taiwan's chip policy",
+    "status": "hypothesis",
+    "trigger": "A future Taiwan government wins office on a platform of closer ties with Beijing.",
+    "actors": [
+      "TW-E001",
+      "TW-E002",
+      "TW-E003",
+      "TW-E004",
+      "TW-E006",
+      "TW-E007",
+      "TW-E014",
+      "TW-E015",
+      "TW-E016",
+      "TW-E029",
+      "TW-E032",
+      "TW-E034"
+    ],
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S005",
+      "TW-S006",
+      "TW-S008",
+      "TW-S009",
+      "TW-S012",
+      "TW-S026",
+      "TW-S033"
+    ],
+    "claim_ids": [
+      "TW-C001",
+      "TW-C002",
+      "TW-C003",
+      "TW-C009",
+      "TW-C010",
+      "TW-C012",
+      "TW-C015",
+      "TW-C027",
+      "TW-C035",
+      "TW-C053"
+    ],
+    "branches": [
+      {
+        "choice": "Engage Beijing and keep commercial chip access open",
+        "conditions": [
+          "The winner separates political dialogue from export allocation"
+        ],
+        "possible_outcomes": [
+          "Lower tension",
+          "US supply continues",
+          "Some disputes remain"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Seek selective export restrictions",
+        "conditions": [
+          "A specified measure has a legal basis",
+          "Agencies and the company can execute it"
+        ],
+        "possible_outcomes": [
+          "Court or legislative challenge",
+          "Narrow supply loss",
+          "Commercial negotiation"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Seek a covered political settlement",
+        "conditions": [
+          "The statutory agreement process applies"
+        ],
+        "possible_outcomes": [
+          "Required votes or referendum fail",
+          "Negotiation is revised",
+          "A settlement passes through the required process"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Use coercion or unlawful seizure",
+        "conditions": [
+          "Actors depart from normal institutional rules"
+        ],
+        "possible_outcomes": [
+          "Domestic resistance",
+          "Foreign restrictions",
+          "Production loss on both sides"
+        ],
+        "evidence_type": "hypothesis"
+      }
+    ],
+    "caveats": [
+      "No reviewed evidence says KMT or TPP victory automatically implies a chip cutoff.",
+      "Selective trade measures and sovereignty changes have different legal requirements.",
+      "US military action is a later decision, not an automatic branch."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/election-chip-access.md"
+  },
+  {
+    "id": "TW-X002",
+    "title": "A quarantine produces an AI hardware supply shock",
+    "status": "hypothesis",
+    "trigger": "Beijing imposes a law-enforcement-led traffic-control demand and firms delay shipments.",
+    "actors": [
+      "TW-E001",
+      "TW-E014",
+      "TW-E019",
+      "TW-E021",
+      "TW-E024",
+      "TW-E029",
+      "TW-E032",
+      "TW-E033",
+      "TW-E034",
+      "TW-E037",
+      "TW-E038"
+    ],
+    "source_ids": [
+      "TW-S015",
+      "TW-S023",
+      "TW-S031",
+      "TW-S032",
+      "TW-S033",
+      "TW-S034",
+      "TW-S035"
+    ],
+    "claim_ids": [
+      "TW-C018",
+      "TW-C024",
+      "TW-C032",
+      "TW-C033",
+      "TW-C034",
+      "TW-C036",
+      "TW-C037",
+      "TW-C038",
+      "TW-C050",
+      "TW-C054",
+      "TW-C055"
+    ],
+    "branches": [
+      {
+        "choice": "Commercial compliance expands",
+        "conditions": [
+          "Carriers or insurers judge noncompliance too costly"
+        ],
+        "possible_outcomes": [
+          "Delays and higher costs",
+          "Political pressure without total trade closure"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "A negotiated pause restores trade",
+        "conditions": [
+          "Parties accept temporary arrangements without settling sovereignty"
+        ],
+        "possible_outcomes": [
+          "Shipments resume",
+          "Dispute remains",
+          "Monitoring replaces immediate force"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Actors widen the confrontation",
+        "conditions": [
+          "Incident, injury or disputed enforcement changes political decisions"
+        ],
+        "possible_outcomes": [
+          "Military blockade",
+          "US-China confrontation",
+          "Broader economic disruption"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Inventory and alternate output absorb part of the shock",
+        "conditions": [
+          "Usable stocks and qualified alternatives exist"
+        ],
+        "possible_outcomes": [
+          "Slower deployment",
+          "Rationing",
+          "Smaller immediate compute loss"
+        ],
+        "evidence_type": "analysis"
+      }
+    ],
+    "caveats": [
+      "Quarantine and blockade are study definitions, not settled legal labels.",
+      "No specific carrier response, duration or output loss is assumed.",
+      "A fall in new deliveries does not erase installed compute."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/quarantine-compute-shock.md"
+  },
+  {
+    "id": "TW-X003",
+    "title": "An AI incident is blamed on the other side",
+    "status": "hypothesis",
+    "trigger": "A model-linked incident affects a chip business or public system. Actors disagree about responsibility.",
+    "actors": [
+      "TW-E001",
+      "TW-E014",
+      "TW-E016",
+      "TW-E019",
+      "TW-E029",
+      "TW-E032"
+    ],
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S009",
+      "TW-S015",
+      "TW-S026",
+      "TW-S035",
+      "TW-S036"
+    ],
+    "claim_ids": [
+      "TW-C009",
+      "TW-C012",
+      "TW-C027",
+      "TW-C049",
+      "TW-C050",
+      "TW-C052",
+      "TW-C055"
+    ],
+    "branches": [
+      {
+        "choice": "Investigate and preserve uncertainty",
+        "conditions": [
+          "Leaders can delay irreversible action",
+          "Evidence can be shared or independently checked"
+        ],
+        "possible_outcomes": [
+          "Accident or third party remains plausible",
+          "Limited containment",
+          "Crisis stabilizes"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Attribute the incident to a foreign state before evidence is conclusive",
+        "conditions": [
+          "Political leaders accept a high-risk attribution"
+        ],
+        "possible_outcomes": [
+          "Export restrictions",
+          "Public threats",
+          "Retaliation"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "A firm and government disagree",
+        "conditions": [
+          "Technical findings conflict with political claims"
+        ],
+        "possible_outcomes": [
+          "Legal dispute",
+          "Conflicting public signals",
+          "Revised attribution"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Correct the attribution after an initial response",
+        "conditions": [
+          "New evidence is credible to key actors"
+        ],
+        "possible_outcomes": [
+          "Reversible measures are lifted",
+          "Some distrust persists",
+          "Compensation or joint review is negotiated"
+        ],
+        "evidence_type": "hypothesis"
+      }
+    ],
+    "caveats": [
+      "The trigger is invented for research use.",
+      "No cited study assigns this pathway a numerical probability.",
+      "Model origin, operator, owner and state responsibility are separate facts.",
+      "Do not build attack methods into this scenario."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/ai-incident-attribution.md"
+  },
+  {
+    "id": "TW-X004",
+    "title": "Chip controls become a bargaining crisis",
+    "status": "hypothesis",
+    "trigger": "A government changes access to AI chips or chipmaking tools during a Taiwan dispute.",
+    "actors": [
+      "TW-E014",
+      "TW-E017",
+      "TW-E019",
+      "TW-E021",
+      "TW-E023",
+      "TW-E024",
+      "TW-E026",
+      "TW-E027",
+      "TW-E029",
+      "TW-E030",
+      "TW-E031",
+      "TW-E032"
+    ],
+    "source_ids": [
+      "TW-S025",
+      "TW-S026",
+      "TW-S027",
+      "TW-S028",
+      "TW-S036",
+      "TW-S037",
+      "TW-S040"
+    ],
+    "claim_ids": [
+      "TW-C026",
+      "TW-C027",
+      "TW-C028",
+      "TW-C029",
+      "TW-C039",
+      "TW-C040",
+      "TW-C043",
+      "TW-C055"
+    ],
+    "branches": [
+      {
+        "choice": "Coordinate a limited measure",
+        "conditions": [
+          "Partners agree on scope, exceptions and evidence"
+        ],
+        "possible_outcomes": [
+          "Some access loss",
+          "Lower coalition friction",
+          "A defined path to relief"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Offer conditional licenses or relief",
+        "conditions": [
+          "Security conditions can be monitored",
+          "Political leaders permit compromise"
+        ],
+        "possible_outcomes": [
+          "Partial supply restored",
+          "Compliance dispute",
+          "Continued bargaining"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Escalate restrictions and retaliation",
+        "conditions": [
+          "Each side treats compromise as too costly"
+        ],
+        "possible_outcomes": [
+          "Supply uncertainty",
+          "Coalition strain",
+          "Wider economic costs"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Invest in substitutes",
+        "conditions": [
+          "Time, engineering and finance permit replacement"
+        ],
+        "possible_outcomes": [
+          "Reduced future leverage",
+          "New bottlenecks",
+          "Higher near-term cost"
+        ],
+        "evidence_type": "analysis"
+      }
+    ],
+    "caveats": [
+      "Do not use a single export-ban boolean.",
+      "Historical rules do not specify future license decisions.",
+      "Economic confrontation does not necessarily lead to armed war."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/export-control-spiral.md"
+  },
+  {
+    "id": "TW-X005",
+    "title": "Diversification changes the incentives around Taiwan",
+    "status": "hypothesis",
+    "trigger": "By 2030-2035, overseas capacity grows, while Taiwan remains part of a global chip network.",
+    "actors": [
+      "TW-E001",
+      "TW-E014",
+      "TW-E017",
+      "TW-E019",
+      "TW-E021",
+      "TW-E023",
+      "TW-E024",
+      "TW-E026",
+      "TW-E027",
+      "TW-E028",
+      "TW-E029",
+      "TW-E030",
+      "TW-E031",
+      "TW-E032",
+      "TW-E034",
+      "TW-E035",
+      "TW-E036",
+      "TW-E037",
+      "TW-E038",
+      "TW-E040"
+    ],
+    "source_ids": [
+      "TW-S008",
+      "TW-S011",
+      "TW-S012",
+      "TW-S014",
+      "TW-S024",
+      "TW-S030",
+      "TW-S038",
+      "TW-S039",
+      "TW-S044"
+    ],
+    "claim_ids": [
+      "TW-C010",
+      "TW-C011",
+      "TW-C015",
+      "TW-C017",
+      "TW-C025",
+      "TW-C031",
+      "TW-C041",
+      "TW-C042",
+      "TW-C047",
+      "TW-C049",
+      "TW-C051"
+    ],
+    "branches": [
+      {
+        "choice": "Resilience supports restraint",
+        "conditions": [
+          "Alternate output reduces panic",
+          "Partners still value Taiwan's security"
+        ],
+        "possible_outcomes": [
+          "More time for talks",
+          "Less pressure for immediate force"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "Leaders infer weaker outside commitment",
+        "conditions": [
+          "They believe reduced dependence reduces willingness to defend Taiwan"
+        ],
+        "possible_outcomes": [
+          "More coercion",
+          "Miscalculation",
+          "New assurance measures"
+        ],
+        "evidence_type": "hypothesis"
+      },
+      {
+        "choice": "Overseas plans fail to meet expectations",
+        "conditions": [
+          "Construction, qualification, demand or input constraints delay output"
+        ],
+        "possible_outcomes": [
+          "Persistent concentration",
+          "Larger surprise from disruption"
+        ],
+        "evidence_type": "analysis"
+      },
+      {
+        "choice": "A distributed network remains interdependent",
+        "conditions": [
+          "Fabs still need foreign tools, materials and expertise"
+        ],
+        "possible_outcomes": [
+          "Mutual vulnerability",
+          "Negotiated continuity arrangements",
+          "Selective controls retain leverage"
+        ],
+        "evidence_type": "analysis"
+      }
+    ],
+    "caveats": [
+      "The net effect on deterrence is unknown.",
+      "US fab share is not equivalent to US AI self-sufficiency.",
+      "No source supports a precise 2035 capacity or war probability.",
+      "Protecting buildings alone does not preserve productive capacity."
+    ],
+    "dossier_path": "research/taiwan-chips/scenarios/diversification-deterrence.md"
+  }
+]

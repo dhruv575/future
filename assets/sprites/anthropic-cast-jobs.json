@@ -1,0 +1,83 @@
+[
+  {
+    "id": "AI-E047",
+    "name": "Daniela Amodei",
+    "pose_brief": "Stand at a slight three-quarter angle, right hand holding a closed briefing folder down beside the thigh, left arm relaxed at the side. Navy trouser suit and ivory blouse. Shoulder-length brown waves, no glasses.",
+    "style_revision": "varied-serious-poses-v2",
+    "reference": "C:/dev/hobbies/us-china-war-games/apps/web/public/sprites/people/ai-e017.png",
+    "identity_reference": "C:/dev/hobbies/us-china-war-games/assets/sprites/references/ai-e047.webp",
+    "prompt": "Use case: stylized-concept. Asset: a serious full-body pixel-art character sprite for a visual novel. Make ONE new figure. First reference is Dario: use ONLY its pixel craft, proportions, lighting, and canvas scale. Second reference is the named person's identity: preserve that person's face, age, gender presentation, hair, skin tone and usual glasses. Do not copy Dario's face or clasped-hand pose. Redraw the whole body in the individual pose. High-detail early-1990s arcade pixel art, obvious square pixel clusters, hard stepped outlines, muted limited palette, top-left lighting. Formal clothing, composed serious expression, mouth closed; no fighting stance. Entire head and both shoes visible, centered with generous transparent margin on a 1024x1536 canvas. Natural adult proportions. No text, logo, background, scenery, floor, glow or shadow outside figure. Genuinely transparent background. This is a fictional game pose, not a real event.\nSubject: Daniela Amodei.\nIndividual pose: Stand at a slight three-quarter angle, right hand holding a closed briefing folder down beside the thigh, left arm relaxed at the side. Navy trouser suit and ivory blouse. Shoulder-length brown waves, no glasses."
+  },
+  {
+    "id": "AI-E048",
+    "name": "Jared Kaplan",
+    "pose_brief": "One hand in the trouser pocket, other hand making a small open-palm explanatory gesture at waist height. Charcoal suit, light shirt, muted blue tie. Preserve short dark swept-back hair and rectangular glasses.",
+    "style_revision": "varied-serious-poses-v2",
+    "reference": "C:/dev/hobbies/us-china-war-games/apps/web/public/sprites/people/ai-e017.png",
+    "identity_reference": "C:/dev/hobbies/us-china-war-games/assets/sprites/references/ai-e048.jpg",
+    "prompt": "Use case: stylized-concept. Asset: a serious full-body pixel-art character sprite for a visual novel. Make ONE new figure. First reference is Dario: use ONLY its pixel craft, proportions, lighting, and canvas scale. Second reference is the named person's identity: preserve that person's face, age, gender presentation, hair, skin tone and usual glasses. Do not copy Dario's face or clasped-hand pose. Redraw the whole body in the individual pose. High-detail early-1990s arcade pixel art, obvious square pixel clusters, hard stepped outlines, muted limited palette, top-left lighting. Formal clothing, composed serious expression, mouth closed; no fighting stance. Entire head and both shoes visible, centered with generous transparent margin on a 1024x1536 canvas. Natural adult proportions. No text, logo, background, scenery, floor, glow or shadow outside figure. Genuinely transparent background. This is a fictional game pose, not a real event.\nSubject: Jared Kaplan.\nIndividual pose: One hand in the trouser pocket, other hand making a small open-palm explanatory gesture at waist height. Charcoal suit, light shirt, muted blue tie. Preserve short dark swept-back hair and rectangular glasses."
+  },
+  {
+    "id": "AI-E049",
+    "name": "Chris Olah",
+    "pose_brief": "Stand thoughtfully with one forearm supporting the other elbow and the free hand near the chin, leaving face visible. Slate suit, white shirt, burgundy tie. Preserve side-parted dark hair, rectangular glasses and broad facial structure.",
+    "style_revision": "varied-serious-poses-v2",
+    "reference": "C:/dev/hobbies/us-china-war-games/apps/web/public/sprites/people/ai-e017.png",
+    "identity_reference": "C:/dev/hobbies/us-china-war-games/assets/sprites/references/ai-e049.jpg",
+    "prompt": "Use case: stylized-concept. Asset: a serious full-body pixel-art character sprite for a visual novel. Make ONE new figure. First reference is Dario: use ONLY its pixel craft, proportions, lighting, and canvas scale. Second reference is the named person's identity: preserve that person's face, age, gender presentation, hair, skin tone and usual glasses. Do not copy Dario's face or clasped-hand pose. Redraw the whole body in the individual pose. High-detail early-1990s arcade pixel art, obvious square pixel clusters, hard stepped outlines, muted limited palette, top-left lighting. Formal clothing, composed serious expression, mouth closed; no fighting stance. Entire head and both shoes visible, centered with generous transparent margin on a 1024x1536 canvas. Natural adult proportions. No text, logo, background, scenery, floor, glow or shadow outside figure. Genuinely transparent background. This is a fictional game pose, not a real event.\nSubject: Chris Olah.\nIndividual pose: Stand thoughtfully with one forearm supporting the other elbow and the free hand near the chin, leaving face visible. Slate suit, white shirt, burgundy tie. Preserve side-parted dark hair, rectangular glasses and broad facial structure."
+  },
+  {
+    "id": "AI-E050",
+    "name": "Jan Leike",
+    "pose_brief": "Stand slightly angled, arms loosely folded, relaxed shoulders, attentive level gaze. Navy suit, pale shirt, subdued gray tie. Preserve straight light-brown parted hair and short light stubble, no glasses.",
+    "style_revision": "varied-serious-poses-v2",
+    "reference": "C:/dev/hobbies/us-china-war-games/apps/web/public/sprites/people/ai-e017.png",
+    "identity_reference": "C:/dev/hobbies/us-china-war-games/assets/sprites/references/ai-e050.jpg",
+    "prompt": "Use case: stylized-concept. Asset: a serious full-body pixel-art character sprite for a visual novel. Make ONE new figure. First reference is Dario: use ONLY its pixel craft, proportions, lighting, and canvas scale. Second reference is the named person's identity: preserve that person's face, age, gender presentation, hair, skin tone and usual glasses. Do not copy Dario's face or clasped-hand pose. Redraw the whole body in the individual pose. High-detail early-1990s arcade pixel art, obvious square pixel clusters, hard stepped outlines, muted limited palette, top-left lighting. Formal clothing, composed serious expression, mouth closed; no fighting stance. Entire head and both shoes visible, centered with generous transparent margin on a 1024x1536 canvas. Natural adult proportions. No text, logo, background, scenery, floor, glow or shadow outside figure. Genuinely transparent background. This is a fictional game pose, not a real event.\nSubject: Jan Leike.\nIndividual pose: Stand slightly angled, arms loosely folded, relaxed shoulders, attentive level gaze. Navy suit, pale shirt, subdued gray tie. Preserve straight light-brown parted hair and short light stubble, no glasses."
+  },
+  {
+    "id": "AI-E051",
+    "name": "Amanda Askell",
+    "pose_brief": "Stand mostly front-facing, holding a slim closed notebook in the left hand at waist level, right palm making a small measured gesture. Dark charcoal trouser suit, ivory blouse. Blonde hair tied in a loose high bun as in the identity reference, no glasses.",
+    "style_revision": "varied-serious-poses-v2",
+    "reference": "C:/dev/hobbies/us-china-war-games/apps/web/public/sprites/people/ai-e017.png",
+    "identity_reference": "C:/dev/hobbies/us-china-war-games/assets/sprites/references/ai-e051.jpg",
+    "prompt": "Use case: stylized-concept. Asset: a serious full-body pixel-art character sprite for a visual novel. Make ONE new figure. First reference is Dario: use ONLY its pixel craft, proportions, lighting, and canvas scale. Second reference is the named person's identity: preserve that person's face, age, gender presentation, hair, skin tone and usual glasses. Do not copy Dario's face or clasped-hand pose. Redraw the whole body in the individual pose. High-detail early-1990s arcade pixel art, obvious square pixel clusters, hard stepped outlines, muted limited palette, top-left lighting. Formal clothing, composed serious expression, mouth closed; no fighting stance. Entire head and both shoes visible, centered with generous transparent margin on a 1024x1536 canvas. Natural adult proportions. No text, logo, background, scenery, floor, glow or shadow outside figure. Genuinely transparent background. This is a fictional game pose, not a real event.\nSubject: Amanda Askell.\nIndividual pose: Stand mostly front-facing, holding a slim closed notebook in the left hand at waist level, right palm making a small measured gesture. Dark charcoal trouser suit, ivory blouse. Blonde hair tied in a loose high bun as in the identity reference, no glasses."
+  },
+  {
+    "id": "AI-E052",
+    "name": "Jack Clark",
+    "pose_brief": "Stand three-quarters turned with both hands behind the back and head turned toward the viewer. Dark navy suit, white shirt and muted rust tie. Preserve short straight brown hair and broad features, no glasses.",
+    "style_revision": "varied-serious-poses-v2",
+    "reference": "C:/dev/hobbies/us-china-war-games/apps/web/public/sprites/people/ai-e017.png",
+    "identity_reference": "C:/dev/hobbies/us-china-war-games/assets/sprites/references/ai-e052.jpg",
+    "prompt": "Use case: stylized-concept. Asset: a serious full-body pixel-art character sprite for a visual novel. Make ONE new figure. First reference is Dario: use ONLY its pixel craft, proportions, lighting, and canvas scale. Second reference is the named person's identity: preserve that person's face, age, gender presentation, hair, skin tone and usual glasses. Do not copy Dario's face or clasped-hand pose. Redraw the whole body in the individual pose. High-detail early-1990s arcade pixel art, obvious square pixel clusters, hard stepped outlines, muted limited palette, top-left lighting. Formal clothing, composed serious expression, mouth closed; no fighting stance. Entire head and both shoes visible, centered with generous transparent margin on a 1024x1536 canvas. Natural adult proportions. No text, logo, background, scenery, floor, glow or shadow outside figure. Genuinely transparent background. This is a fictional game pose, not a real event.\nSubject: Jack Clark.\nIndividual pose: Stand three-quarters turned with both hands behind the back and head turned toward the viewer. Dark navy suit, white shirt and muted rust tie. Preserve short straight brown hair and broad features, no glasses."
+  },
+  {
+    "id": "AI-E053",
+    "name": "Brian Israel",
+    "pose_brief": "Stand almost front-facing, left arm supporting a thin closed legal folio against the hip, right hand resting on its top edge. Charcoal suit, light blue shirt and navy tie. Preserve side-parted short brown hair, clean-shaven face, no glasses.",
+    "style_revision": "varied-serious-poses-v2",
+    "reference": "C:/dev/hobbies/us-china-war-games/apps/web/public/sprites/people/ai-e017.png",
+    "identity_reference": "C:/dev/hobbies/us-china-war-games/assets/sprites/references/ai-e053.jpg",
+    "prompt": "Use case: stylized-concept. Asset: a serious full-body pixel-art character sprite for a visual novel. Make ONE new figure. First reference is Dario: use ONLY its pixel craft, proportions, lighting, and canvas scale. Second reference is the named person's identity: preserve that person's face, age, gender presentation, hair, skin tone and usual glasses. Do not copy Dario's face or clasped-hand pose. Redraw the whole body in the individual pose. High-detail early-1990s arcade pixel art, obvious square pixel clusters, hard stepped outlines, muted limited palette, top-left lighting. Formal clothing, composed serious expression, mouth closed; no fighting stance. Entire head and both shoes visible, centered with generous transparent margin on a 1024x1536 canvas. Natural adult proportions. No text, logo, background, scenery, floor, glow or shadow outside figure. Genuinely transparent background. This is a fictional game pose, not a real event.\nSubject: Brian Israel.\nIndividual pose: Stand almost front-facing, left arm supporting a thin closed legal folio against the hip, right hand resting on its top edge. Charcoal suit, light blue shirt and navy tie. Preserve side-parted short brown hair, clean-shaven face, no glasses."
+  },
+  {
+    "id": "AI-E054",
+    "name": "Tom Brown",
+    "pose_brief": "Stand slightly angled, left hand in trouser pocket, right arm hanging freely at side. Gray suit, white shirt and muted blue tie. Preserve short dark hair, dark eyebrows and close stubble, no glasses.",
+    "style_revision": "varied-serious-poses-v2",
+    "reference": "C:/dev/hobbies/us-china-war-games/apps/web/public/sprites/people/ai-e017.png",
+    "identity_reference": "C:/dev/hobbies/us-china-war-games/assets/sprites/references/ai-e054.jpg",
+    "prompt": "Use case: stylized-concept. Asset: a serious full-body pixel-art character sprite for a visual novel. Make ONE new figure. First reference is Dario: use ONLY its pixel craft, proportions, lighting, and canvas scale. Second reference is the named person's identity: preserve that person's face, age, gender presentation, hair, skin tone and usual glasses. Do not copy Dario's face or clasped-hand pose. Redraw the whole body in the individual pose. High-detail early-1990s arcade pixel art, obvious square pixel clusters, hard stepped outlines, muted limited palette, top-left lighting. Formal clothing, composed serious expression, mouth closed; no fighting stance. Entire head and both shoes visible, centered with generous transparent margin on a 1024x1536 canvas. Natural adult proportions. No text, logo, background, scenery, floor, glow or shadow outside figure. Genuinely transparent background. This is a fictional game pose, not a real event.\nSubject: Tom Brown.\nIndividual pose: Stand slightly angled, left hand in trouser pocket, right arm hanging freely at side. Gray suit, white shirt and muted blue tie. Preserve short dark hair, dark eyebrows and close stubble, no glasses."
+  },
+  {
+    "id": "AI-E055",
+    "name": "Krishna Rao",
+    "pose_brief": "Stand front-facing, hold a thin tablet at waist level with left hand and point gently at its blank screen with right index finger. Navy suit, white shirt and burgundy tie. Preserve medium-brown skin, short side-parted dark hair, clean-shaven face and no glasses.",
+    "style_revision": "varied-serious-poses-v2",
+    "reference": "C:/dev/hobbies/us-china-war-games/apps/web/public/sprites/people/ai-e017.png",
+    "identity_reference": "C:/dev/hobbies/us-china-war-games/assets/sprites/references/ai-e055.jpg",
+    "prompt": "Use case: stylized-concept. Asset: a serious full-body pixel-art character sprite for a visual novel. Make ONE new figure. First reference is Dario: use ONLY its pixel craft, proportions, lighting, and canvas scale. Second reference is the named person's identity: preserve that person's face, age, gender presentation, hair, skin tone and usual glasses. Do not copy Dario's face or clasped-hand pose. Redraw the whole body in the individual pose. High-detail early-1990s arcade pixel art, obvious square pixel clusters, hard stepped outlines, muted limited palette, top-left lighting. Formal clothing, composed serious expression, mouth closed; no fighting stance. Entire head and both shoes visible, centered with generous transparent margin on a 1024x1536 canvas. Natural adult proportions. No text, logo, background, scenery, floor, glow or shadow outside figure. Genuinely transparent background. This is a fictional game pose, not a real event.\nSubject: Krishna Rao.\nIndividual pose: Stand front-facing, hold a thin tablet at waist level with left hand and point gently at its blank screen with right index finger. Navy suit, white shirt and burgundy tie. Preserve medium-brown skin, short side-parted dark hair, clean-shaven face and no glasses."
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "M-EX001",
+    "title": "Fictional 2028 Taiwan policy dispute",
+    "scenario_date": "2028-06-01",
+    "status": "hypothetical",
+    "measure": {
+      "products": "Selected new AI accelerator wafer orders",
+      "customers": "A fictional list of US commercial buyers",
+      "instrument": "Hypothetical export-license measure, assumed legally effective only after M-T003-O1",
+      "duration": "Six months in this fictional scenario",
+      "exemptions": "Already delivered chips and specified overseas output",
+      "legal_limit": "The current legal route is unresolved in this corpus. This is not a claim that Article 5-3 or amendment thresholds govern export licenses."
+    },
+    "initial": {
+      "tw_policy": "dialogue",
+      "tw_legal_status": "not_started",
+      "firm_response": "not_requested",
+      "us_new_chip_access": "normal",
+      "installed_compute": "available",
+      "capacity_substitution": "limited",
+      "shipment_exposure": "partial",
+      "conflict_level": "competition",
+      "settlement": "none",
+      "settlement_scope": "trade",
+      "crisis_channel": "responsive"
+    },
+    "steps": [
+      [
+        "M-T002",
+        "M-T002-O1"
+      ],
+      [
+        "M-T003",
+        "M-T003-O1"
+      ],
+      [
+        "M-T004",
+        "M-T004-O1"
+      ],
+      [
+        "M-T029",
+        "M-T029-O1"
+      ],
+      [
+        "M-T006",
+        "M-T006-O2"
+      ],
+      [
+        "M-T024",
+        "M-T024-O1"
+      ]
+    ],
+    "expected": {
+      "conflict_level": "competition",
+      "installed_compute": "available",
+      "us_new_chip_access": "reduced",
+      "settlement": "verified"
+    },
+    "notes": "Delivery loss is separately observed after offsets. No future election result or actual legal authority is asserted."
+  },
+  {
+    "id": "M-EX002",
+    "title": "Fictional 2029 disputed agent incident",
+    "scenario_date": "2029-02-01",
+    "status": "hypothetical",
+    "initial": {
+      "incident_status": "none",
+      "deployment_access": "broad",
+      "technical_logs": "missing",
+      "services": "normal",
+      "conflict_level": "competition",
+      "crisis_channel": "responsive",
+      "settlement": "none",
+      "settlement_scope": "incident",
+      "public_blame": "none"
+    },
+    "steps": [
+      [
+        "M-T010",
+        "M-T010-O1"
+      ],
+      [
+        "M-T032",
+        "M-T032-O1"
+      ],
+      [
+        "M-T013",
+        "M-T013-O1"
+      ],
+      [
+        "M-T031",
+        "M-T031-O1"
+      ],
+      [
+        "M-T014",
+        "M-T014-O1"
+      ],
+      [
+        "M-T011",
+        "M-T011-O1"
+      ],
+      [
+        "M-T012",
+        "M-T012-O1"
+      ],
+      [
+        "M-T015",
+        "M-T015-O1"
+      ],
+      [
+        "M-T019",
+        "M-T019-O1"
+      ],
+      [
+        "M-T024",
+        "M-T024-O1"
+      ]
+    ],
+    "expected": {
+      "attribution": "unresolved",
+      "operator_type": "private_actor",
+      "state_authorization": "unresolved",
+      "conflict_level": "diplomatic_crisis",
+      "incident_status": "contained",
+      "public_blame": "rival_state",
+      "services": "normal"
+    },
+    "notes": "A private operator does not rule out state direction. Evidence review continues after containment. Civilian services remain normal."
+  },
+  {
+    "id": "M-EX003",
+    "title": "Fictional crisis with failed restraint",
+    "scenario_date": "2030-03-01",
+    "status": "hypothetical",
+    "initial": {
+      "maritime_access": "normal",
+      "conflict_level": "competition",
+      "services": "normal",
+      "crisis_channel": "closed"
+    },
+    "steps": [
+      [
+        "M-T017",
+        "M-T017-O2"
+      ],
+      [
+        "M-T018",
+        "M-T018-O1"
+      ],
+      [
+        "M-T020",
+        "M-T020-O1"
+      ],
+      [
+        "M-T021",
+        "M-T021-O1"
+      ]
+    ],
+    "expected": {
+      "conflict_level": "major_war",
+      "nuclear_concern": "acute"
+    },
+    "notes": "The path is possible in the proposed rules. No branch frequency or real-world likelihood is implied."
+  }
+]

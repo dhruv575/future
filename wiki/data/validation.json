@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "cutoff": "2026-10-11",
+  "records": {
+    "sources": 185,
+    "entities": 193,
+    "claims": 157,
+    "relationships": 130,
+    "predictions": 32,
+    "scenarios": 21
+  },
+  "markdown_files": 222,
+  "local_links_checked": 1277,
+  "model_variables": 33,
+  "model_transitions": 32,
+  "example_traces_checked": 3,
+  "model_invariant_checks": 50,
+  "errors": [],
+  "warnings": []
+}

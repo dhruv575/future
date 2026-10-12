@@ -1,0 +1,41 @@
+[
+  {
+    "id": "ST-R001",
+    "subject": "ST-E020",
+    "predicate": "publishes_projections_about",
+    "object": "ST-E021",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "claim_ids": [
+      "ST-C016"
+    ],
+    "status": "sourced"
+  },
+  {
+    "id": "ST-R002",
+    "subject": "ST-E018",
+    "predicate": "researches",
+    "object": "ST-E023",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "claim_ids": [
+      "ST-C018"
+    ],
+    "status": "sourced"
+  },
+  {
+    "id": "ST-R003",
+    "subject": "ST-E019",
+    "predicate": "researches",
+    "object": "ST-E022",
+    "source_ids": [
+      "ST-S010"
+    ],
+    "claim_ids": [
+      "ST-C010"
+    ],
+    "status": "sourced"
+  }
+]

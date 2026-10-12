@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0",
+  "research_cutoff": "2026-10-10",
+  "horizon": "2035-12-31",
+  "status": "research_design_not_calibrated",
+  "probability_policy": "Unassigned. Select branches for a scenario exercise; do not sample them as equal probabilities.",
+  "resolution": "A human facilitator or future evidence-backed adjudicator selects an outcome.",
+  "belief_policy": "Belief variables belong to an acting actor. A production engine must store one belief map per actor.",
+  "scope": "Strategic choices and consequences. This is not an operational campaign simulator."
+}

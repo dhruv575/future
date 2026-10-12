@@ -1,0 +1,1341 @@
+{
+  "status": "PASS",
+  "checked": "2026-10-11",
+  "decision_levels_per_run": 5,
+  "decision_scenes": 22,
+  "scene_widths_by_level": {
+    "1": 1,
+    "2": 3,
+    "3": 6,
+    "4": 5,
+    "5": 7
+  },
+  "complete_choice_sequences": 48,
+  "terminal_families": 9,
+  "ending_coverage_counts": {
+    "E_ALLIED": 8,
+    "E_BLOCS": 15,
+    "E_CEASEFIRE": 3,
+    "E_GRIDLOCK": 1,
+    "E_HOLLOW": 4,
+    "E_REMOVED": 1,
+    "E_REVERSED": 2,
+    "E_TRUCE": 3,
+    "E_WAR": 11
+  },
+  "note": "Coverage counts are not probabilities. The story is an authored scenario.",
+  "errors": [],
+  "routes": [
+    {
+      "choices": ["L1_START.A", "L2_LAW.A", "L3_PUBLIC.A", "L4_BARGAIN.A", "L5_VERIFY.A"],
+      "ending": "E_TRUCE",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": true,
+        "pacing_policy": "independent_gates",
+        "route": "law",
+        "leadership": "retained",
+        "research_mission": "mixed",
+        "international": "reciprocal",
+        "verification": "reciprocal"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.A", "L3_PUBLIC.A", "L4_BARGAIN.A", "L5_VERIFY.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "independent_gates",
+        "route": "law",
+        "leadership": "retained",
+        "research_mission": "mixed",
+        "international": "reciprocal",
+        "verification": "rejected"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.A", "L3_PUBLIC.A", "L4_BARGAIN.B", "L5_WARNING.A"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "independent_gates",
+        "route": "law",
+        "leadership": "retained",
+        "research_mission": "mixed",
+        "international": "unilateral",
+        "verification": "independent"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.A", "L3_PUBLIC.A", "L4_BARGAIN.B", "L5_WARNING.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "independent_gates",
+        "route": "law",
+        "leadership": "retained",
+        "research_mission": "mixed",
+        "international": "unilateral",
+        "war_origin": "warning_response"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.A", "L3_PUBLIC.B", "L4_REDLINE.A", "L5_ESCALATION.A"],
+      "ending": "E_CEASEFIRE",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "weakened",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "classified_gates",
+        "route": "law",
+        "leadership": "replaced",
+        "research_mission": "classified",
+        "operation": "offensive",
+        "war_origin": "initiated_operation",
+        "international": "negotiated_halt"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Defense remains the public labs' main mission. Changing the leaders did not remove independent oversight."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.A", "L3_PUBLIC.B", "L4_REDLINE.A", "L5_ESCALATION.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "weakened",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "classified_gates",
+        "route": "law",
+        "leadership": "replaced",
+        "research_mission": "classified",
+        "operation": "offensive",
+        "war_origin": "expanded_campaign"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Defense remains the public labs' main mission. Changing the leaders did not remove independent oversight."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.A", "L3_PUBLIC.B", "L4_REDLINE.B", "L5_WARNING.A"],
+      "ending": "E_HOLLOW",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "weakened",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "classified_gates",
+        "route": "law",
+        "leadership": "replaced",
+        "research_mission": "classified",
+        "operation": "defensive",
+        "international": "unilateral",
+        "verification": "independent"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Defense remains the public labs' main mission. Changing the leaders did not remove independent oversight."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.A", "L3_PUBLIC.B", "L4_REDLINE.B", "L5_WARNING.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "weakened",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "classified_gates",
+        "route": "law",
+        "leadership": "replaced",
+        "research_mission": "classified",
+        "operation": "defensive",
+        "international": "unilateral",
+        "war_origin": "warning_response"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Defense remains the public labs' main mission. Changing the leaders did not remove independent oversight."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.B", "L3_ARSENAL.A", "L4_SUPPLY.A", "L5_COALITION.A"],
+      "ending": "E_ALLIED",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "law",
+        "procurement": "competitive",
+        "international": "joint_governance",
+        "supply": "pooled",
+        "allied_checkpoints": true
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The government also retains the specified defense assets and licenses acquired under the narrower law.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.B", "L3_ARSENAL.A", "L4_SUPPLY.A", "L5_COALITION.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "law",
+        "procurement": "competitive",
+        "international": "exclusive_control",
+        "supply": "pooled",
+        "allied_checkpoints": false
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The government also retains the specified defense assets and licenses acquired under the narrower law.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.B", "L3_ARSENAL.A", "L4_SUPPLY.B", "L5_BLOC.A"],
+      "ending": "E_ALLIED",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "law",
+        "procurement": "competitive",
+        "international": "bounded_allied_deal",
+        "supply": "contracted",
+        "allied_checkpoints": true
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The government also retains the specified defense assets and licenses acquired under the narrower law.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.B", "L3_ARSENAL.A", "L4_SUPPLY.B", "L5_BLOC.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "law",
+        "procurement": "competitive",
+        "international": "restricted_bloc",
+        "supply": "fragmented",
+        "allied_checkpoints": false
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The government also retains the specified defense assets and licenses acquired under the narrower law.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.B", "L3_ARSENAL.B", "L4_BUILD.A", "L5_COALITION.A"],
+      "ending": "E_ALLIED",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": true,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "law",
+        "procurement": "bridged",
+        "international": "joint_governance",
+        "allied_checkpoints": true
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "A separate government lab continues. Its existence did not transfer ownership of either company.",
+        "The government also retains the specified defense assets and licenses acquired under the narrower law.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.B", "L3_ARSENAL.B", "L4_BUILD.A", "L5_COALITION.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": true,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "law",
+        "procurement": "bridged",
+        "international": "exclusive_control",
+        "allied_checkpoints": false
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "A separate government lab continues. Its existence did not transfer ownership of either company.",
+        "The government also retains the specified defense assets and licenses acquired under the narrower law.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.B", "L3_ARSENAL.B", "L4_BUILD.B", "L5_WARNING.A"],
+      "ending": "E_HOLLOW",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory",
+        "readiness": "prototype",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": true,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "pilot_review",
+        "route": "law",
+        "procurement": "state_development",
+        "operation": "advisory_pilot",
+        "international": "unilateral",
+        "verification": "independent"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "A separate government lab continues. Its existence did not transfer ownership of either company.",
+        "The government also retains the specified defense assets and licenses acquired under the narrower law.",
+        "Your decision allowed an unreliable government model into a live intelligence briefing."
+      ]
+    },
+    {
+      "choices": ["L1_START.A", "L2_LAW.B", "L3_ARSENAL.B", "L4_BUILD.B", "L5_WARNING.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory",
+        "readiness": "prototype",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": true,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "pilot_review",
+        "route": "law",
+        "procurement": "state_development",
+        "operation": "advisory_pilot",
+        "international": "unilateral",
+        "war_origin": "warning_response"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "A separate government lab continues. Its existence did not transfer ownership of either company.",
+        "The government also retains the specified defense assets and licenses acquired under the narrower law.",
+        "Your decision allowed an unreliable government model into a live intelligence briefing."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.A", "L3_REPAIR.A", "L4_BARGAIN.A", "L5_VERIFY.A"],
+      "ending": "E_TRUCE",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "repaired",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": true,
+        "pacing_policy": "independent_gates",
+        "route": "order",
+        "leadership": "retained",
+        "repair_cost": true,
+        "international": "reciprocal",
+        "verification": "reciprocal"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.A", "L3_REPAIR.A", "L4_BARGAIN.A", "L5_VERIFY.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "repaired",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "independent_gates",
+        "route": "order",
+        "leadership": "retained",
+        "repair_cost": true,
+        "international": "reciprocal",
+        "verification": "rejected"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.A", "L3_REPAIR.A", "L4_BARGAIN.B", "L5_WARNING.A"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "repaired",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "independent_gates",
+        "route": "order",
+        "leadership": "retained",
+        "repair_cost": true,
+        "international": "unilateral",
+        "verification": "independent"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.A", "L3_REPAIR.A", "L4_BARGAIN.B", "L5_WARNING.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "repaired",
+        "readiness": "strong",
+        "acquisition_act": true,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "independent_gates",
+        "route": "order",
+        "leadership": "retained",
+        "repair_cost": true,
+        "international": "unilateral",
+        "war_origin": "warning_response"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.A", "L3_REPAIR.B", "L4_SUPPLY.A", "L5_COALITION.A"],
+      "ending": "E_ALLIED",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "order",
+        "procurement": "competitive",
+        "repair_cost": true,
+        "international": "joint_governance",
+        "supply": "pooled",
+        "allied_checkpoints": true
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.A", "L3_REPAIR.B", "L4_SUPPLY.A", "L5_COALITION.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "order",
+        "procurement": "competitive",
+        "repair_cost": true,
+        "international": "exclusive_control",
+        "supply": "pooled",
+        "allied_checkpoints": false
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.A", "L3_REPAIR.B", "L4_SUPPLY.B", "L5_BLOC.A"],
+      "ending": "E_ALLIED",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "order",
+        "procurement": "competitive",
+        "repair_cost": true,
+        "international": "bounded_allied_deal",
+        "supply": "contracted",
+        "allied_checkpoints": true
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.A", "L3_REPAIR.B", "L4_SUPPLY.B", "L5_BLOC.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "order",
+        "procurement": "competitive",
+        "repair_cost": true,
+        "international": "restricted_bloc",
+        "supply": "fragmented",
+        "allied_checkpoints": false
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.B", "L3_DEFIANCE.A", "L4_BUILD.A", "L5_COALITION.A"],
+      "ending": "E_ALLIED",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled_after_defiance",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": true,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "order",
+        "repair_cost": true,
+        "procurement": "bridged",
+        "international": "joint_governance",
+        "allied_checkpoints": true
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "A separate government lab continues. Its existence did not transfer ownership of either company.",
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.B", "L3_DEFIANCE.A", "L4_BUILD.A", "L5_COALITION.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled_after_defiance",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": true,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "order",
+        "repair_cost": true,
+        "procurement": "bridged",
+        "international": "exclusive_control",
+        "allied_checkpoints": false
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "A separate government lab continues. Its existence did not transfer ownership of either company.",
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.B", "L3_DEFIANCE.A", "L4_BUILD.B", "L5_WARNING.A"],
+      "ending": "E_HOLLOW",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled_after_defiance",
+        "readiness": "prototype",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": true,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "pilot_review",
+        "route": "order",
+        "repair_cost": true,
+        "operation": "advisory_pilot",
+        "international": "unilateral",
+        "verification": "independent"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "A separate government lab continues. Its existence did not transfer ownership of either company.",
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Your decision allowed an unreliable government model into a live intelligence briefing."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.B", "L3_DEFIANCE.A", "L4_BUILD.B", "L5_WARNING.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled_after_defiance",
+        "readiness": "prototype",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": true,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "pilot_review",
+        "route": "order",
+        "repair_cost": true,
+        "operation": "advisory_pilot",
+        "international": "unilateral",
+        "war_origin": "warning_response"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "A separate government lab continues. Its existence did not transfer ownership of either company.",
+        "The earlier custody dispute left extra settlement costs, delay, and stronger oversight. Those costs remain after the immediate crisis.",
+        "Your decision allowed an unreliable government model into a live intelligence briefing."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.B", "L3_DEFIANCE.B", "L4_COURT.A", "L5_ACCOUNTABILITY.A"],
+      "ending": "E_REVERSED",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled",
+        "readiness": "legacy",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "supplier_gates",
+        "route": "order"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.B", "L3_DEFIANCE.B", "L4_COURT.A", "L5_ACCOUNTABILITY.B"],
+      "ending": "E_GRIDLOCK",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "compliant_gridlock",
+        "readiness": "legacy",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "voluntary",
+        "route": "order"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The proposed federal control system is not in force. The private labs retain their own release decisions."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.B", "L3_DEFIANCE.B", "L4_COURT.B", "L5_BREAKDOWN.A"],
+      "ending": "E_REVERSED",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "settled_after_final_defiance",
+        "readiness": "broken",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "voluntary",
+        "route": "order"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The proposed federal control system is not in force. The private labs retain their own release decisions."
+      ]
+    },
+    {
+      "choices": ["L1_START.B", "L2_ORDER.B", "L3_DEFIANCE.B", "L4_COURT.B", "L5_BREAKDOWN.B"],
+      "ending": "E_REMOVED",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "removed",
+        "readiness": "broken",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "voluntary",
+        "route": "order"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "The proposed federal control system is not in force. The private labs retain their own release decisions."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.A", "L3_SPLIT.A", "L4_SUPPLY.A", "L5_COALITION.A"],
+      "ending": "E_ALLIED",
+      "state": {
+        "openai_control": "special_rights",
+        "anthropic_control": "private",
+        "legal": "statutory_deal",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": true,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "joint_review",
+        "route": "deal",
+        "procurement": "competitive",
+        "international": "joint_governance",
+        "supply": "pooled",
+        "allied_checkpoints": true
+      },
+      "ownership_text": [
+        "OpenAI remains a private company subject to the government's defined decision rights. Anthropic remains independent. The agreement did not give the government general ownership of the two labs."
+      ],
+      "additional_text": [
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.A", "L3_SPLIT.A", "L4_SUPPLY.A", "L5_COALITION.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "special_rights",
+        "anthropic_control": "private",
+        "legal": "statutory_deal",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": true,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "joint_review",
+        "route": "deal",
+        "procurement": "competitive",
+        "international": "exclusive_control",
+        "supply": "pooled",
+        "allied_checkpoints": false
+      },
+      "ownership_text": [
+        "OpenAI remains a private company subject to the government's defined decision rights. Anthropic remains independent. The agreement did not give the government general ownership of the two labs."
+      ],
+      "additional_text": [
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.A", "L3_SPLIT.A", "L4_SUPPLY.B", "L5_BLOC.A"],
+      "ending": "E_ALLIED",
+      "state": {
+        "openai_control": "special_rights",
+        "anthropic_control": "private",
+        "legal": "statutory_deal",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": true,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "joint_review",
+        "route": "deal",
+        "procurement": "competitive",
+        "international": "bounded_allied_deal",
+        "supply": "contracted",
+        "allied_checkpoints": true
+      },
+      "ownership_text": [
+        "OpenAI remains a private company subject to the government's defined decision rights. Anthropic remains independent. The agreement did not give the government general ownership of the two labs."
+      ],
+      "additional_text": [
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.A", "L3_SPLIT.A", "L4_SUPPLY.B", "L5_BLOC.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "special_rights",
+        "anthropic_control": "private",
+        "legal": "statutory_deal",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": true,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "joint_review",
+        "route": "deal",
+        "procurement": "competitive",
+        "international": "restricted_bloc",
+        "supply": "fragmented",
+        "allied_checkpoints": false
+      },
+      "ownership_text": [
+        "OpenAI remains a private company subject to the government's defined decision rights. Anthropic remains independent. The agreement did not give the government general ownership of the two labs."
+      ],
+      "additional_text": [
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.A", "L3_SPLIT.B", "L4_REDLINE.A", "L5_ESCALATION.A"],
+      "ending": "E_CEASEFIRE",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "weakened",
+        "acquisition_act": true,
+        "deal_authorized": true,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "classified_gates",
+        "route": "deal",
+        "leadership": "replaced",
+        "research_mission": "classified",
+        "operation": "offensive",
+        "war_origin": "initiated_operation",
+        "international": "negotiated_halt"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Defense remains the public labs' main mission. Changing the leaders did not remove independent oversight."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.A", "L3_SPLIT.B", "L4_REDLINE.A", "L5_ESCALATION.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "weakened",
+        "acquisition_act": true,
+        "deal_authorized": true,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "classified_gates",
+        "route": "deal",
+        "leadership": "replaced",
+        "research_mission": "classified",
+        "operation": "offensive",
+        "war_origin": "expanded_campaign"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Defense remains the public labs' main mission. Changing the leaders did not remove independent oversight."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.A", "L3_SPLIT.B", "L4_REDLINE.B", "L5_WARNING.A"],
+      "ending": "E_HOLLOW",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "weakened",
+        "acquisition_act": true,
+        "deal_authorized": true,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "classified_gates",
+        "route": "deal",
+        "leadership": "replaced",
+        "research_mission": "classified",
+        "operation": "defensive",
+        "international": "unilateral",
+        "verification": "independent"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Defense remains the public labs' main mission. Changing the leaders did not remove independent oversight."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.A", "L3_SPLIT.B", "L4_REDLINE.B", "L5_WARNING.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "public",
+        "anthropic_control": "public",
+        "legal": "statutory",
+        "readiness": "weakened",
+        "acquisition_act": true,
+        "deal_authorized": true,
+        "state_lab": false,
+        "defense_assets": true,
+        "protocol": false,
+        "pacing_policy": "classified_gates",
+        "route": "deal",
+        "leadership": "replaced",
+        "research_mission": "classified",
+        "operation": "defensive",
+        "international": "unilateral",
+        "war_origin": "warning_response"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic's acquired domestic businesses remain publicly owned. The public authority controls strategy under the acquisition law. Independent testing and outside suppliers still limit what it can deploy."
+      ],
+      "additional_text": [
+        "Defense remains the public labs' main mission. Changing the leaders did not remove independent oversight."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.B", "L3_COMPACT.A", "L4_BARGAIN.A", "L5_VERIFY.A"],
+      "ending": "E_TRUCE",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory_compact",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": true,
+        "pacing_policy": "independent_gates",
+        "route": "deal",
+        "use_limits": "durable",
+        "international": "reciprocal",
+        "verification": "reciprocal"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.B", "L3_COMPACT.A", "L4_BARGAIN.A", "L5_VERIFY.B"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory_compact",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "independent_gates",
+        "route": "deal",
+        "use_limits": "durable",
+        "international": "reciprocal",
+        "verification": "rejected"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.B", "L3_COMPACT.A", "L4_BARGAIN.B", "L5_WARNING.A"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory_compact",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "independent_gates",
+        "route": "deal",
+        "use_limits": "durable",
+        "international": "unilateral",
+        "verification": "independent"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.B", "L3_COMPACT.A", "L4_BARGAIN.B", "L5_WARNING.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "statutory_compact",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "independent_gates",
+        "route": "deal",
+        "use_limits": "durable",
+        "international": "unilateral",
+        "war_origin": "warning_response"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "Independent investigators retain access to the covered systems. You cannot override their restrictions on unauthorized actions."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.B", "L3_COMPACT.B", "L4_REDLINE.A", "L5_ESCALATION.A"],
+      "ending": "E_CEASEFIRE",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "contractual",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "contract_gates",
+        "route": "deal",
+        "use_limits": "contractual",
+        "operation": "offensive",
+        "war_origin": "initiated_operation",
+        "international": "negotiated_halt"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.B", "L3_COMPACT.B", "L4_REDLINE.A", "L5_ESCALATION.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "contractual",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "contract_gates",
+        "route": "deal",
+        "use_limits": "contractual",
+        "operation": "offensive",
+        "war_origin": "expanded_campaign"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.B", "L3_COMPACT.B", "L4_REDLINE.B", "L5_WARNING.A"],
+      "ending": "E_BLOCS",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "contractual",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "contract_gates",
+        "route": "deal",
+        "use_limits": "contractual",
+        "operation": "defensive",
+        "international": "unilateral",
+        "verification": "independent"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    },
+    {
+      "choices": ["L1_START.C", "L2_DEAL.B", "L3_COMPACT.B", "L4_REDLINE.B", "L5_WARNING.B"],
+      "ending": "E_WAR",
+      "state": {
+        "openai_control": "private",
+        "anthropic_control": "private",
+        "legal": "contractual",
+        "readiness": "strong",
+        "acquisition_act": false,
+        "deal_authorized": false,
+        "state_lab": false,
+        "defense_assets": false,
+        "protocol": false,
+        "pacing_policy": "contract_gates",
+        "route": "deal",
+        "use_limits": "contractual",
+        "operation": "defensive",
+        "international": "unilateral",
+        "war_origin": "warning_response"
+      },
+      "ownership_text": [
+        "OpenAI and Anthropic remain private. Government access rests on negotiated contracts and the laws now in force. The President has no general authority to direct their research."
+      ],
+      "additional_text": [
+        "Your authority applies to the contracted government work. The private companies retain control of their other research and products."
+      ]
+    }
+  ]
+}

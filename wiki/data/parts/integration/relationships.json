@@ -1,0 +1,14 @@
+[
+  {"id":"MX-R001","subject":"SD-E001","predicate":"has_export_control_agency","object":"TW-E029","source_ids":[],"claim_ids":["TW-C027"],"status":"sourced_institutional_link"},
+  {"id":"MX-R002","subject":"TW-E030","predicate":"acts_within_jurisdiction","object":"SD-E008","source_ids":[],"claim_ids":["TW-C028"],"status":"sourced_institutional_link"},
+  {"id":"MX-R003","subject":"TW-E031","predicate":"acts_within_jurisdiction","object":"SD-E004","source_ids":[],"claim_ids":["TW-C029"],"status":"sourced_institutional_link"},
+  {"id":"MX-R004","subject":"TW-E014","predicate":"is_a_supply_dependency_in_compute_scenarios","object":"AI-E043","source_ids":[],"claim_ids":["TW-C018","TW-C030"],"status":"analysis_of_cross_domain_dependency"},
+  {"id":"MX-R005","subject":"TW-E038","predicate":"is_an_input_to_some_compute_systems","object":"AI-E043","source_ids":[],"claim_ids":["TW-C018"],"status":"analysis_of_cross_domain_dependency"},
+  {"id":"MX-R006","subject":"ST-E021","predicate":"constrains_expansion_of","object":"AI-E043","source_ids":["ST-S016"],"claim_ids":["ST-C016"],"status":"analysis_of_cross_domain_dependency"},
+  {"id":"MX-R007","subject":"AI-E039","predicate":"can_be_used_within","object":"SD-E057","source_ids":["AI-S001"],"claim_ids":["AI-C001","AI-C002"],"status":"capability_link_no_state_authorization_implied"},
+  {"id":"MX-R008","subject":"AI-E044","predicate":"can_support","object":"ST-E023","source_ids":["ST-S018","AI-S043"],"claim_ids":["ST-C018"],"status":"analysis_of_cross_domain_dependency"},
+  {"id":"MX-R009","subject":"AI-E039","predicate":"can_support_or_disrupt","object":"ST-E022","source_ids":["ST-S010"],"claim_ids":["ST-C010"],"status":"analysis_of_possible_effect"},
+  {"id":"MX-R010","subject":"ST-E022","predicate":"can_affect_human_assessment_of","object":"SD-E058","source_ids":["ST-S008"],"claim_ids":["SD-C019"],"status":"analysis_no_launch_authority_implied"},
+  {"id":"MX-R011","subject":"SD-E001","predicate":"has_possible_shared_risk_interest_with","object":"SD-E002","source_ids":["ST-S005","ST-S017"],"claim_ids":["ST-C005","ST-C017"],"status":"analysis_not_an_agreement"},
+  {"id":"MX-R012","subject":"TW-E014","predicate":"can_seek_policy_review_from","object":"TW-E001","source_ids":[],"claim_ids":["TW-C012","TW-C053"],"status":"proposed_game_relationship_not_verified_legal_remedy"}
+]

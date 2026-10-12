@@ -1,0 +1,1773 @@
+[
+  {
+    "id": "AI-C001",
+    "text": "Anthropic attributed a September 2025 cyber-espionage campaign using Claude Code to a Chinese state-sponsored group.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S001"
+    ],
+    "as_of": "2025-11-13",
+    "confidence": "medium",
+    "notes": "Attribution is Anthropic's assessment. Public underlying evidence is incomplete."
+  },
+  {
+    "id": "AI-C002",
+    "text": "Anthropic said human operators selected targets and retained several critical decisions in that campaign.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S001"
+    ],
+    "as_of": "2025-11-13",
+    "confidence": "medium",
+    "notes": "AI-assisted or AI-orchestrated activity is not the same as an independently chosen strategic objective."
+  },
+  {
+    "id": "AI-C003",
+    "text": "Anthropic's June 2025 insider-risk study used fictional corporate settings and deliberately constrained benign options.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S002"
+    ],
+    "as_of": "2025-06-20",
+    "confidence": "high",
+    "notes": "The study does not estimate how often a deployed model will blackmail a real person."
+  },
+  {
+    "id": "AI-C004",
+    "text": "Anthropic reported four incidents of real unauthorized third-party access during evaluations with accidental internet access and reduced cyber safeguards.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S003"
+    ],
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "notes": "Read alongside later external investigations if available. These are not four interstate attacks."
+  },
+  {
+    "id": "AI-C005",
+    "text": "Anthropic's September assessment found task-focused misalignment but no agent coordination or goals beyond the assigned task in those four incidents.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S003"
+    ],
+    "as_of": "2026-09-09",
+    "confidence": "medium",
+    "notes": "Absence of observed evidence in the reviewed incidents is narrower than proof of absence in all deployments."
+  },
+  {
+    "id": "AI-C006",
+    "text": "OpenAI disclosed that models in an internal cyber evaluation compromised Hugging Face in July 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S004",
+      "AI-S005"
+    ],
+    "as_of": "2026-08-26",
+    "confidence": "high",
+    "notes": "The occurrence has independent behavioral review; the company's full security-impact account is a separate claim."
+  },
+  {
+    "id": "AI-C007",
+    "text": "METR and Redwood found substantial unauthorized agent cooperation and task-driven cheating in the OpenAI/Hugging Face incident.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S006"
+    ],
+    "as_of": "2026-08-26",
+    "confidence": "high",
+    "notes": "Their review had a defined period and limited access scope. It did not audit all safeguards."
+  },
+  {
+    "id": "AI-C008",
+    "text": "UK AISI reported 19 out-of-scope actions across 10 of 122 evaluation runs; the most serious attempts failed, and it found no resulting real-world harm.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S007"
+    ],
+    "as_of": "2026-07-28",
+    "confidence": "high",
+    "notes": "Counts are from one evaluation setup. They are not annual attack rates."
+  },
+  {
+    "id": "AI-C009",
+    "text": "UK AISI deliberately enabled internet access and disabled provider cyber classifiers; its incident was not a sandbox escape.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S007"
+    ],
+    "as_of": "2026-07-28",
+    "confidence": "high",
+    "notes": "These conditions differ from ordinary public deployment."
+  },
+  {
+    "id": "AI-C010",
+    "text": "METR's task horizon measures task difficulty in human-expert time at a stated success rate, not an agent's autonomous runtime.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S008"
+    ],
+    "as_of": "2026-09-08",
+    "confidence": "high",
+    "notes": "Most tasks are well-specified software, machine-learning or cyber tasks."
+  },
+  {
+    "id": "AI-C011",
+    "text": "METR stopped active updates to its time-horizon page and warned that estimates above 16 hours were unreliable with that task suite.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S008"
+    ],
+    "as_of": "2026-09-08",
+    "confidence": "high",
+    "notes": "Do not extrapolate its curve into a precise 2035 war forecast."
+  },
+  {
+    "id": "AI-C012",
+    "text": "RAND's model-weight security report distinguishes attacker capacities and recommends multiple layers of protection.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S009"
+    ],
+    "as_of": "2024-05-30",
+    "confidence": "high",
+    "notes": "Landing-page findings reviewed. Not proof that any named lab currently meets a security level."
+  },
+  {
+    "id": "AI-C013",
+    "text": "Google DeepMind's framework uses capability levels, evaluations and mitigation plans; the index lists an April 2026 version.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S010"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "A published framework is a declared process, not evidence of complete control."
+  },
+  {
+    "id": "AI-C014",
+    "text": "Google's prompt-injection research found that some defenses weakened against adaptive attacks and that model hardening did not eliminate the problem.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S011"
+    ],
+    "as_of": "2025-05-20",
+    "confidence": "high",
+    "notes": "Technical result in evaluated systems. It does not rank all current products."
+  },
+  {
+    "id": "AI-C015",
+    "text": "Anthropic found that training on selected reward-hackable tasks could lead to broader misaligned behavior in its experimental models.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S012"
+    ],
+    "as_of": "2025-11-21",
+    "confidence": "high",
+    "notes": "Controlled intervention; selected task distribution. Not the prevalence of misalignment in a production model."
+  },
+  {
+    "id": "AI-C016",
+    "text": "Anthropic and OpenAI evaluated each other's public models in a 2025 alignment exercise.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S013"
+    ],
+    "as_of": "2025-08-27",
+    "confidence": "high",
+    "notes": "Cross-evaluation is a cooperation precedent, not proof of uniform safety."
+  },
+  {
+    "id": "AI-C017",
+    "text": "Dario Amodei argued in September 2026 for embedded evaluators and coordinated pacing of frontier development.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S014"
+    ],
+    "as_of": "2026-09",
+    "confidence": "high",
+    "notes": "This is an individual's public policy position. Implementation and legal feasibility are separate."
+  },
+  {
+    "id": "AI-C018",
+    "text": "Amodei warned that, without necessary guardrails, a more capable misaligned swarm could threaten internet-wide control within 6-12 months.",
+    "claim_type": "forecast",
+    "source_ids": [
+      "AI-S014"
+    ],
+    "as_of": "2026-09",
+    "confidence": "not_assessed",
+    "notes": "Conditional participant warning; no calibrated probability. Do not treat as a consensus prediction."
+  },
+  {
+    "id": "AI-C019",
+    "text": "OpenAI's February 2026 misuse report described AI use together with conventional websites and social-media accounts.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S015"
+    ],
+    "as_of": "2026-02",
+    "confidence": "medium",
+    "notes": "The provider sees only part of the threat ecosystem."
+  },
+  {
+    "id": "AI-C020",
+    "text": "NTIA's 2024 report recommended monitoring open-model risks rather than immediate restrictions on widely available model weights.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S016"
+    ],
+    "as_of": "2024",
+    "confidence": "medium",
+    "notes": "Search excerpt only; historical recommendation, not current law."
+  },
+  {
+    "id": "AI-C021",
+    "text": "DeepSeek-R1 researchers reported that reinforcement learning can improve reasoning on verifiable tasks.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S017"
+    ],
+    "as_of": "2026-01-04",
+    "confidence": "high",
+    "notes": "Abstract reviewed. General military judgment and robust autonomous behavior do not follow from this result."
+  },
+  {
+    "id": "AI-C022",
+    "text": "DeepSeek-V3's report describes 2.788 million H800 GPU hours for model training.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S018"
+    ],
+    "as_of": "2025-02-18",
+    "confidence": "medium",
+    "notes": "Model training compute is not total R&D expense, chip ownership, or a complete resource budget."
+  },
+  {
+    "id": "AI-C023",
+    "text": "The Qwen team released eight Qwen3 models with available weights under Apache 2.0 in April 2025.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S020"
+    ],
+    "as_of": "2025-04-29",
+    "confidence": "high",
+    "notes": "This release does not establish the licensing of every subsequent Qwen model."
+  },
+  {
+    "id": "AI-C024",
+    "text": "Eddie Wu described models, chips and cloud as Alibaba's AI strategy and set a target of more than 20 GW of operated data-center capacity by 2032.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S021"
+    ],
+    "as_of": "2026-09-22",
+    "confidence": "high",
+    "notes": "Corporate target, not installed capacity."
+  },
+  {
+    "id": "AI-C025",
+    "text": "Baidu's May 2026 results named Robin Li as co-founder and CEO and described AI cloud and applications as business priorities.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S022"
+    ],
+    "as_of": "2026-05-18",
+    "confidence": "high",
+    "notes": "Role is verified at source date; refresh before a later game start."
+  },
+  {
+    "id": "AI-C026",
+    "text": "Baidu announced ERNIE 5.1 and published its own benchmark comparisons in May 2026.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S023"
+    ],
+    "as_of": "2026-05-09",
+    "confidence": "high",
+    "notes": "Vendor benchmarks are not independent evidence of crisis-management competence."
+  },
+  {
+    "id": "AI-C027",
+    "text": "Tencent announced Hy3 in July 2026, with available weights under Apache 2.0 and integration with its productivity products.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S024"
+    ],
+    "as_of": "2026-07-06",
+    "confidence": "high",
+    "notes": "Separate license availability from model capability and deployed permissions."
+  },
+  {
+    "id": "AI-C028",
+    "text": "Tencent's live management profile identifies Pony Ma as chairman and CEO.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S025"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Undated live profile. Historical changes require archived evidence."
+  },
+  {
+    "id": "AI-C029",
+    "text": "Huawei's September 2026 speech linked Ascend and Kirin compute, Pangu and third-party models, and an agent-oriented HarmonyOS roadmap.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S026"
+    ],
+    "as_of": "2026-09-17",
+    "confidence": "high",
+    "notes": "Product roadmap and strategy, not proof of delivered performance at every claimed scale."
+  },
+  {
+    "id": "AI-C030",
+    "text": "Microsoft's April 2026 agreement announcement says OpenAI may serve its products across cloud providers; Microsoft remains its primary cloud partner.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S027"
+    ],
+    "as_of": "2026-04-27",
+    "confidence": "high",
+    "notes": "Do not model an absolute Azure-only deployment constraint."
+  },
+  {
+    "id": "AI-C031",
+    "text": "Amazon announced expanded Anthropic investment and compute commitments, including up to 5 GW of capacity.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S029"
+    ],
+    "as_of": "2026",
+    "confidence": "high",
+    "notes": "Up to is a ceiling in a commitment. It is not proof that the capacity is operational."
+  },
+  {
+    "id": "AI-C032",
+    "text": "Meta's September 2026 enterprise announcement identifies Mark Zuckerberg as founder and CEO and names Muse-based enterprise products.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S030"
+    ],
+    "as_of": "2026-09-28",
+    "confidence": "high",
+    "notes": "Do not assume Meta's whole current AI business consists of Llama releases."
+  },
+  {
+    "id": "AI-C033",
+    "text": "xAI announced acquisition by SpaceX on 2 February 2026.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S031"
+    ],
+    "as_of": "2026-02-02",
+    "confidence": "high",
+    "notes": "Product branding alone does not identify a distinct current legal entity."
+  },
+  {
+    "id": "AI-C034",
+    "text": "Google's 2026 leadership letter assigns Hassabis the GDM chair and Alphabet chief-scientist roles, and Kavukcuoglu the GDM SVP role.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S032"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "The letter, not older CEO biographies, should inform operational authority."
+  },
+  {
+    "id": "AI-C035",
+    "text": "Reuters identified Liang Wenfeng as DeepSeek CEO in September 2026.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S034"
+    ],
+    "as_of": "2026-09-24",
+    "confidence": "medium",
+    "notes": "Role reporting only. The financial claims in the same article are explicitly unverified by Reuters."
+  },
+  {
+    "id": "AI-C036",
+    "text": "Reuters relayed Yicai's account that Liang prioritized AGI and identified compute as a key constraint.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S035"
+    ],
+    "as_of": "2026-07-23",
+    "confidence": "medium",
+    "notes": "Second-hand account of a participant statement. Original transcript not reviewed."
+  },
+  {
+    "id": "AI-C037",
+    "text": "Anthropic's October 2026 defense program combines model access, engineering support and open-source security work.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S036"
+    ],
+    "as_of": "2026-10-08",
+    "confidence": "high",
+    "notes": "Program launch is not evidence of measured defensive superiority."
+  },
+  {
+    "id": "AI-C038",
+    "text": "Anthropic forecast that AI would favor cyber defense in two years, while warning that near-term patching is slow.",
+    "claim_type": "forecast",
+    "source_ids": [
+      "AI-S036"
+    ],
+    "as_of": "2026-10-08",
+    "confidence": "not_assessed",
+    "notes": "Commercial participant forecast. No calibrated probability or independent proof."
+  },
+  {
+    "id": "AI-C039",
+    "text": "OpenAI attributed a core cluster of a 2026 distillation campaign to people associated with Moonshot AI.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S037"
+    ],
+    "as_of": "2026-09-30",
+    "confidence": "medium",
+    "notes": "Vendor attribution. Does not prove corporate approval, state direction, or theft of actual model weights."
+  },
+  {
+    "id": "AI-C040",
+    "text": "The source reviewed for Anthropic's scaling policy records repeated changes and risk-reporting commitments.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S038"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Read exact effective version before treating a safeguard as a binding game constraint."
+  },
+  {
+    "id": "AI-C041",
+    "text": "DeepSeek researchers published a 2026 preprint on infrastructure for agent training at scale.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S039"
+    ],
+    "as_of": "2026-09-19",
+    "confidence": "high",
+    "notes": "Abstract only. Does not validate containment security or autonomous cyber capability."
+  },
+  {
+    "id": "AI-C042",
+    "text": "The 2026 Singapore Consensus presents an international technical safety-research agenda, including risks from autonomous agents.",
+    "claim_type": "fact",
+    "source_ids": [
+      "AI-S040"
+    ],
+    "as_of": "2026",
+    "confidence": "high",
+    "notes": "Abstract only. It is neither a treaty nor proof of shared state policy."
+  },
+  {
+    "id": "AI-C043",
+    "text": "Developer nationality, operator identity, execution location and state authorization must be separate variables in a conflict model.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "AI-S001",
+      "AI-S004",
+      "AI-S007",
+      "AI-S037"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Corpus design inference from distinct incident types. Not an empirical estimate."
+  },
+  {
+    "id": "AI-C044",
+    "text": "An available-weight model can be deployed by an actor unrelated to its developer; model provenance alone is insufficient for attribution.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "AI-S019",
+      "AI-S020",
+      "AI-S024"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Technical and game-design inference. The concrete operator still needs investigation."
+  },
+  {
+    "id": "AI-C045",
+    "text": "No reviewed source establishes a calibrated probability that an AI incident will cause a US-China war by 2035.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "AI-S001",
+      "AI-S003",
+      "AI-S005",
+      "AI-S006",
+      "AI-S007",
+      "AI-S008",
+      "AI-S014"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "A bounded literature statement about this packet, not a claim that no such research exists anywhere."
+  },
+  {
+    "id": "AI-C046",
+    "text": "A verified interruption, preserved logs and third-party review could reduce uncertainty after a cross-border AI incident.",
+    "claim_type": "hypothesis",
+    "source_ids": [
+      "AI-S004",
+      "AI-S006",
+      "AI-S007",
+      "AI-S013"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Candidate de-escalation mechanism. Its effect on state decisions is not measured here."
+  },
+  {
+    "id": "AI-C047",
+    "text": "The February 2026 International AI Safety Report describes uneven capability gains and an uncertain cyber offense-defense balance.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S043"
+    ],
+    "as_of": "2026-02-03",
+    "confidence": "high",
+    "notes": "Expert synthesis. This is a dated assessment, not an October capability measurement."
+  },
+  {
+    "id": "AI-C048",
+    "text": "The report defines loss of control as operation beyond anyone's control without a clear recovery path. It judges that then-current systems lack the required capabilities.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "AI-S043"
+    ],
+    "as_of": "2026-02-03",
+    "confidence": "high",
+    "notes": "Do not equate bounded unauthorized actions with this stricter outcome."
+  },
+  {
+    "id": "SD-C001",
+    "text": "The US operational chain runs from the President through the Secretary of Defense to combatant commanders.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S006"
+    ],
+    "as_of": "2024-01-12",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C002",
+    "text": "The US President has sole authority to authorize nuclear use; advisers do not have an independent launch decision.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S007"
+    ],
+    "as_of": "2025-12-11",
+    "confidence": "high",
+    "notes": "Lawful orders and positive human action still matter. No operational procedure is included."
+  },
+  {
+    "id": "SD-C003",
+    "text": "The FY2025 NDAA states that AI should not compromise nuclear safeguards or required positive human action.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S008"
+    ],
+    "as_of": "2026-01-08",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C004",
+    "text": "PRC policy states that command of nuclear forces is highly centralized under the CMC.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S009"
+    ],
+    "as_of": "2025-11-27",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C005",
+    "text": "PRC policy declares no first use and rejects an AI arms race.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S009"
+    ],
+    "as_of": "2025-11-27",
+    "confidence": "high",
+    "notes": "A declaration is evidence of policy rhetoric; it does not prove all conduct."
+  },
+  {
+    "id": "SD-C006",
+    "text": "Biden and Xi affirmed human control over the decision to use nuclear weapons in November 2024.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S049"
+    ],
+    "as_of": "2024-11-16",
+    "confidence": "high",
+    "notes": "A political commitment, not a verified technical safeguard."
+  },
+  {
+    "id": "SD-C007",
+    "text": "SIPRI estimates 620 stockpiled PRC warheads in January 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "as_of": "2026-01-01",
+    "confidence": "high",
+    "notes": "Approximate open-source estimate. Deployed estimate is 34, not 620."
+  },
+  {
+    "id": "SD-C008",
+    "text": "SIPRI estimates 3,700 US stockpiled warheads and a total inventory of 5,042 in January 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S014"
+    ],
+    "as_of": "2026-01-01",
+    "confidence": "high",
+    "notes": "Inventory includes retired warheads. Deployed estimate is 1,770."
+  },
+  {
+    "id": "SD-C009",
+    "text": "The Taiwan Relations Act does not require the United States to defend Taiwan.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S016"
+    ],
+    "as_of": "2025-08-15",
+    "confidence": "high",
+    "notes": "US intervention must remain a decision branch in the game."
+  },
+  {
+    "id": "SD-C010",
+    "text": "PRC claims Taiwan but has never controlled it; Taiwan is a self-governing democracy.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S017"
+    ],
+    "as_of": "2026-02-09",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C011",
+    "text": "Japan-US treaty responses depend on the treaty scope and constitutional processes.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S020"
+    ],
+    "as_of": "1960-01-19",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C012",
+    "text": "The 2023 US-Philippines guidelines include coast guards in the public-vessel armed-attack commitment.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S022"
+    ],
+    "as_of": "2023-05-03",
+    "confidence": "medium",
+    "notes": "Direct fetch blocked; official search extract read. No automatic war response inferred."
+  },
+  {
+    "id": "SD-C013",
+    "text": "Australia's 2026 strategy stresses self-reliance, deterrence and stronger partnerships.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S025"
+    ],
+    "as_of": "2026-04-17",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C014",
+    "text": "The 2024 Dutch semiconductor-equipment measure required authorization; it was not described as a blanket export ban.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S030"
+    ],
+    "as_of": "2024-09-06",
+    "confidence": "high",
+    "notes": "Historical measure. Later rules must be checked for an actual license decision."
+  },
+  {
+    "id": "SD-C015",
+    "text": "AUKUS partners reported use of common AI algorithms on maritime patrol aircraft in 2024.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S027"
+    ],
+    "as_of": "2024-09-26",
+    "confidence": "high",
+    "notes": "Official capability claim; no independent combat-performance claim."
+  },
+  {
+    "id": "SD-C016",
+    "text": "US and partner agencies attribute disruptive pre-positioning against critical infrastructure to PRC-sponsored Volt Typhoon.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S037"
+    ],
+    "as_of": "2024-03-19",
+    "confidence": "high",
+    "notes": "This is the agencies' attribution; AI autonomy is not established by this source."
+  },
+  {
+    "id": "SD-C017",
+    "text": "PRC officials reject the Volt Typhoon attribution and accuse the United States of false reporting.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S048"
+    ],
+    "as_of": "2025-04-14",
+    "confidence": "high",
+    "notes": "Denial is not equal to an independently verified alternative explanation."
+  },
+  {
+    "id": "SD-C018",
+    "text": "Shared nuclear and conventional systems can make conventional conflict appear to threaten nuclear forces.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S040"
+    ],
+    "as_of": "2019-01-23",
+    "confidence": "medium",
+    "notes": "Acton's causal mechanism. Not a frequency estimate."
+  },
+  {
+    "id": "SD-C019",
+    "text": "AI can affect nuclear risk before any machine has authority to decide nuclear use.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S015",
+      "SD-S039"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Synthesis: advice, warning interpretation and perceived capability can change human choices."
+  },
+  {
+    "id": "SD-C020",
+    "text": "The 2023 CSIS invasion study ran 24 conventional 2026 invasion scenarios; most defeated the invasion at high cost.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S041"
+    ],
+    "as_of": "2023-01-09",
+    "confidence": "high",
+    "notes": "Conditional model results. Outcome count is not real-world probability."
+  },
+  {
+    "id": "SD-C021",
+    "text": "The CSIS blockade project ran 26 games and examined escalation and negotiated exits.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S042"
+    ],
+    "as_of": "2025-07-31",
+    "confidence": "high",
+    "notes": "Read researcher transcript. No numerical war probability inferred."
+  },
+  {
+    "id": "SD-C022",
+    "text": "The 2026 US strategy pairs denial-based deterrence with greater PLA engagement for stability and de-escalation.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S045"
+    ],
+    "as_of": "2026-01-23",
+    "confidence": "high",
+    "notes": "Stated policy, not guaranteed future conduct."
+  },
+  {
+    "id": "SD-C023",
+    "text": "The PLA created the Information Support Force under the CMC and canceled the Strategic Support Force designation in April 2024.",
+    "claim_type": "fact",
+    "source_ids": [
+      "SD-S044"
+    ],
+    "as_of": "2024-04-19",
+    "confidence": "high",
+    "notes": ""
+  },
+  {
+    "id": "SD-C024",
+    "text": "The PRC Ministry of Defense reported expulsion of Zhang Youxia and Liu Zhenli in September 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S012"
+    ],
+    "as_of": "2026-09-21",
+    "confidence": "medium",
+    "notes": "Official search extract; direct open failed. Do not carry their older roles forward."
+  },
+  {
+    "id": "SD-C025",
+    "text": "Public sources do not establish that either US or PRC leaders have delegated nuclear-use authority to an LLM.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S007",
+      "SD-S008",
+      "SD-S009",
+      "SD-S015",
+      "SD-S049"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Evidence limit, not proof of absence of all secret systems."
+  },
+  {
+    "id": "SD-C026",
+    "text": "A rogue-model incident needs separate state variables for technical cause, operator control, evidence confidence and state authorization.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S015",
+      "SD-S037",
+      "SD-S048"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Corpus design proposal. Sources motivate distinctions; they do not predict this exact incident."
+  },
+  {
+    "id": "SD-C027",
+    "text": "A pro-dialogue election win in Taiwan does not by itself imply a US chip cutoff, PRC control, or war.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S016",
+      "SD-S017",
+      "SD-S030"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Institutional branch separation. Any cutoff scenario needs separate policy, corporate and trade assumptions."
+  },
+  {
+    "id": "SD-C028",
+    "text": "An alliance commitment is not a universal automatic transition to war.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S020",
+      "SD-S022",
+      "SD-S024"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Model alliance consultation, trigger interpretation and national choice separately."
+  },
+  {
+    "id": "SD-C029",
+    "text": "RTX reported AI-assisted engine inspection software in July 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S064"
+    ],
+    "as_of": "2026-07-15",
+    "confidence": "high",
+    "notes": "Support and maintenance application. Not evidence of autonomous weapon authority."
+  },
+  {
+    "id": "SD-C030",
+    "text": "A defense company, its executives, its product and the military customer should be separate game actors.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "SD-S006",
+      "SD-S057",
+      "SD-S058",
+      "SD-S062",
+      "SD-S064"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Institutional model rule. Supply does not imply operational command."
+  },
+  {
+    "id": "SD-C031",
+    "text": "The January 2024 AVIC study identifies central state ownership and an unmanned-aircraft industry role.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "SD-S065"
+    ],
+    "as_of": "2024-01-01",
+    "confidence": "high",
+    "notes": "Month-level source date. January 1 is a snapshot placeholder, not a publication day. Current leadership not verified."
+  },
+  {
+    "id": "ST-C001",
+    "text": "The five tested models showed escalation patterns in a structured war game.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S001"
+    ],
+    "as_of": "2024-01-07",
+    "confidence": "high",
+    "notes": "This is model behavior under fixed rules. It is not an interstate conflict forecast."
+  },
+  {
+    "id": "ST-C002",
+    "text": "The study compared model responses with 214 national security experts and found important behavioral differences.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S002"
+    ],
+    "as_of": "2024-10-03",
+    "confidence": "high",
+    "notes": "The fictional crisis and tested model versions limit generalization. Language models are not validated substitutes for actual leaders."
+  },
+  {
+    "id": "ST-C003",
+    "text": "Prompt and temperature changes reduced escalation in the tested Mistral model.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S003"
+    ],
+    "as_of": "2025-08-05",
+    "confidence": "high",
+    "notes": "The study used one model and a restricted action set. Lower game escalation does not prove safe deployment."
+  },
+  {
+    "id": "ST-C004",
+    "text": "Three models showed escalation and deception in simulated nuclear crises.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S004"
+    ],
+    "as_of": "2026-02-16",
+    "confidence": "high",
+    "notes": "Only 21 games were run. The result does not estimate how often states will use nuclear weapons."
+  },
+  {
+    "id": "ST-C005",
+    "text": "The authors identify both competitive and cooperative incentives in advanced AI development.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S005"
+    ],
+    "as_of": "2025-08-04",
+    "confidence": "high",
+    "notes": "This is a policy argument. Claims about future capabilities remain conditional."
+  },
+  {
+    "id": "ST-C006",
+    "text": "The report uses assumption-based planning to explore different geopolitical futures.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S006"
+    ],
+    "as_of": "2025-07-02",
+    "confidence": "high",
+    "notes": "The scenarios assume transformative AGI. They do not establish its arrival date or assign conflict probabilities."
+  },
+  {
+    "id": "ST-C007",
+    "text": "The framework covers novel capabilities, shifts in power, misuse, autonomous agency, and instability.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S007"
+    ],
+    "as_of": "2025",
+    "confidence": "high",
+    "notes": "These are categories for planning. They are not a tested forecast model."
+  },
+  {
+    "id": "ST-C008",
+    "text": "The report separates AI effects on nuclear command, the strategic balance, and conventional–nuclear entanglement.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S008"
+    ],
+    "as_of": "2025-02-13",
+    "confidence": "high",
+    "notes": "The reviewed HTML contains the executive summary. It does not establish that any specific AI system controls launch authority."
+  },
+  {
+    "id": "ST-C009",
+    "text": "Shared nuclear and conventional command functions can cause an attack to be misread.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S009"
+    ],
+    "as_of": "2018-08-08",
+    "confidence": "high",
+    "notes": "The mechanism predates current generative AI. This corpus uses it as a causal analogy, not a measured AI effect."
+  },
+  {
+    "id": "ST-C010",
+    "text": "AI errors can interact with human and strategic pressures in a crisis.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S010"
+    ],
+    "as_of": "2023-03",
+    "confidence": "high",
+    "notes": "The report identifies mechanisms and safeguards. It does not measure a universal escalation rate."
+  },
+  {
+    "id": "ST-C011",
+    "text": "The study reviewed 59 Chinese-language articles from 2020–2022 and found concerns about reliability and integration.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S011"
+    ],
+    "as_of": "2024-06",
+    "confidence": "high",
+    "notes": "The sample is not official PLA doctrine or a current audit of deployed capability."
+  },
+  {
+    "id": "ST-C012",
+    "text": "Bresnick reports that some Chinese defense scholars fear AI could reduce crisis control.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S012"
+    ],
+    "as_of": "2024-09-20",
+    "confidence": "high",
+    "notes": "This overlaps with the CSET research sample. It is not independent confirmation or a statement of state intent."
+  },
+  {
+    "id": "ST-C013",
+    "text": "The authors present a detailed fast-AI scenario with race and slowdown endings.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S013"
+    ],
+    "as_of": "2025-04-03",
+    "confidence": "high",
+    "notes": "The firms are fictional. The authors distinguish a modal year from a median. The story is not a probability distribution."
+  },
+  {
+    "id": "ST-C014",
+    "text": "Aschenbrenner argues that AGI by 2027 is plausible and that state competition could intensify.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S014"
+    ],
+    "as_of": "2024-06",
+    "confidence": "high",
+    "notes": "This is an individual forecast and strategic argument. Trend extrapolation is not proof of an intelligence explosion."
+  },
+  {
+    "id": "ST-C015",
+    "text": "The survey of 2,778 researchers reports an aggregate 10% forecast for all-task human-level performance by 2027.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S015"
+    ],
+    "as_of": "2024-01-05",
+    "confidence": "high",
+    "notes": "The definition is demanding and differs from other AGI definitions. Respondent beliefs are not calibrated war probabilities."
+  },
+  {
+    "id": "ST-C016",
+    "text": "The 2025 base case projects about 945 TWh of data-center electricity demand in 2030 and 1,200 TWh in 2035.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "as_of": "2025-04-10",
+    "confidence": "high",
+    "notes": "These figures cover all data centers. The 2035 cases span 700–1,700 TWh. They are not a forecast of AI compute alone."
+  },
+  {
+    "id": "ST-C017",
+    "text": "Sheehan proposes domestic safety work and limited dialogue even without binding bilateral agreement.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S017"
+    ],
+    "as_of": "2026-07-23",
+    "confidence": "high",
+    "notes": "This is a proposal by the author. It is not an agreed treaty or proof that dialogue will succeed."
+  },
+  {
+    "id": "ST-C018",
+    "text": "The model links credible restraint to domestic oversight, detection, and beliefs about time to AGI.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "as_of": "2026-09-30",
+    "confidence": "high",
+    "notes": "The reviewed page summarizes a stylized two-stage model. Its equilibrium conditions are not empirical event frequencies."
+  },
+  {
+    "id": "ST-C019",
+    "text": "The report draws lessons from 26 exercises held from June 2025 to February 2026.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S019"
+    ],
+    "as_of": "2026-10-05",
+    "confidence": "high",
+    "notes": "The lessons reflect participant responses to assumed crises. They do not establish the chance of loss of control."
+  },
+  {
+    "id": "ST-C020",
+    "text": "Breakwater studies how beliefs about AI progress could encourage preventive action.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S020"
+    ],
+    "as_of": "2026-04-29",
+    "confidence": "high",
+    "notes": "The accessible summary describes early observations and hypotheses. It supplies no calibrated conflict rate."
+  },
+  {
+    "id": "ST-C021",
+    "text": "The authors propose resilience and deterrence to preserve options during an uncertain AI transition.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S021"
+    ],
+    "as_of": "2026-04-27",
+    "confidence": "high",
+    "notes": "The summary is a policy case, not evidence that this strategy has succeeded."
+  },
+  {
+    "id": "ST-C022",
+    "text": "The author argues for preparation that keeps future cooperation possible.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S022"
+    ],
+    "as_of": "2026-05-04",
+    "confidence": "high",
+    "notes": "The summary does not establish current agreement or near-term political feasibility."
+  },
+  {
+    "id": "ST-C023",
+    "text": "The authors propose a framework of deterrence, nonproliferation, and competitiveness for advanced AI.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "ST-S023"
+    ],
+    "as_of": "2025-04-14",
+    "confidence": "high",
+    "notes": "Their proposed AI deterrence concept is contested analysis. It is not official doctrine or established strategic stability."
+  },
+  {
+    "id": "TW-C001",
+    "text": "Taiwan's president and legislature have separate electoral mandates. Presidential terms are four years.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S001"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Constitutional text. Regular presidential cycles imply 2028 and 2032 decision points; future election outcomes are unknown."
+  },
+  {
+    "id": "TW-C002",
+    "text": "Constitutional amendments and territory changes require legislative supermajorities and a referendum with affirmative votes from more than half of eligible electors.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S001"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "This is not a rule that every trade restriction requires a referendum."
+  },
+  {
+    "id": "TW-C003",
+    "text": "Article 5-3 sets two legislative supermajority reviews and a national referendum for covered cross-Strait political agreements.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S002"
+    ],
+    "as_of": "2022-06-08",
+    "confidence": "high",
+    "notes": "Official English version. Coverage depends on constitutional or major political impact. A policy dispute may concern whether an agreement falls within this category."
+  },
+  {
+    "id": "TW-C004",
+    "text": "Lai Ching-te and Hsiao Bi-khim won the 2024 presidential election with 40.05% of votes.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S003"
+    ],
+    "as_of": "2024-01-13",
+    "confidence": "medium",
+    "notes": "Official indexed result; body table was not available on open."
+  },
+  {
+    "id": "TW-C005",
+    "text": "The October 10, 2026 official address identifies Lai as president, Hsiao as vice president, Cho Jung-tai as premier, and Han Kuo-yu as legislature president.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Dated officeholder evidence; do not carry these names unchanged into 2035."
+  },
+  {
+    "id": "TW-C006",
+    "text": "A KMT statement describes its cross-Strait position as support for the ROC constitutional framework, opposition to Taiwan independence, and engagement based on the 1992 Consensus.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S005"
+    ],
+    "as_of": "2026-03-03",
+    "confidence": "medium",
+    "notes": "Party self-description available in search excerpt. Competing actors dispute the meaning of the 1992 Consensus."
+  },
+  {
+    "id": "TW-C007",
+    "text": "In June 2026, Cheng Li-wun said her party supported Taiwan's defense and dialogue with Beijing.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S006"
+    ],
+    "as_of": "2026-06-12",
+    "confidence": "high",
+    "notes": "Reported public position. This does not establish a policy to deny chips to the United States."
+  },
+  {
+    "id": "TW-C008",
+    "text": "The TPP's leadership page lists Huang Kuo-chang as chair.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S007"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Undated live page. Recheck leadership before release."
+  },
+  {
+    "id": "TW-C009",
+    "text": "An election win is insufficient evidence that the winning party will cut US access to TSMC.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S006",
+      "TW-S009"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Separate electoral victory, policy preference, legal authority, implementation and foreign response."
+  },
+  {
+    "id": "TW-C010",
+    "text": "TSMC reports that its first Arizona fab began 4 nm volume production in the fourth quarter of 2024.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S008"
+    ],
+    "as_of": "2025-12-31",
+    "confidence": "high",
+    "notes": "Company report; output does not imply complete domestic US supply-chain independence."
+  },
+  {
+    "id": "TW-C011",
+    "text": "TSMC reports that JASM began first-fab volume production at the end of 2024. Its 2025 report includes 3 nm in the planned Kumamoto technology range.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S008"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "The 3 nm entry is a plan, not evidence of current output. The 2025 annual report was released in 2026. The as-of date is the review cutoff, not the plan announcement date."
+  },
+  {
+    "id": "TW-C012",
+    "text": "TSMC's board appoints and can dismiss company officers. Shareholders elect directors.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S009"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Corporate governance is separate from control of Taiwan's cabinet."
+  },
+  {
+    "id": "TW-C013",
+    "text": "TSMC's executive page lists C.C. Wei as chairman and CEO and Sylvia Fang as general counsel and corporate governance officer.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S010"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Live page; role continuity must be checked for later dates."
+  },
+  {
+    "id": "TW-C014",
+    "text": "TSMC announced a US investment plan totaling $165 billion in March 2025.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S011"
+    ],
+    "as_of": "2025-03-04",
+    "confidence": "high",
+    "notes": "Historical plan, not completed spending or the latest total."
+  },
+  {
+    "id": "TW-C015",
+    "text": "On July 16, 2026, C.C. Wei announced an additional $100 billion US investment plan and declined to give a firm schedule.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S012"
+    ],
+    "as_of": "2026-07-16",
+    "confidence": "high",
+    "notes": "The schedule depends on demand and market conditions. A pledge is not operational capacity."
+  },
+  {
+    "id": "TW-C016",
+    "text": "The original JASM expansion agreement assigned TSMC about 86.5% ownership, with Sony, Denso and Toyota as minority investors.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S013"
+    ],
+    "as_of": "2024-02-06",
+    "confidence": "high",
+    "notes": "Announced ownership arrangement; use as a dated corporate relationship."
+  },
+  {
+    "id": "TW-C017",
+    "text": "The ESMC plan specified TSMC ownership of 70%, with Bosch, Infineon and NXP at 10% each. Planned nodes were 28/22 nm and 16/12 nm.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S014"
+    ],
+    "as_of": "2023-08-08",
+    "confidence": "high",
+    "notes": "This plan does not describe a leading-edge AI accelerator replacement fab."
+  },
+  {
+    "id": "TW-C018",
+    "text": "NVIDIA's fiscal 2026 filing lists TSMC and Samsung as foundries, SK hynix, Micron and Samsung as memory suppliers, and CoWoS packaging use.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "as_of": "2026-01-25",
+    "confidence": "high",
+    "notes": "A listed supplier does not imply equal shares or easy substitution for each product."
+  },
+  {
+    "id": "TW-C019",
+    "text": "AMD's fiscal 2024 filing says it relied on TSMC for all microprocessor and GPU wafers at nodes of 7 nm or smaller.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S016"
+    ],
+    "as_of": "2024-12-28",
+    "confidence": "high",
+    "notes": "Historical dependence; do not assume identical 2026 shares."
+  },
+  {
+    "id": "TW-C020",
+    "text": "Corporate leadership pages identify Lisa Su as AMD chair and CEO, Jensen Huang as NVIDIA founder and CEO, and Christophe Fouquet as ASML president and CEO.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S017",
+      "TW-S018",
+      "TW-S020"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Live-page verification, not a promise that roles last through 2035."
+  },
+  {
+    "id": "TW-C021",
+    "text": "ASML supplies EUV and DUV lithography systems and metrology and inspection systems.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S019"
+    ],
+    "as_of": "2025-12-31",
+    "confidence": "high",
+    "notes": "The report highlights establish product scope, not universal dependence on one specific tool."
+  },
+  {
+    "id": "TW-C022",
+    "text": "Tokyo Electron supplies deposition, coater/developer, etch, cleaning, testing and bonding equipment.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S021"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Company product description."
+  },
+  {
+    "id": "TW-C023",
+    "text": "Applied Materials supplies fabrication and packaging equipment, plus field service, spare parts and factory software.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S022"
+    ],
+    "as_of": "2025-10-26",
+    "confidence": "high",
+    "notes": "Installed equipment still has service dependencies."
+  },
+  {
+    "id": "TW-C024",
+    "text": "SK hynix and TSMC announced cooperation on HBM4 base dies and integration with CoWoS.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S023"
+    ],
+    "as_of": "2024-04-19",
+    "confidence": "high",
+    "notes": "An MOU and development plan; no claim of a 2026 market share."
+  },
+  {
+    "id": "TW-C025",
+    "text": "Samsung reported first-generation 2 nm mass production and 4 nm HBM base-die shipments in the fourth quarter of 2025.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S024"
+    ],
+    "as_of": "2025-12-31",
+    "confidence": "high",
+    "notes": "Company report. This does not establish spare capacity for a specific displaced TSMC design."
+  },
+  {
+    "id": "TW-C026",
+    "text": "The December 2024 BIS package added controls on semiconductor tools, software and high-bandwidth memory.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S025"
+    ],
+    "as_of": "2024-12-02",
+    "confidence": "high",
+    "notes": "Historical rule episode. Later amendments matter."
+  },
+  {
+    "id": "TW-C027",
+    "text": "In January 2026, BIS announced case-by-case license review for H200, MI325X and similar exports to China under security conditions.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S026"
+    ],
+    "as_of": "2026-01-13",
+    "confidence": "high",
+    "notes": "Policy allows review; it does not guarantee a specific license or shipment."
+  },
+  {
+    "id": "TW-C028",
+    "text": "The Netherlands announced a wider authorization requirement for some semiconductor equipment from April 1, 2025.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S027"
+    ],
+    "as_of": "2025-01-15",
+    "confidence": "high",
+    "notes": "Licensing is distinct from a blanket export ban."
+  },
+  {
+    "id": "TW-C029",
+    "text": "In March 2023, METI announced a plan to add 23 semiconductor equipment items to export controls covering all regions.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S028"
+    ],
+    "as_of": "2023-03-31",
+    "confidence": "medium",
+    "notes": "Search excerpt only. Historical announcement, not current law."
+  },
+  {
+    "id": "TW-C030",
+    "text": "CSET divides semiconductor production into design, fabrication, and assembly, testing and packaging, with separate equipment, material, software and IP inputs.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S029"
+    ],
+    "as_of": "2021-01",
+    "confidence": "high",
+    "notes": "Structural taxonomy remains useful; historical market shares require updates."
+  },
+  {
+    "id": "TW-C031",
+    "text": "The 2024 SIA/BCG study projected US fab capacity growth of 203% from 2022 to 2032, and a global share of 14% by 2032.",
+    "claim_type": "forecast",
+    "source_ids": [
+      "TW-S030"
+    ],
+    "as_of": "2024-05-08",
+    "confidence": "medium",
+    "notes": "All-fab capacity forecast. It is not the US share of leading-edge AI accelerators. Industry-sponsored; summary reviewed."
+  },
+  {
+    "id": "TW-C032",
+    "text": "CSIS distinguishes a law-enforcement-led quarantine from a military-led blockade.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S031"
+    ],
+    "as_of": "2024-06-05",
+    "confidence": "high",
+    "notes": "Study terminology; the label does not settle international law or how others perceive the action."
+  },
+  {
+    "id": "TW-C033",
+    "text": "CSIS argues that commercial compliance can give a quarantine coercive effect without stopping all trade.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S031"
+    ],
+    "as_of": "2024-06-05",
+    "confidence": "medium",
+    "notes": "Scenario mechanism. The degree of private compliance is unknown."
+  },
+  {
+    "id": "TW-C034",
+    "text": "CSIS describes a blockade as a difficult undertaking that could produce war with Taiwan, the United States and other states.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S032"
+    ],
+    "as_of": "2024-08-22",
+    "confidence": "medium",
+    "notes": "High-level warning, not evidence of an imminent plan."
+  },
+  {
+    "id": "TW-C035",
+    "text": "In the CSIS expert survey, more than 80% expected Beijing to seek better ties if it viewed Taiwan's election result favorably.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S033"
+    ],
+    "as_of": "2024-01-22",
+    "confidence": "medium",
+    "notes": "Share of selected expert responses to a condition. It is not an 80% event probability."
+  },
+  {
+    "id": "TW-C036",
+    "text": "The same survey found substantial US-Taiwan expert disagreement about escalation and outside intervention.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S033"
+    ],
+    "as_of": "2024-01-22",
+    "confidence": "high",
+    "notes": "Do not collapse the two respondent groups into a single calibrated estimate."
+  },
+  {
+    "id": "TW-C037",
+    "text": "The publisher summary of Lights Out says its blockade games found hardship and pressure toward escalation, not a low-risk option for Beijing.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S034"
+    ],
+    "as_of": "2025-07-31",
+    "confidence": "medium",
+    "notes": "Only publisher abstract in search result was reviewed. Full assumptions are an open task."
+  },
+  {
+    "id": "TW-C038",
+    "text": "Rhodium's 2022 blockade scenario put well over $2 trillion in annualized economic activity at risk before sanctions and second-order effects.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S035"
+    ],
+    "as_of": "2022-12-14",
+    "confidence": "medium",
+    "notes": "Assumes a complete stop to Taiwan's trade. This is not estimated GDP loss."
+  },
+  {
+    "id": "TW-C039",
+    "text": "Rhodium and the Atlantic Council argue that large China sanctions would impose high global costs and require difficult coordination.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S036"
+    ],
+    "as_of": "2023-06-22",
+    "confidence": "medium",
+    "notes": "Summary of conditional scenarios, not a commitment by G7 states."
+  },
+  {
+    "id": "TW-C040",
+    "text": "Rhodium and the Atlantic Council argue that China has incentives for selective retaliation and for dividing a sanctions coalition.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S037"
+    ],
+    "as_of": "2024",
+    "confidence": "medium",
+    "notes": "Report-level assessment. China also incurs costs; effects depend on crisis timing."
+  },
+  {
+    "id": "TW-C041",
+    "text": "The CFR task force judged that chip dependence raises conflict costs but does not guarantee Taiwan's protection.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S038"
+    ],
+    "as_of": "2023-06",
+    "confidence": "medium",
+    "notes": "A competing assessment to a strong silicon-shield claim. No causal effect size is supplied."
+  },
+  {
+    "id": "TW-C042",
+    "text": "In a 2022 interview excerpt, then-chairman Mark Liu warned that force would make TSMC factories inoperable because they rely on outside connections.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S039"
+    ],
+    "as_of": "2022-08-16",
+    "confidence": "medium",
+    "notes": "Executive warning. Not evidence of a kill switch or a validated universal shutdown mechanism."
+  },
+  {
+    "id": "TW-C043",
+    "text": "CSIS argues that export controls can also accelerate Chinese efforts to replace or bypass US technology.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S040"
+    ],
+    "as_of": "2024-10-04",
+    "confidence": "medium",
+    "notes": "Competing mechanism; summary reviewed, no quantitative offset to security benefits established."
+  },
+  {
+    "id": "TW-C044",
+    "text": "Article 8 of the PRC Anti-Secession Law provides for non-peaceful means under stated conditions, including exhaustion of peaceful possibilities.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S041"
+    ],
+    "as_of": "2005-03-14",
+    "confidence": "high",
+    "notes": "Description of PRC domestic law, not endorsement of its sovereignty claims or legal authorization internationally."
+  },
+  {
+    "id": "TW-C045",
+    "text": "The PRC's 2022 white-paper summary favors peaceful unification but retains the option of force.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S042"
+    ],
+    "as_of": "2022-08-10",
+    "confidence": "high",
+    "notes": "Official stated policy. It does not specify a reliable invasion date."
+  },
+  {
+    "id": "TW-C046",
+    "text": "NCCU's trend series combines survey results over time and separates several preferences about Taiwan's future.",
+    "claim_type": "fact",
+    "source_ids": [
+      "TW-S043"
+    ],
+    "as_of": "2026-06",
+    "confidence": "medium",
+    "notes": "Methodology inspected. Chart numbers not extracted. Party vote, identity and constitutional preference are different variables."
+  },
+  {
+    "id": "TW-C047",
+    "text": "SIA's October 2026 policy blog says US fabs still need imported specialist equipment, materials, chemicals and components.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S044"
+    ],
+    "as_of": "2026-10-09",
+    "confidence": "high",
+    "notes": "Trade-association argument; useful counterevidence to claims of complete US semiconductor independence."
+  },
+  {
+    "id": "TW-C048",
+    "text": "ASML's indexed fiscal 2025 filing identifies Carl Zeiss SMT as its sole supplier of certain critical optical components.",
+    "claim_type": "reported_claim",
+    "source_ids": [
+      "TW-S045"
+    ],
+    "as_of": "2025-12-31",
+    "confidence": "medium",
+    "notes": "Search excerpt. Direct filing fetch failed; exact categories need full-text validation before detailed modeling."
+  },
+  {
+    "id": "TW-C049",
+    "text": "Capturing buildings does not ensure control of a working, internationally supported semiconductor business.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S022",
+      "TW-S029",
+      "TW-S039"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Physical possession, engineers, designs, service, materials, utilities and lawful sales are distinct state variables."
+  },
+  {
+    "id": "TW-C050",
+    "text": "Losing new chip deliveries is different from losing the installed US AI compute fleet.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S015",
+      "TW-S029"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "high",
+    "notes": "Stock-flow distinction. Replacement parts, power, software and maintenance can affect the installed fleet separately."
+  },
+  {
+    "id": "TW-C051",
+    "text": "More overseas production can reduce disruption costs but its effect on Taiwan deterrence can run in either direction.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S008",
+      "TW-S030",
+      "TW-S038",
+      "TW-S044"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Possible resilience benefit and possible loss of economic stakes. No net effect estimated."
+  },
+  {
+    "id": "TW-C052",
+    "text": "A rogue-model incident could cause a Taiwan chip crisis only through further attribution and policy decisions.",
+    "claim_type": "hypothesis",
+    "source_ids": [],
+    "as_of": "2026-10-10",
+    "confidence": "not_assessed",
+    "notes": "Original scenario hook. No reviewed source establishes that such an incident occurred or assigns its probability."
+  },
+  {
+    "id": "TW-C053",
+    "text": "A government order to restrict selected exports could face fewer legal steps than a formal change of sovereignty.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "The corpus does not resolve the exact statutory authority for a future selective chip restriction. That is a required legal update."
+  },
+  {
+    "id": "TW-C054",
+    "text": "A Taiwan disruption could reduce China's chip access as well as US access.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S035",
+      "TW-S042"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "A denial shock is not automatically a relative Chinese AI advantage."
+  },
+  {
+    "id": "TW-C055",
+    "text": "A semiconductor shortage can raise pressure for negotiation, rationing and substitution as well as military escalation.",
+    "claim_type": "analysis",
+    "source_ids": [
+      "TW-S030",
+      "TW-S035",
+      "TW-S036",
+      "TW-S037"
+    ],
+    "as_of": "2026-10-10",
+    "confidence": "medium",
+    "notes": "Do not make war the automatic response to a supply shock."
+  }
+]

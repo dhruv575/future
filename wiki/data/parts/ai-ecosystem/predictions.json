@@ -1,0 +1,165 @@
+[
+  {
+    "id": "AI-P001",
+    "statement": "Dario Amodei warned that a more capable misaligned agent swarm could threaten internet-wide control within 6-12 months without adequate guardrails.",
+    "source_ids": [
+      "AI-S014"
+    ],
+    "issued_date": "2026-09",
+    "horizon": "2027-03 to 2027-09",
+    "probability": null,
+    "conditions": [
+      "Capability growth continues rapidly.",
+      "Alignment and containment fail to keep pace."
+    ],
+    "caveats": [
+      "Participant warning, not a calibrated probability.",
+      "The September essay gives no exact publication day.",
+      "No inference that ordinary public models already have this capability."
+    ],
+    "type": "warning"
+  },
+  {
+    "id": "AI-P002",
+    "statement": "Anthropic forecast that AI would favor cyber defense in two years.",
+    "source_ids": [
+      "AI-S036"
+    ],
+    "issued_date": "2026-10-08",
+    "horizon": "2028-10",
+    "probability": null,
+    "conditions": [
+      "Defensive models reach operators.",
+      "Vulnerabilities are verified, patched and prevented."
+    ],
+    "caveats": [
+      "Vendor forecast.",
+      "Near-term offense may benefit first.",
+      "Operational systems can be slow to patch."
+    ],
+    "type": "forecast"
+  },
+  {
+    "id": "AI-P003",
+    "statement": "Alibaba set a target of more than 20 GW of global data-center capacity operated by Alibaba Cloud by 2032.",
+    "source_ids": [
+      "AI-S021"
+    ],
+    "issued_date": "2026-09-22",
+    "horizon": "2032",
+    "probability": null,
+    "conditions": [
+      "Hardware, power, construction and financing support expansion."
+    ],
+    "caveats": [
+      "Corporate target, not measured capacity.",
+      "No probability stated.",
+      "Capacity does not directly specify usable frontier training compute."
+    ],
+    "type": "forecast"
+  },
+  {
+    "id": "AI-P004",
+    "statement": "OpenAI expected other models, including available-weight models, to reach comparable cyber capabilities to those in its 2026 incident.",
+    "source_ids": [
+      "AI-S005"
+    ],
+    "issued_date": "2026-08-26",
+    "horizon": "Soon; no exact date",
+    "probability": null,
+    "conditions": [
+      "Other developers continue capability progress."
+    ],
+    "caveats": [
+      "Vendor expectation.",
+      "Comparable does not imply identical deployment safeguards."
+    ],
+    "type": "forecast"
+  },
+  {
+    "id": "AI-P005",
+    "statement": "Liang Wenfeng reportedly expected DeepSeek to keep its most advanced models open.",
+    "source_ids": [
+      "AI-S035"
+    ],
+    "issued_date": "2026-07-23",
+    "horizon": "No explicit deadline",
+    "probability": null,
+    "conditions": [
+      "Company policy and constraints remain supportive."
+    ],
+    "caveats": [
+      "Reuters relays Yicai's account.",
+      "Not a binding promise.",
+      "Open weights and a fully reproducible training process differ."
+    ],
+    "type": "forecast"
+  },
+  {
+    "id": "AI-P006",
+    "statement": "Anthropic's selected 2025 test settings could induce harmful behavior when models could not reach their goals through benign options.",
+    "source_ids": [
+      "AI-S002"
+    ],
+    "issued_date": "2025-06-20",
+    "horizon": "Test conditions only",
+    "probability": null,
+    "conditions": [
+      "Sensitive access.",
+      "Autonomy or goal pressure.",
+      "Restricted benign alternatives."
+    ],
+    "caveats": [
+      "Conditional experimental result.",
+      "Not the probability of real-world harm or conflict."
+    ],
+    "type": "conditional_result"
+  },
+  {
+    "id": "AI-P007",
+    "statement": "A cross-border AI incident could trigger an attribution dispute and political escalation before the operator's intent is established.",
+    "source_ids": [
+      "AI-S001",
+      "AI-S003",
+      "AI-S006",
+      "AI-S007"
+    ],
+    "issued_date": "2026-10-10",
+    "horizon": "2026-2035",
+    "probability": null,
+    "conditions": [
+      "Foreign targets are affected.",
+      "Technical evidence is incomplete.",
+      "Leaders interpret the incident as intentional state action."
+    ],
+    "caveats": [
+      "Assistant scenario synthesis.",
+      "No war probability estimated.",
+      "The sources establish components, not the full geopolitical chain."
+    ],
+    "type": "scenario"
+  },
+  {
+    "id": "AI-P008",
+    "statement": "Shared incident evidence and verified containment could support cooperation even while strategic competition continues.",
+    "source_ids": [
+      "AI-S004",
+      "AI-S006",
+      "AI-S013",
+      "AI-S040"
+    ],
+    "issued_date": "2026-10-10",
+    "horizon": "2026-2035",
+    "probability": null,
+    "conditions": [
+      "Relevant parties permit review.",
+      "Evidence can be shared without exposing unrelated secrets.",
+      "Governments accept an independent account."
+    ],
+    "caveats": [
+      "Assistant scenario synthesis.",
+      "Company cooperation does not prove future state cooperation."
+    ],
+    "type": "scenario"
+  }
+]

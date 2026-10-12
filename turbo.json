@@ -1,0 +1,19 @@
+{
+  "$schema": "https://turborepo.dev/schema.json",
+  "agentGuidance": false,
+  "globalDependencies": ["biome.json", "scripts/**", ".go-version", ".env"],
+  "tasks": {
+    "dev": {
+      "cache": false,
+      "persistent": true,
+      "passThroughEnv": ["API_ADDR"]
+    },
+    "build": { "dependsOn": ["^build"], "outputs": ["dist/**"] },
+    "typecheck": { "dependsOn": ["^typecheck"], "outputs": [] },
+    "lint": { "outputs": [] },
+    "test": { "dependsOn": ["^build"], "outputs": [] },
+    "@war-games/api#build": { "cache": false, "outputs": ["dist/**"] },
+    "@war-games/api#lint": { "cache": false },
+    "@war-games/api#test": { "cache": false }
+  }
+}

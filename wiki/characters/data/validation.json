@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checked": "2026-10-11",
+  "people": 79,
+  "covered_person_ids": 81,
+  "alias_ids": 2,
+  "roster_people": 10,
+  "source_records": 212,
+  "unique_source_urls": 212,
+  "voice_confidence": {
+    "high": 16,
+    "low": 26,
+    "medium": 37
+  },
+  "source_access": {
+    "full_text": 178,
+    "partial": 20,
+    "search_excerpt": 14
+  },
+  "local_links_checked": 495,
+  "errors": []
+}

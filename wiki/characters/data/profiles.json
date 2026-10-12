@@ -1,0 +1,1502 @@
+[
+  {
+    "entity_id": "AI-E016",
+    "name": "Sam Altman",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e016.md",
+    "source_ids": [
+      "CH-AI-001",
+      "CH-AI-002",
+      "CH-AI-003",
+      "CH-AI-004",
+      "CH-AI-005"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-04-27",
+    "gaps": [
+      "Private release deliberations and board votes are unknown.",
+      "The public contract summary does not disclose all approval or termination rights.",
+      "The spoken sample is from 2024; refresh it before writing a later dated scene."
+    ]
+  },
+  {
+    "entity_id": "AI-E017",
+    "name": "Dario Amodei",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e017.md",
+    "source_ids": [
+      "CH-AI-006",
+      "CH-AI-007",
+      "CH-AI-008",
+      "CH-AI-009",
+      "CH-AI-041",
+      "CH-AI-042",
+      "CH-AI-043",
+      "CH-AI-044",
+      "CH-AI-045",
+      "CH-AI-046",
+      "CH-AI-047",
+      "CH-AI-048",
+      "CH-AI-049",
+      "CH-AI-050",
+      "CH-AI-051",
+      "CH-AI-052",
+      "CH-AI-053",
+      "CH-AI-054",
+      "CH-AI-055",
+      "CH-AI-056",
+      "CH-AI-057",
+      "CH-AI-058",
+      "CH-AI-059",
+      "CH-AI-060",
+      "CH-AI-061"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-09",
+    "gaps": [
+      "Private decisions and exact tradeoff thresholds are unknown.",
+      "Refresh board/Trust powers and the government-dispute legal status before a later scene.",
+      "Company incident and productivity claims need independent corroboration.",
+      "The NYT op-ed and five direct OpenAI HTML downloads remain access gaps; all six current personal-site essays/posts are archived.",
+      "Forecasts are conditional; the archive is not a complete lifetime bibliography."
+    ]
+  },
+  {
+    "entity_id": "AI-E018",
+    "name": "Demis Hassabis",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e018.md",
+    "source_ids": [
+      "CH-AI-010",
+      "CH-AI-011",
+      "CH-AI-012"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2025-07-23",
+    "gaps": [
+      "These sources do not reveal private discussions with other lab leaders.",
+      "The 2023 organization chart is historical.",
+      "International cooperation is an expressed preference, not guaranteed state access."
+    ]
+  },
+  {
+    "entity_id": "AI-E019",
+    "name": "Koray Kavukcuoglu",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e019.md",
+    "source_ids": [
+      "CH-AI-013",
+      "CH-AI-014"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-03",
+    "gaps": [
+      "The reviewed spoken sample is employer-hosted and has imperfect speaker labels.",
+      "No private incident or export-control position was verified.",
+      "Exact release vetoes and budget delegation are not public in these sources."
+    ]
+  },
+  {
+    "entity_id": "AI-E020",
+    "name": "Sundar Pichai",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e020.md",
+    "source_ids": [
+      "CH-AI-012",
+      "CH-AI-015",
+      "CH-AI-016"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2025-06-05",
+    "gaps": [
+      "No current internal organization chart or private release minutes were reviewed.",
+      "The keynote is edited corporate text.",
+      "Public calm does not prove the same behavior in every private meeting."
+    ]
+  },
+  {
+    "entity_id": "AI-E021",
+    "name": "Mark Zuckerberg",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e021.md",
+    "source_ids": [
+      "CH-AI-017",
+      "CH-AI-018",
+      "CH-AI-019"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-09-28",
+    "gaps": [
+      "No current voting-control filing was reviewed for this brief.",
+      "A 2024 open-model argument does not determine every later model license.",
+      "Commercial announcements do not prove product performance or adoption."
+    ]
+  },
+  {
+    "entity_id": "AI-E022",
+    "name": "Liang Wenfeng",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e022.md",
+    "source_ids": [
+      "CH-AI-020",
+      "CH-AI-021"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025",
+    "gaps": [
+      "Voice evidence is an English translation of one edited Chinese interview.",
+      "The original WeChat article did not open during this pass.",
+      "No direct crisis-policy position or private relationship with Xi was verified.",
+      "The 2024 funding and organization account needs a later refresh."
+    ]
+  },
+  {
+    "entity_id": "AI-E023",
+    "name": "Eddie Wu",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e023.md",
+    "source_ids": [
+      "CH-AI-022",
+      "CH-AI-023"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-22",
+    "gaps": [
+      "The shareholder letter is jointly authored with Joe Tsai.",
+      "The speech is official English text, not a checked original-language recording.",
+      "No private incident-response or military-use position was verified."
+    ]
+  },
+  {
+    "entity_id": "AI-E024",
+    "name": "Robin Li",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e024.md",
+    "source_ids": [
+      "CH-AI-024",
+      "CH-AI-025",
+      "CH-AI-026"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-02-26",
+    "gaps": [
+      "The interview was edited and published after the event.",
+      "No detailed current governance or share-voting record was reviewed.",
+      "No first-person position on a US–China military crisis was verified."
+    ]
+  },
+  {
+    "entity_id": "AI-E025",
+    "name": "Pony Ma / Ma Huateng",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e025.md",
+    "source_ids": [
+      "CH-AI-027",
+      "CH-AI-028",
+      "CH-AI-029"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2025-04-08",
+    "gaps": [
+      "No long, spontaneous interview was verified in this pass.",
+      "The strongest text is formal English corporate communication.",
+      "The biography lacks a publication date.",
+      "No private relationship with a government decision-maker was established."
+    ]
+  },
+  {
+    "entity_id": "AI-E026",
+    "name": "Satya Nadella",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e026.md",
+    "source_ids": [
+      "CH-AI-004",
+      "CH-AI-005",
+      "CH-AI-030",
+      "CH-AI-031"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-04-27",
+    "gaps": [
+      "Full private partnership contracts and incident obligations were not reviewed.",
+      "The 2025 interview is not a complete forecast of his 2027 choices.",
+      "The annual letter's security claims were not independently audited here."
+    ]
+  },
+  {
+    "entity_id": "AI-E027",
+    "name": "Andy Jassy",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e027.md",
+    "source_ids": [
+      "CH-AI-032",
+      "CH-AI-033",
+      "CH-AI-034"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026",
+    "gaps": [
+      "This pass relies mainly on letters and an employee message, not spontaneous speech.",
+      "Exact private cloud-partner contracts are outside these sources.",
+      "The 2026 letter's publication day was not visible in the retrieved body."
+    ]
+  },
+  {
+    "entity_id": "AI-E028",
+    "name": "Clément Delangue",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e028.md",
+    "source_ids": [
+      "CH-AI-035",
+      "CH-AI-036",
+      "CH-AI-037"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2025-04-10",
+    "gaps": [
+      "The 2025 policy is a live organizational page and may contain later additions.",
+      "No private moderation decisions were reviewed.",
+      "The speech sample does not establish how he would respond to a particular crisis."
+    ]
+  },
+  {
+    "entity_id": "AI-E029",
+    "name": "Elon Musk",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e029.md",
+    "source_ids": [
+      "CH-AI-038",
+      "CH-AI-039",
+      "CH-AI-040"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-08-11",
+    "gaps": [
+      "Tesla's undated biography has stale passages and is not a complete current role record.",
+      "The 2026 SpaceX employee video was not reviewed directly.",
+      "No confidential government contract or command delegation was reviewed.",
+      "The main long interview is from 2023; later voice changes need a new sample."
+    ]
+  },
+  {
+    "entity_id": "AI-E047",
+    "name": "Daniela Amodei",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e047.md",
+    "source_ids": [
+      "CH-AI-062"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "No substantial spoken sample was used. Her private board votes, crisis preferences, and personal speaking habits remain unknown."
+    ]
+  },
+  {
+    "entity_id": "AI-E048",
+    "name": "Jared Kaplan",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e048.md",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-067",
+      "CH-AI-066"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Research papers support subject matter better than dialogue cadence. No evidence here fixes his private risk threshold."
+    ]
+  },
+  {
+    "entity_id": "AI-E049",
+    "name": "Chris Olah",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e049.md",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-052",
+      "CH-AI-066"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Public demonstrations cover selected behavior. Future interpretability tools and findings in the route are invented."
+    ]
+  },
+  {
+    "entity_id": "AI-E050",
+    "name": "Jan Leike",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e050.md",
+    "source_ids": [
+      "CH-AI-063",
+      "CH-AI-064"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "The cited progress is his assessment. Future roles, trials, audit results, and private preferences are scenario assumptions."
+    ]
+  },
+  {
+    "entity_id": "AI-E051",
+    "name": "Amanda Askell",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e051.md",
+    "source_ids": [
+      "CH-AI-065",
+      "CH-AI-066",
+      "CH-AI-052"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "A public constitution cannot reveal a model's inner experience or establish future behavior. Private policy disputes are unknown."
+    ]
+  },
+  {
+    "entity_id": "AI-E052",
+    "name": "Jack Clark",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e052.md",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-054"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Joint authorship does not identify who wrote each sentence. Private diplomatic access and bargaining positions are not known."
+    ]
+  },
+  {
+    "entity_id": "AI-E053",
+    "name": "Brian Israel",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e053.md",
+    "source_ids": [
+      "CH-AI-062"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "No substantial spoken sample or private advice was used. Contract terms and litigation outcomes in the route are fiction."
+    ]
+  },
+  {
+    "entity_id": "AI-E054",
+    "name": "Tom Brown",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e054.md",
+    "source_ids": [
+      "CH-AI-062",
+      "CH-AI-068",
+      "CH-AI-067"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "The papers provide little evidence of speaking style. Private capacity contracts and allocation plans are unknown."
+    ]
+  },
+  {
+    "entity_id": "AI-E055",
+    "name": "Krishna Rao",
+    "alias_ids": [],
+    "brief_path": "characters/people/ai-e055.md",
+    "source_ids": [
+      "CH-AI-062"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "No substantial spoken sample or private financial data was used. All budgets and commitments in the route are invented."
+    ]
+  },
+  {
+    "entity_id": "SD-E025",
+    "name": "Donald Trump",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e025.md",
+    "source_ids": [
+      "CH-SD-001",
+      "CH-SD-002",
+      "CH-SD-003",
+      "CH-SD-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Private negotiating style is not observed.",
+      "Post-2028 office and policies require a scenario assumption."
+    ]
+  },
+  {
+    "entity_id": "SD-E026",
+    "name": "JD Vance",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e026.md",
+    "source_ids": [
+      "CH-SD-005",
+      "CH-SD-006",
+      "CH-SD-007",
+      "CH-SD-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Military-AI remarks are a pool summary, not a full transcript.",
+      "A vice president's delegated crisis portfolio must be stated."
+    ]
+  },
+  {
+    "entity_id": "SD-E027",
+    "name": "Pete Hegseth",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e027.md",
+    "source_ids": [
+      "CH-SD-008",
+      "CH-SD-009",
+      "CH-SD-003"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Only one full speech anchors voice.",
+      "The current department's secondary title must not obscure legal powers.",
+      "No personal model-evaluation position verified."
+    ]
+  },
+  {
+    "entity_id": "SD-E028",
+    "name": "Marco Rubio",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e028.md",
+    "source_ids": [
+      "CH-SD-010",
+      "CH-SD-009",
+      "CH-SD-003"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "One hearing supplies most voice material.",
+      "No personal frontier-model safety position verified.",
+      "Additional concurrent offices were not verified."
+    ]
+  },
+  {
+    "entity_id": "SD-E029",
+    "name": "Dan Caine",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e029.md",
+    "source_ids": [
+      "CH-SD-011",
+      "CH-SD-012",
+      "CH-SD-003",
+      "CH-SD-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-11",
+    "gaps": [
+      "Current biography body was blocked.",
+      "One confirmation hearing anchors voice.",
+      "Detailed private advice and operational plans are unavailable."
+    ]
+  },
+  {
+    "entity_id": "SD-E030",
+    "name": "Samuel Paparo",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e030.md",
+    "source_ids": [
+      "CH-SD-013",
+      "CH-SD-014",
+      "CH-SD-008",
+      "CH-SD-003"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-05-31",
+    "gaps": [
+      "Most recent full role evidence used here is May 2025.",
+      "The November 2024 report body was inaccessible.",
+      "No full personal AI speech was verified in this pass."
+    ]
+  },
+  {
+    "entity_id": "SD-E031",
+    "name": "Xi Jinping",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e031.md",
+    "source_ids": [
+      "CH-SD-015",
+      "CH-SD-016",
+      "CH-SD-017",
+      "CH-SD-032",
+      "CH-SD-033",
+      "CH-SD-034"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-30",
+    "gaps": [
+      "Private speech and internal deliberations are not observed.",
+      "AI study-session material is a readout, not verbatim remarks.",
+      "Future command structure and tenure require explicit assumptions."
+    ]
+  },
+  {
+    "entity_id": "SD-E032",
+    "name": "Wang Yi",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e032.md",
+    "source_ids": [
+      "CH-SD-018",
+      "CH-SD-019",
+      "CH-SD-020",
+      "CH-SD-033"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-08-28",
+    "gaps": [
+      "Formal public events dominate voice evidence.",
+      "Private negotiating instructions are not known.",
+      "The brief does not assign independent military authority."
+    ]
+  },
+  {
+    "entity_id": "SD-E033",
+    "name": "Dong Jun",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e033.md",
+    "source_ids": [
+      "CH-SD-018",
+      "CH-SD-021",
+      "CH-SD-022",
+      "CH-SD-033"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-08-28",
+    "gaps": [
+      "No full original speech or unscripted interview was retrieved.",
+      "Personal AI preferences are not established.",
+      "Defense-minister title does not establish operational control."
+    ]
+  },
+  {
+    "entity_id": "SD-E036",
+    "name": "Sanae Takaichi",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e036.md",
+    "source_ids": [
+      "CH-TW-036",
+      "CH-TW-037",
+      "CH-TW-038"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-06-17",
+    "gaps": [
+      "Several Kantei pages could not be opened; their excerpts are labeled.",
+      "A sustained Japanese interview is needed to establish conversational voice.",
+      "A current Diet record is needed before using a precise Taiwan intervention threshold."
+    ]
+  },
+  {
+    "entity_id": "SD-E037",
+    "name": "Ferdinand Marcos Jr.",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e037.md",
+    "source_ids": [
+      "CH-TW-039",
+      "CH-TW-040"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-08",
+    "gaps": [
+      "Only two independent source items are included here.",
+      "Current role check relies on an official search excerpt.",
+      "A full unscripted exchange and a separate legal authority check remain necessary."
+    ]
+  },
+  {
+    "entity_id": "SD-E038",
+    "name": "Lee Jae Myung",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e038.md",
+    "source_ids": [
+      "CH-TW-041",
+      "CH-TW-042",
+      "CH-TW-043"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-08-15",
+    "gaps": [
+      "The Korean AI speech is summarized in researcher translation.",
+      "The English Liberation Day text is labeled unofficial translation by its publisher.",
+      "Private speech and a detailed Taiwan contingency position are not established."
+    ]
+  },
+  {
+    "entity_id": "SD-E039",
+    "name": "Anthony Albanese",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e039.md",
+    "source_ids": [
+      "CH-TW-044",
+      "CH-TW-045",
+      "CH-TW-046"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2023-06-03",
+    "gaps": [
+      "Much of the detailed voice evidence is from 2023.",
+      "Specific current deployment decisions require separate research."
+    ]
+  },
+  {
+    "entity_id": "SD-E040",
+    "name": "Richard Marles",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e040.md",
+    "source_ids": [
+      "CH-TW-047",
+      "CH-TW-048",
+      "CH-TW-049"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-04-17",
+    "gaps": [
+      "Readiness and procurement success are not independently audited here.",
+      "The evidence does not establish his exact view of a specific autonomous system.",
+      "Private cabinet behavior remains unknown."
+    ]
+  },
+  {
+    "entity_id": "SD-E041",
+    "name": "Rob Jetten",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e041.md",
+    "source_ids": [
+      "CH-TW-050",
+      "CH-TW-051",
+      "CH-TW-052",
+      "CH-TW-053"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-25",
+    "gaps": [
+      "Reviewed voice material is prepared public speech.",
+      "A specific current export-control position must be checked separately.",
+      "The UN speech body date differs from its URL."
+    ]
+  },
+  {
+    "entity_id": "SD-E042",
+    "name": "Andy Burnham",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e042.md",
+    "source_ids": [
+      "CH-TW-054",
+      "CH-TW-055",
+      "CH-TW-056"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2026-10-09",
+    "gaps": [
+      "Only one extended speech after taking national office was reviewed.",
+      "Current role is supported by the live official page; future tenure is unknown.",
+      "A private crisis voice and detailed military policy need further evidence."
+    ]
+  },
+  {
+    "entity_id": "SD-E043",
+    "name": "Ursula von der Leyen",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e043.md",
+    "source_ids": [
+      "CH-TW-057",
+      "CH-TW-058",
+      "CH-TW-059"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-07-24",
+    "gaps": [
+      "Available voice sample is a short attributed public statement.",
+      "A full interview is needed for conversational rhythm.",
+      "EU legal instruments require their own authority check before game use."
+    ]
+  },
+  {
+    "entity_id": "SD-E044",
+    "name": "António Costa",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e044.md",
+    "source_ids": [
+      "CH-TW-060",
+      "CH-TW-061",
+      "CH-TW-062"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-07-24",
+    "gaps": [
+      "Prepared remarks are stronger evidence than spontaneous speech.",
+      "No detailed personal frontier-model policy was established.",
+      "Member-state positions must be researched for each Council negotiation."
+    ]
+  },
+  {
+    "entity_id": "SD-E045",
+    "name": "Vladimir Putin",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e045.md",
+    "source_ids": [
+      "CH-SD-027",
+      "CH-SD-028",
+      "CH-SD-029"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-04-10",
+    "gaps": [
+      "Direct Kremlin transcripts could not be opened.",
+      "2025 speech mirror provenance remains incomplete.",
+      "No private crisis deliberation or AI-war threshold is established."
+    ]
+  },
+  {
+    "entity_id": "SD-E046",
+    "name": "Kim Jong Un",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e046.md",
+    "source_ids": [
+      "CH-SD-017",
+      "CH-SD-030",
+      "CH-SD-031"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-06-08",
+    "gaps": [
+      "Korean original and spontaneous speech were not checked.",
+      "KCNA translation is curated state messaging.",
+      "No personal frontier-AI policy was verified."
+    ]
+  },
+  {
+    "entity_id": "SD-E047",
+    "name": "Zhang Youxia",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e047.md",
+    "source_ids": [
+      "CH-SD-023",
+      "CH-SD-024",
+      "CH-SD-025",
+      "CH-SD-033"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-09-21",
+    "gaps": [
+      "September 2026 notice was only accessible through its index.",
+      "No independent adjudication of allegations is established.",
+      "Few direct speech samples; future command authority is excluded."
+    ]
+  },
+  {
+    "entity_id": "SD-E048",
+    "name": "Liu Zhenli",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e048.md",
+    "source_ids": [
+      "CH-SD-026",
+      "CH-SD-024",
+      "CH-SD-025",
+      "CH-SD-033"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-09-21",
+    "gaps": [
+      "Official disciplinary notice body remains inaccessible.",
+      "The 2023 call is a readout, not a transcript.",
+      "Future military authority is excluded."
+    ]
+  },
+  {
+    "entity_id": "SD-E067",
+    "name": "Alex Karp",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e067.md",
+    "source_ids": [
+      "CH-RD-037",
+      "CH-RD-038"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-17",
+    "gaps": [
+      "CNBC source is selected unofficial transcript excerpts, not full interview.",
+      "2020 corporate letter is historical evidence, not current governance verification.",
+      "Private intent and confidential customer decisions are unknown."
+    ]
+  },
+  {
+    "entity_id": "SD-E069",
+    "name": "Palmer Luckey",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e069.md",
+    "source_ids": [
+      "CH-RD-039",
+      "CH-RD-040"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-05-07",
+    "gaps": [
+      "Main full interview recorded May 7, 2026; page publication date not exposed.",
+      "Second source is only episode summary and biography.",
+      "Founder title does not establish sole corporate decision rights."
+    ]
+  },
+  {
+    "entity_id": "SD-E070",
+    "name": "Brian Schimpf",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e070.md",
+    "source_ids": [
+      "CH-RD-041",
+      "CH-RD-042"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-01-28",
+    "gaps": [
+      "Sources are investor-hosted public interviews.",
+      "Product performance and procurement claims need independent corroboration.",
+      "Current 2026 title and private decision rights are not audited beyond dated interviews."
+    ]
+  },
+  {
+    "entity_id": "SD-E072",
+    "name": "Jim Taiclet",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e072.md",
+    "source_ids": [
+      "CH-RD-043",
+      "CH-RD-044"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2023-09-20",
+    "gaps": [
+      "Prepared testimony supports formal rhetoric, not private conversational cadence.",
+      "Current authority must be rechecked for future game dates.",
+      "Original dossier lacked exact testimony date; verified here."
+    ]
+  },
+  {
+    "entity_id": "SD-E074",
+    "name": "Christopher Calio",
+    "alias_ids": [],
+    "brief_path": "characters/people/sd-e074.md",
+    "source_ids": [
+      "CH-RD-045",
+      "CH-RD-046",
+      "CH-RD-047"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-01-27",
+    "gaps": [
+      "No full spontaneous interview reviewed; earnings-call PDF could not be opened.",
+      "No personal position on frontier-model governance established.",
+      "Operational authority is corporate, not military."
+    ]
+  },
+  {
+    "entity_id": "ST-E001",
+    "name": "Jacquelyn Schneider",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e001.md",
+    "source_ids": [
+      "CH-RD-001",
+      "CH-RD-002",
+      "CH-RD-003"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2024-10-03",
+    "gaps": [
+      "Interview publication date not exposed.",
+      "Private crisis-room manner and future appointments are unknown."
+    ]
+  },
+  {
+    "entity_id": "ST-E002",
+    "name": "Max Lamparth",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e002.md",
+    "source_ids": [
+      "CH-RD-003",
+      "CH-RD-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2024-10-03",
+    "gaps": [
+      "No sustained spoken interview reviewed.",
+      "Personal site is undated; CV link has a September 2026 update marker.",
+      "Individual policy preferences cannot be recovered from coauthorship."
+    ]
+  },
+  {
+    "entity_id": "ST-E003",
+    "name": "Kenneth Payne",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e003.md",
+    "source_ids": [
+      "CH-RD-005",
+      "CH-RD-006",
+      "CH-RD-007"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-02-16",
+    "gaps": [
+      "No extended spoken transcript reviewed.",
+      "The 2026 preprint is a simulation, not a forecast of real nuclear decisions."
+    ]
+  },
+  {
+    "entity_id": "ST-E004",
+    "name": "Sam Bresnick",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e004.md",
+    "source_ids": [
+      "CH-RD-008",
+      "CH-RD-009"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": null,
+    "gaps": [
+      "No full spoken interview reviewed.",
+      "Report summary reviewed; underlying full report not read in this task.",
+      "June 2024 publication has no verified day."
+    ]
+  },
+  {
+    "entity_id": "ST-E005",
+    "name": "James M. Acton",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e005.md",
+    "source_ids": [
+      "CH-RD-010",
+      "CH-RD-011"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2016-08-18",
+    "gaps": [
+      "Main voice sample dates to 2016.",
+      "No current classified command-and-control access established.",
+      "Recent personal positions on frontier-model governance need more direct evidence."
+    ]
+  },
+  {
+    "entity_id": "ST-E006",
+    "name": "Daniel Kokotajlo",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e006.md",
+    "source_ids": [
+      "CH-RD-012",
+      "CH-RD-013",
+      "CH-RD-014"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-08-27",
+    "gaps": [
+      "Private OpenAI disputes and current internal access are not verified.",
+      "Forecasts and recommendations require separate dates and labels."
+    ]
+  },
+  {
+    "entity_id": "ST-E007",
+    "name": "Eli Lifland",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e007.md",
+    "source_ids": [
+      "CH-RD-012",
+      "CH-RD-015"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2025-05-07",
+    "gaps": [
+      "No extended spoken interview reviewed.",
+      "Latest linked forecasting model not independently audited here.",
+      "Formal leadership and technical authority differ from government authority."
+    ]
+  },
+  {
+    "entity_id": "ST-E008",
+    "name": "Leopold Aschenbrenner",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e008.md",
+    "source_ids": [
+      "CH-RD-016",
+      "CH-RD-017"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2024-06-04",
+    "gaps": [
+      "This brief is anchored to June 2024, not his complete 2026 public record.",
+      "Current investment role and holdings not verified.",
+      "Claims about former employers require separate corroboration."
+    ]
+  },
+  {
+    "entity_id": "ST-E009",
+    "name": "Matt Sheehan",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e009.md",
+    "source_ids": [
+      "CH-RD-018",
+      "CH-RD-019",
+      "CH-RD-020"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-07-23",
+    "gaps": [
+      "Written first-person material reviewed; no sustained spoken transcript.",
+      "Proposal is not evidence of government agreement.",
+      "Private access and personal ties are unverified."
+    ]
+  },
+  {
+    "entity_id": "ST-E010",
+    "name": "Katja Grace",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e010.md",
+    "source_ids": [
+      "CH-RD-021",
+      "CH-RD-022"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2024-01-05",
+    "gaps": [
+      "Main voice sample is from 2018.",
+      "Current organizational title not re-established by a dated role source.",
+      "Survey results are respondent beliefs, not her personal forecast."
+    ]
+  },
+  {
+    "entity_id": "ST-E011",
+    "name": "Dan Hendrycks",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e011.md",
+    "source_ids": [
+      "CH-RD-023",
+      "CH-RD-024"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2025-04-14",
+    "gaps": [
+      "No extended individual interview reviewed.",
+      "Advisory decision rights not specified.",
+      "Joint policy paper abstract cannot establish individual conversational style."
+    ]
+  },
+  {
+    "entity_id": "ST-E012",
+    "name": "Eric Schmidt",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e012.md",
+    "source_ids": [
+      "CH-RD-024",
+      "CH-RD-025",
+      "CH-RD-026"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-04-14",
+    "gaps": [
+      "Current portfolio and any defense-company operating role not audited.",
+      "Main interview is dated May 2024.",
+      "Joint paper is not evidence that government adopted the proposal."
+    ]
+  },
+  {
+    "entity_id": "ST-E013",
+    "name": "Alexandr Wang",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e013.md",
+    "source_ids": [
+      "CH-RD-024",
+      "CH-RD-027",
+      "CH-RD-028"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2025-06-12",
+    "gaps": [
+      "Exact later Meta title and authority not verified in this source set.",
+      "Prepared public letters support rhetoric, not spontaneous speech.",
+      "Do not carry Scale CEO title past June 12, 2025."
+    ]
+  },
+  {
+    "entity_id": "ST-E014",
+    "name": "Tobias Sytsma",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e014.md",
+    "source_ids": [
+      "CH-RD-029",
+      "CH-RD-031",
+      "CH-RD-048"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-30",
+    "gaps": [
+      "A model's equilibrium conditions are not measured political probabilities.",
+      "Main voice sample addresses labor economics, not a private security negotiation."
+    ]
+  },
+  {
+    "entity_id": "ST-E015",
+    "name": "Alvin Moon",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e015.md",
+    "source_ids": [
+      "CH-RD-030",
+      "CH-RD-031"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-09-30",
+    "gaps": [
+      "No sustained first-person speech sample reviewed.",
+      "Joint report summary does not establish individual policy preferences.",
+      "Full mathematical report not reviewed in this task."
+    ]
+  },
+  {
+    "entity_id": "ST-E016",
+    "name": "Abby Doll",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e016.md",
+    "source_ids": [
+      "CH-RD-032",
+      "CH-RD-034"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-04-29",
+    "gaps": [
+      "No extended first-person interview reviewed.",
+      "Breakwater summary is preliminary and partial.",
+      "No evidence of current military command authority."
+    ]
+  },
+  {
+    "entity_id": "ST-E017",
+    "name": "Karl P. Mueller",
+    "alias_ids": [],
+    "brief_path": "characters/people/st-e017.md",
+    "source_ids": [
+      "CH-RD-033",
+      "CH-RD-034",
+      "CH-RD-035",
+      "CH-RD-036"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-09-24",
+    "gaps": [
+      "Public analysis is not evidence of Chinese internal plans.",
+      "No future government appointment established.",
+      "Paper summaries reviewed, not full reports."
+    ]
+  },
+  {
+    "entity_id": "TW-E008",
+    "name": "Lai Ching-te",
+    "alias_ids": [
+      "SD-E034"
+    ],
+    "brief_path": "characters/people/tw-e008.md",
+    "source_ids": [
+      "CH-TW-001",
+      "CH-TW-002",
+      "CH-TW-003",
+      "CH-TW-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-10-10",
+    "gaps": [
+      "Spontaneous Mandarin crisis discussion is not covered.",
+      "No private bargaining or 2035 tenure is established."
+    ]
+  },
+  {
+    "entity_id": "TW-E009",
+    "name": "Hsiao Bi-khim",
+    "alias_ids": [
+      "SD-E035"
+    ],
+    "brief_path": "characters/people/tw-e009.md",
+    "source_ids": [
+      "CH-TW-004",
+      "CH-TW-005",
+      "CH-TW-006",
+      "CH-TW-007"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2026-07-07",
+    "gaps": [
+      "Prepared English public speech is stronger evidence than private conversational cadence.",
+      "The exact scope of each presidential assignment must be defined in a scene."
+    ]
+  },
+  {
+    "entity_id": "TW-E010",
+    "name": "Cho Jung-tai",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e010.md",
+    "source_ids": [
+      "CH-TW-004",
+      "CH-TW-008",
+      "CH-TW-009",
+      "CH-TW-010"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-10-01",
+    "gaps": [
+      "No extended spontaneous interview was reviewed.",
+      "An English cabinet readout cannot establish his personal cadence."
+    ]
+  },
+  {
+    "entity_id": "TW-E011",
+    "name": "Han Kuo-yu",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e011.md",
+    "source_ids": [
+      "CH-TW-004",
+      "CH-TW-011",
+      "CH-TW-012",
+      "CH-TW-013"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-05-10",
+    "gaps": [
+      "Recent full legislative Q&A is missing.",
+      "2019 mayoral rhetoric must not define every later institutional scene."
+    ]
+  },
+  {
+    "entity_id": "TW-E012",
+    "name": "Cheng Li-wun",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e012.md",
+    "source_ids": [
+      "CH-TW-014",
+      "CH-TW-015",
+      "CH-TW-016",
+      "CH-TW-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2026-06-12",
+    "gaps": [
+      "Full original-language interviews are needed for voice.",
+      "No sourced plan to cut US access to TSMC was found.",
+      "Party statements do not establish electoral mandate or executive power."
+    ]
+  },
+  {
+    "entity_id": "TW-E013",
+    "name": "Huang Kuo-chang",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e013.md",
+    "source_ids": [
+      "CH-TW-017",
+      "CH-TW-018",
+      "CH-TW-019",
+      "CH-TW-004"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2025-04-22",
+    "gaps": [
+      "Party profile may retain a stale legislator label.",
+      "No full adversarial spoken transcript was accessible.",
+      "Current policy details need verification beyond historical party readouts."
+    ]
+  },
+  {
+    "entity_id": "TW-E015",
+    "name": "C.C. Wei",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e015.md",
+    "source_ids": [
+      "CH-TW-020",
+      "CH-TW-021",
+      "CH-TW-034"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "high",
+    "evidence_through": "2025-10-16",
+    "gaps": [
+      "Public earnings speech is not private crisis speech.",
+      "Current contracts, capacity allocation and emergency delegations are not public here."
+    ]
+  },
+  {
+    "entity_id": "TW-E016",
+    "name": "Sylvia Fang",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e016.md",
+    "source_ids": [
+      "CH-TW-020",
+      "CH-TW-022",
+      "CH-TW-023"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "low",
+    "evidence_through": "2019-09-27",
+    "gaps": [
+      "No usable full spoken interview or speech was reviewed.",
+      "Do not infer conversational style from the general-counsel title.",
+      "Exact transaction and incident authority depends on delegation."
+    ]
+  },
+  {
+    "entity_id": "TW-E018",
+    "name": "Christophe Fouquet",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e018.md",
+    "source_ids": [
+      "CH-TW-024",
+      "CH-TW-025",
+      "CH-TW-026"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2024-12-02",
+    "gaps": [
+      "The CEO message is an edited company Q&A.",
+      "A full adversarial interview is needed before writing distinctive spontaneous speech.",
+      "Latest license rules are outside this character brief."
+    ]
+  },
+  {
+    "entity_id": "TW-E020",
+    "name": "Jensen Huang",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e020.md",
+    "source_ids": [
+      "CH-TW-027",
+      "CH-TW-028",
+      "CH-TW-029"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-07-14",
+    "gaps": [
+      "Keynote excerpts and company readouts do not establish private negotiation behavior.",
+      "A full unscripted interview is still needed for high-confidence voice.",
+      "Current export licenses and capacity promises require separate checks."
+    ]
+  },
+  {
+    "entity_id": "TW-E022",
+    "name": "Lisa Su",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e022.md",
+    "source_ids": [
+      "CH-TW-030",
+      "CH-TW-031",
+      "CH-TW-032"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2025-05-08",
+    "gaps": [
+      "TIME edited the interview.",
+      "No private crisis negotiation is documented.",
+      "Product roadmaps and partnerships need source-date checks before use."
+    ]
+  },
+  {
+    "entity_id": "TW-E039",
+    "name": "Mark Liu",
+    "alias_ids": [],
+    "brief_path": "characters/people/tw-e039.md",
+    "source_ids": [
+      "CH-TW-033",
+      "CH-TW-034",
+      "CH-TW-035",
+      "CH-TW-020"
+    ],
+    "role_status": "dated_evidence",
+    "voice_confidence": "medium",
+    "evidence_through": "2023-12-19",
+    "gaps": [
+      "Post-retirement influence and access were not established.",
+      "Statements on invasion are historical assessments, not present intelligence.",
+      "CNN marks the transcript as a rush transcript."
+    ]
+  }
+]

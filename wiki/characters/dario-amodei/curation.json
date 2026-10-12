@@ -1,0 +1,227 @@
+{
+  "DA-W01": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Framework and all five benefit areas.",
+    "limits": "Conditional vision. Its post-arrival horizon is not a fixed calendar deadline.",
+    "character_source_id": "CH-AI-006"
+  },
+  "DA-W02": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Export-control argument, DeepSeek distinction, and footnotes.",
+    "limits": "Advocacy and forecasts from a competitor; chip estimates are not independently audited.",
+    "character_source_id": "CH-AI-007"
+  },
+  "DA-W03": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Interpretability methods, applications, limits, and policy proposals.",
+    "limits": "Research targets are not achieved safety guarantees.",
+    "character_source_id": "CH-AI-041"
+  },
+  "DA-W04": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Five risk categories, proposed responses, and interactions.",
+    "limits": "Scenarios and personal risk judgments are not calibrated event probabilities.",
+    "character_source_id": "CH-AI-042"
+  },
+  "DA-W05": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Regulation, distribution, beneficial applications, civil liberties, and democratic coordination.",
+    "limits": "June 2026 body date. Policy advocacy, not a description of enacted law.",
+    "character_source_id": "CH-AI-043"
+  },
+  "DA-W06": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "RSI concern, incident argument, embedded evaluation, and domestic/global pacing.",
+    "limits": "September 2026 body date. Commitments and proposals require later implementation checks.",
+    "character_source_id": "CH-AI-044"
+  },
+  "DA-W07": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Author-index title, publisher URL, and access status.",
+    "limits": "HTTP 403. Full body not reviewed; no direct quotes or substantive profile claims from this op-ed."
+  },
+  "DA-W08": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Publisher byline and opening through web retrieval.",
+    "limits": "Direct HTML HTTP 401. Use DA-W08P for the full article; not a second independent source."
+  },
+  "DA-W09": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Full signed statement.",
+    "limits": "Dario assessment of summit priorities, not a neutral account of every summit outcome.",
+    "character_source_id": "CH-AI-045"
+  },
+  "DA-W10": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Full signed statement.",
+    "limits": "Company advocacy; public commitments do not prove compliance.",
+    "character_source_id": "CH-AI-046"
+  },
+  "DA-W11": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Full signed statement and its two exceptions.",
+    "limits": "One party to a dispute. Legal claims and assertions about negotiations require independent checks.",
+    "character_source_id": "CH-AI-047"
+  },
+  "DA-W12": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Full signed statement, transition plan, and correction.",
+    "limits": "March position, not the October case outcome; does not validate a leaked memo.",
+    "character_source_id": "CH-AI-048"
+  },
+  "DA-W13": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Benefits, risk framework, policy recommendations, and p. 6 quote; p. 1 visually checked.",
+    "limits": "Document says July 25 although the URL filename says July 26. Text extraction splits many words onto separate lines.",
+    "character_source_id": "CH-AI-050"
+  },
+  "DA-I01": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Scaling, diffusion, compute financing, regulation, and US-China chapters.",
+    "limits": "Spoken primary account. Financial claims are not audited; relevant sections reviewed, not a full fact-check.",
+    "character_source_id": "CH-AI-051"
+  },
+  "DA-I02": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Dario sections on scaling, biological progress, and meaning/power; 02:40:21 quote.",
+    "limits": "Transcript posted November 11, 2024. Also includes Amanda Askell and Chris Olah; never attribute their sections to Dario. No audio audit.",
+    "character_source_id": "CH-AI-052"
+  },
+  "DA-I03": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Scaling, misuse, and governance; retained from the earlier character brief.",
+    "limits": "2023 voice and position sample. Does not establish his later stance.",
+    "character_source_id": "CH-AI-008"
+  },
+  "DA-C01": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Biography and complete current publication list.",
+    "limits": "Undated author-maintained biography; six essays/posts and two linked op-eds.",
+    "character_source_id": "CH-AI-055"
+  },
+  "DA-C02": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "All listed essay and post paths compared with the homepage.",
+    "limits": "Discovery only. Sitemap timestamps are not publication dates."
+  },
+  "DA-C03": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Trust design and board-selection provisions.",
+    "limits": "Institutional source from 2023. Later powers and membership need a refresh.",
+    "character_source_id": "CH-AI-009"
+  },
+  "DA-C04": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Original conditional structure, version 3 changes, and nonbinding roadmap targets.",
+    "limits": "Institutional policy. Read the operative version before assigning a game veto.",
+    "character_source_id": "CH-AI-053"
+  },
+  "DA-C05": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "RSI definition, development sequence, and review bottlenecks.",
+    "limits": "By Marina Favaro and Jack Clark. Company data, not personal Dario writing or proof of fully autonomous RSI.",
+    "character_source_id": "CH-AI-054"
+  },
+  "DA-C06": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Publication metadata and opening energy/infrastructure argument.",
+    "limits": "Supporting institutional context; not treated as a personal essay or used for the profile evidence."
+  },
+  "DA-C07": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Full signed post and footnotes.",
+    "limits": "Explicit Dario byline. The C-series ID is retained for stable links; category corrected to personal_post.",
+    "character_source_id": "CH-AI-049"
+  },
+  "DA-C08": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Incident setting, containment response, alignment issues, and pacing distinction.",
+    "limits": "Company self-report. Some evaluations removed safeguards; external review was planned, not shown complete here.",
+    "character_source_id": "CH-AI-056"
+  },
+  "DA-W14": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Signed article on newspaper p. 5; all three columns checked visually.",
+    "limits": "Whole issue archived. Other articles and OCR errors are not Dario writing. Historical position, not present-day doctrine.",
+    "character_source_id": "CH-AI-057"
+  },
+  "DA-W15": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Publisher search text: date, named authors, and project list.",
+    "limits": "Direct HTML HTTP 403. Coauthored with Ilya Sutskever and Sam Altman; no original file archived."
+  },
+  "DA-W16": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Publisher web-reader body, date, and authors.",
+    "limits": "Direct HTML HTTP 403. Coauthored with Jack Clark; no original file archived."
+  },
+  "DA-W17": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Publisher web-reader body, date, and authors.",
+    "limits": "Direct HTML HTTP 403. Coauthored with Paul Christiano and Alex Ray; no original file archived."
+  },
+  "DA-W18": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Publisher web-reader body, date, named authors, and limitations.",
+    "limits": "Direct HTML HTTP 403. Coauthored with Geoffrey Irving; no original file archived. Related paper is DA-P04."
+  },
+  "DA-W19": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Publisher web-reader body, date, and original-post authors.",
+    "limits": "Direct HTML HTTP 403. Dario and Danny Hernandez wrote the original post; the addendum has different authors."
+  },
+  "DA-W20": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Title page and file metadata only.",
+    "limits": "Six-slide PDF. Extracted text is sparse; diagrams require visual review. No substantive claims taken from it."
+  },
+  "DA-W08P": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Full op-ed on p. A17, including byline and print date; visually checked.",
+    "limits": "Coauthored with Matt Pottinger. Whole issue archived; unrelated articles are not part of this source.",
+    "character_source_id": "CH-AI-058"
+  },
+  "DA-P01": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Safety taxonomy in abstract and introduction.",
+    "limits": "Coauthored research, not sole-authored personal policy. Current PDF version; date is first arXiv submission.",
+    "character_source_id": "CH-AI-059"
+  },
+  "DA-P02": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Title, author list, and abstract.",
+    "limits": "Selected technical foundation. Scaling observations do not prove a date for RSI."
+  },
+  "DA-P03": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Title, author list, and abstract.",
+    "limits": "Selected technical foundation. Human feedback in tested environments is not universal alignment."
+  },
+  "DA-P04": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Title, author list, and abstract.",
+    "limits": "Selected technical foundation. Debate is a research proposal, not a proven guarantee."
+  },
+  "DA-P05": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Title, author list, and executive framing.",
+    "limits": "Multi-author report. Do not attribute the entire text or every recommendation to Dario personally."
+  },
+  "DA-P06": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Title, author list, and abstract.",
+    "limits": "Selected technical foundation. Predictable aggregate performance can coexist with surprising capabilities."
+  },
+  "DA-C09": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Full report, impact qualifiers, evaluation restrictions, and remediation.",
+    "limits": "Company self-report. Most cases were found by retrospective review; publication date is not occurrence date. No claim of imminent loss of human control.",
+    "character_source_id": "CH-AI-060"
+  },
+  "DA-C10": {
+    "reviewed_at": "2026-10-11",
+    "review_scope": "Program scope, partners, disclosure, and the difficulty of repairing vulnerabilities.",
+    "limits": "Institutional program announcement, not a personal Dario essay. Claimed benefits and the two-year defense forecast are not established outcomes.",
+    "character_source_id": "CH-AI-061"
+  }
+}

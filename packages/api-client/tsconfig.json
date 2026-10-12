@@ -1,0 +1,5 @@
+{
+  "extends": "@war-games/typescript-config/base.json",
+  "compilerOptions": { "types": ["node"] },
+  "include": ["src"]
+}

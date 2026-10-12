@@ -1,0 +1,101 @@
+[
+  {
+    "id": "AC-R001",
+    "subject": "AI-E047",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R002",
+    "subject": "AI-E048",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R003",
+    "subject": "AI-E049",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R004",
+    "subject": "AI-E050",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S004"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R005",
+    "subject": "AI-E051",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S006"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R006",
+    "subject": "AI-E052",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R007",
+    "subject": "AI-E053",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R008",
+    "subject": "AI-E054",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R009",
+    "subject": "AI-E055",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  }
+]

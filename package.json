@@ -1,0 +1,28 @@
+{
+  "name": "us-china-war-games",
+  "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=24.0.0 <25",
+    "pnpm": "10.33.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "typecheck": "turbo run typecheck",
+    "lint": "biome check . && turbo run lint",
+    "test": "turbo run test",
+    "check": "pnpm lint && pnpm typecheck && pnpm test && pnpm build",
+    "format": "biome check --write . && pnpm --filter @war-games/api format",
+    "setup:go:windows": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/setup-go.ps1",
+    "assets:upload": "node scripts/upload-assets.mjs",
+    "build:pages": "pnpm --filter @war-games/web build",
+    "preview:pages": "pnpm build:pages && wrangler pages dev",
+    "assets:download": "node scripts/download-assets.mjs"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "turbo": "2.11.7",
+    "wrangler": "4.149.0"
+  }
+}

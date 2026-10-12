@@ -1,0 +1,1620 @@
+[
+  {
+    "id": "AC-R001",
+    "subject": "AI-E047",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R002",
+    "subject": "AI-E048",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R003",
+    "subject": "AI-E049",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R004",
+    "subject": "AI-E050",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S004"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R005",
+    "subject": "AI-E051",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S006"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R006",
+    "subject": "AI-E052",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R007",
+    "subject": "AI-E053",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R008",
+    "subject": "AI-E054",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AC-R009",
+    "subject": "AI-E055",
+    "predicate": "works at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AC-S003"
+    ],
+    "claim_ids": [],
+    "status": "sourced"
+  },
+  {
+    "id": "AI-R001",
+    "subject": "AI-E016",
+    "predicate": "holds_dated_leadership_role_at",
+    "object": "AI-E001",
+    "source_ids": [
+      "AI-S033"
+    ],
+    "claim_ids": [],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R002",
+    "subject": "AI-E017",
+    "predicate": "holds_dated_leadership_role_at",
+    "object": "AI-E002",
+    "source_ids": [
+      "AI-S014",
+      "AI-S029"
+    ],
+    "claim_ids": [],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R003",
+    "subject": "AI-E018",
+    "predicate": "chairs",
+    "object": "AI-E003",
+    "source_ids": [
+      "AI-S032"
+    ],
+    "claim_ids": [
+      "AI-C034"
+    ],
+    "status": "official_announcement"
+  },
+  {
+    "id": "AI-R004",
+    "subject": "AI-E019",
+    "predicate": "leads_operations_of",
+    "object": "AI-E003",
+    "source_ids": [
+      "AI-S032"
+    ],
+    "claim_ids": [
+      "AI-C034"
+    ],
+    "status": "official_announcement"
+  },
+  {
+    "id": "AI-R005",
+    "subject": "AI-E021",
+    "predicate": "leads",
+    "object": "AI-E004",
+    "source_ids": [
+      "AI-S030"
+    ],
+    "claim_ids": [
+      "AI-C032"
+    ],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R006",
+    "subject": "AI-E022",
+    "predicate": "leads",
+    "object": "AI-E006",
+    "source_ids": [
+      "AI-S034"
+    ],
+    "claim_ids": [
+      "AI-C035"
+    ],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R007",
+    "subject": "AI-E023",
+    "predicate": "leads",
+    "object": "AI-E007",
+    "source_ids": [
+      "AI-S021"
+    ],
+    "claim_ids": [
+      "AI-C024"
+    ],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R008",
+    "subject": "AI-E024",
+    "predicate": "leads",
+    "object": "AI-E008",
+    "source_ids": [
+      "AI-S022"
+    ],
+    "claim_ids": [
+      "AI-C025"
+    ],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R009",
+    "subject": "AI-E025",
+    "predicate": "leads",
+    "object": "AI-E009",
+    "source_ids": [
+      "AI-S025"
+    ],
+    "claim_ids": [
+      "AI-C028"
+    ],
+    "status": "official_profile"
+  },
+  {
+    "id": "AI-R010",
+    "subject": "AI-E026",
+    "predicate": "leads",
+    "object": "AI-E011",
+    "source_ids": [
+      "AI-S028"
+    ],
+    "claim_ids": [],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R011",
+    "subject": "AI-E027",
+    "predicate": "leads",
+    "object": "AI-E012",
+    "source_ids": [
+      "AI-S029"
+    ],
+    "claim_ids": [],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R012",
+    "subject": "AI-E028",
+    "predicate": "leads",
+    "object": "AI-E013",
+    "source_ids": [
+      "AI-S004"
+    ],
+    "claim_ids": [],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R013",
+    "subject": "AI-E029",
+    "predicate": "leads",
+    "object": "AI-E046",
+    "source_ids": [
+      "AI-S042"
+    ],
+    "claim_ids": [],
+    "status": "dated_role"
+  },
+  {
+    "id": "AI-R014",
+    "subject": "AI-E046",
+    "predicate": "acquired",
+    "object": "AI-E005",
+    "source_ids": [
+      "AI-S031"
+    ],
+    "claim_ids": [
+      "AI-C033"
+    ],
+    "status": "official_announcement"
+  },
+  {
+    "id": "AI-R015",
+    "subject": "AI-E001",
+    "predicate": "develops",
+    "object": "AI-E030",
+    "source_ids": [
+      "AI-S004",
+      "AI-S005"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R016",
+    "subject": "AI-E002",
+    "predicate": "develops",
+    "object": "AI-E031",
+    "source_ids": [
+      "AI-S001",
+      "AI-S003"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R017",
+    "subject": "AI-E003",
+    "predicate": "develops",
+    "object": "AI-E032",
+    "source_ids": [
+      "AI-S010",
+      "AI-S011"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R018",
+    "subject": "AI-E005",
+    "predicate": "develops",
+    "object": "AI-E033",
+    "source_ids": [
+      "AI-S041"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R019",
+    "subject": "AI-E006",
+    "predicate": "develops",
+    "object": "AI-E034",
+    "source_ids": [
+      "AI-S017",
+      "AI-S018",
+      "AI-S019"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R020",
+    "subject": "AI-E007",
+    "predicate": "develops",
+    "object": "AI-E035",
+    "source_ids": [
+      "AI-S020",
+      "AI-S021"
+    ],
+    "claim_ids": [
+      "AI-C023"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R021",
+    "subject": "AI-E008",
+    "predicate": "develops",
+    "object": "AI-E036",
+    "source_ids": [
+      "AI-S023"
+    ],
+    "claim_ids": [
+      "AI-C026"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R022",
+    "subject": "AI-E009",
+    "predicate": "develops",
+    "object": "AI-E037",
+    "source_ids": [
+      "AI-S024"
+    ],
+    "claim_ids": [
+      "AI-C027"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R023",
+    "subject": "AI-E010",
+    "predicate": "develops",
+    "object": "AI-E038",
+    "source_ids": [
+      "AI-S026"
+    ],
+    "claim_ids": [
+      "AI-C029"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R024",
+    "subject": "AI-E011",
+    "predicate": "provides_primary_cloud_partnership_to",
+    "object": "AI-E001",
+    "source_ids": [
+      "AI-S027"
+    ],
+    "claim_ids": [
+      "AI-C030"
+    ],
+    "status": "official_announcement"
+  },
+  {
+    "id": "AI-R025",
+    "subject": "AI-E012",
+    "predicate": "provides_compute_and_investment_to",
+    "object": "AI-E002",
+    "source_ids": [
+      "AI-S029"
+    ],
+    "claim_ids": [
+      "AI-C031"
+    ],
+    "status": "official_announcement"
+  },
+  {
+    "id": "AI-R026",
+    "subject": "AI-E014",
+    "predicate": "reviewed_incident_involving",
+    "object": "AI-E001",
+    "source_ids": [
+      "AI-S006"
+    ],
+    "claim_ids": [
+      "AI-C007"
+    ],
+    "status": "independent_review_limited_scope"
+  },
+  {
+    "id": "AI-R027",
+    "subject": "AI-E015",
+    "predicate": "evaluated_models_from",
+    "object": "AI-E001",
+    "source_ids": [
+      "AI-S007"
+    ],
+    "claim_ids": [
+      "AI-C008",
+      "AI-C009"
+    ],
+    "status": "government_report"
+  },
+  {
+    "id": "AI-R028",
+    "subject": "AI-E015",
+    "predicate": "evaluated_models_from",
+    "object": "AI-E002",
+    "source_ids": [
+      "AI-S007"
+    ],
+    "claim_ids": [
+      "AI-C008",
+      "AI-C009"
+    ],
+    "status": "government_report"
+  },
+  {
+    "id": "AI-R029",
+    "subject": "AI-E001",
+    "predicate": "cooperated_on_alignment_evaluation_with",
+    "object": "AI-E002",
+    "source_ids": [
+      "AI-S013"
+    ],
+    "claim_ids": [
+      "AI-C016"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "AI-R030",
+    "subject": "AI-E001",
+    "predicate": "reported_incident_affecting",
+    "object": "AI-E013",
+    "source_ids": [
+      "AI-S004",
+      "AI-S005"
+    ],
+    "claim_ids": [
+      "AI-C006"
+    ],
+    "status": "reported_incident"
+  },
+  {
+    "id": "AI-R031",
+    "subject": "AI-E039",
+    "predicate": "can_use",
+    "object": "AI-E040",
+    "source_ids": [
+      "AI-S001",
+      "AI-S007"
+    ],
+    "claim_ids": [
+      "AI-C002"
+    ],
+    "status": "capability_dependent"
+  },
+  {
+    "id": "AI-R032",
+    "subject": "AI-E039",
+    "predicate": "can_be_affected_by",
+    "object": "AI-E041",
+    "source_ids": [
+      "AI-S011"
+    ],
+    "claim_ids": [
+      "AI-C014"
+    ],
+    "status": "capability_dependent"
+  },
+  {
+    "id": "AI-R033",
+    "subject": "AI-E044",
+    "predicate": "can_constrain",
+    "object": "AI-E039",
+    "source_ids": [
+      "AI-S003",
+      "AI-S007"
+    ],
+    "claim_ids": [
+      "AI-C046"
+    ],
+    "status": "analysis"
+  },
+  {
+    "id": "AI-R034",
+    "subject": "AI-E042",
+    "predicate": "can_be_hosted_on",
+    "object": "AI-E043",
+    "source_ids": [
+      "AI-S009",
+      "AI-S029"
+    ],
+    "claim_ids": [],
+    "status": "analysis"
+  },
+  {
+    "id": "AI-R035",
+    "subject": "AI-E045",
+    "predicate": "depends_on",
+    "object": "AI-E043",
+    "source_ids": [
+      "AI-S021",
+      "AI-S039"
+    ],
+    "claim_ids": [],
+    "status": "analysis"
+  },
+  {
+    "id": "MX-R001",
+    "subject": "SD-E001",
+    "predicate": "has_export_control_agency",
+    "object": "TW-E029",
+    "source_ids": [],
+    "claim_ids": [
+      "TW-C027"
+    ],
+    "status": "sourced_institutional_link"
+  },
+  {
+    "id": "MX-R002",
+    "subject": "TW-E030",
+    "predicate": "acts_within_jurisdiction",
+    "object": "SD-E008",
+    "source_ids": [],
+    "claim_ids": [
+      "TW-C028"
+    ],
+    "status": "sourced_institutional_link"
+  },
+  {
+    "id": "MX-R003",
+    "subject": "TW-E031",
+    "predicate": "acts_within_jurisdiction",
+    "object": "SD-E004",
+    "source_ids": [],
+    "claim_ids": [
+      "TW-C029"
+    ],
+    "status": "sourced_institutional_link"
+  },
+  {
+    "id": "MX-R004",
+    "subject": "TW-E014",
+    "predicate": "is_a_supply_dependency_in_compute_scenarios",
+    "object": "AI-E043",
+    "source_ids": [],
+    "claim_ids": [
+      "TW-C018",
+      "TW-C030"
+    ],
+    "status": "analysis_of_cross_domain_dependency"
+  },
+  {
+    "id": "MX-R005",
+    "subject": "TW-E038",
+    "predicate": "is_an_input_to_some_compute_systems",
+    "object": "AI-E043",
+    "source_ids": [],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "analysis_of_cross_domain_dependency"
+  },
+  {
+    "id": "MX-R006",
+    "subject": "ST-E021",
+    "predicate": "constrains_expansion_of",
+    "object": "AI-E043",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "claim_ids": [
+      "ST-C016"
+    ],
+    "status": "analysis_of_cross_domain_dependency"
+  },
+  {
+    "id": "MX-R007",
+    "subject": "AI-E039",
+    "predicate": "can_be_used_within",
+    "object": "SD-E057",
+    "source_ids": [
+      "AI-S001"
+    ],
+    "claim_ids": [
+      "AI-C001",
+      "AI-C002"
+    ],
+    "status": "capability_link_no_state_authorization_implied"
+  },
+  {
+    "id": "MX-R008",
+    "subject": "AI-E044",
+    "predicate": "can_support",
+    "object": "ST-E023",
+    "source_ids": [
+      "ST-S018",
+      "AI-S043"
+    ],
+    "claim_ids": [
+      "ST-C018"
+    ],
+    "status": "analysis_of_cross_domain_dependency"
+  },
+  {
+    "id": "MX-R009",
+    "subject": "AI-E039",
+    "predicate": "can_support_or_disrupt",
+    "object": "ST-E022",
+    "source_ids": [
+      "ST-S010"
+    ],
+    "claim_ids": [
+      "ST-C010"
+    ],
+    "status": "analysis_of_possible_effect"
+  },
+  {
+    "id": "MX-R010",
+    "subject": "ST-E022",
+    "predicate": "can_affect_human_assessment_of",
+    "object": "SD-E058",
+    "source_ids": [
+      "ST-S008"
+    ],
+    "claim_ids": [
+      "SD-C019"
+    ],
+    "status": "analysis_no_launch_authority_implied"
+  },
+  {
+    "id": "MX-R011",
+    "subject": "SD-E001",
+    "predicate": "has_possible_shared_risk_interest_with",
+    "object": "SD-E002",
+    "source_ids": [
+      "ST-S005",
+      "ST-S017"
+    ],
+    "claim_ids": [
+      "ST-C005",
+      "ST-C017"
+    ],
+    "status": "analysis_not_an_agreement"
+  },
+  {
+    "id": "MX-R012",
+    "subject": "TW-E014",
+    "predicate": "can_seek_policy_review_from",
+    "object": "TW-E001",
+    "source_ids": [],
+    "claim_ids": [
+      "TW-C012",
+      "TW-C053"
+    ],
+    "status": "proposed_game_relationship_not_verified_legal_remedy"
+  },
+  {
+    "id": "SD-R001",
+    "subject": "SD-E025",
+    "predicate": "directs_through_civilian_chain",
+    "object": "SD-E015",
+    "source_ids": [
+      "SD-S006"
+    ],
+    "claim_ids": [
+      "SD-C001"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R002",
+    "subject": "SD-E015",
+    "predicate": "directs",
+    "object": "SD-E017",
+    "source_ids": [
+      "SD-S006"
+    ],
+    "claim_ids": [
+      "SD-C001"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R003",
+    "subject": "SD-E025",
+    "predicate": "authorizes_nuclear_use_of",
+    "object": "SD-E049",
+    "source_ids": [
+      "SD-S007"
+    ],
+    "claim_ids": [
+      "SD-C002"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R004",
+    "subject": "SD-E018",
+    "predicate": "supports_authorized_control_of",
+    "object": "SD-E049",
+    "source_ids": [
+      "SD-S007",
+      "SD-S008"
+    ],
+    "claim_ids": [
+      "SD-C002",
+      "SD-C003"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R005",
+    "subject": "SD-E013",
+    "predicate": "commands",
+    "object": "SD-E014",
+    "source_ids": [
+      "SD-S009",
+      "SD-S044"
+    ],
+    "claim_ids": [
+      "SD-C004"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R006",
+    "subject": "SD-E013",
+    "predicate": "commands",
+    "object": "SD-E024",
+    "source_ids": [
+      "SD-S044"
+    ],
+    "claim_ids": [
+      "SD-C023"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R007",
+    "subject": "SD-E013",
+    "predicate": "commands_nuclear_forces",
+    "object": "SD-E050",
+    "source_ids": [
+      "SD-S009"
+    ],
+    "claim_ids": [
+      "SD-C004"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R008",
+    "subject": "SD-E001",
+    "predicate": "has_security_treaty_with",
+    "object": "SD-E004",
+    "source_ids": [
+      "SD-S020"
+    ],
+    "claim_ids": [
+      "SD-C011"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R009",
+    "subject": "SD-E001",
+    "predicate": "has_security_treaty_with",
+    "object": "SD-E005",
+    "source_ids": [
+      "SD-S022"
+    ],
+    "claim_ids": [
+      "SD-C012"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R010",
+    "subject": "SD-E001",
+    "predicate": "has_security_treaty_with",
+    "object": "SD-E006",
+    "source_ids": [
+      "SD-S024"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R011",
+    "subject": "SD-E001",
+    "predicate": "supports_self_defense_of",
+    "object": "SD-E003",
+    "source_ids": [
+      "SD-S016",
+      "SD-S017"
+    ],
+    "claim_ids": [
+      "SD-C009"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R012",
+    "subject": "SD-E001",
+    "predicate": "participates_in",
+    "object": "SD-E023",
+    "source_ids": [
+      "SD-S027",
+      "SD-S028"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R013",
+    "subject": "SD-E007",
+    "predicate": "participates_in",
+    "object": "SD-E023",
+    "source_ids": [
+      "SD-S027",
+      "SD-S028"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R014",
+    "subject": "SD-E009",
+    "predicate": "participates_in",
+    "object": "SD-E023",
+    "source_ids": [
+      "SD-S027",
+      "SD-S028"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R015",
+    "subject": "SD-E023",
+    "predicate": "develops",
+    "object": "SD-E065",
+    "source_ids": [
+      "SD-S027"
+    ],
+    "claim_ids": [
+      "SD-C015"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R016",
+    "subject": "SD-E029",
+    "predicate": "advises",
+    "object": "SD-E025",
+    "source_ids": [
+      "SD-S004",
+      "SD-S007"
+    ],
+    "claim_ids": [
+      "SD-C002"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R017",
+    "subject": "SD-E028",
+    "predicate": "leads",
+    "object": "SD-E019",
+    "source_ids": [
+      "SD-S001"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R018",
+    "subject": "SD-E032",
+    "predicate": "leads",
+    "object": "SD-E020",
+    "source_ids": [
+      "SD-S010"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R019",
+    "subject": "SD-E033",
+    "predicate": "leads",
+    "object": "SD-E021",
+    "source_ids": [
+      "SD-S010"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R020",
+    "subject": "SD-E034",
+    "predicate": "heads_executive_of",
+    "object": "SD-E003",
+    "source_ids": [
+      "SD-S018"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R021",
+    "subject": "SD-E036",
+    "predicate": "heads_government_of",
+    "object": "SD-E004",
+    "source_ids": [
+      "SD-S019"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R022",
+    "subject": "SD-E037",
+    "predicate": "heads_executive_of",
+    "object": "SD-E005",
+    "source_ids": [
+      "SD-S021"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R023",
+    "subject": "SD-E038",
+    "predicate": "heads_executive_of",
+    "object": "SD-E006",
+    "source_ids": [
+      "SD-S023"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R024",
+    "subject": "SD-E039",
+    "predicate": "heads_government_of",
+    "object": "SD-E007",
+    "source_ids": [
+      "SD-S026"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R025",
+    "subject": "SD-E041",
+    "predicate": "heads_government_of",
+    "object": "SD-E008",
+    "source_ids": [
+      "SD-S029"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R026",
+    "subject": "SD-E042",
+    "predicate": "heads_government_of",
+    "object": "SD-E009",
+    "source_ids": [
+      "SD-S031"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R027",
+    "subject": "SD-E043",
+    "predicate": "leads_commission_within",
+    "object": "SD-E010",
+    "source_ids": [
+      "SD-S032"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R028",
+    "subject": "SD-E044",
+    "predicate": "chairs_council_within",
+    "object": "SD-E010",
+    "source_ids": [
+      "SD-S033"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R029",
+    "subject": "SD-E045",
+    "predicate": "heads_executive_of",
+    "object": "SD-E011",
+    "source_ids": [
+      "SD-S034"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R030",
+    "subject": "SD-E046",
+    "predicate": "leads",
+    "object": "SD-E012",
+    "source_ids": [
+      "SD-S011"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R031",
+    "subject": "SD-E002",
+    "predicate": "claims_sovereignty_over",
+    "object": "SD-E003",
+    "source_ids": [
+      "SD-S016",
+      "SD-S017"
+    ],
+    "claim_ids": [
+      "SD-C010"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R032",
+    "subject": "SD-E012",
+    "predicate": "expresses_support_for",
+    "object": "SD-E002",
+    "source_ids": [
+      "SD-S011"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R033",
+    "subject": "SD-E058",
+    "predicate": "has_escalation_entanglement_with",
+    "object": "SD-E059",
+    "source_ids": [
+      "SD-S008",
+      "SD-S040"
+    ],
+    "claim_ids": [
+      "SD-C018"
+    ],
+    "status": "analytical"
+  },
+  {
+    "id": "SD-R034",
+    "subject": "SD-E056",
+    "predicate": "can_influence_human_interpretation_of",
+    "object": "SD-E058",
+    "source_ids": [
+      "SD-S015",
+      "SD-S039"
+    ],
+    "claim_ids": [
+      "SD-C019"
+    ],
+    "status": "analytical"
+  },
+  {
+    "id": "SD-R035",
+    "subject": "SD-E067",
+    "predicate": "leads_at_evidence_date",
+    "object": "SD-E066",
+    "source_ids": [
+      "SD-S056"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R036",
+    "subject": "SD-E069",
+    "predicate": "is_founder_of",
+    "object": "SD-E068",
+    "source_ids": [
+      "SD-S060"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R037",
+    "subject": "SD-E070",
+    "predicate": "led_at_2025_evidence_date",
+    "object": "SD-E068",
+    "source_ids": [
+      "SD-S059"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R038",
+    "subject": "SD-E072",
+    "predicate": "leads_according_to_live_biography",
+    "object": "SD-E071",
+    "source_ids": [
+      "SD-S061"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R039",
+    "subject": "SD-E074",
+    "predicate": "leads_according_to_live_biography",
+    "object": "SD-E073",
+    "source_ids": [
+      "SD-S063"
+    ],
+    "claim_ids": [],
+    "status": "documented"
+  },
+  {
+    "id": "SD-R040",
+    "subject": "SD-E075",
+    "predicate": "supplies_aviation_industry_for",
+    "object": "SD-E002",
+    "source_ids": [
+      "SD-S065"
+    ],
+    "claim_ids": [
+      "SD-C031"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "ST-R001",
+    "subject": "ST-E020",
+    "predicate": "publishes_projections_about",
+    "object": "ST-E021",
+    "source_ids": [
+      "ST-S016"
+    ],
+    "claim_ids": [
+      "ST-C016"
+    ],
+    "status": "sourced"
+  },
+  {
+    "id": "ST-R002",
+    "subject": "ST-E018",
+    "predicate": "researches",
+    "object": "ST-E023",
+    "source_ids": [
+      "ST-S018"
+    ],
+    "claim_ids": [
+      "ST-C018"
+    ],
+    "status": "sourced"
+  },
+  {
+    "id": "ST-R003",
+    "subject": "ST-E019",
+    "predicate": "researches",
+    "object": "ST-E022",
+    "source_ids": [
+      "ST-S010"
+    ],
+    "claim_ids": [
+      "ST-C010"
+    ],
+    "status": "sourced"
+  },
+  {
+    "id": "TW-R001",
+    "subject": "TW-E008",
+    "predicate": "holds_office_in",
+    "object": "TW-E001",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "claim_ids": [
+      "TW-C005"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "TW-R002",
+    "subject": "TW-E010",
+    "predicate": "leads",
+    "object": "TW-E002",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "claim_ids": [
+      "TW-C005"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "TW-R003",
+    "subject": "TW-E011",
+    "predicate": "presides_over",
+    "object": "TW-E003",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "claim_ids": [
+      "TW-C005"
+    ],
+    "status": "documented"
+  },
+  {
+    "id": "TW-R004",
+    "subject": "TW-E012",
+    "predicate": "chairs",
+    "object": "TW-E006",
+    "source_ids": [
+      "TW-S006"
+    ],
+    "claim_ids": [
+      "TW-C007"
+    ],
+    "status": "documented_as_of_2026-06-12"
+  },
+  {
+    "id": "TW-R005",
+    "subject": "TW-E013",
+    "predicate": "chairs",
+    "object": "TW-E007",
+    "source_ids": [
+      "TW-S007"
+    ],
+    "claim_ids": [
+      "TW-C008"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R006",
+    "subject": "TW-E002",
+    "predicate": "submits_covered_political_agreements_to",
+    "object": "TW-E003",
+    "source_ids": [
+      "TW-S002"
+    ],
+    "claim_ids": [
+      "TW-C003"
+    ],
+    "status": "documented_legal_process"
+  },
+  {
+    "id": "TW-R007",
+    "subject": "TW-E014",
+    "predicate": "has_executive",
+    "object": "TW-E015",
+    "source_ids": [
+      "TW-S010"
+    ],
+    "claim_ids": [
+      "TW-C013"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R008",
+    "subject": "TW-E014",
+    "predicate": "has_legal_governance_officer",
+    "object": "TW-E016",
+    "source_ids": [
+      "TW-S010"
+    ],
+    "claim_ids": [
+      "TW-C013"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R009",
+    "subject": "TW-E014",
+    "predicate": "operates",
+    "object": "TW-E034",
+    "source_ids": [
+      "TW-S008"
+    ],
+    "claim_ids": [
+      "TW-C010"
+    ],
+    "status": "company_report"
+  },
+  {
+    "id": "TW-R010",
+    "subject": "TW-E014",
+    "predicate": "holds_majority_interest_in",
+    "object": "TW-E035",
+    "source_ids": [
+      "TW-S013"
+    ],
+    "claim_ids": [
+      "TW-C016"
+    ],
+    "status": "announced_arrangement"
+  },
+  {
+    "id": "TW-R011",
+    "subject": "TW-E014",
+    "predicate": "holds_majority_interest_in",
+    "object": "TW-E036",
+    "source_ids": [
+      "TW-S014"
+    ],
+    "claim_ids": [
+      "TW-C017"
+    ],
+    "status": "announced_arrangement"
+  },
+  {
+    "id": "TW-R012",
+    "subject": "TW-E019",
+    "predicate": "uses_foundry",
+    "object": "TW-E014",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier"
+  },
+  {
+    "id": "TW-R013",
+    "subject": "TW-E019",
+    "predicate": "uses_foundry",
+    "object": "TW-E023",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier_not_equal_substitute"
+  },
+  {
+    "id": "TW-R014",
+    "subject": "TW-E019",
+    "predicate": "purchases_memory_from",
+    "object": "TW-E024",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier"
+  },
+  {
+    "id": "TW-R015",
+    "subject": "TW-E019",
+    "predicate": "purchases_memory_from",
+    "object": "TW-E025",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier"
+  },
+  {
+    "id": "TW-R016",
+    "subject": "TW-E019",
+    "predicate": "purchases_memory_from",
+    "object": "TW-E023",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_supplier"
+  },
+  {
+    "id": "TW-R017",
+    "subject": "TW-E019",
+    "predicate": "uses",
+    "object": "TW-E037",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "claim_ids": [
+      "TW-C018"
+    ],
+    "status": "disclosed_technology"
+  },
+  {
+    "id": "TW-R018",
+    "subject": "TW-E021",
+    "predicate": "relies_on_advanced_wafers_from",
+    "object": "TW-E014",
+    "source_ids": [
+      "TW-S016"
+    ],
+    "claim_ids": [
+      "TW-C019"
+    ],
+    "status": "historical_fiscal_2024"
+  },
+  {
+    "id": "TW-R019",
+    "subject": "TW-E024",
+    "predicate": "cooperates_on_hbm_integration_with",
+    "object": "TW-E014",
+    "source_ids": [
+      "TW-S023"
+    ],
+    "claim_ids": [
+      "TW-C024"
+    ],
+    "status": "announced_mou"
+  },
+  {
+    "id": "TW-R020",
+    "subject": "TW-E024",
+    "predicate": "develops",
+    "object": "TW-E038",
+    "source_ids": [
+      "TW-S023"
+    ],
+    "claim_ids": [
+      "TW-C024"
+    ],
+    "status": "company_statement"
+  },
+  {
+    "id": "TW-R021",
+    "subject": "TW-E023",
+    "predicate": "produces",
+    "object": "TW-E038",
+    "source_ids": [
+      "TW-S024"
+    ],
+    "claim_ids": [
+      "TW-C025"
+    ],
+    "status": "company_statement"
+  },
+  {
+    "id": "TW-R022",
+    "subject": "TW-E029",
+    "predicate": "licenses_relevant_exports_by",
+    "object": "TW-E019",
+    "source_ids": [
+      "TW-S026"
+    ],
+    "claim_ids": [
+      "TW-C027"
+    ],
+    "status": "conditional_regulatory_relationship"
+  },
+  {
+    "id": "TW-R023",
+    "subject": "TW-E029",
+    "predicate": "licenses_relevant_exports_by",
+    "object": "TW-E021",
+    "source_ids": [
+      "TW-S026"
+    ],
+    "claim_ids": [
+      "TW-C027"
+    ],
+    "status": "conditional_regulatory_relationship"
+  },
+  {
+    "id": "TW-R024",
+    "subject": "TW-E030",
+    "predicate": "licenses_controlled_exports_by",
+    "object": "TW-E017",
+    "source_ids": [
+      "TW-S027"
+    ],
+    "claim_ids": [
+      "TW-C028"
+    ],
+    "status": "product_specific_not_blanket"
+  },
+  {
+    "id": "TW-R025",
+    "subject": "TW-E017",
+    "predicate": "depends_on_critical_optics_from",
+    "object": "TW-E028",
+    "source_ids": [
+      "TW-S045"
+    ],
+    "claim_ids": [
+      "TW-C048"
+    ],
+    "status": "filing_search_excerpt"
+  },
+  {
+    "id": "TW-R026",
+    "subject": "TW-E027",
+    "predicate": "provides",
+    "object": "TW-E040",
+    "source_ids": [
+      "TW-S022"
+    ],
+    "claim_ids": [
+      "TW-C023"
+    ],
+    "status": "company_filing"
+  },
+  {
+    "id": "TW-R027",
+    "subject": "TW-E032",
+    "predicate": "directs",
+    "object": "TW-E033",
+    "source_ids": [
+      "TW-S031"
+    ],
+    "claim_ids": [
+      "TW-C032",
+      "TW-C033"
+    ],
+    "status": "scenario_actor_mapping"
+  },
+  {
+    "id": "TW-R028",
+    "subject": "TW-E015",
+    "predicate": "warns_against_fixed_schedule_for",
+    "object": "TW-E034",
+    "source_ids": [
+      "TW-S012"
+    ],
+    "claim_ids": [
+      "TW-C015"
+    ],
+    "status": "public_statement"
+  },
+  {
+    "id": "TW-R029",
+    "subject": "TW-E018",
+    "predicate": "leads",
+    "object": "TW-E017",
+    "source_ids": [
+      "TW-S020"
+    ],
+    "claim_ids": [
+      "TW-C020"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R030",
+    "subject": "TW-E020",
+    "predicate": "leads",
+    "object": "TW-E019",
+    "source_ids": [
+      "TW-S018"
+    ],
+    "claim_ids": [
+      "TW-C020"
+    ],
+    "status": "live_page_verified"
+  },
+  {
+    "id": "TW-R031",
+    "subject": "TW-E022",
+    "predicate": "leads",
+    "object": "TW-E021",
+    "source_ids": [
+      "TW-S017"
+    ],
+    "claim_ids": [
+      "TW-C020"
+    ],
+    "status": "live_page_verified"
+  }
+]

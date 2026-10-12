@@ -1,0 +1,1052 @@
+[
+  {
+    "id": "TW-E001",
+    "name": "Taiwan government (Republic of China)",
+    "kind": "government",
+    "summary": "Democratic institutions govern Taiwan and set its trade and security policy.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S004"
+    ],
+    "roles": [
+      "Sovereign decision actor in game"
+    ],
+    "authority": [
+      "Executive, legislative and judicial powers are separate"
+    ],
+    "constraints": [
+      "Constitutional process; public consent; external pressure"
+    ],
+    "incentives": [
+      "Model: preserve self-government, safety and economic continuity"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E002",
+    "name": "Executive Yuan",
+    "kind": "government",
+    "summary": "Cabinet led by the premier.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002",
+      "TW-S004"
+    ],
+    "roles": [
+      "Policy implementation",
+      "Cross-Strait agreement process"
+    ],
+    "authority": [
+      "Submits covered agreements and budgets; leads administration"
+    ],
+    "constraints": [
+      "Legislative review; courts; coalition politics"
+    ],
+    "incentives": [
+      "Model: execute policy while retaining public and legislative support"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E003",
+    "name": "Legislative Yuan",
+    "kind": "government",
+    "summary": "Taiwan's elected legislature.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S001",
+      "TW-S002"
+    ],
+    "roles": [
+      "Budget and law review",
+      "Agreement review"
+    ],
+    "authority": [
+      "Legislation and constitutional voting procedures"
+    ],
+    "constraints": [
+      "Voting thresholds; elections; judicial review"
+    ],
+    "incentives": [
+      "Model: protect constituency interests and institutional authority"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E004",
+    "name": "Mainland Affairs Council",
+    "kind": "government",
+    "summary": "Taiwan body responsible for cross-Strait affairs under the reviewed statute.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S002"
+    ],
+    "roles": [
+      "Cross-Strait administration"
+    ],
+    "authority": [
+      "Authorizes or supervises specified cross-Strait dealings"
+    ],
+    "constraints": [
+      "Statutory authority; Executive Yuan direction"
+    ],
+    "incentives": [
+      "Model: manage contacts while limiting political and security risk"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E005",
+    "name": "Democratic Progressive Party",
+    "kind": "organization",
+    "summary": "Party of the winning 2024 presidential ticket.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S003",
+      "TW-S033"
+    ],
+    "roles": [
+      "Electoral actor"
+    ],
+    "authority": [
+      "Party nominations and legislative organization; no separate sovereign authority"
+    ],
+    "constraints": [
+      "Elections; internal debate; other branches"
+    ],
+    "incentives": [
+      "Model: maintain governing support and Taiwan's political autonomy"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E006",
+    "name": "Kuomintang",
+    "kind": "organization",
+    "summary": "Opposition party that advocates engagement with Beijing.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S005",
+      "TW-S006"
+    ],
+    "roles": [
+      "Electoral actor",
+      "Cross-Strait dialogue"
+    ],
+    "authority": [
+      "Party agenda and nominations; government powers require office"
+    ],
+    "constraints": [
+      "Public consent; ROC framework; policy disputes"
+    ],
+    "incentives": [
+      "Model: win office, lower conflict risk and preserve party credibility"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E007",
+    "name": "Taiwan People's Party",
+    "kind": "organization",
+    "summary": "Taiwan party with its own leadership and electoral interests.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S003",
+      "TW-S007"
+    ],
+    "roles": [
+      "Electoral actor",
+      "Potential coalition participant"
+    ],
+    "authority": [
+      "Party agenda and nominations"
+    ],
+    "constraints": [
+      "Public consent; party organization; constitutional rules"
+    ],
+    "incentives": [
+      "Model: expand political influence without losing voter support"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E008",
+    "name": "Lai Ching-te",
+    "kind": "person",
+    "summary": "Taiwan president in the dated October 2026 speech.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S004"
+    ],
+    "roles": [
+      "President"
+    ],
+    "authority": [
+      "Executive appointments and national-security leadership within the constitution"
+    ],
+    "constraints": [
+      "Legislature; courts; elections; crisis information"
+    ],
+    "incentives": [
+      "Model: protect self-government and avoid a damaging conflict"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md",
+    "public_positions": [
+      {
+        "date": "2026-10-10",
+        "text": "Lai supported stronger self-defense and dialogue on equal terms. He welcomed US-China dialogue to reduce conflict risk and rejected Taiwan subordination.",
+        "source_ids": [
+          "TW-S004"
+        ],
+        "limits": "Declared position in the official National Day address. This does not prove private intent or future decisions."
+      }
+    ]
+  },
+  {
+    "id": "TW-E009",
+    "name": "Hsiao Bi-khim",
+    "kind": "person",
+    "summary": "Taiwan vice president in the dated October 2026 speech.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S004",
+      "TW-S001"
+    ],
+    "roles": [
+      "Vice president"
+    ],
+    "authority": [
+      "Constitutional succession role; assigned political work"
+    ],
+    "constraints": [
+      "Does not independently control the cabinet or TSMC"
+    ],
+    "incentives": [
+      "Model: preserve executive continuity and external confidence"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E010",
+    "name": "Cho Jung-tai",
+    "kind": "person",
+    "summary": "Taiwan premier in the dated October 2026 speech.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S004",
+      "TW-S001"
+    ],
+    "roles": [
+      "Premier"
+    ],
+    "authority": [
+      "Leads Executive Yuan administration"
+    ],
+    "constraints": [
+      "President; legislative confidence and budget process"
+    ],
+    "incentives": [
+      "Model: sustain government function and implement crisis measures"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E011",
+    "name": "Han Kuo-yu",
+    "kind": "person",
+    "summary": "Legislative Yuan president in the dated October 2026 speech.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S004",
+      "TW-S001"
+    ],
+    "roles": [
+      "Legislature president"
+    ],
+    "authority": [
+      "Legislative leadership; cannot substitute for required votes"
+    ],
+    "constraints": [
+      "Party caucuses; voting procedures"
+    ],
+    "incentives": [
+      "Model: retain legislative legitimacy and bargaining influence"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E012",
+    "name": "Cheng Li-wun (also Cheng Li-wen)",
+    "kind": "person",
+    "summary": "KMT chair in June 2026 reporting.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-06-12",
+    "source_ids": [
+      "TW-S005",
+      "TW-S006"
+    ],
+    "roles": [
+      "KMT chair"
+    ],
+    "authority": [
+      "Party leadership and public diplomacy"
+    ],
+    "constraints": [
+      "No presidential authority merely from party office"
+    ],
+    "incentives": [
+      "Model: make dialogue credible to voters and foreign partners"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md",
+    "public_positions": [
+      {
+        "date": "2026-06-12",
+        "text": "Cheng said her party supported Taiwan defense and dialogue with Beijing.",
+        "source_ids": [
+          "TW-S006"
+        ],
+        "limits": "AP reporting of a public position. This does not establish PRC control of the party or a plan to restrict US chip access."
+      }
+    ]
+  },
+  {
+    "id": "TW-E013",
+    "name": "Huang Kuo-chang",
+    "kind": "person",
+    "summary": "TPP chair on the reviewed party page.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S007"
+    ],
+    "roles": [
+      "TPP chair"
+    ],
+    "authority": [
+      "Party leadership"
+    ],
+    "constraints": [
+      "No independent authority over exports or security agencies"
+    ],
+    "incentives": [
+      "Model: preserve party influence and coalition flexibility"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E014",
+    "name": "Taiwan Semiconductor Manufacturing Company (TSMC)",
+    "kind": "organization",
+    "summary": "Foundry that makes customer-designed chips across several jurisdictions.",
+    "jurisdiction": "Taiwan; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S008",
+      "TW-S009",
+      "TW-S011",
+      "TW-S012"
+    ],
+    "roles": [
+      "Contract manufacturer",
+      "Capacity investor"
+    ],
+    "authority": [
+      "Board and management control corporate operations under applicable law"
+    ],
+    "constraints": [
+      "Customers; suppliers; permits; skilled staff; export rules"
+    ],
+    "incentives": [
+      "Model: retain trust, process leadership and commercial continuity"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E015",
+    "name": "C.C. Wei",
+    "kind": "person",
+    "summary": "TSMC chairman and CEO on the reviewed executive page.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S010",
+      "TW-S012"
+    ],
+    "roles": [
+      "Chairman",
+      "Chief executive"
+    ],
+    "authority": [
+      "Corporate strategy and execution with board oversight"
+    ],
+    "constraints": [
+      "Cannot override host-country law or fabricate without inputs"
+    ],
+    "incentives": [
+      "Model: meet customer demand and preserve TSMC's operating model"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md",
+    "public_positions": [
+      {
+        "date": "2026-07-16",
+        "text": "Wei announced another USD 100 billion of planned Arizona investment. He said the schedule would depend on market conditions and customer demand.",
+        "source_ids": [
+          "TW-S012"
+        ],
+        "limits": "Company commitment. No firm schedule was given. Planned investment is not completed spending or operational capacity."
+      }
+    ]
+  },
+  {
+    "id": "TW-E016",
+    "name": "Sylvia Fang",
+    "kind": "person",
+    "summary": "TSMC general counsel and corporate governance officer.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S010"
+    ],
+    "roles": [
+      "Legal and governance leader"
+    ],
+    "authority": [
+      "Legal advice and corporate governance processes"
+    ],
+    "constraints": [
+      "Board, law and facts of a specific order"
+    ],
+    "incentives": [
+      "Model: reduce legal exposure and preserve lawful business continuity"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E017",
+    "name": "ASML",
+    "kind": "organization",
+    "summary": "Netherlands-based supplier of lithography and related systems.",
+    "jurisdiction": "Netherlands; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S019",
+      "TW-S020",
+      "TW-S027"
+    ],
+    "roles": [
+      "Equipment supplier"
+    ],
+    "authority": [
+      "Tool development, customer service and investment"
+    ],
+    "constraints": [
+      "Export licenses; supplier capacity; customer plans"
+    ],
+    "incentives": [
+      "Model: preserve technology leadership and lawful market access"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E018",
+    "name": "Christophe Fouquet",
+    "kind": "person",
+    "summary": "ASML president and CEO on the reviewed governance page.",
+    "jurisdiction": "Netherlands",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S020"
+    ],
+    "roles": [
+      "Chief executive"
+    ],
+    "authority": [
+      "Leads management strategy; supervisory board appoints management"
+    ],
+    "constraints": [
+      "Export rules and governance oversight"
+    ],
+    "incentives": [
+      "Model: align investment, supplier capacity and customer demand"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E019",
+    "name": "NVIDIA",
+    "kind": "organization",
+    "summary": "AI computing supplier with external foundry, memory and packaging links.",
+    "jurisdiction": "United States; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S015",
+      "TW-S026"
+    ],
+    "roles": [
+      "Chip and system designer",
+      "Compute supplier"
+    ],
+    "authority": [
+      "Product design, purchase commitments and distribution"
+    ],
+    "constraints": [
+      "Foundry and memory supply; export licenses; customer demand"
+    ],
+    "incentives": [
+      "Model: grow installed platforms and preserve supply and market access"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E020",
+    "name": "Jensen Huang",
+    "kind": "person",
+    "summary": "NVIDIA founder, president and CEO.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S018",
+      "TW-S015"
+    ],
+    "roles": [
+      "Chief executive",
+      "Public industry voice"
+    ],
+    "authority": [
+      "Corporate strategy with board oversight"
+    ],
+    "constraints": [
+      "Law; supply contracts; external manufacturing"
+    ],
+    "incentives": [
+      "Model: secure capacity and maintain customer confidence"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E021",
+    "name": "Advanced Micro Devices (AMD)",
+    "kind": "organization",
+    "summary": "Computing designer with reported TSMC dependence for advanced CPU and GPU wafers.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S016",
+      "TW-S026"
+    ],
+    "roles": [
+      "Chip designer",
+      "Alternative compute supplier"
+    ],
+    "authority": [
+      "Design and supplier contracts"
+    ],
+    "constraints": [
+      "Porting time; foundry capacity; licensing"
+    ],
+    "incentives": [
+      "Model: expand competitive supply and protect product delivery"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E022",
+    "name": "Lisa Su",
+    "kind": "person",
+    "summary": "AMD chair and CEO on its reviewed profile.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S017"
+    ],
+    "roles": [
+      "Chief executive"
+    ],
+    "authority": [
+      "AMD strategy and corporate execution"
+    ],
+    "constraints": [
+      "Board duties; suppliers; customer qualification"
+    ],
+    "incentives": [
+      "Model: sustain competitive products and dependable delivery"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E023",
+    "name": "Samsung Electronics",
+    "kind": "organization",
+    "summary": "Korean supplier with memory, foundry and packaging operations.",
+    "jurisdiction": "South Korea; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S024",
+      "TW-S015"
+    ],
+    "roles": [
+      "Foundry",
+      "Memory supplier"
+    ],
+    "authority": [
+      "Internal manufacturing and technology investment"
+    ],
+    "constraints": [
+      "Yields; qualified designs; capacity; export rules"
+    ],
+    "incentives": [
+      "Model: win customers and improve advanced manufacturing returns"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E024",
+    "name": "SK hynix",
+    "kind": "organization",
+    "summary": "Korean memory supplier with TSMC HBM integration cooperation.",
+    "jurisdiction": "South Korea; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S023",
+      "TW-S015"
+    ],
+    "roles": [
+      "HBM supplier"
+    ],
+    "authority": [
+      "Memory investment and customer agreements"
+    ],
+    "constraints": [
+      "Logic base-die links; qualification; packaging capacity"
+    ],
+    "incentives": [
+      "Model: meet AI memory demand and preserve customer relationships"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E025",
+    "name": "Micron Technology",
+    "kind": "organization",
+    "summary": "Memory supplier listed by NVIDIA.",
+    "jurisdiction": "United States; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S015"
+    ],
+    "roles": [
+      "Memory supplier"
+    ],
+    "authority": [
+      "Memory product and capacity decisions"
+    ],
+    "constraints": [
+      "Customer qualification; export rules; manufacturing resources"
+    ],
+    "incentives": [
+      "Model: supply qualified memory and expand customer access"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E026",
+    "name": "Tokyo Electron",
+    "kind": "organization",
+    "summary": "Japanese supplier of several semiconductor process-tool classes.",
+    "jurisdiction": "Japan; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S021",
+      "TW-S028"
+    ],
+    "roles": [
+      "Equipment supplier"
+    ],
+    "authority": [
+      "Tool development, production and service"
+    ],
+    "constraints": [
+      "Licensing; supplier inputs; customer investment cycles"
+    ],
+    "incentives": [
+      "Model: protect global customer relationships and technology capability"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E027",
+    "name": "Applied Materials",
+    "kind": "organization",
+    "summary": "US supplier of fabrication equipment, services and spare parts.",
+    "jurisdiction": "United States; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S022",
+      "TW-S025"
+    ],
+    "roles": [
+      "Equipment supplier",
+      "Installed-base service provider"
+    ],
+    "authority": [
+      "Equipment sales and support within law"
+    ],
+    "constraints": [
+      "Export controls; customer access; field engineers"
+    ],
+    "incentives": [
+      "Model: sustain equipment performance and recurring service revenue"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E028",
+    "name": "Carl Zeiss SMT",
+    "kind": "organization",
+    "summary": "Critical optical-component supplier identified in ASML's filing excerpt.",
+    "jurisdiction": "Germany",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S045"
+    ],
+    "roles": [
+      "Specialist supplier"
+    ],
+    "authority": [
+      "Optics production and investment"
+    ],
+    "constraints": [
+      "Specialized capacity; ASML linkage"
+    ],
+    "incentives": [
+      "Model: deliver qualified optical components at required volume"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E029",
+    "name": "US Bureau of Industry and Security (BIS)",
+    "kind": "government",
+    "summary": "US export-control regulator for relevant chips and tools.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S025",
+      "TW-S026"
+    ],
+    "roles": [
+      "Rulemaking and licensing actor"
+    ],
+    "authority": [
+      "Export rules and license review under US authority"
+    ],
+    "constraints": [
+      "Governing law; executive policy; enforcement resources"
+    ],
+    "incentives": [
+      "Model: limit security risks while retaining industrial capability"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E030",
+    "name": "Government of the Netherlands: export-control authority",
+    "kind": "government",
+    "summary": "National authority that licenses controlled semiconductor equipment exports.",
+    "jurisdiction": "Netherlands",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S027"
+    ],
+    "roles": [
+      "Licensing actor"
+    ],
+    "authority": [
+      "National authorization requirements"
+    ],
+    "constraints": [
+      "Dutch and EU law; security assessment; trade interests"
+    ],
+    "incentives": [
+      "Model: protect security and the domestic technology base"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E031",
+    "name": "Japan Ministry of Economy, Trade and Industry (METI)",
+    "kind": "government",
+    "summary": "Japanese ministry with semiconductor policy and export-control responsibilities.",
+    "jurisdiction": "Japan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S028",
+      "TW-S013"
+    ],
+    "roles": [
+      "Industrial policy",
+      "Export-control actor"
+    ],
+    "authority": [
+      "Relevant controls and industry support under Japanese law"
+    ],
+    "constraints": [
+      "Legal process; industry needs; allied coordination"
+    ],
+    "incentives": [
+      "Model: secure domestic supply and limit sensitive technology transfer"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E032",
+    "name": "People's Republic of China government",
+    "kind": "government",
+    "summary": "Beijing claims Taiwan and retains force as an option in its stated policy.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S041",
+      "TW-S042"
+    ],
+    "roles": [
+      "Claimant",
+      "Crisis decision actor"
+    ],
+    "authority": [
+      "PRC policy and domestic-law authorities"
+    ],
+    "constraints": [
+      "Model: economic exposure, military risk and uncertain Taiwan response"
+    ],
+    "incentives": [
+      "Stated: seek unification. Model: preserve regime legitimacy and avoid prohibitive costs"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E033",
+    "name": "China Coast Guard",
+    "kind": "government",
+    "summary": "Law-enforcement actor central to CSIS quarantine scenarios.",
+    "jurisdiction": "China",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S031"
+    ],
+    "roles": [
+      "Maritime enforcement actor"
+    ],
+    "authority": [
+      "PRC-directed enforcement role; jurisdiction claims are contested"
+    ],
+    "constraints": [
+      "Orders; escalation risk; outside responses"
+    ],
+    "incentives": [
+      "Model: support state objectives while managing confrontation"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E034",
+    "name": "TSMC Arizona",
+    "kind": "infrastructure",
+    "summary": "US TSMC production site with active output and staged expansion plans.",
+    "jurisdiction": "United States",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S008",
+      "TW-S011",
+      "TW-S012"
+    ],
+    "roles": [
+      "Overseas production"
+    ],
+    "authority": [
+      "Operated through TSMC's US business under US law"
+    ],
+    "constraints": [
+      "Inputs; staff; packaging; construction; customer demand"
+    ],
+    "incentives": [
+      "Model: output continuity; this site has no independent political intent"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E035",
+    "name": "Japan Advanced Semiconductor Manufacturing (JASM)",
+    "kind": "organization",
+    "summary": "TSMC-majority joint venture in Kumamoto with Japanese industrial partners.",
+    "jurisdiction": "Japan",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S013",
+      "TW-S008"
+    ],
+    "roles": [
+      "Overseas foundry"
+    ],
+    "authority": [
+      "Joint-venture management and host-country permissions"
+    ],
+    "constraints": [
+      "Announced process mix; customer needs; partner governance"
+    ],
+    "incentives": [
+      "Model: reliable regional supply and a viable production ramp"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E036",
+    "name": "European Semiconductor Manufacturing Company (ESMC)",
+    "kind": "organization",
+    "summary": "Dresden joint venture for planned automotive and industrial chip output.",
+    "jurisdiction": "Germany",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S014",
+      "TW-S008"
+    ],
+    "roles": [
+      "Overseas foundry project"
+    ],
+    "authority": [
+      "Joint-venture governance and German/EU rules"
+    ],
+    "constraints": [
+      "Construction and qualification; process mix differs from AI frontier logic"
+    ],
+    "incentives": [
+      "Model: improve regional industrial supply"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E037",
+    "name": "CoWoS and advanced packaging",
+    "kind": "capability",
+    "summary": "Packaging joins logic and memory into useful systems.",
+    "jurisdiction": "Taiwan; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S023",
+      "TW-S015"
+    ],
+    "roles": [
+      "Complement to wafer fabrication"
+    ],
+    "authority": [
+      "Controlled through firms, facilities and contracts"
+    ],
+    "constraints": [
+      "Capacity; qualified inputs; design compatibility"
+    ],
+    "incentives": [
+      "No independent intent; model as a separate constraint"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E038",
+    "name": "High-bandwidth memory (HBM)",
+    "kind": "capability",
+    "summary": "Memory class used with advanced AI computing systems.",
+    "jurisdiction": "South Korea; United States; international",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S023",
+      "TW-S024",
+      "TW-S025"
+    ],
+    "roles": [
+      "Compute input"
+    ],
+    "authority": [
+      "Suppliers and export authorities affect access"
+    ],
+    "constraints": [
+      "Qualification; capacity; logic integration; licenses"
+    ],
+    "incentives": [
+      "No independent intent; avoid equating memory with accelerator logic"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  },
+  {
+    "id": "TW-E039",
+    "name": "Mark Liu",
+    "kind": "person",
+    "summary": "Former TSMC chairman; relevant public voice in a 2022 interview.",
+    "jurisdiction": "Taiwan",
+    "as_of": "2022-08-16",
+    "source_ids": [
+      "TW-S039",
+      "TW-S010"
+    ],
+    "roles": [
+      "Historical decision-maker and source"
+    ],
+    "authority": [
+      "No current TSMC executive power established here"
+    ],
+    "constraints": [
+      "Statement predates current leadership and capacity plans"
+    ],
+    "incentives": [
+      "Public warning: force threatens factory operation"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md",
+    "public_positions": [
+      {
+        "date": "2022-08-16",
+        "text": "Liu warned that military force would stop TSMC factories from operating because they depend on links with overseas partners.",
+        "source_ids": [
+          "TW-S039"
+        ],
+        "limits": "CNN aired the interview excerpt on this date and described the interview as earlier that month. Liu was chairman then. This is a warning, not a verified shutdown mechanism or a fixed recovery time."
+      }
+    ]
+  },
+  {
+    "id": "TW-E040",
+    "name": "Semiconductor equipment service and spare parts",
+    "kind": "capability",
+    "summary": "Support needed to maintain productive tools over time.",
+    "jurisdiction": "International",
+    "as_of": "2026-10-10",
+    "source_ids": [
+      "TW-S022",
+      "TW-S029"
+    ],
+    "roles": [
+      "Production continuity input"
+    ],
+    "authority": [
+      "Supplier contracts and applicable export rules"
+    ],
+    "constraints": [
+      "Field access; inventory; qualified parts; software support"
+    ],
+    "incentives": [
+      "No independent intent; keep separate from installed tool count"
+    ],
+    "dossier_path": "research/taiwan-chips/entity-cards.md"
+  }
+]

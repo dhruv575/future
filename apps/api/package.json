@@ -1,0 +1,13 @@
+{
+  "name": "@war-games/api",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "node ../../scripts/go.mjs dev",
+    "build": "node ../../scripts/go.mjs build",
+    "start": "node ../../scripts/go.mjs start",
+    "lint": "node ../../scripts/go.mjs lint",
+    "test": "node ../../scripts/go.mjs test",
+    "format": "node ../../scripts/go.mjs format"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@war-games/api-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test src/index.test.ts"
+  },
+  "devDependencies": {
+    "@war-games/typescript-config": "workspace:*",
+    "@types/node": "24.19.2",
+    "typescript": "7.0.2"
+  }
+}

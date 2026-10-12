@@ -1,0 +1,286 @@
+[
+  {
+    "id": "DA-W01",
+    "title": "Machines of Loving Grace",
+    "url": "https://darioamodei.com/essay/machines-of-loving-grace",
+    "category": "personal_essay",
+    "published_date": "2024-10"
+  },
+  {
+    "id": "DA-W02",
+    "title": "On DeepSeek and Export Controls",
+    "url": "https://darioamodei.com/post/on-deepseek-and-export-controls",
+    "category": "personal_post",
+    "published_date": "2025-01"
+  },
+  {
+    "id": "DA-W03",
+    "title": "The Urgency of Interpretability",
+    "url": "https://darioamodei.com/post/the-urgency-of-interpretability",
+    "category": "personal_post",
+    "published_date": "2025-04"
+  },
+  {
+    "id": "DA-W04",
+    "title": "The Adolescence of Technology",
+    "url": "https://darioamodei.com/essay/the-adolescence-of-technology",
+    "category": "personal_essay",
+    "published_date": "2026-01"
+  },
+  {
+    "id": "DA-W05",
+    "title": "Policy on the AI Exponential",
+    "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+    "category": "personal_post",
+    "published_date": "2026-06"
+  },
+  {
+    "id": "DA-W06",
+    "title": "We Must Pace the Frontier",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "category": "personal_post",
+    "published_date": "2026-09"
+  },
+  {
+    "id": "DA-W07",
+    "title": "AI Needs Basic Transparency Rules",
+    "url": "https://www.nytimes.com/2025/06/05/opinion/anthropic-ceo-regulate-transparency.html",
+    "category": "bylined_op_ed",
+    "published_date": "2025-06-05"
+  },
+  {
+    "id": "DA-W08",
+    "title": "Trump Can Keep America's AI Advantage",
+    "url": "https://www.wsj.com/opinion/trump-can-keep-americas-ai-advantage-china-chips-data-eccdce91",
+    "category": "bylined_op_ed",
+    "published_date": "2025-01",
+    "byline": "Dario Amodei and Matt Pottinger",
+    "date_note": "Print edition verified January 7, 2025; online day not verified."
+  },
+  {
+    "id": "DA-W09",
+    "title": "Statement on the Paris AI Action Summit",
+    "url": "https://www.anthropic.com/news/paris-ai-summit",
+    "category": "signed_statement",
+    "published_date": "2025-02-11"
+  },
+  {
+    "id": "DA-W10",
+    "title": "Statement on American AI leadership",
+    "url": "https://www.anthropic.com/news/statement-dario-amodei-american-ai-leadership",
+    "category": "signed_statement",
+    "published_date": "2025-10-21"
+  },
+  {
+    "id": "DA-W11",
+    "title": "Statement on Department of War discussions",
+    "url": "https://www.anthropic.com/news/statement-department-of-war",
+    "category": "signed_statement",
+    "published_date": "2026-02-26"
+  },
+  {
+    "id": "DA-W12",
+    "title": "Where things stand with the Department of War",
+    "url": "https://www.anthropic.com/news/where-stand-department-war",
+    "category": "signed_statement",
+    "published_date": "2026-03-05"
+  },
+  {
+    "id": "DA-W13",
+    "title": "Written Senate testimony: Oversight of AI",
+    "url": "https://www.judiciary.senate.gov/imo/media/doc/2023-07-26_-_testimony_-_amodei.pdf",
+    "category": "written_testimony",
+    "published_date": "2023-07-25"
+  },
+  {
+    "id": "DA-I01",
+    "title": "Dwarkesh interview: We are near the end of the exponential",
+    "url": "https://www.dwarkesh.com/p/dario-amodei-2",
+    "category": "interview_transcript",
+    "published_date": "2026-02-13"
+  },
+  {
+    "id": "DA-I02",
+    "title": "Lex Fridman interview 452",
+    "url": "https://lexfridman.com/dario-amodei-transcript/",
+    "category": "interview_transcript",
+    "published_date": "2024-11-11"
+  },
+  {
+    "id": "DA-I03",
+    "title": "Dwarkesh interview, 2023",
+    "url": "https://www.dwarkesh.com/p/dario-amodei",
+    "category": "interview_transcript",
+    "published_date": "2023-08-08"
+  },
+  {
+    "id": "DA-C01",
+    "title": "Author's publication index",
+    "url": "https://darioamodei.com/",
+    "category": "discovery",
+    "published_date": null
+  },
+  {
+    "id": "DA-C02",
+    "title": "Author's sitemap",
+    "url": "https://darioamodei.com/sitemap.xml",
+    "category": "discovery",
+    "published_date": null
+  },
+  {
+    "id": "DA-C03",
+    "title": "The Long-Term Benefit Trust",
+    "url": "https://www.anthropic.com/news/the-long-term-benefit-trust",
+    "category": "institutional_context",
+    "published_date": "2023-09-19"
+  },
+  {
+    "id": "DA-C04",
+    "title": "Responsible Scaling Policy Version 3.0",
+    "url": "https://www.anthropic.com/news/responsible-scaling-policy-v3",
+    "category": "institutional_context",
+    "published_date": "2026-02-24"
+  },
+  {
+    "id": "DA-C05",
+    "title": "When AI builds itself",
+    "url": "https://www.anthropic.com/institute/recursive-self-improvement",
+    "category": "institutional_context",
+    "published_date": "2026-06-04"
+  },
+  {
+    "id": "DA-C06",
+    "title": "Build AI in America",
+    "url": "https://www.anthropic.com/news/build-ai-in-america",
+    "category": "institutional_context",
+    "published_date": "2025-07-21"
+  },
+  {
+    "id": "DA-C07",
+    "title": "Our position on open-weights models",
+    "url": "https://www.anthropic.com/news/position-open-weights-models",
+    "category": "personal_post",
+    "published_date": "2026-07-27",
+    "byline": "Dario Amodei"
+  },
+  {
+    "id": "DA-C08",
+    "title": "Improving alignment and security efforts",
+    "url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+    "category": "institutional_context",
+    "published_date": "2026-08-31"
+  },
+  {
+    "id": "DA-W14",
+    "title": "Anti-War Protest: Most Students Apathetic Towards World Politics",
+    "url": "https://campuspubs.library.caltech.edu/1846/01/2003_03_03_104_18.pdf",
+    "category": "student_op_ed",
+    "published_date": "2003-03-03"
+  },
+  {
+    "id": "DA-W15",
+    "title": "Special projects",
+    "url": "https://openai.com/index/special-projects/",
+    "category": "coauthored_post",
+    "published_date": "2016-07-28"
+  },
+  {
+    "id": "DA-W16",
+    "title": "Faulty reward functions in the wild",
+    "url": "https://openai.com/index/faulty-reward-functions/",
+    "category": "coauthored_post",
+    "published_date": "2016-12-21"
+  },
+  {
+    "id": "DA-W17",
+    "title": "Learning from human preferences",
+    "url": "https://openai.com/index/learning-from-human-preferences/",
+    "category": "coauthored_post",
+    "published_date": "2017-06-13"
+  },
+  {
+    "id": "DA-W18",
+    "title": "AI safety via debate",
+    "url": "https://openai.com/index/debate/",
+    "category": "coauthored_post",
+    "published_date": "2018-05-03"
+  },
+  {
+    "id": "DA-W19",
+    "title": "AI and compute",
+    "url": "https://openai.com/index/ai-and-compute/",
+    "category": "coauthored_post",
+    "published_date": "2018-05-16"
+  },
+  {
+    "id": "DA-W20",
+    "title": "Opportunities for Practical Safety Research in OpenAI Universe",
+    "url": "https://futureoflife.org/wp-content/uploads/2017/01/Dario-Amodei.pdf",
+    "category": "talk_slides",
+    "published_date": "2017-01-04"
+  },
+  {
+    "id": "DA-W08P",
+    "title": "Trump Can Keep America's AI Advantage: publisher print edition",
+    "url": "https://www.wsj.com/public/resources/documents/ohsqUMiGl7hZt77NR1vy-WSJNewsPaper-1-7-2025.pdf",
+    "category": "bylined_op_ed_print",
+    "published_date": "2025-01-07",
+    "byline": "Dario Amodei and Matt Pottinger"
+  },
+  {
+    "id": "DA-P01",
+    "title": "Concrete Problems in AI Safety",
+    "url": "https://arxiv.org/pdf/1606.06565",
+    "category": "coauthored_paper",
+    "published_date": "2016-06-21"
+  },
+  {
+    "id": "DA-P02",
+    "title": "Scaling Laws for Neural Language Models",
+    "url": "https://arxiv.org/pdf/2001.08361",
+    "category": "coauthored_paper",
+    "published_date": "2020-01-23"
+  },
+  {
+    "id": "DA-P03",
+    "title": "Deep Reinforcement Learning from Human Preferences",
+    "url": "https://arxiv.org/pdf/1706.03741",
+    "category": "coauthored_paper",
+    "published_date": "2017-06-12"
+  },
+  {
+    "id": "DA-P04",
+    "title": "AI safety via debate",
+    "url": "https://arxiv.org/pdf/1805.00899",
+    "category": "coauthored_paper",
+    "published_date": "2018-05-02"
+  },
+  {
+    "id": "DA-P05",
+    "title": "The Malicious Use of Artificial Intelligence: Forecasting, Prevention, and Mitigation",
+    "url": "https://arxiv.org/pdf/1802.07228",
+    "category": "coauthored_report",
+    "published_date": "2018-02-20"
+  },
+  {
+    "id": "DA-P06",
+    "title": "Predictability and Surprise in Large Generative Models",
+    "url": "https://arxiv.org/pdf/2202.07785",
+    "category": "coauthored_paper",
+    "published_date": "2022-02-16"
+  },
+  {
+    "id": "DA-C09",
+    "title": "Investigating unintended model actions in our evaluations and internal use",
+    "url": "https://www.anthropic.com/news/investigating-unintended-model-actions",
+    "category": "institutional_context",
+    "published_date": "2026-10-09"
+  },
+  {
+    "id": "DA-C10",
+    "title": "Introducing the Anthropic Cyber Mission",
+    "url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+    "category": "institutional_context",
+    "published_date": "2026-10-08"
+  }
+]
