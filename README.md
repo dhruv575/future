@@ -1,6 +1,6 @@
 # AI Futures
 
-Play at [ai-futures-30c.pages.dev](https://ai-futures-30c.pages.dev/).
+Play at [futures.droov.info](https://futures.droov.info/).
 
 A research-based, fictional game. Donald Trump and Dario Amodei are playable. Eight other character cards are locked.
 
