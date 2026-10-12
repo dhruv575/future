@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ai-futures-30c.pages.dev/sitemap.xml

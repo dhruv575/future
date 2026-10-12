@@ -1,4 +1,6 @@
-# US–China War Games
+# AI Futures
+
+Play at [ai-futures-30c.pages.dev](https://ai-futures-30c.pages.dev/).
 
 A research-based, fictional game. Donald Trump and Dario Amodei are playable. Eight other character cards are locked.
 
@@ -19,7 +21,7 @@ Each character has a separate browser save. Saves do not transfer between device
 
 ## Cloudflare Pages
 
-Cloudflare Pages builds this app from the `main` branch of [dhruv575/future](https://github.com/dhruv575/future).
+The `ai-futures` Cloudflare Pages project builds this app from the `main` branch of [dhruv575/future](https://github.com/dhruv575/future).
 
 ```sh
 pnpm build:pages

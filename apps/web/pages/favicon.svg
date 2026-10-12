@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <title>AI Futures</title>
+  <rect width="32" height="32" rx="4" fill="#101018"/>
+  <path fill="#eeeeef" d="M5 8h3v3H5zm3-3h5v3H8zm5 3h3v18h-3v-8H8v8H5V11h3v4h5zM20 6h8v3h-2v14h2v3h-8v-3h2V9h-2z"/>
+</svg>
